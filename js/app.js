@@ -870,7 +870,9 @@
     $('#page').innerHTML = `<header class="page-head st"><h1>Storyteller</h1><p class="lede">Set the rules for your chronicle, then share them with your players. These settings apply to this builder right away.</p></header>
       ${ro ? `<p class="note">Your Storyteller locked these rules. <button class="link" data-act="stUnlock">Edit them anyway</button> (only if you are the Storyteller).</p>` : ''}
       <div class="tabs" role="tablist">${tabs.map((t) => `<button role="tab" class="tab ${ui.stTab === t[0] ? 'sel' : ''}" aria-selected="${ui.stTab === t[0]}" data-act="stTab" data-k="${t[0]}">${t[1]}</button>`).join('')}</div><fieldset class="st-body" ${ro && ui.stTab !== 'share' ? 'disabled' : ''}>${body}</fieldset>
-      <p><button class="btn" data-act="mode" data-k="build">Back to the character</button></p>`;
+      <p><button class="btn" data-act="mode" data-k="build">Back to the character</button></p>
+      <div class="ru-egg"><span class="ru-bubble" id="ru-bubble" role="status" hidden>Хаха, думал тут будет русский язык? У меня пока нет столько токенов :з</span>
+        <button type="button" class="ru-flag" data-act="ruFlag" aria-label="Русский" aria-controls="ru-bubble" aria-expanded="false" title="Русский"><svg viewBox="0 0 9 6" aria-hidden="true"><rect width="9" height="2" fill="#fff"/><rect y="2" width="9" height="2" fill="#0039a6"/><rect y="4" width="9" height="2" fill="#d52b1e"/></svg></button></div>`;
     document.querySelectorAll('[data-st-group][data-mixed]').forEach((x) => { x.indeterminate = true; });
   }
 
@@ -1195,6 +1197,10 @@
     el.disabled = false; el.textContent = t;
   };
   ACT.newChar = () => { if (confirmBox('Start a new character? The current one is cleared unless you saved a file.')) { C = Object.assign(R.newChar()); enforceSect(); render({ top: true }); } };
+  ACT.ruFlag = (el) => {
+    const b = $('#ru-bubble'); if (!b) return;
+    b.hidden = !b.hidden; el.setAttribute('aria-expanded', String(!b.hidden));
+  };
   ACT.openFile = () => $('#file').click();
 
   // ---- portrait: scaled down in the browser and kept inside the character (save file, autosave, Foundry export)
