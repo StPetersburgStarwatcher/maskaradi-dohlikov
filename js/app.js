@@ -101,7 +101,7 @@
     const discs = R.activeDiscs(C).map((k) => `<li><span>${esc(R.discName(k))}</span>${dots(R.discTotal(C, k), 5, { base: R.discBase(C, k) })}</li>`).join('');
     $('#summary').innerHTML = `
       <div class="sum-id">
-        ${cl ? `<img class="sum-art ${cl.art ? 'art' : 'logo'}" src="${clanArt(cl)}" alt="">` : ''}
+        ${C.portrait ? `<img class="sum-art portrait" src="${C.portrait}" alt="">` : cl ? `<img class="sum-art ${cl.art ? 'art' : 'logo'}" src="${clanArt(cl)}" alt="">` : ''}
         <div><p class="sum-name">${esc(C.name || 'Unnamed')}</p>
         <p class="sum-sub">${cl ? esc(cl.dn) + (cl.castes ? ', ' + esc(casteName(R.casteOf(C))) : '') : 'No clan yet'}${C.sabbat ? ' · Sabbat' : ''}${C.predator ? ' · ' + esc(R.predName(C)) : ''}</p></div>
       </div>
@@ -136,11 +136,20 @@
     const field = (k, label, ph, wide) => `<label class="fld${wide ? ' wide' : ''}"><span>${label}</span><input data-bind="${k}" value="${esc(C[k])}" placeholder="${esc(ph || '')}"></label>`;
     return `<header class="page-head"><h1>Who were they, and what are they now?</h1>
       <p class="lede">Start with the person. The numbers come later and should serve the story you write here.</p></header>
+      <div class="concept-top">
+      <figure class="portrait-frame${C.portrait ? ' has' : ''}" data-drop="portrait">
+        ${C.portrait ? `<img src="${C.portrait}" alt="Portrait of ${esc(C.name || 'your character')}">` : '<div class="portrait-empty"><span>Portrait</span><span class="small">Click or drop an image</span></div>'}
+        <figcaption>
+          <button type="button" class="btn sm" data-act="portraitPick">${C.portrait ? 'Change' : 'Add portrait'}</button>
+          ${C.portrait ? '<button type="button" class="btn sm" data-act="portraitRemove">Remove</button>' : ''}
+        </figcaption>
+      </figure>
       <div class="grid2">
         ${field('name', 'Name', 'The name they go by now')}${field('player', 'Player')}
         ${field('concept', 'Concept', 'Disgraced paramedic, art-forger, union organizer…', true)}
         ${field('chronicle', 'Chronicle', P.name || '')}${field('sire', 'Sire')}
         ${field('ambition', 'Ambition', 'A long-term goal')}${field('desire', 'Desire', 'What they want tonight')}
+      </div>
       </div>
       <h2>What are you?</h2>
       <div class="cards3">${[['vampire', 'Vampire', 'One of the Kindred. Everything in this builder is made for you.'], ['ghoul', 'Ghoul', 'A mortal fed on vampire Blood and bound to a domitor.'], ['revenant', 'Revenant', 'Born into a family that carries vampire Blood in its veins.']].map(([k, l, t]) => `<button class="choice ${(C.kind || 'vampire') === k ? 'sel' : ''}" data-act="setKind" data-k="${k}"><strong>${l}</strong><span class="small">${t}</span></button>`).join('')}</div>
@@ -1187,6 +1196,27 @@
   };
   ACT.newChar = () => { if (confirmBox('Start a new character? The current one is cleared unless you saved a file.')) { C = Object.assign(R.newChar()); enforceSect(); render({ top: true }); } };
   ACT.openFile = () => $('#file').click();
+
+  // ---- portrait: scaled down in the browser and kept inside the character (save file, autosave, Foundry export)
+  const PORTRAIT_MAX = 640;
+  async function setPortrait(file) {
+    if (!file || !/^image\//.test(file.type)) { toast('That file isn’t an image.'); return; }
+    try {
+      const url = URL.createObjectURL(file);
+      const img = await new Promise((ok, bad) => { const i = new Image(); i.onload = () => ok(i); i.onerror = bad; i.src = url; });
+      const k = Math.min(1, PORTRAIT_MAX / Math.max(img.naturalWidth, img.naturalHeight));
+      const cv = document.createElement('canvas');
+      cv.width = Math.round(img.naturalWidth * k); cv.height = Math.round(img.naturalHeight * k);
+      cv.getContext('2d').drawImage(img, 0, 0, cv.width, cv.height);
+      URL.revokeObjectURL(url);
+      let data = cv.toDataURL('image/webp', 0.86);
+      if (!data.startsWith('data:image/webp')) data = cv.toDataURL('image/jpeg', 0.88);
+      C.portrait = data; save(); render();
+      toast('Portrait added.');
+    } catch (e) { toast('Couldn’t read that image.'); }
+  }
+  ACT.portraitPick = () => $('#portrait-file').click();
+  ACT.portraitRemove = () => { delete C.portrait; save(); render(); };
   ACT.loadRules = () => openRulesDialog();
   ACT.stUnlock = () => { ui.stUnlocked = true; render(); };
   ACT.stTab = (el) => { ui.stTab = el.dataset.k; render(); };
@@ -1379,6 +1409,11 @@
   });
   document.addEventListener('keydown', (ev) => { if (ev.key === 'Escape' && document.body.classList.contains('reading')) closeReader(); });
 
+  $('#portrait-file').addEventListener('change', (ev) => { const f = ev.target.files[0]; ev.target.value = ''; if (f) setPortrait(f); });
+  document.addEventListener('dragover', (ev) => { const z = ev.target.closest && ev.target.closest('[data-drop="portrait"]'); if (z) { ev.preventDefault(); z.classList.add('over'); } });
+  document.addEventListener('dragleave', (ev) => { const z = ev.target.closest && ev.target.closest('[data-drop="portrait"]'); if (z) z.classList.remove('over'); });
+  document.addEventListener('drop', (ev) => { const z = ev.target.closest && ev.target.closest('[data-drop="portrait"]'); if (!z) return; ev.preventDefault(); z.classList.remove('over'); const f = ev.dataTransfer.files[0]; if (f) setPortrait(f); });
+  document.addEventListener('click', (ev) => { if (ev.target.closest && ev.target.closest('.portrait-frame') && !ev.target.closest('button') && !C.portrait) $('#portrait-file').click(); });
   $('#file').addEventListener('change', async (ev) => {
     const f = ev.target.files[0]; if (!f) return;
     const ok = await loadAny(await f.text(), f.name);
