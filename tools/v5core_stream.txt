@@ -1,0 +1,1761 @@
+#### PAGE 181
+71|In addition to vampiric powers and human skills, char-
+71|acters have many possible <I>Advantages</I> when they start 
+71|play, from a “bump for languages” to a squad of loyal 
+71|ghouls. Like everything else, we demarcate Advantages 
+71|with dots, usually ranging from one to five. There is no 
+71|penalty for having zero dots in an Advantage – that’s 
+71|just normal. Few rolls directly involve Advantages, 
+71|although the Storyteller might call for Intelligence + 
+71|Linguistics to decipher a papyrus, or Subterfuge + Con-
+71|tacts to plant a rumor about a rival.
+85|Advantages are divided into <I>Merits, Backgrounds,</I> 
+71|and <I>Loresheets</I>. The flip side of Advantages, <I>Flaws</I> cause 
+71|ongoing problems for the character.  
+71|<H>Merits</H>
+71|Merits describe advantages and gifts inherent to the 
+71|character: Physical, Mental, and Social. Although 
+71|something could happen in the course of play to 
+71|change them – especially once weird inexplicable 
+71|magic gets unleashed – characters’ Merits remain fairly 
+71|constant over the course of the story.
+71|<C>linguistics</C> Every player character has perfect 
+71|fluency in their birth language and (except perhaps 
+71|for a charming Hungarian accent) in the dominant 
+71|language of the chronicle setting. For example, a 
+71|Lebanese vampire in a Mexico City-set chronicle 
+71|can speak and read Arabic (or Aramaic, if they are 
+71|a very old Lebanese vampire) and Spanish. Kindly 
+71|Storytellers might allow vampires whose birth 
+71|tongue matches that of the setting to take a second 
+71|language anyway.
+85|Each dot in Linguistics allows the character to 
+71|fluently speak, write, and read one additional lan-
+71|guage besides those two default languages.
+85|Don’t get hung up on the changes in language 
+71|over the centuries; assume that English remains Eng-
+71|lish from Anglo-Saxon times to now, for instance, 
+71|for the purposes of this rule, although reading 
+216|<H>Advantages</H>
+302|centuries-old documents or chanting in a strange 
+302|dialect may impose additional Difficulty to Aca-
+302|demics or Occult tests.
+316|<B>Flaw: (••) Illiterate. </B>You cannot read or write. Your 
+316|Academics and Science Skills are capped at 1, and 
+316|you can have no specialty in them incorporating 
+316|modern knowledge.
+302|<C>looks</C> Not all vampires look like actors on the CW 
+302|network. Some of them look even better. And some, of 
+302|course, look far worse.
+316|These modifiers only apply when you can be seen. 
+302|The Storyteller rules whether these modifiers apply 
+302|during Social combats on a conflict-by-conflict (or 
+302|even pool-by-pool) basis. 
+316|<B>Flaw: (••) Repulsive.</B> You lose two dice from all 
+316|relevant Social dice pools.
+316|<B>Flaw: (•) Ugly.</B> You lose one die from all relevant 
+316|Social dice pools.
+302|<B>••</B>
+321|<B>Beautiful:</B> You add one extra die to all appropri-
+321|ate Social dice pools. 
+302|<B>••••</B> <B>	 Stunning:</B> You add two extra dice to all appropri-
+321|ate Social dice pools, as above.
+302|<C>substance</C><C> </C><C>use</C> You have an addiction to a substance 
+302|besides blood. Kindred with this Merit or Flaw seek 
+302|blood containing that substance, drinking from users. 
+302|Addiction to a specific sort of blood or refusing to 
+302|drink blood containing a given substance both count 
+302|as Prey Exclusion (p. 181). See p. 310 for effects of 
+302|specific substances in consumed blood; these remain in 
+302|effect regardless of the specific Merit or Flaw taken.
+316|Remember to specify the substance you use.
+316|<B>Flaw: (••) Hopeless Addiction. </B>Lose two dice from 
+316|all pools when the last person you fed from was 
+316|not on your drug, except pools for actions that will 
+316|immediately obtain your drug. 
+#### PAGE 182
+341|<B>Flaw: (•) Addiction. </B>Lose one dice from all pools 
+341|when the last person you fed from was not on your 
+341|drug, except pools for actions that will immediately 
+341|obtain your drug. 
+327|<B>•</B>
+347|<B>High-Functioning Addict:</B> You add one die to any 
+347|one category of pool (specify when you choose 
+347|which substance you use) when the last person 
+347|you fed from was on your drug. 
+327|<C>archaic</C> Only ancillae or older vampires may take 
+327|either of these Flaws.
+341|<B>Flaw: (••) Archaic. </B>You haven’t been able to adapt 
+341|to the present, or you have been long in torpor. 
+341|You cannot use computers or cell phones, and your 
+341|Technology rating is permanently 0. The Storyteller 
+341|may penalize other dice pools involving very mod-
+341|ern technology by one die.
+341|<B>Flaw: (•) Living in the Past. </B>You haven’t grasped 
+341|the modern mindset, or you just don’t want to. You 
+341|have one or more seriously outdated Convictions, 
+341|e.g. “The Pope’s word is law,” “Women are delicate 
+341|flowers,” “Lower classes exist only to serve,” or 
+341|“Burn your enemies’ baggage.” These archaic mo-
+341|ralities maintain your Humanity but are odious to 
+341|many; you lose one die from Social test dice pools 
+341|involving such archaic beliefs except with vampires 
+341|your age and older, who may admire your steadfast 
+341|virtue.
+327|<C>bonding</C> Not all vampires respond to the Blood Bond 
+327|equally. Some fall under the sway of a regnant with rap-
+327|turous ease; others resist with every fiber of their being. 
+327|You can combine these Merits and Flaws; a character 
+327|might be a Bond Junkie with Short Bond, for example. 
+327|For more on Blood Bonds, see p. 233.
+341|<B>Flaw: (••) Bondslave. </B>You bond instantly with the 
+341|taste of another’s vitae; only one drink of blood 
+341|binds you, not three. Either you begin as your sire’s 
+341|thrall, or consult with the Storyteller to come up 
+341|with a reason that first bond has broken. Possibly 
+341|your sire has been staked or in another city for 
+341|more than six months?
+#### PAGE 183
+85|<B>Flaw: (•) Bond Junkie.</B> The Bond feels sweeter to 
+85|you once it happens. Subtract one die from your 
+85|dice pools to act against a Blood Bond.
+85|<B>Flaw: (•) Long Bond. </B>Blood Bonds on you lose their 
+85|Bond strength more slowly than normal, decreas-
+85|ing by one for each three months without being 
+85|reinforced.
+70|<B>•</B>
+90|<B>Bond Resistance:</B> Your Blood rebels against 
+90|control. Add one die to your dice pools to resist 
+90|a Blood Bond per level you take of this Merit 
+90|(maximum three).
+70|<B>••</B>
+90|<B>Short Bond: </B>Blood Bonds on you lose their Bond 
+90|strength more rapidly than normal, decreasing at 
+90|both the full moon and new moon (i.e., by two 
+90|each month) if not reinforced.
+70|<B>••••• </B><B>Unbondable: </B>You cannot be Blood Bound. If 
+90|you’re ever short of cash, you can probably sell 
+90|your vitae to alchemists, too.
+278|Junkiejunkie
+302|<C>feeding</C> Several different Merits and Flaws fall under 
+302|the general remit of Feeding. A character with one 
+302|does not necessarily have any of the others. 
+316|<B>Flaw: (••) Farmer.</B> You feed only on animal blood. 
+316|You must spend two points of Willpower to drink 
+316|human blood. Ventrue may not take this Flaw.
+316|<B>Flaw: (••) Organovore.</B> You can slake Hunger only 
+316|by eating human flesh and organs, especially those 
+316|rich in blood such as the heart, liver, lungs, pla-
+316|centa, and spleen. (Most organovore Kindred these 
+316|nights make smoothies from the organs first.) Only 
+316|the heart provides Resonance, if any. 
+316|<B>Flaw: (•) Methuselah’s Thirst.</B> Your Hunger can 
+316|only be fully slaked by the blood of supernatural 
+316|creatures. (Alchemists may be able to thicken the 
+316|Blood of thin-bloods enough to sate you.) Other-
+316|wise, it constantly remains at a minimum of 1. (Or 
+316|higher, depending on Blood Potency (see p. 215). 
+316|<B>Flaw: (•) Prey Exclusion. </B>You refuse to hunt a 
+316|certain class of prey: drug users, women, children, 
+316|policemen, innocents, a given minority or ethnic 
+316|group, etc. If you feed on such prey, you gain Stains 
+#### PAGE 184
+110|as though you had violated 
+110|a chronicle Tenet. Witness-
+110|ing other Kindred feeding on 
+110|the object of your exclusion 
+110|without interfering might also 
+110|give Stains, at the Storyteller’s 
+110|discretion. Ventrue with this 
+110|Flaw gain an additional restric-
+110|tion, making their choice of 
+110|vessels extremely narrow.
+96|<B>•</B>
+116|<B>Bloodhound:</B> You can smell 
+116|the Resonance of a human’s 
+116|blood without tasting it. 
+116|You still need to be within 
+116|olfactory range of the person. 
+116|Make a Resolve + Awareness 
+116|test at Difficulty 3. Increase 
+116|Difficulty for perfume or 
+116|distance; lower it for more 
+116|intimate contact.
+96|<B>••• </B><B> </B><B>Iron Gullet</B>: You can feed 
+116|from cold blood, rancid 
+116|blood, and fractionated 
+116|plasma. None of these provide 
+116|Resonances. Ventrue may not 
+116|take this Merit.
+96|<C>mythic</C><C> </C><C>merits</C><C> </C><C>and</C><C> </C><C>flaws</C> Eve-
+96|ry Kindred bloodline carries 
+96|peculiarities, curses, and soul scars. 
+96|Fragments of ancestors long-since 
+96|dust germinate within the seed of 
+96|vitae that spreads the curse from 
+96|sire to childe. Other vampires de-
+96|velop weaknesses in the moment: 
+96|psychosomatic disorders intensi-
+96|fied by the Embrace or invisible 
+96|tides and eddies in the millennia-
+96|long flow of the Blood. 
+110|<B>Flaw: (••) Stake Bait.</B> You 
+110|meet Final Death when staked 
+110|through the heart, rather than 
+110|entering torpor.
+264|<B>Flaw: (•) Folkloric Bane. </B>You 
+264|take Aggravated damage from a 
+264|folkloric bane. Folkloric banes 
+264|include:
+264|◻
+278|Ultraviolet light (damage as 
+278|direct sunlight)
+264|◻
+278|Silver or silver-plated 
+278|weapons (damage as 
+278|weapon damage: simply 
+278|touching a silver coin or 
+278|silverware does one point of 
+278|Aggravated damage)
+264|◻
+278|Holy water (damage as fire)
+264|<B>Flaw: (•) Folkloric Block. </B>
+264|When faced with a folkloric 
+264|block, you must shrink away 
+264|from it or spend a Willpower 
+264|point to push through it.
+278|Each folkloric block you take 
+264|counts as a separate one-point 
+264|Flaw. Folkloric blocks include:
+264|◻
+278|Holy symbols presented by 
+278|any believer (even without 
+278|True Faith)
+264|◻
+278|Crossing visible running 
+278|water (not recommended 
+278|in certain cities, such as 
+278|Amsterdam, Stockholm, or 
+278|Venice)
+264|◻
+278|Crossing a threshold to 
+278|a home uninvited by the 
+278|owner
+264|◻
+278|White animal
+264|◻
+278|Garlic
+264|◻
+278|Wild roses
+264|◻
+278|Spilled seeds you haven’t 
+278|counted
+264|<B>Flaw: (•) Stigmata.</B> You begin 
+264|to bleed from open wounds on 
+264|your hands, feet, and forehead 
+264|when you reach Hunger 4. 
+264|This attracts attention, leaves 
+264|traces, and may penalize some 
+264|dice pools at the Storyteller’s 
+264|discretion.
+404|<B>•• 	</B>
+424|<B>Eat food:</B> You can consume 
+424|food without effort and might 
+424|even enjoy it, though it gives 
+424|no nourishment and must be 
+424|expelled before resting for the 
+424|day.
+404|<H2>Thin-Blood Merits  </H2>
+404|<H2>and Flaws</H2>
+404|These Merits and Flaws only apply 
+404|to thin-blood characters. They have 
+404|no dot value; each Flaw balances a 
+404|Merit, and vice versa. They thus do 
+404|not count against the maximum dots 
+404|in Advantages and Flaws allowed to 
+404|be selected during character creation 
+404|or purchased through experience.
+404|<C>thin</C><C>-</C><C>blood</C><C> </C><C>flaws</C>
+418|<B>Baby Teeth:</B> You never devel-
+418|oped fangs, or the ones you’ve 
+418|got are useless for feeding. You 
+418|either need to cut your victims 
+418|open, or you extract their 
+418|blood with a syringe.
+418|<B>Bestial Temper:</B> You are af-
+418|flicted with the Beast equal to 
+418|a full vampire. You need to test 
+418|for frenzy as per the normal 
+418|vampire rules.
+418|<B>Branded by the Camarilla:</B> In 
+418|some cities, the rulers sim-
+418|ply hunt down and destroy 
+418|thin-bloods. In other cities, 
+418|the merciful Sheriff merely 
+418|brands them, forcibly and 
+418|painfully, to remind them of 
+418|their place. (Many are then 
+418|hunted down and destroyed, 
+418|often on perceived slights or 
+418|simple whims.) You have such 
+418|an unhealing brand, and the 
+418|Camarilla makes sure to keep 
+#### PAGE 185
+85|its eyes peeled for the moment 
+85|you step out of line. You can 
+85|take Camarilla Contact with 
+85|this Flaw; the Camarilla thrives 
+85|on double-dealing of this sort.
+85|<B>Clan Curse:</B> Remnants of your 
+85|sire’s Blood still flows through 
+85|your veins, carrying traces of 
+85|their ancient curse. You 
+85|must pick a Clan Bane 
+85|to suffer from, count-
+85|ing your Bane Severity 
+85|as 1 for this purpose. 
+85|You can only pick the 
+85|Brujah or Gangrel Bane 
+85|if you possess the Bestial 
+85|Temper Flaw, and the 
+85|Tremere Bane only if 
+85|you have the Catenating 
+85|Blood Merit.
+85|<B>Dead Flesh: </B>Your 
+85|Blood is not strong 
+85|enough to completely 
+85|sustain you, and as 
+85|an effect, your flesh 
+85|is in a constant state 
+85|of putrefaction, with 
+85|a greenish tint and 
+85|faint stench of rot. 
+85|Any medical inspec-
+85|tion will immediately 
+85|identify you as deceased, and 
+85|you receive a one-die penalty 
+85|to any face-to-face Social test 
+85|with a mortal. You cannot take 
+85|Lifelike if you take this Flaw.
+85|<B>Mortal Frailty:</B> You cannot 
+85|Rouse the Blood to mend, 
+85|instead healing as a mortal (p. 
+85|126). You cannot take Vampiric 
+85|Resilience if you take this Flaw.
+85|<B>Shunned by the Anarchs: </B>You 
+85|broke an unwritten rule or 
+85|thought yourself equal among 
+85|equals, where some turned 
+239|out more equal than others. In 
+239|whichever case, the Anarchs of 
+239|the regnum know of you and 
+239|shun you. They’d rather throw 
+239|you to the Camarilla than 
+239|listen to your pleas. You cannot 
+239|take Anarch Comrades if you 
+239|take this Flaw.
+239|<B>Vitae Dependency: </B>Your Blood 
+239|is unable to sustain vampiric 
+239|powers by itself. Unless you 
+239|drink enough vampire Blood 
+239|to slake one Hunger each week 
+239|you lose your ability to gain 
+239|and use any Disciplines (in-
+239|cluding Thin-Blood Alchemy). 
+239|You regain your powers as soon 
+239|as you slake at least one Hunger 
+239|with vampire Blood.
+224|<C>thin</C><C>-</C><C>blood</C><C> </C><C>merits</C>
+239|<B>Anarch Comrades:</B> You have 
+393|befriended the members of an 
+393|Anarch coterie who tolerate 
+393|your presence or even affec-
+393|tionately treat you as their 
+393|pet. They cumulatively act as a 
+393|one-dot Anarch Mawla, as long 
+393|as you don’t deviate from the 
+393|party line. Write them on the 
+409|Relationship Map. 
+410|<B>Camarilla Contact:</B> 
+424|You have caught the eye 
+424|of a Camarilla recruiter 
+424|who has promised 
+424|you admittance and a 
+424|chance at becoming a 
+424|real vampire. All you 
+424|need to do is keep your 
+424|eyes and ears open, re-
+424|port on your and your 
+424|coterie’s activities, and 
+424|be prepared to perform 
+424|any task asked of you. 
+424|You have the equivalent 
+424|of a one-dot Camarilla 
+424|Mawla who treats you 
+424|badly. Write them on 
+424|the Relationship Map.
+409|<B>Catenating Blood:</B>
+424|You can create Blood 
+424|Bonds and perform the
+409|Embrace as a regular vam-
+378|pire. Any vampire you create this 
+378|way will be a thin-blood.
+393|<B>Day Drinker: </B>Sunlight halves 
+393|your Health tracker (rounded 
+393|up), but otherwise simply 
+393|removes your vampiric abili-
+393|ties, including all Disciplines 
+393|and Health benefits, and does 
+393|no other damage. You still 
+393|suffer from Hunger, however, 
+393|and sooner or later you’ll need 
+393|to sleep. If your health drops 
+393|below your currently sustained 
+393|damage levels as a result of 
+#### PAGE 186
+111|this, you suffer the effects of 
+111|Impairment or torpor (de-
+111|pending on type of damage) 
+111|until you are clear of sunlight.
+111|<B>Discipline Affinity: </B>You 
+111|have an affinity for a certain 
+111|Discipline, picked at charac-
+111|ter creation. You gain a dot 
+111|in this Discipline and can 
+111|learn and retain additional 
+111|dots in it through experience 
+111|expenditures, as if you were a 
+111|normal vampire. (The experi-
+111|ence point cost is the same 
+111|as an out-of-clan Discipline.) 
+111|Drinking blood with match-
+111|ing Resonance does not re-
+111|ward you with any extra dots 
+111|in this Discipline, temporary 
+111|or not.
+111|<B>Lifelike: </B>You have a heartbeat, 
+111|can eat food, and enjoy sexual 
+111|activities like a mortal. All but 
+111|the most advanced medical 
+111|inspections reveal nothing out 
+111|of the ordinary, assuming they 
+111|happen at night.
+111|<B>Thin-blood Alchemist:</B> The 
+111|Duskborn change as they 
+111|feed. Thin-Blood Alchemy is 
+111|the mastery of this process. 
+111|Whether it is spontaneous 
+111|or a skill learned by compar-
+111|ing notes with other blood-
+111|cookers, you have gained one 
+111|dot and one formula (p. 282) in 
+111|Thin-blood Alchemy. You can 
+111|purchase  additional dots and 
+111|formulae through experience 
+111|as usual.  
+111|<B>Vampiric Resilience:</B> You suffer 
+111|damage as a regular vampire, 
+111|treating regular puncture and 
+111|slashing wounds as Superficial 
+111|damage.
+250|<H>Backgrounds</H>
+250|Backgrounds describe advantages 
+250|of relationship, circumstance, and 
+250|opportunity: material posses-
+250|sions, social networks, and the 
+250|like. Backgrounds are external, 
+250|not internal, Traits, and the player 
+250|should always rationalize how the 
+250|character came to possess them, as 
+250|well as what they represent. Who 
+250|are your Contacts? Why do your 
+250|Allies support you? Where did 
+250|you meet your Retainers? What 
+250|investments do you possess that 
+250|yield your four dots in Resources? 
+250|You don’t have to do all of that at 
+250|first – but be ready with an answer 
+250|when the Storyteller asks during 
+250|play, or be ready to suggest an 
+250|answer that ties into the ongoing 
+250|storyline.
+265|Backgrounds are discrete, not 
+250|progressive, Traits. The same Back-
+250|ground can be acquired multiple 
+250|times.
+256|<B>EXAMPLE: </B>
+256|<I>Martin purchases the Allies </I>
+256|<I>Background twice, once at one dot </I>
+256|<I>(his neighbor lookout) and once at </I>
+256|<I>three dots (his trusted star lawyer), </I>
+256|<I>representing two different Allies. </I>
+250|Characters can share some Back-
+250|grounds with the rest of their 
+250|coterie. See Coterie Backgrounds 
+250|on p. 196.
+250|<H2>Allies</H2>
+250|Allies are mortals who support and 
+250|help you: family, friends, or even 
+404|a mortal organization that owes 
+404|you some loyalty. Although Allies 
+404|usually aid you willingly, without 
+404|coaxing or coercion, they are not 
+404|always available to offer assistance; 
+404|they have their own concerns and 
+404|can do only so much for the sake 
+404|of your relationship. Usually, Allies 
+404|appear about once per story.
+418|Allies can be almost anyone in 
+404|your home city, depending on what 
+404|your Storyteller will allow. You 
+404|may have friends in the precinct 
+404|morgue, at a tabloid newspaper or 
+404|gossip blog, among high society, 
+404|or at the railroad yard. Allies are 
+404|generally trustworthy (though they 
+404|probably don’t know that you’re 
+404|a vampire, or even that vampires 
+404|exist). However, nothing comes for 
+404|free. If you wind up drawing favors 
+404|from your friend in the Russian 
+404|Mafia, he’ll probably ask you to do 
+404|him a favor in kind in the future.
+418|Enemies are the opposite of Al-
+404|lies and are taken as Flaws.
+418|You can use the Mortal Tem-
+404|plate rules to create Allies or En-
+404|emies when you buy them or first 
+404|call on them, and you can write 
+404|them down on the Relationship 
+404|Map, though many groups leave 
+404|this process up to the Storyteller.
+418|Build Allies or Enemies from a 
+404|budget of points based on their Ef-
+404|fectiveness and on their Reliability. 
+404|The maximum points in one Ally 
+404|is six. Ally or Enemy groups appear 
+404|in numbers equal to the number of 
+404|player characters.
+418|All Enemies are rated two 
+404|fewer dots than their Effectiveness; 
+404|a Gifted mortal Ally costs three 
+404|dots as an Ally, but only provides 
+404|one dot as a Flaw. Enemies all have 
+#### PAGE 187
+71|the same Reliability: whenever 
+71|the Storyteller thinks they should 
+71|show up, but probably at least 
+71|once per story.
+71|<C>effectiveness</C>
+71|• 	
+91|Weak mortal, likely useless 
+91|in a violent or potentially 
+91|violent situation.
+71|•• 	
+91|Average mortal or a tight-
+91|knit group of Weak mortals 
+91|(neighborhood kids who solve 
+91|mysteries, church group, 
+91|NGO chapter)
+71|••• 	 Gifted mortal or a danger-
+91|ous group of Average mortals 
+91|(a street gang, a celebrity 
+91|entourage, a blue-collar union 
+91|local)
+71|•••• 	 Deadly mortal, a Gifted 
+91|mortal with magic or other 
+91|supernatural powers, or a 
+91|well-armed group of Gifted 
+91|mortals (a private security 
+91|squad , a lawyer contingent, a 
+91|Russian Mafia bratva)
+71|<C>reliability</C>
+71|• 	
+91|When you call on them, they 
+91|appear half the time.
+71|•• 	
+91|When you call on them, they 
+91|appear within 1-10 hours (roll 
+91|a die).
+71|••• 	 When you call on them, they 
+91|appear as soon as possible.
+71|<H2>Contacts</H2>
+71|You know people – human people 
+71|– from many different walks of 
+71|life. Contacts primarily provide 
+71|you with information in their 
+71|areas of expertise, and they may 
+71|want to exchange favors of various 
+71|kinds. For different kinds of help, 
+239|<C>weak</C><C> </C><C>mortal</C>
+239|<C>average</C><C> </C><C>mortal</C>
+239|<C>gifted</C><C> </C><C>mortal</C>
+239|<C>deadly</C><C> </C><C>mortal</C>
+#### PAGE 188
+96|use your Influence (p. 187) in the 
+96|mortal world, or call on your Al-
+96|lies (p. 184) or Mawla (p. 192).
+111|A Contact is someone in an ex-
+96|cellent position to get information. 
+96|They might be a police dispatcher, 
+96|rather than a homicide lieuten-
+96|ant, or a congressional staffer, 
+96|rather than a senator. Information 
+96|brokers, gossip columnists, under-
+96|world fixers, and reporters make 
+96|excellent Contacts. You can define 
+96|your Contacts when you buy this 
+96|Background or as you need to 
+96|introduce them in play. Whenever 
+96|you create them, make sure to add 
+96|them to the Relationship Map.
+250|• 	
+270|One Contact who can do or 
+270|get something cheap or com-
+270|mon for you (Resources 1). 
+270|Examples: a weed dealer, a car 
+270|salesman.
+250|•• 	
+270|One Contact who can do 
+270|or get something useful for 
+270|you (Resources 2). Examples: 
+270|small-time gun dealer, veteri-
+270|narian.
+250|••• 	 One Contact who can do or 
+270|get something expensive or 
+270|hard for you (Resources 4). 
+270|Examples: security systems 
+270|expert; police lieutenant in 
+270|homicide, narcotics, or other 
+270|useful field.
+334|mafioso
+376|Mafioso
+404|<H2>Fame</H2>
+404|Mortals know your name and 
+404|eagerly seek out news of your 
+404|activities. You might be a movie 
+404|star, rock star, or other celebrity. 
+404|Fame grants pull in mass and social 
+404|media; you have more ways than 
+404|most to manipulate the thoughts 
+404|of the populace. You likely have 
+404|ways to mask the fact that you’re 
+404|never seen during the day, such as 
+404|a body double. 
+419|In some circumstances, the 
+404|Storyteller may allow you to use 
+404|Fame in a Social test dice pool 
+404|instead of another Trait, especially 
+404|to get into an otherwise exclusive 
+404|venue or event. “Do you know 
+404|who I am?” doesn’t work every-
+404|where, but it does work. Each level 
+404|of Fame subtracts one from the 
+404|Difficulty of Social tests against 
+404|your fans and from many hunting 
+404|tests, depending on your predation 
+404|strategy – you have less trouble 
+404|attracting prey.
+#### PAGE 189
+85|Fame has its downside, of 
+71|course – it’s harder for you to 
+71|tail someone unobtrusively, for 
+71|example, and who wants groupies 
+71|hanging around the door to their 
+71|haven all day tagging its location 
+71|on Instagram? You should look 
+71|into taking Disguise as a specialty.
+85|By default, Fame applies 
+71|among mortals, but you can also 
+71|buy Fame that applies among 
+71|Kindred for the same cost. Some 
+71|vampires, such as Dracula or Eliza-
+71|beth Bathory, might have both! 
+71|Vampires may admire, or at least 
+71|be more interested in, a Kindred 
+71|who was famous or infamous in 
+71|life: Arthur Rimbaud, Crispus At-
+71|tucks, Billy the Kid, and the like.
+71|<C>infamy</C> You are famous for some-
+71|thing horrible. At the very least, 
+71|the Difficulty of most reaction 
+71|tests increases by the amount of 
+71|the Flaw; at worst, the authori-
+71|ties attempt to kill or capture you 
+71|whenever you appear.
+71|<C>dark</C><C> </C><C>secret</C>You can also take 
+71|Dark Secret, a milder version of 
+71|Infamy. The Dark Secret Flaw 
+71|provides one fewer point than 
+71|the equivalent Infamy, as your 
+71|black deeds remain unknown 
+71|to all but you and perhaps one 
+71|or two very motivated enemies. 
+71|The one-dot version of Infamy 
+71|also provides one point as a Dark 
+71|Secret, because it’s easier to 
+71|uncover than a truly life-threat-
+71|ening secret.
+85|<B>Flaw: (••) </B>You are a Cleaver or 
+85|serial breacher of the Mas-
+85|querade, have been Blood 
+239|Hunted out of another city, or 
+239|have grievously offended this 
+239|domain’s ruler.
+239|<B>Flaw: (•) </B>You owe a big debt 
+239|to bad people or have made 
+239|yourself generally odious. 
+239|Alternately, your spouse, lover, 
+239|or close family member has 
+239|Infamy ••.
+225|• 	
+245|A select subculture knows 
+245|who you are and admires you.
+225|•• 	
+245|You are a local celebrity, rec-
+245|ognized by a plurality of the 
+245|city.
+225|••• 	 Most people in the country 
+245|know your name, at least.
+225|•••• 	 Everybody who even vaguely 
+245|cares about social trends or 
+245|your field knows something 
+245|about you.
+225|••••• 	Your Fame reaches mass 
+245|national or even global audi-
+245|ences. You are a major movie 
+245|star, stadium-filling rock act, 
+245|or former president.
+225|<H2>Influence</H2>
+225|You have pull in the mortal com-
+225|munity, whether through wealth, 
+225|prestige, political office, black-
+225|mail, or supernatural manipula-
+225|tion. Kindred with high Influence 
+225|can sway, and in rare cases even 
+225|control, the politics and society 
+225|of their city, especially the police 
+225|and city bureaucracy.
+239|By default, Influence ap-
+225|plies most within one group or 
+225|region of your city. Groups can 
+225|be large, even diffuse: organized 
+225|crime, media, religion, the police, 
+225|city government, etc. Regions 
+225|should be larger than neigh-
+379|borhoods or all but the largest 
+379|individual domains: Brooklyn, 
+379|the Rive Gauche, the South Side, 
+379|the Ginza, etc. Your Influence 
+379|applies to the city as a whole at 
+379|one dot less than it does within 
+379|your group or region. Using lo-
+379|cal Influence in another city in 
+379|the same area, state, or province 
+379|might be possible at an additional 
+379|one-dot penalty, and so on. So, 
+379|a vampire might be Powerful 
+379|(••••) in Hollywood, Entrenched 
+379|(•••) everywhere in Los Angeles, 
+379|merely Influential (••) in San 
+379|Diego or San Francisco, and just 
+379|Well-Connected (•) in Chicago or 
+379|New York.
+393|The Storyteller may require 
+379|you to use Influence in place of a 
+379|Trait in some dice pools, particu-
+379|larly Social tests attempting to 
+379|sway minor bureaucrats or the 
+379|equivalent in your group. This 
+379|Background helps you have an 
+379|“abandoned” building demolished 
+379|(or preserved), not start global 
+379|wars.
+393|If the Storyteller wants to run 
+379|a game of globe-spanning master-
+379|minds, they may recalibrate Influ-
+379|ence to potentially apply nation-
+379|ally (••••) or even globally (•••••). 
+393|<B>Flaw: (••) Despised. </B>One group 
+393|or region of the city lives only 
+393|to thwart you and your faction. 
+393|Subtract two dice from dice 
+393|pools attempting to convince 
+393|a neutral actor to support you 
+393|politically or do you a favor. 
+393|The Storyteller should take any 
+393|opportunity to involve your 
+393|haters in the story.
+393|<B>Flaw: (•) Disliked.</B> Subtract one 
+#### PAGE 190
+110|die from Social test dice pools involving any group 
+110|in the city except your Contacts and Allies or other 
+110|explicitly loyal supporters.
+96|<B>• 	</B>
+116|<B>Well-connected:</B> You’re guaranteed a respectful 
+116|hearing.
+96|<B>•• 	</B>
+116|<B>Influential: </B>People want to do you favors.
+96|<B>••• 	</B><B> </B><B>Entrenched:</B> Mortal power-brokers and factions 
+116|hesitate to oppose you.
+96|<B>•••• 	 Powerful:</B> Without a good reason to do otherwise, 
+116|functionaries and foot soldiers obey. 
+96|<B>••••• 	Dominant: </B>Lesser figures try to figure out what 
+116|you want and do it first.
+96|<H2>Haven</H2>
+96|Like all Backgrounds, the Haven Background is en-
+96|tirely optional. A vampire with no dots in Haven has a 
+96|suicide’s grave, a room in an abandoned motel, a rented 
+96|office, or an apartment with windows blacked out with 
+96|plastic bags. They can still remain safe and hidden by 
+96|day in this relatively small and insecure haven by de-
+96|fault. The Storyteller may allow a player character to de-
+96|fault a somewhat better haven from another Background 
+96|such as Resources, Status, or Influence. Of course, if 
+96|those Backgrounds go away, so does the character’s nice 
+96|haven.
+108|A character with none of those other Backgrounds, 
+96|however, can still have a perfectly reasonable haven 
+96|as long as they have this Background. For instance, a 
+96|character might not have enough money to afford a 20-
+96|room Victorian mansion in today’s economy, but if their 
+96|great-grandmother left them one that had been fully 
+96|paid for, there’s no reason they can’t remain in residence 
+96|as it slowly dilapidates.
+108|Base ratings in Haven abstract the haven’s size, secu-
+96|rity, and privacy. All of those factors affect the chance 
+96|of spotting, penetrating, and surveilling the vampire’s 
+96|actual resting place. Add +1 to the Difficulty of, or one 
+96|die to dice pools resisting, such efforts for each dot of 
+96|base Haven rating.
+108|Kindred know their havens intimately. For each dot 
+96|of base Haven rating, add one per dot to dice pools to 
+96|notice danger (including awakening rolls, p. 219) while 
+96|in your haven.
+327|<C>base</C><C> </C><C>haven</C>
+327|<B>Flaw: (•) No Haven.</B> You must go to some effort (at 
+339|least a basic test) to find a new resting place every 
+339|morning.
+327|• 	
+344|Small haven, but more secure and private than the 
+344|default. Examples: basement apartment, crypt, 
+344|locked storeroom in a warehouse.
+327|•• 	 Good size, security, or privacy. Examples: a single-
+344|family home or row house, wolf enclosure at the 
+344|zoo, branch sewer tunnel.
+327|••• 	 Very large, secure, or private. Examples: a com-
+344|pound outside town, a bank building, a decommis-
+344|sioned subway station.
+327|<C>haven</C><C> </C><C>merits</C><C> </C><C>and</C><C> </C><C>flaws</C>
+327|You can add Merits and Flaws to your Haven if you 
+327|wish. They stack with the base Haven rating to pro-
+327|duce the total dots in this Background for projects and 
+327|other uses.
+339|Remember, you can make Haven a shared Back-
+327|ground among your coterie – easily the best way to 
+327|afford a Haven with lots of features.
+327|<B>Flaw: (••) Compromised.</B> Your haven has been raided 
+339|once before, perhaps before it was yours. It probably 
+339|appears on someone’s watchlist. Invaders or spies can 
+339|add two dice to their pool to penetrate or surveil your 
+339|haven. If you ever do get on the Inquisition’s radar, you 
+339|should think about moving out. 
+341|<B>Flaw: (•) Creepy. </B>Your haven looks like the den of a se-
+341|rial killer, which in fairness is probably exactly what it 
+341|is. Unknowing neighbors might phone in a tip to the 
+341|cops or just talk about the creepy place they saw. Your 
+341|dice pools on Social tests to seduce or otherwise put 
+341|human guests at ease are at a two-dice penalty.
+341|<B>Flaw: (•) Haunted. </B>Your haven has a supernatural 
+341|manifestation in it that you do not control or really 
+341|even understand. It might just have a ghost, but a 
+341|Haunted haven could hold a dimensional portal, a 
+341|cursed meteorite, or anything else you can’t get rid 
+341|of. Obviously, someone who does understand the 
+341|manifestation could use it to breach your haven’s 
+341|security. The Storyteller defines any other effect of 
+341|the haunting, imposing at least a one-die penalty 
+#### PAGE 191
+85|to affected pools used in the haven per dot of 
+85|Haunted taken as a Flaw.
+70|<B>• 	</B>
+90|<B>Hidden Armory:</B> Each dot in this Merit adds a 
+90|stand of arms to your haven’s supply: one pistol and 
+90|one long firearm, with ammunition. They are as 
+90|secure from discovery as your resting place.
+70|<B>• 	</B>
+90|<B>Cell: </B>Your haven has a dedicated, locked place to 
+90|store two prisoners, with a base Difficulty to escape 
+90|of 5. Each extra dot either allows you to store twice 
+90|as many prisoners (up to a maximum of 32, only in 
+90|very large havens) or adds +1 to the escape Difficulty. 
+90|This Merit is not available in small havens.
+70|<B>• 	</B>
+90|<B>Watchmen:</B> You have either private security or 
+90|criminal thugs guarding your haven. Each dot of this 
+90|Merit supplies four Average guards and one Gifted 
+90|boss (see Mortal Templates, p. 185). If guards would 
+90|be conspicuous here, buy this Merit cautiously.
+70|<B>• 	</B>
+90|<B>Laboratory: </B>Your haven has an equipped labora-
+90|tory with a dedicated industrial sink, gas jet, 
+90|reinforced floor, etc. Each dot of this Merit adds 
+90|one to the dice pool for rolls related to one Sci-
+90|ence or Technology specialty or to Alchemy dice 
+90|pools for thin-bloods using the Fixatio method (p. 
+90|284). This Merit is not available in small havens.
+70|<B>• 	</B>
+90|<B>Library: </B>Your Haven has a dedicated library on 
+90|the occult, Cainite legends, city history, vampire 
+90|lore, or the like. Each dot of this Merit adds one 
+90|to the dice pool for research rolls for one Aca-
+90|demics, Investigation, or Occult specialty. Small 
+90|havens limit this Merit to a maximum of one dot.
+70|<B>• 	</B>
+90|<B>Location:</B> Your haven nestles in one of the most 
+90|fashionable or otherwise exclusive areas of the city, 
+90|in the Rack, on a small island, or otherwise in a 
+90|prime spot. Add two dice (or +2 to foes’ Difficulty) 
+90|to bonuses on the relevant die rolls from either 
+90|Chasse (p. 195) or from your base Haven rating 
+90|(pick one). If neither modifier precisely maps 
+90|to what you have in mind, work out with your 
+90|Storyteller when you can expect a two-dice bonus 
+90|to occur. For example, a Haven close to Elysium 
+90|might grant a two-dice bonus to Etiquette tests in 
+90|Elysium and on tests to pick up on court gossip.
+70|<B>• 	</B>
+90|<B>Luxury:</B> High-definition flat screens, designer fur-
+90|niture, objets d’art, or other expensive details give 
+321|you a two-dice bonus to Social tests dealing with 
+321|mortal guests in your haven. If you don’t have at 
+321|least three dots of Resources (•••), your décor was 
+321|gained illegally.
+301|<B>• 	</B>
+321|<B>Postern: </B>Your Haven has a rear exit, secret tunnel, 
+321|grating in the cellar leading into the sewers, or 
+321|other unobtrusive way out. For each dot of this 
+321|Merit, add one die to your dice pools to evade or 
+321|escape surveillance near your haven.
+301|<B>• 	</B>
+321|<B>Security System:</B> Your haven has a better-than-av-
+321|erage security system. For each dot of this Merit, 
+321|add one die to your dice pool to resist (or alert 
+321|you to) unauthorized entry into your haven.
+301|<B>• 	</B>
+321|<B>Surgery: </B>Your haven has one room equipped as a 
+321|field surgery or better. Add two dice to relevant dice 
+321|pools, generally Medicine, for tests performed in your 
+321|haven. This Merit is not available in small havens.
+301|<B>• 	</B>
+321|<B>Warding: </B>Your haven possesses some kind of 
+321|magical ward barring supernatural forces. You 
+321|may not be able to deactivate it, but it allows 
+321|you to pass. Discuss the limits of your ward 
+321|with the Storyteller. Each dot of this Merit 
+321|adds one to the dice pool to resist supernatural 
+321|scrying, as well as whatever other entry the 
+321|Storyteller allows it to prevent. The Storyteller 
+321|may require you to possess Occult 3 or better, 
+321|or Blood Sorcery, to buy this Merit.
+301|<H2>Herd</H2>
+301|You have cultivated a group of vessels from whom you 
+301|can feed without concern. You can use them to per-
+301|form basic services, although they are neither as tightly 
+301|controlled nor as loyal as Retainers. (If needed, build 
+301|your Herd as a combination of Weak and Average 
+301|mortals; see Mortal Templates, p. 185.) You can slake 
+301|your Herd rating in Hunger each week without a roll. 
+301|(This benefit can be shared among more than one vam-
+301|pire.) Overfeeding endangers your Herd, potentially 
+301|dropping the rating as members die or flee.
+316|<B>Flaw: (••) Obvious Predator.</B> You exude a predatory 
+316|demeanor, and humans instinctively fear and mistrust 
+316|you. Lose two dice from any dice pool for hunting 
+316|except purely Physical expressions of stalking, chasing, 
+#### PAGE 192
+110|and killing. Lose one die from 
+110|any dice pool for any Social test 
+110|intended to put humans at ease. 
+110|You cannot maintain a Herd.
+96|• 	
+116|One to three vessels with 
+116|random Resonance and no 
+116|Dyscrasias: You can change 
+116|one victim’s Resonance once 
+116|a month with a successful 
+116|Manipulation + Insight test 
+116|(Difficulty 4). Examples: 
+116|graduate students, musical 
+116|pupils, cleaver family
+96|•• 	
+116|Four to seven vessels, half of 
+116|whom share one Resonance 
+116|that you pick when you buy 
+116|this Advantage. Examples: 
+116|Aging devotees of the city’s 
+116|fading goth or bhangra scene, 
+116|fellow club scenesters, large 
+116|cleaver family
+96|••• 	 Seven to 15 vessels, with two 
+116|different Resonances that you 
+116|pick each week when you feed 
+116|on different Herd members. 
+116|Examples: rugby team, swinger 
+116|scene, dance or night school 
+116|class, night shift employees
+96|•••• 	 16 to 30 vessels: Pick two 
+116|Resonances every week. Herd 
+116|maintenance, cover ups, 
+116|and recruitment take occa-
+116|sional roles in your chronicle. 
+116|Examples: cult, large brothel, 
+116|sweatshop
+96|••••• 	31 to 60 vessels: Pick three 
+116|Resonances every week. Herd 
+116|maintenance and recruitment 
+116|begins to brush up against the 
+116|Masquerade. Examples: Large 
+116|cult, large sweatshop
+250|<H2>Loresheet</H2>
+250|Buy an Advantage from a 
+250|Loresheet and integrate the story 
+250|of that lore into your character’s 
+250|lineage and connections. Some 
+250|Loresheets (especially the “De-
+250|scendant of …”) require the charac-
+250|ter be of a specific clan. 
+265|Remember, that just like 
+250|other Advantages, each level of a 
+250|Loresheet is self-contained and 
+250|must be bought separately. It 
+250|does not automatically con-
+250|vey the “lower” levels of that 
+250|Loresheet.
+265|See Loresheets on p. 382 for 
+250|more.
+250|<H2>Mask</H2>
+250|As stealth predators, vampires 
+250|have few weapons more potent 
+250|than their pretense of humanity. 
+250|The lies the Kindred live constant-
+250|ly shadow your stories, and no 
+250|description of a lick should omit 
+250|how they navigate mortal society 
+250|– what they wear as a Mask. A 
+250|good Mask explains the character’s 
+250|nocturnal existence and offers 
+250|plenty of opportunities to be alone 
+250|with mortals. 
+265|Some vampires switch back 
+250|and forth between Masks, risking 
+250|deep identity confusion and slip-
+250|ups, while others forge single plau-
+250|sible identities and strictly adhere 
+250|to them for a human lifetime be-
+250|fore they switch, adding makeup as 
+250|they “age,” and faking every aspect 
+250|of life to look perfectly normal 
+250|on paper. Others, almost always 
+250|Nosferatu or unbound vampires, 
+250|forswear safety for freedom off the 
+250|grid or on the streets. 
+418|By default (at no dots) a vam-
+404|pire either has no need of a Mask, 
+404|such as those recently Embraced 
+404|and still able to pass as the human 
+404|they were, or has a single Mask 
+404|and fake ID that can stand up to 
+404|a traffic stop or similar surface 
+404|scrutiny. A zero-dot mask does not 
+404|pass a background check, much 
+404|less a proper investigation by the 
+404|authorities.
+418|<B>Flaw: (••) Known Blankbody. </B>
+418|Your biometrics, name, history, 
+418|known associates, and aliases 
+418|appear in several intelligence 
+418|agency databases, flagged as a 
+418|potential terrorist. Any inquisi-
+418|tor can read between the lines 
+418|and recognize you as a vampire.
+418|<B>Flaw: (•) Known Corpse. </B>Peo-
+418|ple know you died recently and 
+418|react with shock and horror if 
+418|you appear among them. This 
+418|Flaw also applies to any data-
+418|base lookups on your identity.
+404|• 	
+424|You have a good fake identity, 
+424|including a credit card, bank 
+424|account, credit history, birth 
+424|certificate, etc., all in your 
+424|Mask’s name. You can pass a 
+424|state or provincial-level back-
+424|ground check.
+404|•• 	
+424|Your Mask can pass a 
+424|background check with the 
+424|national police: FBI, Scotland 
+424|Yard, or the equivalent. If you 
+424|had a military or intelligence 
+424|record in life, it has been clas-
+424|sified.
+404|If you have a two-dot Mask, you 
+404|can also buy the following Advan-
+404|tages for one dot each:
+#### PAGE 193
+136|They asked St. Germain’s 
+136|manservant if his master 
+136|was truly a thousand 
+136|years old, as it was 
+136|rumored he had claimed. 
+136|“How would I know?” 
+136|the man replied. “I have 
+136|only been in the master’s 
+136|employ for three hundred 
+136|years.”
+#### PAGE 194
+96|<B>• 	</B>
+116|<B>Zeroed: </B>Someone in high 
+116|places has purged your real 
+116|records. You officially don’t 
+116|exist.
+96|<B>• 	</B>
+116|<B>Cobbler: </B>You can make or 
+116|source Masks. Making a 
+116|Mask takes three days per 
+116|dot and possibly exposes 
+116|you online; sourcing Masks 
+116|takes one day per dot, but 
+116|costs something in return. 
+116|How much depends on your 
+116|leverage, margin on the 
+116|Social test, or whatever else 
+116|the Storyteller decides.
+96|<H2>Mawla</H2>
+96|This Trait represents one or a group 
+96|of Kindred who looks out for you, 
+96|offering guidance, information, 
+96|or aid once in a while. The word 
+96|comes from medieval Arabic, mean-
+96|ing different things from “a trusted 
+96|one” to “uncle” to “source of neigh-
+96|borly protection” to “non-Muslim 
+96|whose oath still binds them.” 
+96|Western vampires brought the 
+96|term back from the Crusades, and 
+96|as the Ashirra and Camarilla find 
+96|themselves increasingly allied in the 
+96|Gehenna War, the word enjoys a 
+96|resurgence in vampire society.
+111|A Mawla may act as your men-
+96|tor. Such a role commonly falls to 
+96|your sire, if they don’t treat you as 
+96|property or ignore you.
+111|Your Mawla might trade 
+96|information to mutual benefit, 
+96|or even come to your aid if you 
+96|have respected the relationship. A 
+96|Mawla may be powerful, but their 
+96|power need not be direct. Depend-
+96|ing on the number of dots in this 
+96|Background, your Mawla might be 
+250|nothing more than an ancilla with 
+250|a remarkable information network, 
+250|or they might be a centuries-old 
+250|creature with tremendous influence 
+250|and supernatural power. They may 
+250|offer advice, speak to the Prince or 
+250|Baron on your behalf, steer other 
+250|elders clear of you, or give warning 
+250|when you’re walking into situations 
+250|you don’t understand. Your Mawla, 
+250|of course, expects reciprocity.
+265|A Mawla rating could even 
+250|represent a group of like-minded 
+250|vampires, such as the elders of 
+250|the city’s Tremere chantry or a 
+250|Trotskyite clique amongst the 
+405|Anarchs in town. (The plural of 
+405|Mawla is Mawali.) As a general 
+405|rule, a Mawla group costs one dot 
+405|more than a single Kindred of that 
+405|level: a a coven of elder Mawali 
+405|would be a four-dot Mawla group, 
+405|for example.
+419|Whoever they are, write them 
+405|on your Relationship Map when 
+405|you buy them.
+419|As a general rule, Mawali pro-
+405|vide a helpful word and occasional 
+405|political pushes or cover, but they 
+405|don’t fight your battles or call in 
+405|valuable favors. If they must do so 
+405|for their own sake to aid you, you 
+#### PAGE 195
+70|probably lose a dot or more of this 
+70|Background, after arousing their ire.
+85|Characters can also acquire 
+70|one-off Minor Boons (p. 315) from 
+70|other Kindred, only during char-
+70|acter generation. These boons cost 
+70|half the points (rounded up) of the 
+70|equivalent Mawla.
+70|<C>adversary</C>A fellow Cainite 
+70|who generally wishes you (or more 
+70|likely your sire, lineage, or mentor) 
+70|ill, an Adversary is the reverse 
+70|Flaw of the Mawla Background. 
+70|Adversaries range from one-dot 
+70|elders to three-dot Princes or 
+225|powerful cabals. The Storyteller 
+225|uses either the Adversary’s Status 
+225|or some specific other Trait when 
+225|building dice pools with which to 
+225|oppose the player characters, not 
+225|the dots in Adversary.
+225|• 	
+245|Neonate
+225|•• 	
+245|Ancilla
+225|••• 	 Elder
+225|•••• 	 Primogen or Anarch Revolu-
+245|tionary Council member
+225|••••• 	Prince or Baron
+379|<H2>Resources</H2>
+379|This Background describes your 
+379|Resources. These benefits are not 
+379|necessarily financial in nature 
+379|and are rarely completely liquid, 
+379|but you can often sell them to 
+379|gain money. It could take weeks 
+379|or even months to do so, depend-
+379|ing on how much needs to be 
+379|sold. Especially as the Second 
+379|Inquisition closes down Kindred 
+379|bank accounts, vampires increas-
+379|ingly return to holding their 
+379|Resources in cash – or in gold, 
+379|art, narcotics, guns, and slaves.
+393|Dots of Resources provide an 
+379|income for you to maintain your 
+379|standard of unliving, but you 
+379|must detail the source of your 
+379|income and the form this Back-
+379|ground takes. After all, it might 
+379|dry up, get stolen, or otherwise 
+379|vanish during the chronicle.
+393|<B>Flaw: (•) Destitute.</B> You have 
+393|no money and no home.
+379|<B>•	</B>
+399|<B>Portfolio Proletariat:</B> You 
+399|live paycheck to paycheck: 
+399|apartment, car, camping 
+399|equipment.
+379|<B>•• 	</B>
+399|<B>Middle Class: </B>Nice apart-
+399|ment or small house, several 
+399|cars, high-end equipment
+379|<B>••• 	</B><B> </B><B>Rich:</B> Great condo or nice 
+399|house, luxury items, high-
+399|end equipment for several 
+399|people
+379|<B>•••• 	Wealthy:</B> Mansion, helicop-
+399|ter or private jet, very spe-
+399|cialized high-end equipment
+379|<B>••••• 	Ultra Rich: </B>Many mansions, 
+399|“anything money can buy”
+#### PAGE 196
+96|<H2>Retainers</H2>
+96|You have one or more loyal and steadfast servants or 
+96|assistants. Retainers may be ghouls who are blood 
+96|bound to you, individuals you have so Dominated 
+96|over the years that they are incapable of independent 
+96|action, or individuals you have so overwhelmed with 
+96|your Presence that they would do anything for you.
+110|You must always control retainers in some fashion: 
+96|a salary, vitae donation, or direct mesmerism. Though 
+96|typically loyal, retainers may betray you if the reward 
+96|outweighs the risk or if you have treated them badly. 
+96|The Storyteller can always call for a scene between you 
+96|and a retainer.
+110|Retainers should act as characters, not puppets. 
+96|Even ghoul retainers aren’t supermen; the most skilled 
+96|servants don’t always show the highest loyalty. Eve-
+96|rything in Vampire is a tradeoff. Storytellers can use 
+96|Retainers to add flavor to the chronicle; don’t let them 
+96|or their misuse damage the story.
+110|<B>Flaw: (•) Stalkers. </B>You have a tendency to attract 
+110|people who become a tad too smitten with you 
+110|for your own good. A former retainer retains their 
+110|memory of you and a desire to reconnect. They may 
+110|be hungry, love-maddened, desperate, opportun-
+110|istic, or any combination or variation. Should you 
+110|get rid of them, another soon appears.
+96|• 	
+116|Underwhelming retainer: A child, criminal low-
+116|life, or horror nerd follows you around and does 
+116|your bidding without a Blood Bond. Build them 
+116|as a Weak mortal. 
+96|•• 	
+116|A ghoul, a family servant, a human lover, or a 
+116|dominated thrall: give them a backstory. Build 
+116|them as an Average mortal or as a ghoul with no 
+116|Advantages. For more on Ghouls, see p. 234.
+96|••• 	 A retainer competent enough to act inde-
+116|pendently and make lesser problems go away. 
+116|They are likely a ghoul with traits equivalent 
+116|to Gifted mortals, on top of their supernatural 
+116|abilities. 
+96|<H2>Status</H2>
+96|You have something of a reputation and standing 
+96|(earned or unearned) within a specified local commu-
+327|nity of Kindred, probably Camarilla or Anarch. Status 
+327|among Camarilla society derives as often from your 
+327|sire’s status and the respect due your particular blood-
+327|line as it does from personal achievement. High Status 
+327|among Anarchs theoretically depends on the charac-
+327|ter’s contributions, but more often to their degree of 
+327|connection (by Blood or coterie) to the current Baron 
+327|or other ruler.
+341|Status in one sect does not transfer to the other. 
+327|By and large, Status held in another city effectively 
+327|reduces by one dot; an Influential (•••) vampire in 
+327|Cartagena is only Respected (••) in Buenos Aires.
+341|The Storyteller may occasionally call on you to 
+327|add your Status to a dice pool along with a Social 
+327|Trait, especially for first meetings and court happen-
+327|ings. In other cases, the Storyteller may allow you to 
+327|substitute your Status for a Social Trait – but other 
+327|vampires may notice that you’re skating by on Status, 
+327|instead of properly using the Etiquette Skill, for 
+327|example.
+341|Caitiff characters begin with the Suspect Flaw and 
+327|may not purchase positive Status during character 
+327|creation.
+341|<B>Flaw: (••) Shunned. </B>You’re completely loathed by 
+341|this sect. You betrayed them, crossed a local leader, 
+341|or fought them in the past. Members of this group 
+341|will actively work against you if they can.
+341|<B>Flaw: (•) Suspect. </B>You’re not good with this sect 
+341|at all. You weaseled out of a boon, broke an oath, 
+341|or did something similar. You can try to stay out 
+341|of sight and out of mind, but unless you somehow 
+341|make amends, you suffer a two-dice penalty to all 
+341|Social tests involving the offended faction.
+327|<B>• 	</B>
+347|<B>Known: </B>A properly introduced, welcomed neo-
+347|nate, seen as an up-and-comer.
+327|<B>•• 	</B>
+347|<B>Respected:</B> You have responsibilities now, an aver-
+347|age ancilla.
+327|<B>••• 	</B><B> </B><B>Influential:</B> You hold authority over part of the 
+347|group, an average elder.
+327|<B>•••• 	 Powerful: </B>You hold office in the group, such as 
+347|Sheriff, Harpy, or Scourge.
+327|<B>••••• 	Luminary: </B>You sit at the table of power in the 
+347|group, a respected member of the Primogen 
+#### PAGE 197
+70|Players might build their charac-
+70|ters individually, but they build 
+70|their coterie together. Collabora-
+70|tive coterie creation creates shared 
+70|buy-in to the chronicle, and it 
+70|allows players to indicate which 
+70|aspects of the World of the Dark-
+70|ness they have the most interest in 
+70|exploring.
+85|The coterie pool begins with 
+70|one free dot per player character. 
+70|(The Storyteller may allow player 
+70|groups with three or fewer players 
+70|to begin with a coterie pool of two 
+70|free dots per character.) Players may 
+70|also contribute their own characters’ 
+70|Advantage dots to the coterie pool. 
+178|<H>Coterie Creation</H>
+224|Players spend the coterie pool col-
+224|lectively, although in some groups, 
+224|each player controls their own 
+224|contribution. The coterie can also 
+224|purchase coterie Flaws to get more 
+224|dots for the coterie during coterie 
+224|creation. Every player must agree in 
+224|order for the coterie to take a Flaw.
+230|<B>EXAMPLE: </B>
+230|The players have made a Marechal 
+230|(see below) coterie, and as such they 
+230|argue that they have no Domain of 
+230|their own, and instead place their 
+230|four dots into Contacts for ease of 
+230|travel and a floating cabin cruiser 
+230|Haven. They also take two dots 
+230|of Adversary (a mysterious figure 
+230|that stalks the Coterie) for two ad-
+230|ditional coterie dots that they place 
+230|in Camarilla Status.
+378|<H>Domain</H>
+378|The core aspect of a coterie, Domain 
+378|represents a physical area of the city 
+378|in which the coterie can hunt. 
+393|To the Camarilla, each domain 
+378|resembles a feudal fief, held by grant 
+378|from the Prince or another noble 
+378|Kindred; Anarch coteries more 
+378|likely refer to their domain as “turf.” 
+378|Either way, the principle remains 
+378|the same.
+393|Like other elements of the 
+378|World of Darkness, Domains have 
+378|Traits. Each dot of a Domain Trait 
+378|costs one dot from the coterie pool. 
+378|Domain Traits cover a lot of ground, 
+378|so to speak: use them as abstractions, 
+378|not as constraints.
+378|<H2>Chasse</H2>
+378|This Trait describes how well-
+378|stocked, vulnerable, and rich the 
+#### PAGE 198
+96|domain is as a hunting ground. One 
+96|dot in Chasse provides the coterie 
+96|with a default hunting Difficulty 
+96|of 6 inside their domain. Each ad-
+96|ditional dot reduces that Difficulty 
+96|by one.
+110|Chasse also refers abstractly 
+96|to the physical size of the do-
+96|main. This quality varies radi-
+96|cally, depending on the specific 
+96|city’s geography, but as a very 
+96|general rule use the following 
+96|table.
+139|<C>geographical</C><C> </C>
+100|<C>chasse</C>
+139|<C>equivalent</C>
+100|•
+139|One city block, one sub-
+139|urban gated community
+100|••
+139|Two to four blocks, one 
+139|park and its entrances, 
+139|one small site (tourist 
+139|landmark, hospital, mall)
+100|•••
+139|Eight blocks on both 
+139|sides of a major street, 
+139|one medium site (air-
+139|port, major employer, 
+139|casino, college)
+100|••••
+139|One neighborhood or 
+139|defined district, a square 
+139|kilometer, everything 
+139|along one highway or 
+139|major street, one major 
+139|site (large university, 
+139|amusement park)
+100|•••••
+139|Three neighborhoods, a 
+139|large group of features 
+139|(“all parks on the South 
+139|Side,” “all hospitals in 
+139|Queens,” “all highways 
+139|south of the river”)
+96|Dots need not always translate to 
+96|size. Obviously a smaller domain 
+96|in a rich hunting area, such as the 
+96|Rack, still has a higher Chasse than 
+96|a large domain in a desolate or 
+96|empty part of the city.
+250|<H2>Lien</H2>
+250|This Trait describes how well-
+250|integrated the coterie is into their 
+250|domain. Each dot in Lien adds one 
+250|die to a coterie member’s pool on 
+250|attempts to, e.g., interact peace-
+250|fully with a native mortal; find 
+250|something, someone, or somewhere 
+250|specific within the domain; find 
+250|out the “word on the street,” or 
+250|otherwise investigate something 
+250|within the domain.
+264|Lien never modifies coterie 
+250|member hunting rolls.
+250|<H2>Portillon</H2>
+250|This Trait describes how secure 
+250|the domain is against intrusion or 
+250|disruption: other vampires, mortal 
+250|police or predators, the Second In-
+250|quisition, etc. Each dot of Portillon 
+250|subtracts one die from a foe’s pool 
+250|when they attempt to, for exam-
+250|ple, enter, investigate, or surveil 
+250|the domain without the coterie’s 
+250|knowledge.
+264|Portillon seldom adds to char-
+250|acter pools; it primarily acts as a 
+250|resistance Trait. A critical success 
+250|by an intruder might lower the 
+250|Portillon of the Domain against 
+250|that specific intruder – unless the 
+250|coterie deals with them before the 
+250|next incursion.
+264|Portillon does not apply to 
+250|Havens, in or out of the Domain.
+250|<H2>Coteries Without  </H2>
+250|<H2>Domains</H2>
+250|A coterie without a Domain either 
+250|poaches its dinner (at grave risk 
+250|from the angry holder of the do-
+404|main they enter to do so) or holds 
+404|a letter of passage from their own 
+404|Prince or another high official. If 
+404|the local authorities recognize such 
+404|credentials, they generally grant 
+404|the coterie a temporary right to 
+404|hunt somewhere.
+418|The Storyteller can use the values 
+404|on p. 308 to determine the default 
+404|Difficulty of the coterie’s hunts.
+404|<H>Coterie </H>
+404|<H>Backgrounds</H>
+404|Coteries can hold certain Back-
+404|grounds and Flaws in common: 
+404|Adversary, Ally, Contacts, Enemy, 
+404|Haven, Herd, Influence, Mask, 
+404|Mawla, Resources, Retainers, and 
+404|Status. Buy coterie Backgrounds 
+404|with coterie pool dots, just like you 
+404|would buy an individual charac-
+404|ter’s Background.
+418|Remember to record major fig-
+404|ures on the Relationship Map, just 
+404|as with individual Backgrounds.
+418|Each member of the coterie can 
+404|use these coterie Backgrounds as 
+404|their own, using the rules on pp. 
+404|179-194. However, the Background 
+404|belongs to the coterie, not to the 
+404|individual character. If the coterie 
+404|splits up, or if a character gets 
+404|ejected from their coterie (ban-
+404|ished by the Prince, for example), 
+404|then they cannot take the Back-
+404|ground with them.
+418|The Background does not 
+404|multiply itself – a two-dot coterie 
+404|Herd still only has the same 
+404|number of kine and provides only 
+404|one Resonance, the same that an 
+404|individual vampire with two dots 
+404|of Herd (••) commands.
+#### PAGE 199
+84|Like all Backgrounds, coterie 
+70|Backgrounds remain vulnerable 
+70|to in-game events. If a mob of 
+70|torch-wielding Baptists burns out a 
+70|coterie Haven, those dots are gone, 
+70|just as if they had burned out one 
+70|player’s Haven – except, in the case 
+70|of a coterie Haven, when it goes, 
+70|nobody has a place to sleep today. 
+70|Putting all of one’s eggs in the 
+70|same basket has its downside.
+70|<H>Types of  </H>
+70|<H>Coteries</H>
+70|The Kindred like to propagate the 
+70|myth that they are solitary creatures. 
+70|This statement is partially true; 
+70|like all addicts, they put themselves 
+70|and their need for blood ahead of 
+70|any personal loyalties. A vampire 
+70|with close friends is a vampire with 
+70|great weakness. As the centuries 
+70|turn love into hate and familiarity 
+70|breeds contempt, betrayal is almost 
+70|inevitable, later if not sooner. What 
+70|the Damned seldom let on is that 
+70|they crave meaning and companion-
+70|ship as deeply as we do, perhaps 
+70|more deeply. Theirs is an existence 
+70|on the edge of a bottomless pit of 
+70|despair. A lone Kindred falls victim 
+70|to the Compulsions of the Beast or is 
+70|drawn to the flame of self-annihilat-
+70|ing depression very easily.
+84|Besides existentialism then, 
+70|what’s the reason for your crew’s 
+70|existence? In practice, vampires as-
+70|sociate into as many types of coteries 
+70|as humans do into their own types of 
+70|social groups.
+84|Choose a coterie type or invent 
+70|your own. See the Anarch and 
+225|Camarilla books for many more 
+225|inspirations.
+239|If your coterie matches a given 
+225|type, subtract the listed costs from 
+225|the coterie pool. If your pool isn’t 
+225|large enough to pay for that coterie 
+225|type, start collecting dot contribu-
+225|tions from the characters.
+239|You can increase any listed 
+225|value with your remaining coterie 
+225|pool dots, if any. Consider the pos-
+225|sible extras as more places to put 
+225|spare dots.
+225|<H2>Blood Cult</H2>
+225|Formally condemned as viola-
+225|tions of the Masquerade, blood 
+225|cults have nevertheless resurged 
+225|with the coming of Gehenna. This 
+225|coterie entices mortal worshippers, 
+225|feeding them vitae or just enslav-
+225|ing them. Many blood cults reveal 
+225|enough supernatural truth (though 
+225|not always vampiric lore) to alert 
+225|the Second Inquisition, adding yet 
+225|more implacable foes. 
+239|<B>Domain: </B>Lien (•) and Portil-
+239|lon (••)
+239|<B>Herd:</B> (•••)
+239|<B>Status Flaw:</B> (•) Suspect
+225|<B>Possible extras: </B>Enemies (••), 
+225|Haven (cult church or compound), 
+225|Mask Flaw (••) (on the Second 
+225|Inquisition radar), Retainers
+225|<H2>Cerberus</H2>
+225|The coterie exists to protect or 
+225|guard a certain spot or important 
+225|location, such as a grave, a portal, 
+225|or the vault of a priceless relic. 
+225|Cerberus coteries often become 
+225|"legacy coteries", with membership 
+378|passed down to generations of new 
+378|vampires.
+393|<B>Domain: </B>Chasse (•) and Portil-
+393|lon (•••)
+393|<B>Haven: </B>(••)
+378|<B>Possible extras: </B>Adversary, 
+378|Haunted flaw in Haven, Status (for 
+378|legacies)
+378|<H2>Champions</H2>
+378|The coterie exists to fight for 
+378|a cause, possibly even one that 
+378|mortals might recognize as worthy: 
+378|clean up the neighborhood by 
+378|devouring drug dealers, for exam-
+378|ple. Thin-bloods often begin their 
+378|unlives as champions. Thicker-
+378|blooded champions likely consider 
+378|themselves Anarchs or at least 
+378|Anarch sympathizers, although 
+378|a clever Prince of the Camarilla 
+378|can put even the highest-minded 
+378|vampires to good use. In the end, 
+378|even champions have to make the 
+378|hard choice between their human 
+378|charges and their vampiric urges.
+393|<B>Domain: </B>Chasse (•) and Lien 
+393|(•••)
+393|<B>Allies:</B> (•)
+393|<B>Enemies: </B>(••)
+378|<B>Possible extras: </B>Adversary, Contacts
+378|<H2>Commando</H2>
+378|The coterie exists to fight its 
+378|master’s enemies: the vampiric 
+378|equivalent of a SWAT or special 
+378|operations team. You may even 
+378|disguise yourself as a squad of the 
+378|city’s tactical police, as long as you 
+378|don’t try to pass as officers in front 
+378|of a real one.
+#### PAGE 200
+110|<B>Domain:</B> Chasse (•) and Portil-
+110|lon (••)
+110|<B>Mawla:</B> (•••) (whoever tasks 
+110|you for your missions)
+110|<B>Status:</B> (•)
+110|<B>Enemies: </B>(••)
+96|<B>Possible extras: </B>Adversary, Haven 
+96|(base of operations), Mask
+96|<H2>Day Watch</H2>
+96|The coterie guards the undead city 
+96|from mortals, especially during the 
+96|day when most Kindred sleep. Each 
+96|member must be a thin-blood with 
+96|the Day Drinker Merit, or the Story-
+96|teller needs to provide them another 
+96|means of remaining active by day.
+110|<B>Domain:</B> Chasse (•) and Portil-
+110|lon (••)
+110|<B>Influence:</B> (••)
+110|<B>Enemies: </B>(•••)
+96|<B>Possible extras:</B> Allies, Contacts, 
+96|Haven, Mawla, a shared relic or 
+96|ritual allowing activity by day
+96|<H2>Fang Gang</H2>
+96|The coterie operates as a criminal 
+96|gang, or possibly as a crew of bur-
+96|glars or con artists. The fang gang 
+96|may disguise itself as part of the 
+96|city’s organized crime syndicate, or 
+96|act as the Prince or Baron’s liaison 
+96|with them.
+110|<B>Domain:</B> Chasse (•), Lien (•), 
+110|and Portillon (•)
+110|<B>Contacts:</B> (•) (fence or other 
+110|criminal middleman)
+110|<B>Enemies: </B>(••)
+96|<B>Possible extras:</B> Haven (clubhouse), 
+96|Herd (human members/victims of 
+250|your gang), Influence (organized 
+250|crime), Retainers, Status (likely 
+250|with Anarchs)
+250|<H2>Hunting Party</H2>
+250|The coterie specializes in hunt-
+250|ing and capturing humans with 
+250|particular qualities of the blood. 
+250|With knowledge of, and tastes for, 
+250|humors and Resonances spreading 
+250|among thin-blood cookers and Tor-
+250|eador gourmands alike, coteries on 
+250|the make often choose to become 
+250|coteries on the prowl for others.
+264|<B>Domain: </B>Chasse (•••)
+264|<B>Ally: </B>(•)or Mawla: (•) (blood 
+264|broker)
+250|<B>Possible extras: </B>Herd, Influence 
+250|(organized crime)
+250|<H2>Maréchal</H2>
+250|This coterie serves and guards 
+250|the Prince or Baron, doing 
+250|their bidding as attendants and 
+250|hatchet-men. Their direct access 
+250|to the ruler means that influen-
+250|tial elders attempt to insert their 
+250|childer into the coterie – indeed, 
+250|every member of the coterie may 
+404|be Primogen get. Elders left out 
+404|use every means at their disposal 
+404|to turn (or break) the coterie to 
+404|their advantage.
+419|<B>Domain: </B>Chasse (••) and Por-
+419|tillon (••)
+419|<B>Status: </B>(•••)
+404|<B>Possible extras: </B>Adversaries, 
+404|Influence, Mawla (Prince/Baron), 
+404|Retainers
+404|<H2>Nomads</H2>
+404|The coterie travels from place to 
+404|place. It might pose as (or actu-
+404|ally be) a band, theater troupe, or 
+404|other itinerant artists. Indeed, this 
+404|coterie might perform exclusively 
+404|for Kindred audiences at Princely 
+404|courts, not just second-tier rock 
+404|clubs in the old factory district. Al-
+404|ternatively, nomad coteries might 
+404|be refugees from the Gehenna War 
+404|or just “kings of the road.”

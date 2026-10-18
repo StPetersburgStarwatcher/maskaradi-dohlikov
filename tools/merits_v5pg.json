@@ -1,0 +1,972 @@
+{
+ "items": [
+  {
+   "n": "Business Establishment",
+   "ed": "v5",
+   "kind": "background",
+   "dots": [
+    2,
+    3
+   ],
+   "cat": "Haven",
+   "html": "<p><strong>BUSINESS ESTABLISHMENT •• OR •••</strong> You rent out your haven to a separate business: a 9–5 call center, coffee shop, laundromat, or salon. You might even operate the business yourselves (or with Retainers) as a Corporate coterie (p. 160) although the Storyteller should avoid turning this game of personal horror into a game of business management horror.</p>\n<p>The kine mill around living their daily lives while you sleep in the repurposed storage basement, or one of the server rooms where all of the out of service equipment is stored. The business pays a monthly rent (or profit, if you own it), providing you with a steady stream of funding.</p>\n<p>The downside: A lot of strangers walking around, and exposure to local officials, and business taxes that potentially put you very much on the grid. Renting to criminals takes the taxes and paperwork out of the picture, but adds even more exposure to cops and other less pliable criminals. Reduce your base Haven dots by one for pools involving your Haven’s privacy and for security against either financial or criminal intrusion (pick when you choose this Merit).</p>\n<p>Dots in this Merit roughly equate to their Resources equivalent, and the Storyteller may let you use its dots instead of Resources if the substitution makes sense. It also adds two dice to pools to do things related to your business’ activities or core competency, to interact with other local businesses, and to tests of preparedness to already have something you need in the moment (<strong>Vampire: </strong></p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "112"
+   },
+   "req": "Haven merit"
+  },
+  {
+   "n": "Furcus",
+   "ed": "v5",
+   "kind": "background",
+   "dots": [
+    1,
+    2,
+    3
+   ],
+   "cat": "Haven",
+   "html": "<p><strong>FURCUS • TO •••</strong> Your haven lies over a knot or fork in the veins of the Earth, or a frayed spot in the Veil. While invisible to normal sight (though not perhaps to Auspex or various Rituals), it underlies a prominent area: the top of a staircase, a fountain in the garden, the center of a room. (Architecture + Occult might allow someone to deduce its location, if they know what they’re looking for.) Kindred feel the pull of magical energies at the site, and kine often feel nervous or nauseated. Blood Sorcery Rituals or Oblivion Ceremonies (pick when you take this Advantage) tap into the furcus’ power.</p>\n<p>Each dot in this Merit adds one die to Ritual (or Ceremonial) dice pools used at the furcus. (At the Storyteller’s discretion it may also subtract one die from Social pools used to calm or seduce mortals – or add a die when interacting with mortal hedge magicians or other occult groupies.) Bestial failures on such tests may also lead to especially horrific or eldritch results: energy from the furcus that harms or curses the sorcerer, accidental summoning of an entity, or a clear magical pulse from the haven’s location. Depending on the Ceremony, a total or bestial failure might automatically impose the Haunted Flaw on the haven.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "112"
+   },
+   "req": "Haven merit"
+  },
+  {
+   "n": "Machine Shop",
+   "ed": "v5",
+   "kind": "background",
+   "dots": [
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "cat": "Haven",
+   "html": "<p><strong>MACHINE SHOP •+</strong> Your haven has state of the art tools, equipment, and machinery in a dedicated work space, plus supplies of oil, industrial chemicals, gasoline, and other household necessities. Each dot of this Merit adds one to the dice pool for Craft rolls, or to other tests related to building, repairing, or disassembling a piece of machinery or equipment: Intelligence + Firearms (Gunsmithing) to build a Sten submachine gun, Intelligence + Technology to fab a compound crossbow with a 3-D printer, Intelligence + Craft (Engineering) to soup up a car, etc. For particularly recondite machinery, you may have to explain how you sourced it if you don’t have Resources ••• or better.</p>\n<p>Small havens with this Merit can only add to pools for one specialty of Craft: they don’t have enough room for a general machine shop or for automotive work.</p>\n<p>A three-dot machine shop can include an incinerator; a three-dot machine shop in a large haven can include a car crusher or compactor.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "113"
+   },
+   "req": "Haven merit"
+  },
+  {
+   "n": "Shared",
+   "ed": "v5",
+   "kind": "flaw",
+   "dots": [
+    1,
+    2
+   ],
+   "cat": "Haven",
+   "html": "<p><strong>SHARED (• OR ••)</strong> Your haven is not entirely your own. Other Kindred, besides you and your coterie, have access to it and can make decisions about it without consulting you. Decide the specific conditions and determine the severity of this Flaw based on those circumstances.</p>\n<p>The one-dot version of this Flaw covers joint havens: e.g., you have one or more Storyteller character housemates, or you and a whole clutch of fledglings squat in an abandoned building. Any problems they bring back to the haven become your problems, too. A coterie that takes a haven together does not automatically invoke this Flaw; sharing with your coterie has only as much downside as you mutually create in play.</p>\n<p>The one-dot Shared Flaw also covers short-term havens: you’re staying in an embassy or safe house or campground, with the expectation that you’ll be moving on and another Kindred may arrive to take your place at any time. Getting a new shared haven when that happens costs no more dots, but you may lose dots you put into improving the old one, in addition to moving all your belongings and re-training your Herd where to show up at night.</p>\n<p>The two-dot version of this Flaw means you have a local landlord. Another Kindred has rights to the property (either an actual land title or a grant from the local Prince or Baron) and graciously (or not) allows you to roost there. After haven creation, you must discuss any changes you wish to make to your haven with your landlord. The landlord can enter your haven at will. Especially older Kindred landlords may also call on you for service or dirty jobs, treating you like a vassal or apparatchik.</p>\n<p>Tremere chantries, Nosferatu warrens, and Ministry temples might be one or two-dot shared havens for characters of the appropriate clan, depending on the power balance between you and the other Kindred there.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "113"
+   }
+  },
+  {
+   "n": "City Secrets",
+   "ed": "v5",
+   "kind": "background",
+   "dots": [
+    1
+   ],
+   "cat": "Influence",
+   "html": "<p><strong>CITY SECRETS •</strong> You have somehow acquired a damning secret about the city’s Kindred power structure, perhaps specifically about someone in it. Decide the exact nature of the information with the Storyteller. If the secret refers only to mortal business (“the Mayor is secretly fucking a Russian Mafiya soldier”), it’s just a way to explain your Influence.</p>\n<p>A few power players in the city know you have this information, or strongly suspect it. Hopefully, you’ve made arrangements for the secret to get out upon your mysterious disappearance. You could sell this information for a high price, but its truest value is protection: those who want it to stay secret have some interest in keeping you happy. Of course, if you push your luck, they may decide keeping you quiet forever takes higher priority.</p>\n<p>This Background resembles Influence more than Status in some circumstances; the Storyteller should determine when or if it adds to a Social pool, or possibly a Research or Insight test.</p>\n<p>You can take this Background a maximum of three times, with a different secret each time.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "118"
+   },
+   "multi": true
+  },
+  {
+   "n": "Famous Face",
+   "ed": "v5",
+   "kind": "merit",
+   "dots": [
+    1
+   ],
+   "cat": "Looks",
+   "html": "<p><strong> FAMOUS FACE •</strong> You bear a passing or very close resemblance to someone very well known. Sometimes this works in your favor. Other times this results in “Charlize Theron bit that cop on the neck!” You gain two dice to social tests in circumstances where you can leverage your lookalike status, but suffer a two-dice penalty whenever you try to hide in a crowd or in other areas where you want to avoid recognition.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "118"
+   }
+  },
+  {
+   "n": "Ingénue",
+   "ed": "v5",
+   "kind": "merit",
+   "dots": [
+    1
+   ],
+   "cat": "Looks",
+   "html": "<p><strong> INGÉNUE •</strong> You look completely innocent and blameless, making others believe in your good intentions much easier. Add two dice to any rolls related to avoiding suspicion or deflect blame, at the Storyteller’s discretion.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "118"
+   }
+  },
+  {
+   "n": "Remarkable Feature",
+   "ed": "v5",
+   "kind": "merit",
+   "dots": [
+    1
+   ],
+   "cat": "Looks",
+   "html": "<p><strong> REMARKABLE FEATURE •</strong> You possess a rare, memorable feature such as a striking eye color, atypical pupils, or an unusual complexion, providing a two-dice bonus to social interactions with strangers. (The novelty quickly wears off.) Take a one-die penalty to disguise yourself.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "118"
+   }
+  },
+  {
+   "n": "Vessel Recognition",
+   "ed": "v5",
+   "kind": "merit",
+   "dots": [
+    1
+   ],
+   "cat": "Feeding",
+   "html": "<p><strong>VESSEL RECOGNITION •</strong> One easy way to piss off a Kindred is to feed off their kine. Kindred guard their herds jealously, and you’ve learned how to avoid them, being able to smell out which mortal belongs to a herd or is a particular Blood Doll.</p>\n<p>A win on a Resolve + Awareness test at Difficulty 2 lets you smell whether a mortal has been fed on recently. A critical win lets you sense if the feeding is recurring, likely making them part of someone’s herd.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "118"
+   }
+  },
+  {
+   "n": "Luck of the Devil",
+   "ed": "v5",
+   "kind": "merit",
+   "dots": [
+    4
+   ],
+   "cat": "Mythic",
+   "html": "<p><strong> LUCK OF THE DEVIL ••••</strong> Someone else will always take the fall for your missteps as long as someone’s available to take the blame. Whether this is because of a face everyone loves, a guardian angel, or something far darker, you manage to slip, skate, and dodge out of trouble, though you’re in constant need of new friends as you burn through them like a wildfire.</p>\n<p>Once per session you can have a misfortune — an attack, an accusation, a blame, or anything in between — directed at you befall someone else close to you. This can be an ally, retainer, coterie mate, or even a Touchstone. The Storyteller is the final arbiter on what counts as a proper misfortune.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "119"
+   }
+  },
+  {
+   "n": "Nuit Mode",
+   "ed": "v5",
+   "kind": "merit",
+   "dots": [
+    2
+   ],
+   "cat": "Mythic",
+   "html": "<p><strong>NUIT MODE ••</strong> Your body doesn’t automatically revert to the deathstate each night, enabling you to keep things like new haircuts, tattoos, and other body modifications at your option. You are still able to return to your original death-state, though, and can mend any later modifications as if they were Aggravated damage. This Merit is available only to Kindred of Blood Potency 1 or lower. (If your Blood becomes more potent at any point, the Merit no longer grants any benefit, but if you drop back down to Blood Potency 1 it returns.)</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "119"
+   },
+   "req": "Blood Potency 1 or lower"
+  },
+  {
+   "n": "Check the Trunk",
+   "ed": "v5",
+   "kind": "merit",
+   "dots": [
+    1
+   ],
+   "cat": "Other",
+   "html": "<p><strong> CHECK THE TRUNK •</strong> Mercenaries and gig workers have to keep their tools of the trade close at hand. They never know what their next job might require, but they do their best to keep a supply of useful tools close at hand. Caitiff, Ravnos, Anarchs, and even some mortals especially benefit from this Merit.</p>\n<p>You have easy access to an armory or cache of tools and hardware. None of these items can exceed a value available to a character with Resources 2. Common items found in a cache could include a sawed-off shotgun, rusty bolt cutters, half a roll of duct tape, homemade stakes, half empty squeeze bottles of lighter fluid, and whatever else the Storyteller allows. Take an additional two dots in Preparedness pools (<strong>Vampire: The Masquerade</strong>, p. 410) for items within this Resource band. Losing your car, haven, or other storage space may interrupt this Merit until you build up a new stash.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "119"
+   }
+  },
+  {
+   "n": "Side Hustler",
+   "ed": "v5",
+   "kind": "merit",
+   "dots": [
+    2
+   ],
+   "cat": "Other",
+   "html": "<p><strong> SIDE HUSTLER ••</strong> Folks on the fringes constantly have to grind to keep the little that they have. Juggling a million tasks, favors, and debts has become second nature to them. Once per session you can get your hands on an item, a piece of information, or access to an event as if you had two dots in the appropriate Resources, Contacts or Influence Background. (Items obtained with Resources likely have to be returned intact.) Often this requires you to spend part of the night calling in markers and pressing your informal network.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "119"
+   }
+  },
+  {
+   "n": "Tempered Will",
+   "ed": "v5",
+   "kind": "merit",
+   "dots": [
+    3
+   ],
+   "cat": "Other",
+   "html": "<p><strong> TEMPERED WILL •••</strong> Your stubborn spirit didn’t die during your Embrace, and you find yourself knowing when people are trying to force you to do something against your will.</p>\n<p>You are always aware of when someone is using Dominate and Presence against you. Once per session, when resisting Dominate or Presence, you may add two additional dice to your resistance pool. Only someone with no dots in either Dominate or Presence can take this Merit. (If you acquire the Disciplines afterward, or temporarily as with thinbloods, the Merit no longer grants any benefit while you possess them.)</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "120"
+   },
+   "req": "No dots in Dominate or Presence"
+  },
+  {
+   "n": "Untouchable",
+   "ed": "v5",
+   "kind": "merit",
+   "dots": [
+    5
+   ],
+   "cat": "Other",
+   "html": "<p><strong>UNTOUCHABLE •••••</strong> The powers that be are very reluctant to punish you for even the most egregious crimes. Perhaps you’re the secret power behind the throne, or you hold some damning blackmail over the local Baron, or you’re the secret childe of a Justicar or other political potentate. Once per story you can escape all official punishment for a crime that would otherwise see you destroyed or cast out of your sect, though you may be privately reprimanded or face consequences through unofficial channels. The Court or Council often ignores your lesser crimes as well, but lower-level Kindred may take it upon themselves to step to you for your perceived transgressions and flaunted impunity.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "120"
+   }
+  },
+  {
+   "n": "Stench",
+   "ed": "v5",
+   "kind": "flaw",
+   "dots": [
+    1
+   ],
+   "cat": "Looks",
+   "html": "<p><strong>STENCH (•)</strong> Your breath and body odor are supernaturally foul, redolent of open graves and rotting flesh. Even Nosferatu object to your stink. You can take minor steps to minimize the stench, such as splashing on plenty of cologne, but that causes other problems. Lose one die from seduction and similar Social dice pools, and lose two dice from Stealth pools against opponents who can smell, unless you are upwind.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "120"
+   }
+  },
+  {
+   "n": "Transparent",
+   "ed": "v5",
+   "kind": "flaw",
+   "dots": [
+    1
+   ],
+   "cat": "Looks",
+   "html": "<p><strong> TRANSPARENT (•)</strong> For whatever reason, you aren’t a good liar, and it shows. You either have a terrible poker face or your parents instilled in you a strong urge to be truthful even when it hurts.</p>\n<p>Lose one die from any pools requiring Subterfuge. You cannot gain dots in Subterfuge.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "120"
+   }
+  },
+  {
+   "n": "Vein Tapper",
+   "ed": "v5",
+   "kind": "flaw",
+   "dots": [
+    1
+   ],
+   "cat": "Feeding",
+   "html": "<p><strong>VEIN TAPPER (•)</strong> You find the act of feeding extremely personal and cannot take blood from mortals while being observed. This means you often feed from the unaware and go out of your way to find (or create) drugged or unconscious victims.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "120"
+   }
+  },
+  {
+   "n": "Starving Decay",
+   "ed": "v5",
+   "kind": "flaw",
+   "dots": [
+    2
+   ],
+   "cat": "Mythic",
+   "html": "<p><strong>STARVING DECAY ••</strong> Your undead body is constantly on the verge of reverting to a corpse and only staving off Hunger keeps you from decaying.</p>\n<p>At any point in which your Hunger is 3 or higher your body shrivels and decays, incurring a two-dice penalty to physical tests as well as social interactions with mortals, not to mention risking the Masquerade.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "120"
+   }
+  },
+  {
+   "n": "Twice-Cursed",
+   "ed": "v5",
+   "kind": "flaw",
+   "dots": [
+    2
+   ],
+   "cat": "Mythic",
+   "html": "<p><strong>TWICE-CURSED ••</strong> You are cursed with additional Bane, making you labor under additional weight borne out of your clan founder’s flawed nature.</p>\n<p>Take your clan’s variant Bane (see p. 56) <em>in </em> <em>addition </em>to your regular Bane. The Storyteller can prohibit this Flaw if the second Bane would cause problems for, or lack impact in, the chronicle.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "121"
+   }
+  },
+  {
+   "n": "Knowledge Hungry",
+   "ed": "v5",
+   "kind": "flaw",
+   "dots": [
+    1
+   ],
+   "cat": "Other",
+   "html": "<p><strong> KNOWLEDGE HUNGRY (•)</strong> You always feared that you wouldn’t have the time to learn everything you wanted about what’s truly important. Well, that’s one problem solved. The time to learn is not always now, though — you regretfully put a bookmark in your studies and attend to more life-threatening matters.</p>\n<p>At character creation, pick a topic that your character hungers to study. When your character comes across books, tutorial videos, college seminars, or other methods of learning about their chosen subject, make a Willpower roll at Difficulty 3 to resist chasing their obsession.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "121"
+   }
+  },
+  {
+   "n": "Prestation Debts",
+   "ed": "v5",
+   "kind": "flaw",
+   "dots": [
+    1
+   ],
+   "cat": "Other",
+   "html": "<p><strong>PRESTATION DEBTS (•)</strong> You owe another Kindred (or two others) two minor boons. The debt-holder wields more power and influence than you within vampire society, though not necessarily within your sect. They receive a one-die bonus in Social combat against you while they hold your marker. They may call in either of these debts at any time, but practically they do so when you really really don’t want to (or absolutely can’t) pay them off. However, if you do manage to successfully pay off both debts, you don’t need to take another Flaw to “balance” your character. The creditor still likes to lord it over you, though, and retains the one-die bonus.</p>\n<p>You can absolutely take this Flaw alongside one or more Minor Boons (<strong>Vampire: The Masquerade</strong>, pp. 193 and 315) at character creation. You cannot take this Flaw owing another player’s character the boons in question. For more a more detailed breakdown of Prestation Debts and Boons as Backgrounds, see <em>Boons and </em> <em>Debts,</em> p. 115.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "121"
+   }
+  },
+  {
+   "n": "Risk-Taker",
+   "ed": "v5",
+   "kind": "flaw",
+   "dots": [
+    1
+   ],
+   "cat": "Other",
+   "html": "<p><strong> RISK-TAKER (•)</strong> You’re one of those people who feel compelled to take every chance to experience life at its fullest.</p>\n<p>When confronted with a chance to indulge a risky temptation you haven’t done before (such as snorting a new drug, imbibing vampire blood, or taking a Kindred lover), you suffer a two-dice penalty to all actions until you either partake of the new experience or the scene ends. This Flaw doesn’t compel you to do something suicidal ... but you may not always accurately predict the full consequences of your actions.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "121"
+   }
+  },
+  {
+   "n": "Weak-Willed",
+   "ed": "v5",
+   "kind": "flaw",
+   "dots": [
+    2
+   ],
+   "cat": "Other",
+   "html": "<p><strong> WEAK-WILLED (••)</strong> You struggle to assert your own personality when confronted with the will of another. You may not necessarily be submissive; perhaps you feel more confident when following another person’s lead. You might be part of a vampire’s entourage or Herd, but you aren’t necessarily loyal to that vampire.</p>\n<p>Take a one-die penalty to Social pools against your leader or superior. Even when you’re aware of an attempt to sway you mentally or emotionally (such as with Dominate or Presence), you may not use the active resistance systems to avoid those effects. ■ Chapter Four:</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "121"
+   }
+  },
+  {
+   "n": "Favored Blood",
+   "ed": "v5",
+   "kind": "merit",
+   "dots": [
+    4
+   ],
+   "cat": "Caitiff",
+   "html": "<p>Favored Blood •••• Vampiric power unfettered by the curse of the Ancients flows through you. Your intuitive and legendary command of Kindred prowess likely inspires both awe and fear in other vampires.</p>\n<p>You can buy dots in any Discipline even if you’ve never tasted the blood of another vampire with that Discipline. Cannot be taken with the Muddled Blood Flaw (see p. 127).</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "126"
+   },
+   "clan": [
+    "Caitiff",
+    "Panders"
+   ]
+  },
+  {
+   "n": "Mark of Caine",
+   "ed": "v5",
+   "kind": "merit",
+   "dots": [
+    2
+   ],
+   "cat": "Caitiff",
+   "html": "<p>Mark of Caine •• You bear a mark, either physical or spiritual, that gives other vampires pause. Camarilla and Ashirra vampires look on your mark with fear, while Anarchs claim to respect you for playing with elder superstition — but they don’t look at your mark too closely either. Even Sabbat Cainites hesitate to tangle with you, though particularly religious Noddists might target you for special attention.</p>\n<p>You gain two bonus dice on any attempt to intimidate, bully, or cow other vampires who subscribe to the myth of Caine. Anyone attempting to commit diablerie on you cannot add their Blood Potency to the roll and any failure to their roll results in a bestial failure.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "126"
+   },
+   "clan": [
+    "Caitiff",
+    "Panders"
+   ]
+  },
+  {
+   "n": "Mockingbird",
+   "ed": "v5",
+   "kind": "merit",
+   "dots": [
+    3
+   ],
+   "cat": "Caitiff",
+   "html": "<p>Mockingbird ••• Orphans are often unfairly labeled thieves and diablerists, but some actually do have the power to mimic the powers of other vampires after tasting their blood.</p>\n<p>For one night after drinking one Hunger die worth of blood from a vampire, you can choose and employ one Discipline power possessed by the Kindred from whom you fed. The power cannot be of a level higher than your highest Discipline, though you do not need to possess the same Discipline. Roll Rouse Checks as normal to activate this power. Any other rolls required to use the power use the donor’s Discipline level and your Attributes. During this time, you mimic the donor’s clan bane with the same severity level as the donor. Only one power can be “borrowed” in this way per night.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "126"
+   },
+   "clan": [
+    "Caitiff",
+    "Panders"
+   ]
+  },
+  {
+   "n": "Sun-Scarred",
+   "ed": "v5",
+   "kind": "merit",
+   "dots": [
+    5
+   ],
+   "cat": "Caitiff",
+   "html": "<p>Sun-Scarred ••••• While it’s a common myth among Kindred that Caitiff and thin-bloods can walk in the sunlight, only a rare few have anything resembling that ability. These few are sometimes called Daywalkers, and those Caitiff who have this power usually keep it a secret for fear of being hunted and cannibalized by others. Unsurprisingly, Outcasts who can walk in the day may find themselves sought out for their particular acumen and the advantage it grants them over those who must slumber by day.</p>\n<p>The first turn you are exposed to Sunlight in a scene, take no Health damage, take 1 Aggravated Willpower damage, and automatically succeed on any rolls to resist terror frenzy. For the remainder of the scene all Aggravated Health damage you take from sunlight is instantly converted into Superficial damage.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "126"
+   },
+   "clan": [
+    "Caitiff",
+    "Panders"
+   ]
+  },
+  {
+   "n": "Uncle Fangs",
+   "ed": "v5",
+   "kind": "merit",
+   "dots": [
+    3
+   ],
+   "cat": "Caitiff",
+   "html": "<p>Uncle Fangs ••• The local thin-bloods know you as a mentor and guide. Whatever your true motivations, you can often find aid among the Duskborn without having to ask twice.</p>\n<p>You have easy access to a local coterie of three to five thin-bloods. They often know what’s happening on the street before anyone else, and can sometimes provide you with Alchemical concoctions. Treat this group as an Ally group (<strong>Vampire: The Masquerade</strong>, p. 192), though contrary to regular Allies, this group is undead, if only just. Cannot be taken with Liquidator (p. 127).</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "127"
+   },
+   "clan": [
+    "Caitiff",
+    "Panders"
+   ]
+  },
+  {
+   "n": "Befouling Vitae",
+   "ed": "v5",
+   "kind": "flaw",
+   "dots": [
+    2
+   ],
+   "cat": "Caitiff",
+   "html": "<p>Befouling Vitae (••) When you Embrace mortals or leave them for dead from feeding, the Blood twists them into maniacal corpses with an unquenchable hunger.</p>\n<p>Any mortal you Embrace or kill by feeding returns as a desperate wight within a few nights. While these unfortunates are often too weak to be much of a threat (treat as a Ghoul; see <strong>Vampire: </strong></p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "127"
+   },
+   "clan": [
+    "Caitiff",
+    "Panders"
+   ]
+  },
+  {
+   "n": "Clan Curse",
+   "ed": "v5",
+   "kind": "flaw",
+   "dots": [
+    2
+   ],
+   "cat": "Caitiff",
+   "html": "<p>Clan Curse (••) A Caitiff by hair’s breadth, you still suffer the curse of your sire’s clan. While this can sometimes help you pass for a member of that clan, most often than not it just adds another pain to your tortured existence.</p>\n<p>You suffer from a vampire clan bane of your choice, likely that of your sire (if you even know who they are). Its severity is halved (round down, minimum of 1).</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "127"
+   },
+   "clan": [
+    "Caitiff",
+    "Panders"
+   ]
+  },
+  {
+   "n": "Debt Peon",
+   "ed": "v5",
+   "kind": "flaw",
+   "dots": [
+    2
+   ],
+   "cat": "Caitiff",
+   "html": "<p>Debt Peon (••) Orphans often have to sell their proverbial souls to Princes and Barons to find their place in the night. These debts add up and few Caitiff ever climb out of the pocket of those in power, because the prestation system breaks down when Kindred society refuses to recognize the political existence, much less the rights, of the debtor.</p>\n<p>You owe several minor boons, or even a few major boons, to a high-Status vampire, possibly originally incurred by your Sire. Tracking these debts proves pointless, as the creditor extracts new boons whenever they have leverage over you and only considers any boon settled when forced to by their peers. They have a two-dice bonus to Social combat against you in front of other Kindred. Refusal to honor your debt adds the Shunned (••) Flaw, and may even result in a Blood Hunt against you.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "127"
+   },
+   "clan": [
+    "Caitiff",
+    "Panders"
+   ]
+  },
+  {
+   "n": "Liquidator",
+   "ed": "v5",
+   "kind": "flaw",
+   "dots": [
+    1
+   ],
+   "cat": "Caitiff",
+   "html": "<p>Liquidator (•) Thin-bloods call you a Pander and avoid you whenever possible. They even refuse to speak openly with your coterie mates or other associates. Perhaps you served as a scourge, or just displayed particular cruelty as a member of the Sheriff’s posse.</p>\n<p>Take a two-dice penalty to all your Social skill dice pools against thin-bloods, other than Intimidation. Cannot be taken with Uncle Fangs (p. 127).</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "127"
+   },
+   "clan": [
+    "Caitiff",
+    "Panders"
+   ]
+  },
+  {
+   "n": "Muddled Blood",
+   "ed": "v5",
+   "kind": "flaw",
+   "dots": [
+    1
+   ],
+   "cat": "Caitiff",
+   "html": "<p>Muddled Blood (•) Your Blood cannot recall its nature and must be reminded of its inherent power every time you want to strengthen it.</p>\n<p>Even if you already possess a Discipline you must drink the Blood of someone who possesses it in order to buy dots in it. Cannot be taken with the Favored Blood Merit (see p. 126).</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "127"
+   },
+   "clan": [
+    "Caitiff",
+    "Panders"
+   ]
+  },
+  {
+   "n": "Walking Omen",
+   "ed": "v5",
+   "kind": "flaw",
+   "dots": [
+    2
+   ],
+   "cat": "Caitiff",
+   "html": "<p>Walking Omen (••) Many vampires rely on prescience or read omens on a nightly basis, and you happen to act as a magnet, skewing these supernatural compasses.</p>\n<p>Any scrying, premonitions, or other forms of futureor fortune telling in your domain regularly points to you as a source of disaster and misfortune. While your close allies have learned to tune it out, other oracles single you out, screeching, when you are not being hunted by those who want to redirect a future that they believe will come to pass at your hands. The effects of this Flaw are ultimately up to the Storyteller, but it should at the very least cause one serious altercation per story.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "127"
+   },
+   "clan": [
+    "Caitiff",
+    "Panders"
+   ]
+  },
+  {
+   "n": "Word-Scarred",
+   "ed": "v5",
+   "kind": "flaw",
+   "dots": [
+    1
+   ],
+   "cat": "Caitiff",
+   "html": "<p>Word-Scarred (•) Your body or a portion of it is covered in ancient texts of vampiric lore. Perhaps your sire inscribed them upon you, or they appeared on their own after the Embrace. Either way, shadowy forces conspire to use or destroy this lore.</p>\n<p>The major occult foe or force in the chronicle often interferes in your life, seeking to imprison, flense, mind-wipe, Blood Bond, or otherwise neutralize you. (They would never lower themselves to recruit a Caitiff, don’t be silly. You’re just a lost, disobedient book to them.) Maybe two such forces fight over the right to edit you! Any other character who “reads” the full text on your skin learns a terrible secret regarding Gehenna, Noddist prophecy, Bahari mysteries, or the like. You and the Storyteller may decide this together, or it may be a mystery to you!</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "128"
+   },
+   "clan": [
+    "Caitiff",
+    "Panders"
+   ]
+  },
+  {
+   "n": "Heliophobia",
+   "ed": "v5",
+   "kind": "flaw",
+   "dots": [
+    0
+   ],
+   "cat": "Thin-Blood",
+   "html": "<p>Heliophobia An overly cautious Sire hammered the reminder to avoid sunlight into you a little too hard, or you saw someone catch fire in a sunrise early after your Embrace. Either way, you fear sunlight as though you were a full vampire. You are susceptible to terror frenzy from sunlight.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "135"
+   },
+   "thin": true
+  },
+  {
+   "n": "Night Terrors",
+   "ed": "v5",
+   "kind": "flaw",
+   "dots": [
+    0
+   ],
+   "cat": "Thin-Blood",
+   "html": "<p>Night Terrors You sleep as usual, with no memory of any of the dreams you may have had during the day. However, at night those dreams come flooding in at the most inopportune times. During times of stress, or when your Beast is strongest, nightmares pull through and feel excruciatingly real. They may be disjointed hallucinations, or they may be a way for the Storyteller to feed theme or foreshadow events. Once per session, your night terrors onset and you take a one-die penalty to all actions for the rest of the scene.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "135"
+   },
+   "thin": true
+  },
+  {
+   "n": "Plague Bearer",
+   "ed": "v5",
+   "kind": "flaw",
+   "dots": [
+    0
+   ],
+   "cat": "Thin-Blood",
+   "html": "<p>Plague Bearer You are still susceptible to mortal sickness: colds, flu, and other more severe infections. Every time you feed you must roll a die for each Hunger slaked, and if any come up a “1,” you’ve caught something nasty. (Effect is up to the Storyteller, but could range from die penalties to slow Health degradation.) Mortal medicine doesn’t cure you; only drinking a functioning immune system by slaking your Hunger to 0 does so. And of course, you run the risk of infecting anyone you feed on, using the same die roll as above.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "135"
+   },
+   "thin": true
+  },
+  {
+   "n": "Sloppy Drinker",
+   "ed": "v5",
+   "kind": "flaw",
+   "dots": [
+    0
+   ],
+   "cat": "Thin-Blood",
+   "html": "<p>Sloppy Drinker Your bite is careless, or your fangs are ill suited to puncture skin cleanly. When feeding, make a Dexterity + Medicine test against a Difficulty equal to Hunger slaked to cover your feed marks before too much blood is spilled. On a failure, the wound is too ragged to close: the mortal may bleed out with Masquerade-threatening neck wounds.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "135"
+   },
+   "thin": true
+  },
+  {
+   "n": "Sun-Faded",
+   "ed": "v5",
+   "kind": "flaw",
+   "dots": [
+    0
+   ],
+   "cat": "Thin-Blood",
+   "html": "<p>Sun-Faded You cannot use Discipline powers – including Thin- Blood Alchemy – in sunlight, and active powers cease when you enter sunlight. You can use them indoors by day, with a two-dice penalty, as long as you avoid any hint of sunlight.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "135"
+   },
+   "thin": true
+  },
+  {
+   "n": "Supernatural Tell",
+   "ed": "v5",
+   "kind": "flaw",
+   "dots": [
+    0
+   ],
+   "cat": "Thin-Blood",
+   "html": "<p>Supernatural Tell Whether it’s your smell, your aura, or something even subtler, other supernatural entities can sense your presence. They may be curious, hungry, or irritated, but they definitely clock you. Lose two dice from Stealth pools and similar against supernatural opponents including other vampires.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "135"
+   },
+   "thin": true
+  },
+  {
+   "n": "Twilight Presence",
+   "ed": "v5",
+   "kind": "flaw",
+   "dots": [
+    0
+   ],
+   "cat": "Thin-Blood",
+   "html": "<p>Twilight Presence You make others uncomfortable around you. Most mortals don’t want to be around you at all, and other Kindred dislike you even more than they do regular thin-bloods. Only thin-bloods can adjust to your weird demeanor. Lose a die from Social pools involving anyone except thin-bloods.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "135"
+   },
+   "thin": true
+  },
+  {
+   "n": "Unending Hunger",
+   "ed": "v5",
+   "kind": "flaw",
+   "dots": [
+    0
+   ],
+   "cat": "Thin-Blood",
+   "html": "<p>Unending Hunger Your Beast always hungers for more, never finding sustenance with smaller sips. When feeding in a scene you sate one less Hunger than other thinbloods. This applies only once per scene.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "135"
+   },
+   "thin": true
+  },
+  {
+   "n": "Abhorrent Blood",
+   "ed": "v5",
+   "kind": "merit",
+   "dots": [
+    0
+   ],
+   "cat": "Thin-Blood",
+   "html": "<p>Abhorrent Blood Something in your Blood makes other vampires unable to stomach it. Whether it is the perverse mix of life and undeath or your history of questionable Thin-Blood Alchemy, other vampires gag and vomit when they try to drink from you. Other vampires abort any bite attempts after the initial damage and anyone who tries to keep drinking from you must spend two points of Willpower each turn that they do so. Mortals and Thin-Blood Alchemy are not affected by this anomaly.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "135"
+   },
+   "thin": true
+  },
+  {
+   "n": "Faith-Proof",
+   "ed": "v5",
+   "kind": "merit",
+   "dots": [
+    0
+   ],
+   "cat": "Thin-Blood",
+   "html": "<p>Faith-Proof Whether you consider yourself an atheist or devoutly religious, you remain too close to mortality for True Faith to affect you.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "136"
+   },
+   "thin": true
+  },
+  {
+   "n": "Low Appetite",
+   "ed": "v5",
+   "kind": "merit",
+   "dots": [
+    0
+   ],
+   "cat": "Thin-Blood",
+   "html": "<p>Low Appetite When at Hunger 0 or 1, and when rising at sunset, roll two dice on your Rouse Check and take the highest of the two.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "136"
+   },
+   "thin": true
+  },
+  {
+   "n": "Lucid Dreamer",
+   "ed": "v5",
+   "kind": "merit",
+   "dots": [
+    0
+   ],
+   "cat": "Thin-Blood",
+   "html": "<p>Lucid Dreamer Most vampires don’t dream because they don’t sleep. You dream; you can recall and even sometimes control your dreams. Once per session, if you’re asleep by day you can ask the Storyteller to provide a clue from the previous night’s memories or a hint about the story suitable for dream revelation.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "136"
+   },
+   "thin": true
+  },
+  {
+   "n": "Mortality’s Mien",
+   "ed": "v5",
+   "kind": "merit",
+   "dots": [
+    0
+   ],
+   "cat": "Thin-Blood",
+   "html": "<p>Mortality’s Mien Your mortal nature still outshines your Beast. Your aura does not appear vampiric or supernatural; instead it looks mortal to anyone able to detect supernatural creatures. You can also add two dice to any attempt to make yourself appear mortal in other regards, such as makeup.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "136"
+   },
+   "thin": true
+  },
+  {
+   "n": "Swift Feeder",
+   "ed": "v5",
+   "kind": "merit",
+   "dots": [
+    0
+   ],
+   "cat": "Thin-Blood",
+   "html": "<p>Swift Feeder Maybe you were a phlebotomist in life, or just didn’t like mess. You sip delicately and quickly, neatly slaking one Hunger in one turn, including licking the wound closed. This Merit can only be used once per scene.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "136"
+   },
+   "thin": true
+  },
+  {
+   "n": "Blood Empathy",
+   "ed": "v5",
+   "kind": "merit",
+   "dots": [
+    2
+   ],
+   "cat": "Ghoul",
+   "html": "<p>Blood Empathy •• You share a closer bond to your domitor than most ghouls, able to sense their emotional and psychological state, even when not physically in their presence. An astute ghoul can “feel” if their current domitor is in peril or requires their presence immediately, but it does not allow for direct telepathic communication. You feel Blood Empathy at a distance of one mile or less from your domitor, and the domitor to whom you feel Blood Empathy is the one whose blood you have most recently consumed. Note that this does not require a Blood Bond, though the effect feels stronger if one is present.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "141"
+   },
+   "ghoul": true
+  },
+  {
+   "n": "Unseemly Aura",
+   "ed": "v5",
+   "kind": "merit",
+   "dots": [
+    2
+   ],
+   "cat": "Ghoul",
+   "html": "<p>Unseemly Aura •• The Blood did something strange to you. Whereas your aura was once vibrant and full of the flush of mortal-adjacent life, it has become muted and indistinguishable from that of a Kindred. While it may lead others to overestimate you, it could also lead to some awkward situations later down the line.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "141"
+   },
+   "ghoul": true
+  },
+  {
+   "n": "Baneful Blood",
+   "ed": "v5",
+   "kind": "flaw",
+   "dots": [
+    1,
+    2
+   ],
+   "cat": "Ghoul",
+   "html": "<p>Baneful Blood (• to ••) Due to some mysterious property of the Blood, you experience the bane of your first domitor’s clan to a degree. Your first domitor, the Kindred whose blood you tasted in order to become a ghoul, must be of Clan Lasombra, Malkavian, Ministry, Nosferatu, Ravnos, Salubri, or Toreador. Even if your domitor changes, the bane you experience does not.</p>\n<p>You experience the domitor’s bane at one level for each dot in this Flaw.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "141"
+   },
+   "ghoul": true
+  },
+  {
+   "n": "Crone’s Curse",
+   "ed": "v5",
+   "kind": "flaw",
+   "dots": [
+    2
+   ],
+   "cat": "Ghoul",
+   "html": "<p>Crone’s Curse (••) When you partook of your domitor’s vitae, you aged rapidly. You appear at least a decade older than you are. In addition, your health has suffered, and you have one fewer box on your Health tracker than you otherwise would. The Embrace negates this Flaw, unless the Storyteller rules otherwise (because the problem was you all along, not your domitor’s Blood).</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "142"
+   },
+   "ghoul": true
+  },
+  {
+   "n": "Distressing Fangs",
+   "ed": "v5",
+   "kind": "flaw",
+   "dots": [
+    1
+   ],
+   "cat": "Ghoul",
+   "html": "<p>Distressing Fangs (•) The Blood, in addition to giving you increased healing, physical prowess, and use of some minor Disciplines, also gave you sharpened teeth. But they’re strange, stunted, and unsettling to those who can discern them, causing mortals to think you’re part of some questionable subculture (ahem).</p>\n<p>You lose one die on Social pools involving mortals because your fangs make them uneasy.</p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "142"
+   },
+   "ghoul": true
+  },
+  {
+   "n": "Death-Proof",
+   "ed": "v5",
+   "kind": "merit",
+   "dots": [
+    1
+   ],
+   "cat": "Caitiff",
+   "clan": [
+    "Caitiff",
+    "Panders"
+   ],
+   "html": "<p>You cannot learn Oblivion, but you are immune to it. <em>(The Players Guide lists this Merit in its Advantages Master List; its full text is missing from the book.)</em></p>",
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "126"
+   }
+  },
+  {
+   "n": "Major Boon",
+   "ed": "v5",
+   "kind": "background",
+   "dots": [
+    2,
+    3,
+    4
+   ],
+   "cat": "Mawla",
+   "html": "<p>In most cases Status, Influence, Mawla, and other Backgrounds sufficiently represent a character’s social resources, but there may be times when the story calls for more granular use of debts and boons (<strong>Vampire: The Masquerade,</strong> pp. 314–315) owed to specific individuals: “My Sire saved your Haven during the Revolt, remember,” is more exciting and intriguing than a dot in Status. It’s also less generally useful, but provides more specific leverage on a specific vampire.</p>\n<p>Individual characters can acquire one-off Boons from other Kindred during character generation. Minor Boons cost half the points (rounded up) of the equivalent Mawla (<strong>Vampire: The Masquerade, </strong> p. 193). Major Boons cost one dot more than Minor BOON AND DEBT COSTS Minor Boon Major Boon Creditor / Debtor</p>\n<p class=\"dots\"><span class=\"d\">•</span> </p>\n<p class=\"dots\"><span class=\"d\">••</span> Neonate</p>\n<p class=\"dots\"><span class=\"d\">•</span> </p>\n<p class=\"dots\"><span class=\"d\">••</span> Ancilla</p>\n<p class=\"dots\"><span class=\"d\">••</span> </p>\n<p class=\"dots\"><span class=\"d\">•••</span> Elder</p>\n<p class=\"dots\"><span class=\"d\">••</span> </p>\n<p class=\"dots\"><span class=\"d\">•••</span> Primogen or Anarch Council member</p>\n<p class=\"dots\"><span class=\"d\">•••</span> </p>\n<p class=\"dots\"><span class=\"d\">••••</span> Prince or Baron</p>\n<p>Boons. Characters may not purchase Life Boons at character creation without explicit Storyteller agreement. If the Storyteller agrees, a Life Boon costs three dots more than the equivalent Minor Boon.</p>\n<p>Debts provide many fewer points when taken as Flaws than they cost as Merits. Debt sucks, what can we say? However, being in Major Debt (owing a Major Boon) to a higher-Status vampire is even worse than that. Once per story the character’s creditor or their minions can ask them for a favor they cannot refuse without risking being shunned, blood hunted, or worse. This favor can take on any form and often means exposing the character to mortal danger or reputational collapse.</p>\n<p>If a character finds themselves in Life Debt to a high-Status vampire, they might as well just get the Blood Bond and enthrall themselves. Even non- Caitiff vampires may experience such indebtedness as Debt Peonage (p. 127).</p>\n<p>In all other ways, Minor, Major, and Life Boons function according to the descriptions in <strong>Vampire: The </strong></p>\n<p><strong>Masquerade</strong> (pp. 314–315). Track all debts and boons individually. Note that trivial boons, as simple, easily discharged promises, are not tracked using this system.</p>\n<p>Boons and Debts cannot be purchased or bought off with experience points. After character creation, they can only be gained (or lost) through the character’s actions in play.</p>",
+   "sum": "A major favor owed to you by another Kindred; costs one dot more than the Minor Boon from the same creditor. Character creation only.",
+   "multi": true,
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "115"
+   }
+  },
+  {
+   "n": "Minor Debt",
+   "ed": "v5",
+   "kind": "flaw",
+   "dots": [
+    1,
+    2
+   ],
+   "cat": "Mawla",
+   "html": "<p>In most cases Status, Influence, Mawla, and other Backgrounds sufficiently represent a character’s social resources, but there may be times when the story calls for more granular use of debts and boons (<strong>Vampire: The Masquerade,</strong> pp. 314–315) owed to specific individuals: “My Sire saved your Haven during the Revolt, remember,” is more exciting and intriguing than a dot in Status. It’s also less generally useful, but provides more specific leverage on a specific vampire.</p>\n<p>Individual characters can acquire one-off Boons from other Kindred during character generation. Minor Boons cost half the points (rounded up) of the equivalent Mawla (<strong>Vampire: The Masquerade, </strong> p. 193). Major Boons cost one dot more than Minor BOON AND DEBT COSTS Minor Boon Major Boon Creditor / Debtor</p>\n<p class=\"dots\"><span class=\"d\">•</span> </p>\n<p class=\"dots\"><span class=\"d\">••</span> Neonate</p>\n<p class=\"dots\"><span class=\"d\">•</span> </p>\n<p class=\"dots\"><span class=\"d\">••</span> Ancilla</p>\n<p class=\"dots\"><span class=\"d\">••</span> </p>\n<p class=\"dots\"><span class=\"d\">•••</span> Elder</p>\n<p class=\"dots\"><span class=\"d\">••</span> </p>\n<p class=\"dots\"><span class=\"d\">•••</span> Primogen or Anarch Council member</p>\n<p class=\"dots\"><span class=\"d\">•••</span> </p>\n<p class=\"dots\"><span class=\"d\">••••</span> Prince or Baron</p>\n<p>Boons. Characters may not purchase Life Boons at character creation without explicit Storyteller agreement. If the Storyteller agrees, a Life Boon costs three dots more than the equivalent Minor Boon.</p>\n<p>Debts provide many fewer points when taken as Flaws than they cost as Merits. Debt sucks, what can we say? However, being in Major Debt (owing a Major Boon) to a higher-Status vampire is even worse than that. Once per story the character’s creditor or their minions can ask them for a favor they cannot refuse without risking being shunned, blood hunted, or worse. This favor can take on any form and often means exposing the character to mortal danger or reputational collapse.</p>\n<p>If a character finds themselves in Life Debt to a high-Status vampire, they might as well just get the Blood Bond and enthrall themselves. Even non- Caitiff vampires may experience such indebtedness as Debt Peonage (p. 127).</p>\n<p>In all other ways, Minor, Major, and Life Boons function according to the descriptions in <strong>Vampire: The </strong></p>\n<p><strong>Masquerade</strong> (pp. 314–315). Track all debts and boons individually. Note that trivial boons, as simple, easily discharged promises, are not tracked using this system.</p>\n<p>Boons and Debts cannot be purchased or bought off with experience points. After character creation, they can only be gained (or lost) through the character’s actions in play.</p>",
+   "sum": "You owe another Kindred a minor boon (• for neonate–elder creditors, •• for Prince/Baron).",
+   "multi": true,
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "115"
+   }
+  },
+  {
+   "n": "Major Debt",
+   "ed": "v5",
+   "kind": "flaw",
+   "dots": [
+    1,
+    2,
+    3
+   ],
+   "cat": "Mawla",
+   "html": "<p>In most cases Status, Influence, Mawla, and other Backgrounds sufficiently represent a character’s social resources, but there may be times when the story calls for more granular use of debts and boons (<strong>Vampire: The Masquerade,</strong> pp. 314–315) owed to specific individuals: “My Sire saved your Haven during the Revolt, remember,” is more exciting and intriguing than a dot in Status. It’s also less generally useful, but provides more specific leverage on a specific vampire.</p>\n<p>Individual characters can acquire one-off Boons from other Kindred during character generation. Minor Boons cost half the points (rounded up) of the equivalent Mawla (<strong>Vampire: The Masquerade, </strong> p. 193). Major Boons cost one dot more than Minor BOON AND DEBT COSTS Minor Boon Major Boon Creditor / Debtor</p>\n<p class=\"dots\"><span class=\"d\">•</span> </p>\n<p class=\"dots\"><span class=\"d\">••</span> Neonate</p>\n<p class=\"dots\"><span class=\"d\">•</span> </p>\n<p class=\"dots\"><span class=\"d\">••</span> Ancilla</p>\n<p class=\"dots\"><span class=\"d\">••</span> </p>\n<p class=\"dots\"><span class=\"d\">•••</span> Elder</p>\n<p class=\"dots\"><span class=\"d\">••</span> </p>\n<p class=\"dots\"><span class=\"d\">•••</span> Primogen or Anarch Council member</p>\n<p class=\"dots\"><span class=\"d\">•••</span> </p>\n<p class=\"dots\"><span class=\"d\">••••</span> Prince or Baron</p>\n<p>Boons. Characters may not purchase Life Boons at character creation without explicit Storyteller agreement. If the Storyteller agrees, a Life Boon costs three dots more than the equivalent Minor Boon.</p>\n<p>Debts provide many fewer points when taken as Flaws than they cost as Merits. Debt sucks, what can we say? However, being in Major Debt (owing a Major Boon) to a higher-Status vampire is even worse than that. Once per story the character’s creditor or their minions can ask them for a favor they cannot refuse without risking being shunned, blood hunted, or worse. This favor can take on any form and often means exposing the character to mortal danger or reputational collapse.</p>\n<p>If a character finds themselves in Life Debt to a high-Status vampire, they might as well just get the Blood Bond and enthrall themselves. Even non- Caitiff vampires may experience such indebtedness as Debt Peonage (p. 127).</p>\n<p>In all other ways, Minor, Major, and Life Boons function according to the descriptions in <strong>Vampire: The </strong></p>\n<p><strong>Masquerade</strong> (pp. 314–315). Track all debts and boons individually. Note that trivial boons, as simple, easily discharged promises, are not tracked using this system.</p>\n<p>Boons and Debts cannot be purchased or bought off with experience points. After character creation, they can only be gained (or lost) through the character’s actions in play.</p>",
+   "sum": "You owe a major boon; once per story your creditor can demand a favor you cannot refuse.",
+   "multi": true,
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "115"
+   }
+  },
+  {
+   "n": "Life Debt",
+   "ed": "v5",
+   "kind": "flaw",
+   "dots": [
+    2,
+    3
+   ],
+   "cat": "Mawla",
+   "html": "<p>In most cases Status, Influence, Mawla, and other Backgrounds sufficiently represent a character’s social resources, but there may be times when the story calls for more granular use of debts and boons (<strong>Vampire: The Masquerade,</strong> pp. 314–315) owed to specific individuals: “My Sire saved your Haven during the Revolt, remember,” is more exciting and intriguing than a dot in Status. It’s also less generally useful, but provides more specific leverage on a specific vampire.</p>\n<p>Individual characters can acquire one-off Boons from other Kindred during character generation. Minor Boons cost half the points (rounded up) of the equivalent Mawla (<strong>Vampire: The Masquerade, </strong> p. 193). Major Boons cost one dot more than Minor BOON AND DEBT COSTS Minor Boon Major Boon Creditor / Debtor</p>\n<p class=\"dots\"><span class=\"d\">•</span> </p>\n<p class=\"dots\"><span class=\"d\">••</span> Neonate</p>\n<p class=\"dots\"><span class=\"d\">•</span> </p>\n<p class=\"dots\"><span class=\"d\">••</span> Ancilla</p>\n<p class=\"dots\"><span class=\"d\">••</span> </p>\n<p class=\"dots\"><span class=\"d\">•••</span> Elder</p>\n<p class=\"dots\"><span class=\"d\">••</span> </p>\n<p class=\"dots\"><span class=\"d\">•••</span> Primogen or Anarch Council member</p>\n<p class=\"dots\"><span class=\"d\">•••</span> </p>\n<p class=\"dots\"><span class=\"d\">••••</span> Prince or Baron</p>\n<p>Boons. Characters may not purchase Life Boons at character creation without explicit Storyteller agreement. If the Storyteller agrees, a Life Boon costs three dots more than the equivalent Minor Boon.</p>\n<p>Debts provide many fewer points when taken as Flaws than they cost as Merits. Debt sucks, what can we say? However, being in Major Debt (owing a Major Boon) to a higher-Status vampire is even worse than that. Once per story the character’s creditor or their minions can ask them for a favor they cannot refuse without risking being shunned, blood hunted, or worse. This favor can take on any form and often means exposing the character to mortal danger or reputational collapse.</p>\n<p>If a character finds themselves in Life Debt to a high-Status vampire, they might as well just get the Blood Bond and enthrall themselves. Even non- Caitiff vampires may experience such indebtedness as Debt Peonage (p. 127).</p>\n<p>In all other ways, Minor, Major, and Life Boons function according to the descriptions in <strong>Vampire: The </strong></p>\n<p><strong>Masquerade</strong> (pp. 314–315). Track all debts and boons individually. Note that trivial boons, as simple, easily discharged promises, are not tracked using this system.</p>\n<p>Boons and Debts cannot be purchased or bought off with experience points. After character creation, they can only be gained (or lost) through the character’s actions in play.</p>",
+   "sum": "You owe someone your unlife; a high-Status creditor may as well Blood Bond you.",
+   "multi": true,
+   "src": {
+    "book": "Vampire: The Masquerade Players Guide",
+    "page": "115"
+   }
+  }
+ ],
+ "notes": {
+  "Allies": "<p>Allies can be as complex as a think tank a vampire may fund under the table, and as simple as childhood friends or family members. Allies show up to aid you, within their power of course. How many dots you put into your Allies will decide how reliable they can be in a pinch. When building any number of dots in this Background, take time to think about other pieces of your character that would justify having access to an Ally. For a Kindred whose Predator type is Siren, his Ally may be his agent, who can help him make introductions to the newest Toreador in the Primogen at an art exhibit. Or a Ventrue whose Archetype is Godfather likely has both Allies and Enemies, coming from their crime family in life and a rival family moving in. Allies are never vampires, regardless of competency.</p>",
+  "Enemies": "<p>On the other side of Allies are the background Flaw Enemies. If your Allies run a small private detective agency, their Enemies could be yours: a gang of smash-and-grab thieves who prey on their clients (and your Domain), or a police department using the bureaucracy to endlessly demand useless paperwork or seize evidence intended for you. You may also just not have Allies at all, only Enemies who try and throw as many impediments into your path as possible.</p>\n<p>However, you can try using this Flaw to your advantage: manipulate the Enemies by using one of your Masks to deniably send them after your own foes, or frame them for such an attack on a rival. Of course, Enemies already have plenty of motivation to trace such mischievousness back to you or your coterie – and you run the risk of letting them meet your Kindred foes. Discuss such tactics with the Storyteller, and with any other players in the group, as this Flaw can affect them as well. Just like Allies, Enemies are always mortals, or in some cases, ghouls.</p>",
+  "Contacts": "<p>Where Allies help you make things happen, Contacts help you learn about things happening to others. How you have access to a particular Contact does not have to synergize with your background or Concept (a resourceful Kindred has eyes and ears everywhere after all) but a concrete reason for this specific Contact makes the story better and more plausible. Street-level coteries can leverage one and two-dot Contacts who provide street-level items and information as part of your shared milieu.</p>\n<p>Go ahead and put a name and basic personality to a Contact, on the Relationship Map or in your notes. A character who worked as a radio personality may know the tech crew from their studio, or a mortician may still have a connection to their funeral home. How your death changed your relationship with them – or if it didn’t change it at all – provides juicy roleplaying potential in even a quick “drug buy” scene. As the vampire ages and meets new mortals to add to their arsenal, playing the game and being opportunistic about mortals you meet can create new Contacts and open up new possible story and resource opportunities.</p>",
+  "Fame": "<p>Taking Fame as a background generally means that the Storyteller characters in a chronicle want to have access to you. There are two ways that a vampire may have Fame in a modern setting, and each carries their own dangers. Mortal fame, and having to be in the public eye, puts these Kindred at risk of being sniffed out by the Inquisition, or of being blackmailed by unscrupulous fellow Kindred. Choosing to have Fame among Kindred reduces that chance, but means that members of other sects or factions may see you as a potential ally, or threat, or source of information or access to even more famous Cainites. The Storyteller may wish to craft a Loresheet around a character’s Fame, or offer the player the option of taking their Fame from an existing Loresheet group or legend.</p>\n<p>Having Fame can make it difficult to get around places discreetly, what with humans tailing you wishing to post selfies with you, but it can protect you in some ways. Kindred risk breaching the Masquerade by overtly harming or attacking a Famous character, with human entourages and paparazzi always on the lookout in the area. You can also escape enemies by ducking into exclusive clubs or hotels with year-long waiting lists.</p>",
+  "Infamy": "<p>The other side of the shiny Fame coin, Infamy comes with its own host of pros and cons. An infamous Kindred may have a hard time getting in good with the Prince, or humans may harass these individuals on their nightly goings-on. Other unsavory individuals however may see a vampire with Infamy as an asset, and more likely to help a fellow scoundrel out. While this certainly doesn’t help with your public image, other sketchy organizations or persons think you’re one of them, and you can sometimes use that sympathy to get things done. Just be careful to not make them angry as well.</p>",
+  "Haven": "<p>One of the most useful, and in some chronicles necessary, Backgrounds in the game. Having a reliable place to take shelter from the sunrise is vital to a Kindred’s extended survival, and it doesn’t hurt to make it nice either. Normally coteries build a communal Haven, but this is not mandatory, especially if it conflicts with other Backgrounds you have taken for yourself or the story you want to play.</p>\n<p>Think creatively about your Haven, especially if you add Merits: a Laboratory has caustic chemicals and an anodized metal sink suitable for disintegrating a corpse or removing serial numbers from a gun. Your Storyteller may meet you halfway for custom havens like mortuaries: re-skin Machine Shop (p. 112) to build reanimated constructs in the back and to have a handy incinerator.</p>\n<p>Remember, if you take no Haven dots and only a Haven Flaw (or Flaws), you still have access to a Haven. It’s probably not safe, and it’s definitely not comfortable, but it keeps the sun out. The only way to not have anywhere to sleep is to choose the No Haven Flaw.</p>",
+  "Herd": "<p>Some Predator types rely on this Background more heavily than others, such as Consensualist, while the Predator type Blood Leech won’t be able to make effective use of this Background at all. The chronicle may also help decide how Herds are used, if allowed at all, as contested territories, domains in war zones, or nomadic and fugitive coteries make it harder to access this Background. Herds may also blend into other Backgrounds, allowing you to get more story mileage out of mortals. Retainers and Allies may have tie-ins to a player’s Herd, and the Storyteller may allow players to use similar combinations with other Backgrounds as well.</p>",
+  "Influence": "<p>Based in political power,<strong> </strong> Influence adds intrigue and political warfare to a chronicle. Using Influence is more than just manipulating city politics or media in the abstract. Vampires of certain clans may have easier times adding and using Influence in various sectors than others. Brujah have an affinity for connecting with political activists or local militias. Malkavians more likely have Influence in weird collectives or mystical circles.</p>\n<p>When creating Influences and deciding how they connect to a character, think about Predator styles as well: Who should you manipulate to help you hunt? Influence also provides backup protection for your coterie’s Domain. Within a coterie, having a wide spread of Influence (like a wide net of Contacts) gives your group flexibility in planning and reaction to enemy action. For example, having influence in a local political office would not be as effective at blocking off street traffic as a police district may, but the alderman’s office can put your Haven guards on the list of city-approved “youth action groups.”</p>",
+  "Despised": "<p>These two Flaws allow for interesting gameplay if you wish to crank up your vampires’ self-reliance in their own Domain. Despised turns one group or region of the city actively against you, and even neutrals stay cold, while Disliked leaves everyone against you equally — either of which you can play up when rallying your own neighborhood. Of course, when you send your Allies and Retainers into other hoods, they may run into extra problems even if those Flaws don’t affect them (or your Contacts) directly.</p>\n<p>You might also run into those consequences on a night out: a Toreador disliked<strong> </strong> for uploading a video slamming the local soccer team gets into endless sports arguments when they just want to feed in peace. You can even combine Despised or Disliked with regular Influence: the alderman only meets with you in a parking garage and insists on being paid in cash, but she still zones your nightclub for all-night operations and a loading dock.</p>",
+  "Disliked": "<p>These two Flaws allow for interesting gameplay if you wish to crank up your vampires’ self-reliance in their own Domain. Despised turns one group or region of the city actively against you, and even neutrals stay cold, while Disliked leaves everyone against you equally — either of which you can play up when rallying your own neighborhood. Of course, when you send your Allies and Retainers into other hoods, they may run into extra problems even if those Flaws don’t affect them (or your Contacts) directly.</p>\n<p>You might also run into those consequences on a night out: a Toreador disliked<strong> </strong> for uploading a video slamming the local soccer team gets into endless sports arguments when they just want to feed in peace. You can even combine Despised or Disliked with regular Influence: the alderman only meets with you in a parking garage and insists on being paid in cash, but she still zones your nightclub for all-night operations and a loading dock.</p>",
+  "Mask": "<p>Political intrigue and political horror imply shifting or alternate identities, a key part of this Background. At its base, this Background lets you hold a job, drive a car, pay your phone bill, use a bank card, and otherwise remain somewhat tethered to mortal society. A chronicle that emphasizes shifted or alternate identities might also let a character with multiple Masks mitigate problems from Fame or hide out from Adversaries — for a while.</p>",
+  "Zeroed": "<p>Zeroed synergizes well with a character acting as a spy or agent for their sect, a ghost in the machine for their own ends or those of their patrons. Cobbler gives a player the ability to make masks for others, for a fee and small risk. This Background makes an excellent side hustle and story hook: characters can sell their craft for cash or boons, while also creating potential dangers from their clients’ hunters and enemies.</p>",
+  "Cobbler": "<p>Zeroed synergizes well with a character acting as a spy or agent for their sect, a ghost in the machine for their own ends or those of their patrons. Cobbler gives a player the ability to make masks for others, for a fee and small risk. This Background makes an excellent side hustle and story hook: characters can sell their craft for cash or boons, while also creating potential dangers from their clients’ hunters and enemies.</p>",
+  "Known Blankbody": "<h4>Corpse</h4>\n<p>Like other Background Flaws, these don’t require the character to have any dots in the Mask Background. They act as storytelling vehicles, drawing the unwanted attention of enemies, or even loved ones. A character careful to avoid surveillance cameras or the attention of the security services can stay under the Coalition’s radar even with Known Blankbody, but Known Corpse is harder to shake without active disguise powers.</p>\n<p>Your famous death leaves you vulnerable any time mortals notice you: perhaps Netflix made a documentary about your cold case murder, or activists plastered your face all over the city during your candlelight vigil. Did you run for local office? Did your grin adorn billboards advertising your ambulance-chasing law firm?</p>",
+  "Known Corpse": "<h4>Corpse</h4>\n<p>Like other Background Flaws, these don’t require the character to have any dots in the Mask Background. They act as storytelling vehicles, drawing the unwanted attention of enemies, or even loved ones. A character careful to avoid surveillance cameras or the attention of the security services can stay under the Coalition’s radar even with Known Blankbody, but Known Corpse is harder to shake without active disguise powers.</p>\n<p>Your famous death leaves you vulnerable any time mortals notice you: perhaps Netflix made a documentary about your cold case murder, or activists plastered your face all over the city during your candlelight vigil. Did you run for local office? Did your grin adorn billboards advertising your ambulance-chasing law firm?</p>",
+  "Mawla": "<p>In many cases, older or more experienced Kindred serve as your Mawla. A sire who seeks the advancement of their childer makes a standard Mawla, or some member of the faction or sect that “recruited” you is assigned as your zampolit or confessor to make sure you don’t squander the potential your makers saw in you. However, you might have a young Mawla: a loyal friend from your mortal days, also Embraced and remarkably still trustworthy.</p>\n<p>More dots might indicate a Mawla in a more valuable position: a neonate worth one dot normally could be worth two or even three dots as your informant in the personal entourage of the local Baron or Prince. It’s up to the Storyteller to determine whether having a spy in the enemy camp is worth more or less than a spy in your own lord’s court in this chronicle.</p>",
+  "Adversary": "<p>Since an Adversary may drive the plot at any time, the Storyteller and player should discuss the specifics early and in some detail: the Adversary’s sect or faction inevitably winds up playing a major role in the chronicle’s narrative so it’s best to take an Adversary who already fits into it. More powerful Adversaries target you as leverage against their real enemy: your sire or Mawla or other nominal superior.</p>\n<p>That said, a personal Adversary can be interesting: perhaps you and your Adversary were Embraced at the same time and have competed for advancement within your sect ever since. Or reverse the perspective: you’re actually your Adversary’s great enemy. Perhaps they betrayed you, framed you before the Prince, and got you ejected from the court or exiled. Now you’re back, and your greatest goal is to bring your Adversary down.</p>",
+  "Minor Boon": "<p>In most cases Status, Influence, Mawla, and other Backgrounds sufficiently represent a character’s social resources, but there may be times when the story calls for more granular use of debts and boons (<strong>Vampire: The Masquerade,</strong> pp. 314–315) owed to specific individuals: “My Sire saved your Haven during the Revolt, remember,” is more exciting and intriguing than a dot in Status. It’s also less generally useful, but provides more specific leverage on a specific vampire.</p>\n<p>Individual characters can acquire one-off Boons from other Kindred during character generation. Minor Boons cost half the points (rounded up) of the equivalent Mawla (<strong>Vampire: The Masquerade, </strong> p. 193). Major Boons cost one dot more than Minor BOON AND DEBT COSTS Minor Boon Major Boon Creditor / Debtor</p>\n<p class=\"dots\"><span class=\"d\">•</span> </p>\n<p class=\"dots\"><span class=\"d\">••</span> Neonate</p>\n<p class=\"dots\"><span class=\"d\">•</span> </p>\n<p class=\"dots\"><span class=\"d\">••</span> Ancilla</p>\n<p class=\"dots\"><span class=\"d\">••</span> </p>\n<p class=\"dots\"><span class=\"d\">•••</span> Elder</p>\n<p class=\"dots\"><span class=\"d\">••</span> </p>\n<p class=\"dots\"><span class=\"d\">•••</span> Primogen or Anarch Council member</p>\n<p class=\"dots\"><span class=\"d\">•••</span> </p>\n<p class=\"dots\"><span class=\"d\">••••</span> Prince or Baron</p>\n<p>Boons. Characters may not purchase Life Boons at character creation without explicit Storyteller agreement. If the Storyteller agrees, a Life Boon costs three dots more than the equivalent Minor Boon.</p>\n<p>Debts provide many fewer points when taken as Flaws than they cost as Merits. Debt sucks, what can we say? However, being in Major Debt (owing a Major Boon) to a higher-Status vampire is even worse than that. Once per story the character’s creditor or their minions can ask them for a favor they cannot refuse without risking being shunned, blood hunted, or worse. This favor can take on any form and often means exposing the character to mortal danger or reputational collapse.</p>\n<p>If a character finds themselves in Life Debt to a high-Status vampire, they might as well just get the Blood Bond and enthrall themselves. Even non- Caitiff vampires may experience such indebtedness as Debt Peonage (p. 127).</p>\n<p>In all other ways, Minor, Major, and Life Boons function according to the descriptions in <strong>Vampire: The </strong></p>\n<p><strong>Masquerade</strong> (pp. 314–315). Track all debts and boons individually. Note that trivial boons, as simple, easily discharged promises, are not tracked using this system.</p>\n<p>Boons and Debts cannot be purchased or bought off with experience points. After character creation, they can only be gained (or lost) through the character’s actions in play.</p>",
+  "Major Boon": "<p>In most cases Status, Influence, Mawla, and other Backgrounds sufficiently represent a character’s social resources, but there may be times when the story calls for more granular use of debts and boons (<strong>Vampire: The Masquerade,</strong> pp. 314–315) owed to specific individuals: “My Sire saved your Haven during the Revolt, remember,” is more exciting and intriguing than a dot in Status. It’s also less generally useful, but provides more specific leverage on a specific vampire.</p>\n<p>Individual characters can acquire one-off Boons from other Kindred during character generation. Minor Boons cost half the points (rounded up) of the equivalent Mawla (<strong>Vampire: The Masquerade, </strong> p. 193). Major Boons cost one dot more than Minor BOON AND DEBT COSTS Minor Boon Major Boon Creditor / Debtor</p>\n<p class=\"dots\"><span class=\"d\">•</span> </p>\n<p class=\"dots\"><span class=\"d\">••</span> Neonate</p>\n<p class=\"dots\"><span class=\"d\">•</span> </p>\n<p class=\"dots\"><span class=\"d\">••</span> Ancilla</p>\n<p class=\"dots\"><span class=\"d\">••</span> </p>\n<p class=\"dots\"><span class=\"d\">•••</span> Elder</p>\n<p class=\"dots\"><span class=\"d\">••</span> </p>\n<p class=\"dots\"><span class=\"d\">•••</span> Primogen or Anarch Council member</p>\n<p class=\"dots\"><span class=\"d\">•••</span> </p>\n<p class=\"dots\"><span class=\"d\">••••</span> Prince or Baron</p>\n<p>Boons. Characters may not purchase Life Boons at character creation without explicit Storyteller agreement. If the Storyteller agrees, a Life Boon costs three dots more than the equivalent Minor Boon.</p>\n<p>Debts provide many fewer points when taken as Flaws than they cost as Merits. Debt sucks, what can we say? However, being in Major Debt (owing a Major Boon) to a higher-Status vampire is even worse than that. Once per story the character’s creditor or their minions can ask them for a favor they cannot refuse without risking being shunned, blood hunted, or worse. This favor can take on any form and often means exposing the character to mortal danger or reputational collapse.</p>\n<p>If a character finds themselves in Life Debt to a high-Status vampire, they might as well just get the Blood Bond and enthrall themselves. Even non- Caitiff vampires may experience such indebtedness as Debt Peonage (p. 127).</p>\n<p>In all other ways, Minor, Major, and Life Boons function according to the descriptions in <strong>Vampire: The </strong></p>\n<p><strong>Masquerade</strong> (pp. 314–315). Track all debts and boons individually. Note that trivial boons, as simple, easily discharged promises, are not tracked using this system.</p>\n<p>Boons and Debts cannot be purchased or bought off with experience points. After character creation, they can only be gained (or lost) through the character’s actions in play.</p>",
+  "Minor Debt": "<p>In most cases Status, Influence, Mawla, and other Backgrounds sufficiently represent a character’s social resources, but there may be times when the story calls for more granular use of debts and boons (<strong>Vampire: The Masquerade,</strong> pp. 314–315) owed to specific individuals: “My Sire saved your Haven during the Revolt, remember,” is more exciting and intriguing than a dot in Status. It’s also less generally useful, but provides more specific leverage on a specific vampire.</p>\n<p>Individual characters can acquire one-off Boons from other Kindred during character generation. Minor Boons cost half the points (rounded up) of the equivalent Mawla (<strong>Vampire: The Masquerade, </strong> p. 193). Major Boons cost one dot more than Minor BOON AND DEBT COSTS Minor Boon Major Boon Creditor / Debtor</p>\n<p class=\"dots\"><span class=\"d\">•</span> </p>\n<p class=\"dots\"><span class=\"d\">••</span> Neonate</p>\n<p class=\"dots\"><span class=\"d\">•</span> </p>\n<p class=\"dots\"><span class=\"d\">••</span> Ancilla</p>\n<p class=\"dots\"><span class=\"d\">••</span> </p>\n<p class=\"dots\"><span class=\"d\">•••</span> Elder</p>\n<p class=\"dots\"><span class=\"d\">••</span> </p>\n<p class=\"dots\"><span class=\"d\">•••</span> Primogen or Anarch Council member</p>\n<p class=\"dots\"><span class=\"d\">•••</span> </p>\n<p class=\"dots\"><span class=\"d\">••••</span> Prince or Baron</p>\n<p>Boons. Characters may not purchase Life Boons at character creation without explicit Storyteller agreement. If the Storyteller agrees, a Life Boon costs three dots more than the equivalent Minor Boon.</p>\n<p>Debts provide many fewer points when taken as Flaws than they cost as Merits. Debt sucks, what can we say? However, being in Major Debt (owing a Major Boon) to a higher-Status vampire is even worse than that. Once per story the character’s creditor or their minions can ask them for a favor they cannot refuse without risking being shunned, blood hunted, or worse. This favor can take on any form and often means exposing the character to mortal danger or reputational collapse.</p>\n<p>If a character finds themselves in Life Debt to a high-Status vampire, they might as well just get the Blood Bond and enthrall themselves. Even non- Caitiff vampires may experience such indebtedness as Debt Peonage (p. 127).</p>\n<p>In all other ways, Minor, Major, and Life Boons function according to the descriptions in <strong>Vampire: The </strong></p>\n<p><strong>Masquerade</strong> (pp. 314–315). Track all debts and boons individually. Note that trivial boons, as simple, easily discharged promises, are not tracked using this system.</p>\n<p>Boons and Debts cannot be purchased or bought off with experience points. After character creation, they can only be gained (or lost) through the character’s actions in play.</p>",
+  "Major Debt": "<p>In most cases Status, Influence, Mawla, and other Backgrounds sufficiently represent a character’s social resources, but there may be times when the story calls for more granular use of debts and boons (<strong>Vampire: The Masquerade,</strong> pp. 314–315) owed to specific individuals: “My Sire saved your Haven during the Revolt, remember,” is more exciting and intriguing than a dot in Status. It’s also less generally useful, but provides more specific leverage on a specific vampire.</p>\n<p>Individual characters can acquire one-off Boons from other Kindred during character generation. Minor Boons cost half the points (rounded up) of the equivalent Mawla (<strong>Vampire: The Masquerade, </strong> p. 193). Major Boons cost one dot more than Minor BOON AND DEBT COSTS Minor Boon Major Boon Creditor / Debtor</p>\n<p class=\"dots\"><span class=\"d\">•</span> </p>\n<p class=\"dots\"><span class=\"d\">••</span> Neonate</p>\n<p class=\"dots\"><span class=\"d\">•</span> </p>\n<p class=\"dots\"><span class=\"d\">••</span> Ancilla</p>\n<p class=\"dots\"><span class=\"d\">••</span> </p>\n<p class=\"dots\"><span class=\"d\">•••</span> Elder</p>\n<p class=\"dots\"><span class=\"d\">••</span> </p>\n<p class=\"dots\"><span class=\"d\">•••</span> Primogen or Anarch Council member</p>\n<p class=\"dots\"><span class=\"d\">•••</span> </p>\n<p class=\"dots\"><span class=\"d\">••••</span> Prince or Baron</p>\n<p>Boons. Characters may not purchase Life Boons at character creation without explicit Storyteller agreement. If the Storyteller agrees, a Life Boon costs three dots more than the equivalent Minor Boon.</p>\n<p>Debts provide many fewer points when taken as Flaws than they cost as Merits. Debt sucks, what can we say? However, being in Major Debt (owing a Major Boon) to a higher-Status vampire is even worse than that. Once per story the character’s creditor or their minions can ask them for a favor they cannot refuse without risking being shunned, blood hunted, or worse. This favor can take on any form and often means exposing the character to mortal danger or reputational collapse.</p>\n<p>If a character finds themselves in Life Debt to a high-Status vampire, they might as well just get the Blood Bond and enthrall themselves. Even non- Caitiff vampires may experience such indebtedness as Debt Peonage (p. 127).</p>\n<p>In all other ways, Minor, Major, and Life Boons function according to the descriptions in <strong>Vampire: The </strong></p>\n<p><strong>Masquerade</strong> (pp. 314–315). Track all debts and boons individually. Note that trivial boons, as simple, easily discharged promises, are not tracked using this system.</p>\n<p>Boons and Debts cannot be purchased or bought off with experience points. After character creation, they can only be gained (or lost) through the character’s actions in play.</p>",
+  "Life Debt": "<p>In most cases Status, Influence, Mawla, and other Backgrounds sufficiently represent a character’s social resources, but there may be times when the story calls for more granular use of debts and boons (<strong>Vampire: The Masquerade,</strong> pp. 314–315) owed to specific individuals: “My Sire saved your Haven during the Revolt, remember,” is more exciting and intriguing than a dot in Status. It’s also less generally useful, but provides more specific leverage on a specific vampire.</p>\n<p>Individual characters can acquire one-off Boons from other Kindred during character generation. Minor Boons cost half the points (rounded up) of the equivalent Mawla (<strong>Vampire: The Masquerade, </strong> p. 193). Major Boons cost one dot more than Minor BOON AND DEBT COSTS Minor Boon Major Boon Creditor / Debtor</p>\n<p class=\"dots\"><span class=\"d\">•</span> </p>\n<p class=\"dots\"><span class=\"d\">••</span> Neonate</p>\n<p class=\"dots\"><span class=\"d\">•</span> </p>\n<p class=\"dots\"><span class=\"d\">••</span> Ancilla</p>\n<p class=\"dots\"><span class=\"d\">••</span> </p>\n<p class=\"dots\"><span class=\"d\">•••</span> Elder</p>\n<p class=\"dots\"><span class=\"d\">••</span> </p>\n<p class=\"dots\"><span class=\"d\">•••</span> Primogen or Anarch Council member</p>\n<p class=\"dots\"><span class=\"d\">•••</span> </p>\n<p class=\"dots\"><span class=\"d\">••••</span> Prince or Baron</p>\n<p>Boons. Characters may not purchase Life Boons at character creation without explicit Storyteller agreement. If the Storyteller agrees, a Life Boon costs three dots more than the equivalent Minor Boon.</p>\n<p>Debts provide many fewer points when taken as Flaws than they cost as Merits. Debt sucks, what can we say? However, being in Major Debt (owing a Major Boon) to a higher-Status vampire is even worse than that. Once per story the character’s creditor or their minions can ask them for a favor they cannot refuse without risking being shunned, blood hunted, or worse. This favor can take on any form and often means exposing the character to mortal danger or reputational collapse.</p>\n<p>If a character finds themselves in Life Debt to a high-Status vampire, they might as well just get the Blood Bond and enthrall themselves. Even non- Caitiff vampires may experience such indebtedness as Debt Peonage (p. 127).</p>\n<p>In all other ways, Minor, Major, and Life Boons function according to the descriptions in <strong>Vampire: The </strong></p>\n<p><strong>Masquerade</strong> (pp. 314–315). Track all debts and boons individually. Note that trivial boons, as simple, easily discharged promises, are not tracked using this system.</p>\n<p>Boons and Debts cannot be purchased or bought off with experience points. After character creation, they can only be gained (or lost) through the character’s actions in play.</p>",
+  "Resources": "<p>In the WORLD OF DARKNESS and the world of the living, money always talks. Treat Resources<strong> </strong> as the last line of persuasion or interrogation when Minor Debt Major Debt Life Debt (•) (•)</p>\n<p>(••) (•) (•)</p>\n<p>(••) (•) (••) (••) (••) (••)</p>\n<p>(•••) (••) (•••) (•••) charisma fails, or when your other Backgrounds can’t reach the problem. Resources can always reach someone. Younger vampires like yourself have a better understanding of what mortals can do for you than older Kindred who see them only as food or pets. And you have both the knowledge and the means to motivate them. Maybe you can’t stop an elder with money, but a thick stack of benjamins can convince plenty of mortal arsonists, reporters, or cops to try their best to do so.</p>\n<p>Determine the source of your Resources, the more individual the better for the story. Do you sell Malkavian predictions (suitably redacted) to day traders, or live off the royalties of a decades-old hit song? Did you find a big bag of Mafia cash in the woods? Think of your Predator style as a possible Resources explanation: do you tithe your worshipers as an Osiris, or roll your victims for cash or drugs as an Alleycat?</p>\n<p>Storytellers should also be mindful about allowing high (4+) Resource values. Gaining entrance to an exclusive club becomes far less interesting when a character can just buy the premises with a phone call.</p>",
+  "Retainers": "<p>Retainers do things and go places that Allies and Contacts won’t, often even commit murder or other felonies. Mortals might even feel enough love for or loyalty to you to do such things without being ghouls or thralls. Since Retainers should be named individuals, it doesn’t hurt to look at their motives and their conditioning, and for the Storyteller to ask what might theoretically break the relationship.</p>\n<p>The relationship itself varies. Some Kindred simply keep Retainers as reliable errand people who can go outside in daylight. Others use their Retainer as a confidant, a sympathetic ear to help shoulder the burden of eternal life and the sadness that comes with it. Whatever responsibility you feel for your Retainer, their responsibilities to you dwarf it. In troupe-style chronicles (p. 198), players often portray other characters’ Retainers. Especially in such chronicles, players need to recognize the power dynamics and roleplaying challenges involved (see <em>Power Differentials,</em> p.220).</p>",
+  "Stalkers": "<p>The temptation with this Flaw, which the Storyteller should absolutely encourage, is to use the Stalker as a “free” (if somewhat unreliable) Retainer – which of course blows up on you once you actually depend on it. The Storyteller should insist that you answer two main questions when you take this Flaw: what does the stalker want from you, and why haven’t you just killed them already? The tension between these two answers drives the stalker subplot.</p>\n<p>Even more than most Flaws, build this Flaw collaboratively with the whole group to avoid unpleasant mirrors of real-life stresses and problems for another player. Absolutely discuss <em>Veils and Lines</em> (<strong>Vampire: The Masquerade</strong>, p. 423) regarding when the stalker is played, who plays them, and their role (if any) in the game. It’s a bit harder to come up with a coterie Flaw version of Stalkers, except of course the classic “the coterie is a band” setup.</p>",
+  "Status": "<p>Status generally doesn’t transfer between sects, as each sect values different accomplishments and virtues. Status might also apply more narrowly than a full sect, denoting rank in a Ministry temple or Tremere chantry, for instance. Status and Fame somewhat overlap, but Status generally confers respect. A vampire might have Fame for killing a rival in dramatic fashion, but a Banu Haqim warrior might also (or instead) have a dot of Status in their clan for their action. Status might also overlap with Loresheets, which could justify a somewhat murky or nebulous Status: a double agent of Theo Bell might have actual Status in the Anarch soviet, and a cover Status established within the Camarilla by some kind of shadowplay. Discuss local, limited, or murky Status with the Storyteller to make sure their chronicle focuses on challenges such Status meets or flavors.</p>"
+ }
+}

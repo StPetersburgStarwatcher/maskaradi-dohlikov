@@ -1,0 +1,1360 @@
+[
+ {
+  "n": "Linguistics",
+  "ed": "v5",
+  "kind": "merit",
+  "dots": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "cat": "Linguistics",
+  "html": "<p><strong>LINGUISTICS</strong> Every player character has perfect fluency in their birth language and (except perhaps for a charming Hungarian accent) in the dominant language of the chronicle setting. For example, a Lebanese vampire in a Mexico City-set chronicle can speak and read Arabic (or Aramaic, if they are a very old Lebanese vampire) and Spanish. Kindly Storytellers might allow vampires whose birth tongue matches that of the setting to take a second language anyway.</p>\n<p>Each dot in Linguistics allows the character to fluently speak, write, and read one additional language besides those two default languages.</p>\n<p>Don’t get hung up on the changes in language over the centuries; assume that English remains English from Anglo-Saxon times to now, for instance, for the purposes of this rule, although reading</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "179"
+  },
+  "sum": "One additional language per dot."
+ },
+ {
+  "n": "Illiterate",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Linguistics",
+  "html": "<p><strong>Flaw: (••) Illiterate. </strong> You cannot read or write. Your Academics and Science Skills are capped at 1, and you can have no specialty in them incorporating modern knowledge.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "179"
+  }
+ },
+ {
+  "n": "Repulsive",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Looks",
+  "html": "<p><strong>Flaw: (••) Repulsive.</strong> You lose two dice from all relevant Social dice pools.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "179"
+  }
+ },
+ {
+  "n": "Ugly",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Looks",
+  "html": "<p><strong>Flaw: (•) Ugly.</strong> You lose one die from all relevant Social dice pools.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "179"
+  }
+ },
+ {
+  "n": "Beautiful",
+  "ed": "v5",
+  "kind": "merit",
+  "dots": [
+   2
+  ],
+  "cat": "Looks",
+  "html": "<p><strong>Beautiful:</strong> You add one extra die to all appropriate Social dice pools.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "179"
+  }
+ },
+ {
+  "n": "Stunning",
+  "ed": "v5",
+  "kind": "merit",
+  "dots": [
+   4
+  ],
+  "cat": "Looks",
+  "html": "<p class=\"dots\"><span class=\"d\">••••</span> <strong> Stunning:</strong> You add two extra dice to all appropriate Social dice pools, as above.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "179"
+  }
+ },
+ {
+  "n": "Hopeless Addiction",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Substance Use",
+  "html": "<p><strong>Flaw: (••) Hopeless Addiction. </strong> Lose two dice from all pools when the last person you fed from was not on your drug, except pools for actions that will immediately obtain your drug.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "179"
+  }
+ },
+ {
+  "n": "Addiction",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Substance Use",
+  "html": "<p><strong>Flaw: (•) Addiction. </strong> Lose one dice from all pools when the last person you fed from was not on your drug, except pools for actions that will immediately obtain your drug.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "180"
+  }
+ },
+ {
+  "n": "High-Functioning Addict",
+  "ed": "v5",
+  "kind": "merit",
+  "dots": [
+   1
+  ],
+  "cat": "Substance Use",
+  "html": "<p><strong>High-Functioning Addict:</strong> You add one die to any one category of pool (specify when you choose which substance you use) when the last person you fed from was on your drug.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "180"
+  }
+ },
+ {
+  "n": "Archaic",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Archaic",
+  "html": "<p><strong>Flaw: (••) Archaic. </strong> You haven’t been able to adapt to the present, or you have been long in torpor. You cannot use computers or cell phones, and your Technology rating is permanently 0. The Storyteller may penalize other dice pools involving very modern technology by one die.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "180"
+  },
+  "req": "Ancillae or older only"
+ },
+ {
+  "n": "Living in the Past",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Archaic",
+  "html": "<p><strong>Flaw: (•) Living in the Past. </strong> You haven’t grasped the modern mindset, or you just don’t want to. You have one or more seriously outdated Convictions, e.g. “The Pope’s word is law,” “Women are delicate flowers,” “Lower classes exist only to serve,” or “Burn your enemies’ baggage.” These archaic moralities maintain your Humanity but are odious to many; you lose one die from Social test dice pools involving such archaic beliefs except with vampires your age and older, who may admire your steadfast virtue.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "180"
+  },
+  "req": "Ancillae or older only"
+ },
+ {
+  "n": "Bondslave",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Bonding",
+  "html": "<p><strong>Flaw: (••) Bondslave. </strong> You bond instantly with the taste of another’s vitae; only one drink of blood binds you, not three. Either you begin as your sire’s thrall, or consult with the Storyteller to come up with a reason that first bond has broken. Possibly your sire has been staked or in another city for more than six months?</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "180"
+  }
+ },
+ {
+  "n": "Bond Junkie",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Bonding",
+  "html": "<p><strong>Flaw: (•) Bond Junkie.</strong> The Bond feels sweeter to you once it happens. Subtract one die from your dice pools to act against a Blood Bond.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "181"
+  }
+ },
+ {
+  "n": "Long Bond",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Bonding",
+  "html": "<p><strong>Flaw: (•) Long Bond. </strong> Blood Bonds on you lose their Bond strength more slowly than normal, decreasing by one for each three months without being reinforced.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "181"
+  }
+ },
+ {
+  "n": "Bond Resistance",
+  "ed": "v5",
+  "kind": "merit",
+  "dots": [
+   1,
+   2,
+   3
+  ],
+  "cat": "Bonding",
+  "html": "<p><strong>Bond Resistance:</strong> Your Blood rebels against control. Add one die to your dice pools to resist a Blood Bond per level you take of this Merit (maximum three).</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "181"
+  }
+ },
+ {
+  "n": "Short Bond",
+  "ed": "v5",
+  "kind": "merit",
+  "dots": [
+   2
+  ],
+  "cat": "Bonding",
+  "html": "<p><strong>Short Bond: </strong> Blood Bonds on you lose their Bond strength more rapidly than normal, decreasing at both the full moon and new moon (i.e., by two each month) if not reinforced.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "181"
+  }
+ },
+ {
+  "n": "Unbondable",
+  "ed": "v5",
+  "kind": "merit",
+  "dots": [
+   5
+  ],
+  "cat": "Bonding",
+  "html": "<p class=\"dots\"><span class=\"d\">•••••</span> Unbondable: </strong>You cannot be Blood Bound. If you’re ever short of cash, you can probably sell your vitae to alchemists, too.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "181"
+  }
+ },
+ {
+  "n": "Farmer",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Feeding",
+  "html": "<p><strong>Flaw: (••) Farmer.</strong> You feed only on animal blood. You must spend two points of Willpower to drink human blood. Ventrue may not take this Flaw.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "181"
+  },
+  "notClan": [
+   "Ventrue"
+  ]
+ },
+ {
+  "n": "Organovore",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Feeding",
+  "html": "<p><strong>Flaw: (••) Organovore.</strong> You can slake Hunger only by eating human flesh and organs, especially those rich in blood such as the heart, liver, lungs, placenta, and spleen. (Most organovore Kindred these nights make smoothies from the organs first.) Only the heart provides Resonance, if any.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "181"
+  }
+ },
+ {
+  "n": "Methuselah’s Thirst",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Feeding",
+  "html": "<p><strong>Flaw: (•) Methuselah’s Thirst.</strong> Your Hunger can only be fully slaked by the blood of supernatural creatures. (Alchemists may be able to thicken the Blood of thin-bloods enough to sate you.) Otherwise, it constantly remains at a minimum of 1. (Or higher, depending on Blood Potency (see p. 215).</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "181"
+  }
+ },
+ {
+  "n": "Prey Exclusion",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Feeding",
+  "html": "<p><strong>Flaw: (•) Prey Exclusion. </strong> You refuse to hunt a certain class of prey: drug users, women, children, policemen, innocents, a given minority or ethnic group, etc. If you feed on such prey, you gain Stains as though you had violated a chronicle Tenet. Witnessing other Kindred feeding on the object of your exclusion without interfering might also give Stains, at the Storyteller’s discretion. Ventrue with this Flaw gain an additional restriction, making their choice of vessels extremely narrow.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "181"
+  },
+  "multi": true
+ },
+ {
+  "n": "Bloodhound",
+  "ed": "v5",
+  "kind": "merit",
+  "dots": [
+   1
+  ],
+  "cat": "Feeding",
+  "html": "<p><strong>Bloodhound:</strong> You can smell the Resonance of a human’s blood without tasting it. You still need to be within olfactory range of the person. Make a Resolve + Awareness test at Difficulty 3. Increase Difficulty for perfume or distance; lower it for more intimate contact.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "182"
+  }
+ },
+ {
+  "n": "Iron Gullet",
+  "ed": "v5",
+  "kind": "merit",
+  "dots": [
+   3
+  ],
+  "cat": "Feeding",
+  "html": "<p class=\"dots\"><span class=\"d\">•••</span> Iron Gullet</strong>: You can feed from cold blood, rancid blood, and fractionated plasma. None of these provide Resonances. Ventrue may not take this Merit.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "182"
+  },
+  "notClan": [
+   "Ventrue"
+  ]
+ },
+ {
+  "n": "Stake Bait",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Mythic",
+  "html": "<p><strong>Flaw: (••) Stake Bait.</strong> You meet Final Death when staked through the heart, rather than entering torpor.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "182"
+  }
+ },
+ {
+  "n": "Folkloric Bane",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Mythic",
+  "html": "<p><strong>Flaw: (•) Folkloric Bane. </strong> You take Aggravated damage from a folkloric bane. Folkloric banes include:</p>\n<p class=\"sub\">▫ Ultraviolet light (damage as direct sunlight)</p>\n<p class=\"sub\">▫ Silver or silver-plated weapons (damage as weapon damage: simply touching a silver coin or silverware does one point of Aggravated damage)</p>\n<p class=\"sub\">▫ Holy water (damage as fire)</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "182"
+  },
+  "multi": true
+ },
+ {
+  "n": "Folkloric Block",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Mythic",
+  "html": "<p><strong>Flaw: (•) Folkloric Block. </strong> When faced with a folkloric block, you must shrink away from it or spend a Willpower point to push through it.</p>\n<p>Each folkloric block you take counts as a separate one-point Flaw. Folkloric blocks include:</p>\n<p class=\"sub\">▫ Holy symbols presented by any believer (even without True Faith)</p>\n<p class=\"sub\">▫ Crossing visible running water (not recommended in certain cities, such as Amsterdam, Stockholm, or Venice)</p>\n<p class=\"sub\">▫ Crossing a threshold to a home uninvited by the owner</p>\n<p class=\"sub\">▫ White animal</p>\n<p class=\"sub\">▫ Garlic</p>\n<p class=\"sub\">▫ Wild roses</p>\n<p class=\"sub\">▫ Spilled seeds you haven’t counted</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "182"
+  },
+  "multi": true
+ },
+ {
+  "n": "Stigmata",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Mythic",
+  "html": "<p><strong>Flaw: (•) Stigmata.</strong> You begin to bleed from open wounds on your hands, feet, and forehead when you reach Hunger 4. This attracts attention, leaves traces, and may penalize some dice pools at the Storyteller’s discretion.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "182"
+  }
+ },
+ {
+  "n": "Eat Food",
+  "ed": "v5",
+  "kind": "merit",
+  "dots": [
+   2
+  ],
+  "cat": "Mythic",
+  "html": "<p><strong>Eat food:</strong> You can consume food without effort and might even enjoy it, though it gives no nourishment and must be expelled before resting for the day.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "182"
+  }
+ },
+ {
+  "n": "Baby Teeth",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   0
+  ],
+  "cat": "Thin-Blood",
+  "html": "<p><strong>Baby Teeth:</strong> You never developed fangs, or the ones you’ve got are useless for feeding. You either need to cut your victims open, or you extract their blood with a syringe.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "182"
+  },
+  "thin": true
+ },
+ {
+  "n": "Bestial Temper",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   0
+  ],
+  "cat": "Thin-Blood",
+  "html": "<p><strong>Bestial Temper:</strong> You are afflicted with the Beast equal to a full vampire. You need to test for frenzy as per the normal vampire rules.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "182"
+  },
+  "thin": true
+ },
+ {
+  "n": "Branded by the Camarilla",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   0
+  ],
+  "cat": "Thin-Blood",
+  "html": "<p><strong>Branded by the Camarilla:</strong> In some cities, the rulers simply hunt down and destroy thin-bloods. In other cities, the merciful Sheriff merely brands them, forcibly and painfully, to remind them of their place. (Many are then hunted down and destroyed, often on perceived slights or simple whims.) You have such an unhealing brand, and the Camarilla makes sure to keep its eyes peeled for the moment you step out of line. You can take Camarilla Contact with this Flaw; the Camarilla thrives on double-dealing of this sort.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "182"
+  },
+  "thin": true
+ },
+ {
+  "n": "Clan Curse (Thin-Blood)",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   0
+  ],
+  "cat": "Thin-Blood",
+  "html": "<p><strong>Clan Curse:</strong> Remnants of your sire’s Blood still flows through your veins, carrying traces of their ancient curse. You must pick a Clan Bane to suffer from, counting your Bane Severity as 1 for this purpose. You can only pick the Brujah or Gangrel Bane if you possess the Bestial Temper Flaw, and the Tremere Bane only if you have the Catenating Blood Merit.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "183"
+  },
+  "thin": true
+ },
+ {
+  "n": "Dead Flesh",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   0
+  ],
+  "cat": "Thin-Blood",
+  "html": "<p><strong>Dead Flesh: </strong> Your Blood is not strong enough to completely sustain you, and as an effect, your flesh is in a constant state of putrefaction, with a greenish tint and faint stench of rot. Any medical inspection will immediately identify you as deceased, and you receive a one-die penalty to any face-to-face Social test with a mortal. You cannot take Lifelike if you take this Flaw.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "183"
+  },
+  "thin": true
+ },
+ {
+  "n": "Mortal Frailty",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   0
+  ],
+  "cat": "Thin-Blood",
+  "html": "<p><strong>Mortal Frailty:</strong> You cannot Rouse the Blood to mend, instead healing as a mortal (p. 126). You cannot take Vampiric Resilience if you take this Flaw.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "183"
+  },
+  "thin": true
+ },
+ {
+  "n": "Shunned by the Anarchs",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   0
+  ],
+  "cat": "Thin-Blood",
+  "html": "<p><strong>Shunned by the Anarchs: </strong> You broke an unwritten rule or thought yourself equal among equals, where some turned out more equal than others. In whichever case, the Anarchs of the regnum know of you and shun you. They’d rather throw you to the Camarilla than listen to your pleas. You cannot take Anarch Comrades if you take this Flaw.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "183"
+  },
+  "thin": true
+ },
+ {
+  "n": "Vitae Dependency",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   0
+  ],
+  "cat": "Thin-Blood",
+  "html": "<p><strong>Vitae Dependency: </strong> Your Blood is unable to sustain vampiric powers by itself. Unless you drink enough vampire Blood to slake one Hunger each week you lose your ability to gain and use any Disciplines (including Thin-Blood Alchemy). You regain your powers as soon as you slake at least one Hunger with vampire Blood.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "183"
+  },
+  "thin": true
+ },
+ {
+  "n": "Anarch Comrades",
+  "ed": "v5",
+  "kind": "merit",
+  "dots": [
+   0
+  ],
+  "cat": "Thin-Blood",
+  "html": "<p><strong>Anarch Comrades:</strong> You have befriended the members of an Anarch coterie who tolerate your presence or even affectionately treat you as their pet. They cumulatively act as a one-dot Anarch Mawla, as long as you don’t deviate from the party line. Write them on the Relationship Map.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "183"
+  },
+  "thin": true
+ },
+ {
+  "n": "Camarilla Contact",
+  "ed": "v5",
+  "kind": "merit",
+  "dots": [
+   0
+  ],
+  "cat": "Thin-Blood",
+  "html": "<p><strong>Camarilla Contact:</strong> You have caught the eye of a Camarilla recruiter who has promised you admittance and a chance at becoming a real vampire. All you need to do is keep your eyes and ears open, report on your and your coterie’s activities, and be prepared to perform any task asked of you.</p>\n<p>You have the equivalent of a one-dot Camarilla Mawla who treats you badly. Write them on the Relationship Map.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "183"
+  },
+  "thin": true
+ },
+ {
+  "n": "Catenating Blood",
+  "ed": "v5",
+  "kind": "merit",
+  "dots": [
+   0
+  ],
+  "cat": "Thin-Blood",
+  "html": "<p><strong>Catenating Blood:</strong> You can create Blood Bonds and perform the Embrace as a regular vampire. Any vampire you create this way will be a thin-blood.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "183"
+  },
+  "thin": true
+ },
+ {
+  "n": "Day Drinker",
+  "ed": "v5",
+  "kind": "merit",
+  "dots": [
+   0
+  ],
+  "cat": "Thin-Blood",
+  "html": "<p><strong>Day Drinker: </strong> Sunlight halves your Health tracker (rounded up), but otherwise simply removes your vampiric abilities, including all Disciplines and Health benefits, and does no other damage. You still suffer from Hunger, however, and sooner or later you’ll need to sleep. If your health drops below your currently sustained damage levels as a result of this, you suffer the effects of Impairment or torpor (depending on type of damage) until you are clear of sunlight.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "183"
+  },
+  "thin": true
+ },
+ {
+  "n": "Discipline Affinity",
+  "ed": "v5",
+  "kind": "merit",
+  "dots": [
+   0
+  ],
+  "cat": "Thin-Blood",
+  "html": "<p><strong>Discipline Affinity: </strong> You have an affinity for a certain Discipline, picked at character creation. You gain a dot in this Discipline and can learn and retain additional dots in it through experience expenditures, as if you were a normal vampire. (The experience point cost is the same as an out-of-clan Discipline.) Drinking blood with matching Resonance does not reward you with any extra dots in this Discipline, temporary or not.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "184"
+  },
+  "thin": true
+ },
+ {
+  "n": "Lifelike",
+  "ed": "v5",
+  "kind": "merit",
+  "dots": [
+   0
+  ],
+  "cat": "Thin-Blood",
+  "html": "<p><strong>Lifelike: </strong> You have a heartbeat, can eat food, and enjoy sexual activities like a mortal. All but the most advanced medical inspections reveal nothing out of the ordinary, assuming they happen at night.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "184"
+  },
+  "thin": true
+ },
+ {
+  "n": "Thin-Blood Alchemist",
+  "ed": "v5",
+  "kind": "merit",
+  "dots": [
+   0
+  ],
+  "cat": "Thin-Blood",
+  "html": "<p><strong>Thin-blood Alchemist:</strong> The Duskborn change as they feed. Thin-Blood Alchemy is the mastery of this process. Whether it is spontaneous or a skill learned by comparing notes with other bloodcookers, you have gained one dot and one formula (p. 282) in Thin-blood Alchemy. You can purchase additional dots and formulae through experience as usual.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "184"
+  },
+  "thin": true
+ },
+ {
+  "n": "Vampiric Resilience",
+  "ed": "v5",
+  "kind": "merit",
+  "dots": [
+   0
+  ],
+  "cat": "Thin-Blood",
+  "html": "<p><strong>Vampiric Resilience:</strong> You suffer damage as a regular vampire, treating regular puncture and slashing wounds as Superficial damage.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "184"
+  },
+  "thin": true
+ },
+ {
+  "n": "Allies",
+  "ed": "v5",
+  "kind": "background",
+  "dots": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "cat": "Allies",
+  "html": "<p>Allies are mortals who support and help you: family, friends, or even a mortal organization that owes you some loyalty. Although Allies usually aid you willingly, without coaxing or coercion, they are not always available to offer assistance; they have their own concerns and can do only so much for the sake of your relationship. Usually, Allies appear about once per story.</p>\n<p>Allies can be almost anyone in your home city, depending on what your Storyteller will allow. You may have friends in the precinct morgue, at a tabloid newspaper or gossip blog, among high society, or at the railroad yard. Allies are generally trustworthy (though they probably don’t know that you’re a vampire, or even that vampires exist). However, nothing comes for free. If you wind up drawing favors from your friend in the Russian Mafia, he’ll probably ask you to do him a favor in kind in the future.</p>\n<p>Enemies are the opposite of Allies and are taken as Flaws.</p>\n<p>You can use the Mortal Template rules to create Allies or Enemies when you buy them or first call on them, and you can write them down on the Relationship Map, though many groups leave this process up to the Storyteller.</p>\n<p>Build Allies or Enemies from a budget of points based on their Effectiveness and on their Reliability. The maximum points in one Ally is six. Ally or Enemy groups appear in numbers equal to the number of player characters.</p>\n<p>All Enemies are rated two fewer dots than their Effectiveness; a Gifted mortal Ally costs three dots as an Ally, but only provides one dot as a Flaw. Enemies all have the same Reliability: whenever the Storyteller thinks they should show up, but probably at least once per story.</p>\n<p><strong>EFFECTIVENESS</strong></p>\n<p class=\"dots\"><span class=\"d\">•</span> Weak mortal, likely useless in a violent or potentially violent situation.</p>\n<p class=\"dots\"><span class=\"d\">••</span> Average mortal or a tightknit group of Weak mortals (neighborhood kids who solve mysteries, church group, NGO chapter)</p>\n<p class=\"dots\"><span class=\"d\">•••</span> Gifted mortal or a dangerous group of Average mortals (a street gang, a celebrity entourage, a blue-collar union local)</p>\n<p class=\"dots\"><span class=\"d\">••••</span> Deadly mortal, a Gifted mortal with magic or other supernatural powers, or a well-armed group of Gifted mortals (a private security squad , a lawyer contingent, a Russian Mafia bratva)</p>\n<p><strong>RELIABILITY</strong></p>\n<p class=\"dots\"><span class=\"d\">•</span> When you call on them, they appear half the time.</p>\n<p class=\"dots\"><span class=\"d\">••</span> When you call on them, they appear within 1-10 hours (roll a die).</p>\n<p class=\"dots\"><span class=\"d\">•••</span> When you call on them, they appear as soon as possible.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "184"
+  },
+  "multi": true
+ },
+ {
+  "n": "Contacts",
+  "ed": "v5",
+  "kind": "background",
+  "dots": [
+   1,
+   2,
+   3
+  ],
+  "cat": "Contacts",
+  "html": "<p>You know people – human people – from many different walks of life. Contacts primarily provide you with information in their areas of expertise, and they may want to exchange favors of various kinds. For different kinds of help, use your Influence (p. 187) in the mortal world, or call on your Allies (p. 184) or Mawla (p. 192).</p>\n<p>A Contact is someone in an excellent position to get information. They might be a police dispatcher, rather than a homicide lieutenant, or a congressional staffer, rather than a senator. Information brokers, gossip columnists, underworld fixers, and reporters make excellent Contacts. You can define your Contacts when you buy this Background or as you need to introduce them in play. Whenever you create them, make sure to add them to the Relationship Map.</p>\n<p class=\"dots\"><span class=\"d\">•</span> One Contact who can do or get something cheap or common for you (Resources 1). Examples: a weed dealer, a car salesman.</p>\n<p class=\"dots\"><span class=\"d\">••</span> One Contact who can do or get something useful for you (Resources 2). Examples: small-time gun dealer, veterinarian.</p>\n<p class=\"dots\"><span class=\"d\">•••</span> One Contact who can do or get something expensive or hard for you (Resources 4). Examples: security systems expert; police lieutenant in homicide, narcotics, or other useful field.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "185"
+  },
+  "multi": true
+ },
+ {
+  "n": "Fame",
+  "ed": "v5",
+  "kind": "background",
+  "dots": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "cat": "Fame",
+  "html": "<p>Mortals know your name and eagerly seek out news of your activities. You might be a movie star, rock star, or other celebrity. Fame grants pull in mass and social media; you have more ways than most to manipulate the thoughts of the populace. You likely have ways to mask the fact that you’re never seen during the day, such as a body double.</p>\n<p>In some circumstances, the Storyteller may allow you to use Fame in a Social test dice pool instead of another Trait, especially to get into an otherwise exclusive venue or event. “Do you know who I am?” doesn’t work everywhere, but it does work. Each level of Fame subtracts one from the Difficulty of Social tests against your fans and from many hunting tests, depending on your predation strategy – you have less trouble attracting prey. Fame has its downside, of course – it’s harder for you to tail someone unobtrusively, for example, and who wants groupies hanging around the door to their haven all day tagging its location on Instagram? You should look into taking Disguise as a specialty.</p>\n<p>By default, Fame applies among mortals, but you can also buy Fame that applies among Kindred for the same cost. Some vampires, such as Dracula or Elizabeth Bathory, might have both! Vampires may admire, or at least be more interested in, a Kindred who was famous or infamous in life: Arthur Rimbaud, Crispus Attucks, Billy the Kid, and the like.</p>\n<p class=\"dots\"><span class=\"d\">•</span> A select subculture knows who you are and admires you.</p>\n<p class=\"dots\"><span class=\"d\">••</span> You are a local celebrity, recognized by a plurality of the city.</p>\n<p class=\"dots\"><span class=\"d\">•••</span> Most people in the country know your name, at least.</p>\n<p class=\"dots\"><span class=\"d\">••••</span> Everybody who even vaguely cares about social trends or your field knows something about you.</p>\n<p class=\"dots\"><span class=\"d\">•••••</span> Your Fame reaches mass national or even global audiences. You are a major movie star, stadium-filling rock act, or former president.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "186"
+  },
+  "multi": true
+ },
+ {
+  "n": "Infamy",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "cat": "Fame",
+  "html": "<p><strong>INFAMY</strong> You are famous for something horrible. At the very least, the Difficulty of most reaction tests increases by the amount of the Flaw; at worst, the authorities attempt to kill or capture you whenever you appear.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "187"
+  }
+ },
+ {
+  "n": "Dark Secret",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   1,
+   2
+  ],
+  "cat": "Fame",
+  "html": "<p><strong>DARK SECRET</strong> You can also take Dark Secret, a milder version of Infamy. The Dark Secret Flaw provides one fewer point than the equivalent Infamy, as your black deeds remain unknown to all but you and perhaps one or two very motivated enemies. The one-dot version of Infamy also provides one point as a Dark Secret, because it’s easier to uncover than a truly life-threatening secret.</p>\n<p><strong>Flaw: (••) </strong> You are a Cleaver or serial breacher of the Masquerade, have been Blood Hunted out of another city, or have grievously offended this domain’s ruler.</p>\n<p><strong>Flaw: (•) </strong> You owe a big debt to bad people or have made yourself generally odious. Alternately, your spouse, lover, or close family member has Infamy ••.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "187"
+  }
+ },
+ {
+  "n": "Influence",
+  "ed": "v5",
+  "kind": "background",
+  "dots": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "cat": "Influence",
+  "html": "<p>You have pull in the mortal community, whether through wealth, prestige, political office, blackmail, or supernatural manipulation. Kindred with high Influence can sway, and in rare cases even control, the politics and society of their city, especially the police and city bureaucracy.</p>\n<p>By default, Influence applies most within one group or region of your city. Groups can be large, even diffuse: organized crime, media, religion, the police, city government, etc. Regions should be larger than neighborhoods or all but the largest individual domains: Brooklyn, the Rive Gauche, the South Side, the Ginza, etc. Your Influence applies to the city as a whole at one dot less than it does within your group or region. Using local Influence in another city in the same area, state, or province might be possible at an additional one-dot penalty, and so on. So, a vampire might be Powerful (••••) in Hollywood, Entrenched (•••) everywhere in Los Angeles, merely Influential (••) in San Diego or San Francisco, and just Well-Connected (•) in Chicago or New York.</p>\n<p>The Storyteller may require you to use Influence in place of a Trait in some dice pools, particularly Social tests attempting to sway minor bureaucrats or the equivalent in your group. This Background helps you have an “abandoned” building demolished (or preserved), not start global wars.</p>\n<p>If the Storyteller wants to run a game of globe-spanning masterminds, they may recalibrate Influence to potentially apply nationally (••••) or even globally (•••••).</p>\n<p class=\"dots\"><span class=\"d\">•</span> <strong>Well-connected:</strong> You’re guaranteed a respectful hearing.</p>\n<p class=\"dots\"><span class=\"d\">••</span> <strong>Influential: </strong>People want to do you favors.</p>\n<p class=\"dots\"><span class=\"d\">•••</span> Entrenched:</strong> Mortal power-brokers and factions hesitate to oppose you.</p>\n<p class=\"dots\"><span class=\"d\">••••</span> Powerful:</strong> Without a good reason to do otherwise, functionaries and foot soldiers obey.</p>\n<p class=\"dots\"><span class=\"d\">•••••</span> Dominant: </strong>Lesser figures try to figure out what you want and do it first.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "187"
+  },
+  "multi": true
+ },
+ {
+  "n": "Despised",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Influence",
+  "html": "<p><strong>Flaw: (••) Despised. </strong> One group or region of the city lives only to thwart you and your faction. Subtract two dice from dice pools attempting to convince a neutral actor to support you politically or do you a favor. The Storyteller should take any opportunity to involve your haters in the story.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "187"
+  }
+ },
+ {
+  "n": "Disliked",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Influence",
+  "html": "<p><strong>Flaw: (•) Disliked.</strong> Subtract one die from Social test dice pools involving any group in the city except your Contacts and Allies or other explicitly loyal supporters.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "187"
+  }
+ },
+ {
+  "n": "Haven",
+  "ed": "v5",
+  "kind": "background",
+  "dots": [
+   1,
+   2,
+   3
+  ],
+  "cat": "Haven",
+  "html": "<p>Like all Backgrounds, the Haven Background is entirely optional. A vampire with no dots in Haven has a suicide’s grave, a room in an abandoned motel, a rented office, or an apartment with windows blacked out with plastic bags. They can still remain safe and hidden by day in this relatively small and insecure haven by default. The Storyteller may allow a player character to default a somewhat better haven from another Background such as Resources, Status, or Influence. Of course, if those Backgrounds go away, so does the character’s nice haven.</p>\n<p>A character with none of those other Backgrounds, however, can still have a perfectly reasonable haven as long as they have this Background. For instance, a character might not have enough money to afford a 20- room Victorian mansion in today’s economy, but if their great-grandmother left them one that had been fully paid for, there’s no reason they can’t remain in residence as it slowly dilapidates.</p>\n<p>Base ratings in Haven abstract the haven’s size, security, and privacy. All of those factors affect the chance of spotting, penetrating, and surveilling the vampire’s actual resting place. Add +1 to the Difficulty of, or one die to dice pools resisting, such efforts for each dot of base Haven rating.</p>\n<p>Kindred know their havens intimately. For each dot of base Haven rating, add one per dot to dice pools to notice danger (including awakening rolls, p. 219) while in your haven.</p>\n<p><strong>BASE HAVEN</strong></p>\n<p class=\"dots\"><span class=\"d\">•</span> Small haven, but more secure and private than the default. Examples: basement apartment, crypt, locked storeroom in a warehouse.</p>\n<p class=\"dots\"><span class=\"d\">••</span> Good size, security, or privacy. Examples: a singlefamily home or row house, wolf enclosure at the zoo, branch sewer tunnel.</p>\n<p class=\"dots\"><span class=\"d\">•••</span> Very large, secure, or private. Examples: a compound outside town, a bank building, a decommissioned subway station.</p>\n<p><strong>HAVEN MERITS AND FLAWS</strong> You can add Merits and Flaws to your Haven if you wish. They stack with the base Haven rating to produce the total dots in this Background for projects and other uses.</p>\n<p>Remember, you can make Haven a shared Background among your coterie – easily the best way to afford a Haven with lots of features.</p>\n<p class=\"dots\"><span class=\"d\">•</span> </p>\n<p class=\"dots\"><span class=\"d\">•</span> </p>\n<p class=\"dots\"><span class=\"d\">•</span> </p>\n<p class=\"dots\"><span class=\"d\">•</span> </p>\n<p class=\"dots\"><span class=\"d\">•</span> </p>\n<p class=\"dots\"><span class=\"d\">•</span> </p>\n<p class=\"dots\"><span class=\"d\">•</span> </p>\n<p class=\"dots\"><span class=\"d\">•</span> </p>\n<p class=\"dots\"><span class=\"d\">•</span> </p>\n<p class=\"dots\"><span class=\"d\">•</span> </p>\n<p class=\"dots\"><span class=\"d\">•</span> </p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "188"
+  },
+  "multi": true
+ },
+ {
+  "n": "No Haven",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Haven",
+  "html": "<p><strong>Flaw: (•) No Haven.</strong> You must go to some effort (at least a basic test) to find a new resting place every morning.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "188"
+  }
+ },
+ {
+  "n": "Compromised",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Haven",
+  "html": "<p><strong>Flaw: (••) Compromised.</strong> Your haven has been raided once before, perhaps before it was yours. It probably appears on someone’s watchlist. Invaders or spies can add two dice to their pool to penetrate or surveil your haven. If you ever do get on the Inquisition’s radar, you should think about moving out.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "188"
+  }
+ },
+ {
+  "n": "Creepy",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Haven",
+  "html": "<p><strong>Flaw: (•) Creepy. </strong> Your haven looks like the den of a serial killer, which in fairness is probably exactly what it is. Unknowing neighbors might phone in a tip to the cops or just talk about the creepy place they saw. Your dice pools on Social tests to seduce or otherwise put human guests at ease are at a two-dice penalty.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "188"
+  }
+ },
+ {
+  "n": "Haunted",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "cat": "Haven",
+  "html": "<p><strong>Flaw: (•) Haunted. </strong> Your haven has a supernatural manifestation in it that you do not control or really even understand. It might just have a ghost, but a Haunted haven could hold a dimensional portal, a cursed meteorite, or anything else you can’t get rid of. Obviously, someone who does understand the manifestation could use it to breach your haven’s security. The Storyteller defines any other effect of the haunting, imposing at least a one-die penalty to affected pools used in the haven per dot of Haunted taken as a Flaw.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "188"
+  }
+ },
+ {
+  "n": "Hidden Armory",
+  "ed": "v5",
+  "kind": "background",
+  "dots": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "cat": "Haven",
+  "html": "<p><strong>Hidden Armory:</strong> Each dot in this Merit adds a stand of arms to your haven’s supply: one pistol and one long firearm, with ammunition. They are as secure from discovery as your resting place.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "189"
+  },
+  "req": "Haven merit"
+ },
+ {
+  "n": "Cell",
+  "ed": "v5",
+  "kind": "background",
+  "dots": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "cat": "Haven",
+  "html": "<p><strong>Cell: </strong> Your haven has a dedicated, locked place to store two prisoners, with a base Difficulty to escape of 5. Each extra dot either allows you to store twice as many prisoners (up to a maximum of 32, only in very large havens) or adds +1 to the escape Difficulty. This Merit is not available in small havens.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "189"
+  },
+  "req": "Haven merit; Haven ••+"
+ },
+ {
+  "n": "Watchmen",
+  "ed": "v5",
+  "kind": "background",
+  "dots": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "cat": "Haven",
+  "html": "<p><strong>Watchmen:</strong> You have either private security or criminal thugs guarding your haven. Each dot of this Merit supplies four Average guards and one Gifted boss (see Mortal Templates, p. 185). If guards would be conspicuous here, buy this Merit cautiously.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "189"
+  },
+  "req": "Haven merit"
+ },
+ {
+  "n": "Laboratory",
+  "ed": "v5",
+  "kind": "background",
+  "dots": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "cat": "Haven",
+  "html": "<p><strong>Laboratory: </strong> Your haven has an equipped laboratory with a dedicated industrial sink, gas jet, reinforced floor, etc. Each dot of this Merit adds one to the dice pool for rolls related to one Science or Technology specialty or to Alchemy dice pools for thin-bloods using the Fixatio method (p. 284). This Merit is not available in small havens.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "189"
+  },
+  "req": "Haven merit; Haven ••+"
+ },
+ {
+  "n": "Library",
+  "ed": "v5",
+  "kind": "background",
+  "dots": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "cat": "Haven",
+  "html": "<p><strong>Library: </strong> Your Haven has a dedicated library on the occult, Cainite legends, city history, vampire lore, or the like. Each dot of this Merit adds one to the dice pool for research rolls for one Academics, Investigation, or Occult specialty. Small havens limit this Merit to a maximum of one dot.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "189"
+  },
+  "req": "Haven merit"
+ },
+ {
+  "n": "Location",
+  "ed": "v5",
+  "kind": "background",
+  "dots": [
+   1
+  ],
+  "cat": "Haven",
+  "html": "<p><strong>Location:</strong> Your haven nestles in one of the most fashionable or otherwise exclusive areas of the city, in the Rack, on a small island, or otherwise in a prime spot. Add two dice (or +2 to foes’ Difficulty) to bonuses on the relevant die rolls from either Chasse (p. 195) or from your base Haven rating (pick one). If neither modifier precisely maps to what you have in mind, work out with your Storyteller when you can expect a two-dice bonus to occur. For example, a Haven close to Elysium might grant a two-dice bonus to Etiquette tests in Elysium and on tests to pick up on court gossip.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "189"
+  },
+  "req": "Haven merit"
+ },
+ {
+  "n": "Luxury",
+  "ed": "v5",
+  "kind": "background",
+  "dots": [
+   1
+  ],
+  "cat": "Haven",
+  "html": "<p><strong>Luxury:</strong> High-definition flat screens, designer furniture, objets d’art, or other expensive details give you a two-dice bonus to Social tests dealing with mortal guests in your haven. If you don’t have at least three dots of Resources (•••), your décor was gained illegally.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "189"
+  },
+  "req": "Haven merit"
+ },
+ {
+  "n": "Postern",
+  "ed": "v5",
+  "kind": "background",
+  "dots": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "cat": "Haven",
+  "html": "<p><strong>Postern: </strong> Your Haven has a rear exit, secret tunnel, grating in the cellar leading into the sewers, or other unobtrusive way out. For each dot of this Merit, add one die to your dice pools to evade or escape surveillance near your haven.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "189"
+  },
+  "req": "Haven merit"
+ },
+ {
+  "n": "Security System",
+  "ed": "v5",
+  "kind": "background",
+  "dots": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "cat": "Haven",
+  "html": "<p><strong>Security System:</strong> Your haven has a better-than-average security system. For each dot of this Merit, add one die to your dice pool to resist (or alert you to) unauthorized entry into your haven.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "189"
+  },
+  "req": "Haven merit"
+ },
+ {
+  "n": "Surgery",
+  "ed": "v5",
+  "kind": "background",
+  "dots": [
+   1
+  ],
+  "cat": "Haven",
+  "html": "<p><strong>Surgery: </strong> Your haven has one room equipped as a field surgery or better. Add two dice to relevant dice pools, generally Medicine, for tests performed in your haven. This Merit is not available in small havens.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "189"
+  },
+  "req": "Haven merit; Haven ••+"
+ },
+ {
+  "n": "Warding",
+  "ed": "v5",
+  "kind": "background",
+  "dots": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "cat": "Haven",
+  "html": "<p><strong>Warding: </strong> Your haven possesses some kind of magical ward barring supernatural forces. You may not be able to deactivate it, but it allows you to pass. Discuss the limits of your ward with the Storyteller. Each dot of this Merit adds one to the dice pool to resist supernatural scrying, as well as whatever other entry the Storyteller allows it to prevent. The Storyteller may require you to possess Occult 3 or better, or Blood Sorcery, to buy this Merit.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "189"
+  },
+  "req": "Haven merit"
+ },
+ {
+  "n": "Herd",
+  "ed": "v5",
+  "kind": "background",
+  "dots": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "cat": "Herd",
+  "html": "<p>You have cultivated a group of vessels from whom you can feed without concern. You can use them to perform basic services, although they are neither as tightly controlled nor as loyal as Retainers. (If needed, build your Herd as a combination of Weak and Average mortals; see Mortal Templates, p. 185.) You can slake your Herd rating in Hunger each week without a roll. (This benefit can be shared among more than one vampire.) Overfeeding endangers your Herd, potentially dropping the rating as members die or flee.</p>\n<p class=\"dots\"><span class=\"d\">•</span> One to three vessels with random Resonance and no Dyscrasias: You can change one victim’s Resonance once a month with a successful Manipulation + Insight test (Difficulty 4). Examples: graduate students, musical pupils, cleaver family</p>\n<p class=\"dots\"><span class=\"d\">••</span> Four to seven vessels, half of whom share one Resonance that you pick when you buy this Advantage. Examples: Aging devotees of the city’s fading goth or bhangra scene, fellow club scenesters, large cleaver family</p>\n<p class=\"dots\"><span class=\"d\">•••</span> Seven to 15 vessels, with two different Resonances that you pick each week when you feed on different Herd members. Examples: rugby team, swinger scene, dance or night school class, night shift employees</p>\n<p class=\"dots\"><span class=\"d\">••••</span> 16 to 30 vessels: Pick two Resonances every week. Herd maintenance, cover ups, and recruitment take occasional roles in your chronicle. Examples: cult, large brothel, sweatshop</p>\n<p class=\"dots\"><span class=\"d\">•••••</span> 31 to 60 vessels: Pick three Resonances every week. Herd maintenance and recruitment begins to brush up against the Masquerade. Examples: Large cult, large sweatshop</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "189"
+  },
+  "multi": true
+ },
+ {
+  "n": "Obvious Predator",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Herd",
+  "html": "<p><strong>Flaw: (••) Obvious Predator.</strong> You exude a predatory demeanor, and humans instinctively fear and mistrust you. Lose two dice from any dice pool for hunting except purely Physical expressions of stalking, chasing, and killing. Lose one die from any dice pool for any Social test intended to put humans at ease. You cannot maintain a Herd.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "189"
+  }
+ },
+ {
+  "n": "Mask",
+  "ed": "v5",
+  "kind": "background",
+  "dots": [
+   1,
+   2
+  ],
+  "cat": "Mask",
+  "html": "<p>As stealth predators, vampires have few weapons more potent than their pretense of humanity. The lies the Kindred live constantly shadow your stories, and no description of a lick should omit how they navigate mortal society – what they wear as a Mask. A good Mask explains the character’s nocturnal existence and offers plenty of opportunities to be alone with mortals.</p>\n<p>Some vampires switch back and forth between Masks, risking deep identity confusion and slipups, while others forge single plausible identities and strictly adhere to them for a human lifetime before they switch, adding makeup as they “age,” and faking every aspect of life to look perfectly normal on paper. Others, almost always Nosferatu or unbound vampires, forswear safety for freedom off the grid or on the streets. By default (at no dots) a vampire either has no need of a Mask, such as those recently Embraced and still able to pass as the human they were, or has a single Mask and fake ID that can stand up to a traffic stop or similar surface scrutiny. A zero-dot mask does not pass a background check, much less a proper investigation by the authorities.</p>\n<p class=\"dots\"><span class=\"d\">•</span> You have a good fake identity, including a credit card, bank account, credit history, birth certificate, etc., all in your Mask’s name. You can pass a state or provincial-level background check.</p>\n<p class=\"dots\"><span class=\"d\">••</span> Your Mask can pass a background check with the national police: FBI, Scotland Yard, or the equivalent. If you had a military or intelligence record in life, it has been classified.</p>\n<p>If you have a two-dot Mask, you can also buy the following Advantages for one dot each: They asked St. Germain’s manservant if his master was truly a thousand years old, as it was rumored he had claimed. “How would I know?” the man replied. “I have only been in the master’s employ for three hundred years.”</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "190"
+  },
+  "multi": true
+ },
+ {
+  "n": "Known Blankbody",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Mask",
+  "html": "<p><strong>Flaw: (••) Known Blankbody. </strong> Your biometrics, name, history, known associates, and aliases appear in several intelligence agency databases, flagged as a potential terrorist. Any inquisitor can read between the lines and recognize you as a vampire.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "190"
+  }
+ },
+ {
+  "n": "Known Corpse",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Mask",
+  "html": "<p><strong>Flaw: (•) Known Corpse. </strong> People know you died recently and react with shock and horror if you appear among them. This Flaw also applies to any database lookups on your identity.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "190"
+  }
+ },
+ {
+  "n": "Zeroed",
+  "ed": "v5",
+  "kind": "merit",
+  "dots": [
+   1
+  ],
+  "cat": "Mask",
+  "html": "<p><strong>Zeroed: </strong> Someone in high places has purged your real records. You officially don’t exist.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "192"
+  },
+  "req": "Mask ••"
+ },
+ {
+  "n": "Cobbler",
+  "ed": "v5",
+  "kind": "merit",
+  "dots": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "cat": "Mask",
+  "html": "<p><strong>Cobbler: </strong> You can make or source Masks. Making a Mask takes three days per dot and possibly exposes you online; sourcing Masks takes one day per dot, but costs something in return. How much depends on your leverage, margin on the Social test, or whatever else the Storyteller decides.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "192"
+  },
+  "req": "Mask ••"
+ },
+ {
+  "n": "Mawla",
+  "ed": "v5",
+  "kind": "background",
+  "dots": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "cat": "Mawla",
+  "html": "<p>This Trait represents one or a group of Kindred who looks out for you, offering guidance, information, or aid once in a while. The word comes from medieval Arabic, meaning different things from “a trusted one” to “uncle” to “source of neighborly protection” to “non-Muslim whose oath still binds them.” Western vampires brought the term back from the Crusades, and as the Ashirra and Camarilla find themselves increasingly allied in the Gehenna War, the word enjoys a resurgence in vampire society.</p>\n<p>A Mawla may act as your mentor. Such a role commonly falls to your sire, if they don’t treat you as property or ignore you.</p>\n<p>Your Mawla might trade information to mutual benefit, or even come to your aid if you have respected the relationship. A Mawla may be powerful, but their power need not be direct. Depending on the number of dots in this Background, your Mawla might be nothing more than an ancilla with a remarkable information network, or they might be a centuries-old creature with tremendous influence and supernatural power. They may offer advice, speak to the Prince or Baron on your behalf, steer other elders clear of you, or give warning when you’re walking into situations you don’t understand. Your Mawla, of course, expects reciprocity.</p>\n<p>A Mawla rating could even represent a group of like-minded vampires, such as the elders of the city’s Tremere chantry or a Trotskyite clique amongst the Anarchs in town. (The plural of Mawla is Mawali.) As a general rule, a Mawla group costs one dot more than a single Kindred of that level: a a coven of elder Mawali would be a four-dot Mawla group, for example.</p>\n<p>Whoever they are, write them on your Relationship Map when you buy them.</p>\n<p>As a general rule, Mawali provide a helpful word and occasional political pushes or cover, but they don’t fight your battles or call in valuable favors. If they must do so for their own sake to aid you, you probably lose a dot or more of this Background, after arousing their ire.</p>\n<p>Characters can also acquire one-off Minor Boons (p. 315) from other Kindred, only during character generation. These boons cost half the points (rounded up) of the equivalent Mawla.</p>\n<p class=\"dots\"><span class=\"d\">•</span> Neonate</p>\n<p class=\"dots\"><span class=\"d\">••</span> Ancilla</p>\n<p class=\"dots\"><span class=\"d\">•••</span> Elder</p>\n<p class=\"dots\"><span class=\"d\">••••</span> Primogen or Anarch Revolutionary Council member</p>\n<p class=\"dots\"><span class=\"d\">•••••</span> Prince or Baron</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "192"
+  },
+  "multi": true
+ },
+ {
+  "n": "Adversary",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "cat": "Mawla",
+  "html": "<p><strong>ADVERSARY</strong> A fellow Cainite who generally wishes you (or more likely your sire, lineage, or mentor) ill, an Adversary is the reverse Flaw of the Mawla Background. Adversaries range from one-dot elders to three-dot Princes or powerful cabals. The Storyteller uses either the Adversary’s Status or some specific other Trait when building dice pools with which to oppose the player characters, not the dots in Adversary.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "193"
+  },
+  "multi": true
+ },
+ {
+  "n": "Resources",
+  "ed": "v5",
+  "kind": "background",
+  "dots": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "cat": "Resources",
+  "html": "<p>This Background describes your Resources. These benefits are not necessarily financial in nature and are rarely completely liquid, but you can often sell them to gain money. It could take weeks or even months to do so, depending on how much needs to be sold. Especially as the Second Inquisition closes down Kindred bank accounts, vampires increasingly return to holding their Resources in cash – or in gold, art, narcotics, guns, and slaves.</p>\n<p>Dots of Resources provide an income for you to maintain your standard of unliving, but you must detail the source of your income and the form this Background takes. After all, it might dry up, get stolen, or otherwise vanish during the chronicle.</p>\n<p class=\"dots\"><span class=\"d\">•</span> <strong>Portfolio Proletariat:</strong> You live paycheck to paycheck: apartment, car, camping equipment.</p>\n<p class=\"dots\"><span class=\"d\">••</span> <strong>Middle Class: </strong>Nice apartment or small house, several cars, high-end equipment</p>\n<p class=\"dots\"><span class=\"d\">•••</span> Rich:</strong> Great condo or nice house, luxury items, highend equipment for several people</p>\n<p class=\"dots\"><span class=\"d\">••••</span> Wealthy:</strong> Mansion, helicopter or private jet, very specialized high-end equipment</p>\n<p class=\"dots\"><span class=\"d\">•••••</span> Ultra Rich: </strong>Many mansions, “anything money can buy”</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "193"
+  },
+  "multi": true
+ },
+ {
+  "n": "Destitute",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Resources",
+  "html": "<p><strong>Flaw: (•) Destitute.</strong> You have no money and no home.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "193"
+  }
+ },
+ {
+  "n": "Retainers",
+  "ed": "v5",
+  "kind": "background",
+  "dots": [
+   1,
+   2,
+   3
+  ],
+  "cat": "Retainers",
+  "html": "<p>You have one or more loyal and steadfast servants or assistants. Retainers may be ghouls who are blood bound to you, individuals you have so Dominated over the years that they are incapable of independent action, or individuals you have so overwhelmed with your Presence that they would do anything for you.</p>\n<p>You must always control retainers in some fashion: a salary, vitae donation, or direct mesmerism. Though typically loyal, retainers may betray you if the reward outweighs the risk or if you have treated them badly. The Storyteller can always call for a scene between you and a retainer.</p>\n<p>Retainers should act as characters, not puppets. Even ghoul retainers aren’t supermen; the most skilled servants don’t always show the highest loyalty. Everything in Vampire is a tradeoff. Storytellers can use Retainers to add flavor to the chronicle; don’t let them or their misuse damage the story.</p>\n<p class=\"dots\"><span class=\"d\">•</span> Underwhelming retainer: A child, criminal lowlife, or horror nerd follows you around and does your bidding without a Blood Bond. Build them as a Weak mortal.</p>\n<p class=\"dots\"><span class=\"d\">••</span> A ghoul, a family servant, a human lover, or a dominated thrall: give them a backstory. Build them as an Average mortal or as a ghoul with no Advantages. For more on Ghouls, see p. 234.</p>\n<p class=\"dots\"><span class=\"d\">•••</span> A retainer competent enough to act independently and make lesser problems go away. They are likely a ghoul with traits equivalent to Gifted mortals, on top of their supernatural abilities.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "194"
+  },
+  "multi": true
+ },
+ {
+  "n": "Stalkers",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Retainers",
+  "html": "<p><strong>Flaw: (•) Stalkers. </strong> You have a tendency to attract people who become a tad too smitten with you for your own good. A former retainer retains their memory of you and a desire to reconnect. They may be hungry, love-maddened, desperate, opportunistic, or any combination or variation. Should you get rid of them, another soon appears.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "194"
+  }
+ },
+ {
+  "n": "Status",
+  "ed": "v5",
+  "kind": "background",
+  "dots": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "cat": "Status",
+  "html": "<p>You have something of a reputation and standing (earned or unearned) within a specified local community of Kindred, probably Camarilla or Anarch. Status among Camarilla society derives as often from your sire’s status and the respect due your particular bloodline as it does from personal achievement. High Status among Anarchs theoretically depends on the character’s contributions, but more often to their degree of connection (by Blood or coterie) to the current Baron or other ruler.</p>\n<p>Status in one sect does not transfer to the other. By and large, Status held in another city effectively reduces by one dot; an Influential (•••) vampire in Cartagena is only Respected (••) in Buenos Aires.</p>\n<p>The Storyteller may occasionally call on you to add your Status to a dice pool along with a Social Trait, especially for first meetings and court happenings. In other cases, the Storyteller may allow you to substitute your Status for a Social Trait – but other vampires may notice that you’re skating by on Status, instead of properly using the Etiquette Skill, for example.</p>\n<p>Caitiff characters begin with the Suspect Flaw and may not purchase positive Status during character creation.</p>\n<p class=\"dots\"><span class=\"d\">•</span> <strong>Known: </strong>A properly introduced, welcomed neonate, seen as an up-and-comer.</p>\n<p class=\"dots\"><span class=\"d\">••</span> <strong>Respected:</strong> You have responsibilities now, an average ancilla.</p>\n<p class=\"dots\"><span class=\"d\">•••</span> Influential:</strong> You hold authority over part of the group, an average elder.</p>\n<p class=\"dots\"><span class=\"d\">••••</span> Powerful: </strong>You hold office in the group, such as Sheriff, Harpy, or Scourge.</p>\n<p class=\"dots\"><span class=\"d\">•••••</span> Luminary: </strong>You sit at the table of power in the group, a respected member of the Primogen</p>\n<p>Players might build their characters individually, but they build their coterie together. Collaborative coterie creation creates shared buy-in to the chronicle, and it allows players to indicate which aspects of the World of the Darkness they have the most interest in exploring.</p>\n<p>The coterie pool begins with one free dot per player character. (The Storyteller may allow player groups with three or fewer players to begin with a coterie pool of two free dots per character.) Players may also contribute their own characters’ Advantage dots to the coterie pool.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "194"
+  },
+  "multi": true
+ },
+ {
+  "n": "Shunned",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Status",
+  "html": "<p><strong>Flaw: (••) Shunned. </strong> You’re completely loathed by this sect. You betrayed them, crossed a local leader, or fought them in the past. Members of this group will actively work against you if they can.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "194"
+  }
+ },
+ {
+  "n": "Suspect",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Status",
+  "html": "<p><strong>Flaw: (•) Suspect. </strong> You’re not good with this sect at all. You weaseled out of a boon, broke an oath, or did something similar. You can try to stay out of sight and out of mind, but unless you somehow make amends, you suffer a two-dice penalty to all Social tests involving the offended faction.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "194"
+  }
+ },
+ {
+  "n": "Enemies",
+  "ed": "v5",
+  "kind": "flaw",
+  "dots": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "cat": "Allies",
+  "html": "<p>Allies are mortals who support and help you: family, friends, or even a mortal organization that owes you some loyalty. Although Allies usually aid you willingly, without coaxing or coercion, they are not always available to offer assistance; they have their own concerns and can do only so much for the sake of your relationship. Usually, Allies appear about once per story.</p>\n<p>Allies can be almost anyone in your home city, depending on what your Storyteller will allow. You may have friends in the precinct morgue, at a tabloid newspaper or gossip blog, among high society, or at the railroad yard. Allies are generally trustworthy (though they probably don’t know that you’re a vampire, or even that vampires exist). However, nothing comes for free. If you wind up drawing favors from your friend in the Russian Mafia, he’ll probably ask you to do him a favor in kind in the future.</p>\n<p>Enemies are the opposite of Allies and are taken as Flaws.</p>\n<p>You can use the Mortal Template rules to create Allies or Enemies when you buy them or first call on them, and you can write them down on the Relationship Map, though many groups leave this process up to the Storyteller.</p>\n<p>Build Allies or Enemies from a budget of points based on their Effectiveness and on their Reliability. The maximum points in one Ally is six. Ally or Enemy groups appear in numbers equal to the number of player characters.</p>\n<p>All Enemies are rated two fewer dots than their Effectiveness; a Gifted mortal Ally costs three dots as an Ally, but only provides one dot as a Flaw. Enemies all have the same Reliability: whenever the Storyteller thinks they should show up, but probably at least once per story.</p>\n<p><strong>EFFECTIVENESS</strong></p>\n<p class=\"dots\"><span class=\"d\">•</span> Weak mortal, likely useless in a violent or potentially violent situation.</p>\n<p class=\"dots\"><span class=\"d\">••</span> Average mortal or a tightknit group of Weak mortals (neighborhood kids who solve mysteries, church group, NGO chapter)</p>\n<p class=\"dots\"><span class=\"d\">•••</span> Gifted mortal or a dangerous group of Average mortals (a street gang, a celebrity entourage, a blue-collar union local)</p>\n<p class=\"dots\"><span class=\"d\">••••</span> Deadly mortal, a Gifted mortal with magic or other supernatural powers, or a well-armed group of Gifted mortals (a private security squad , a lawyer contingent, a Russian Mafia bratva)</p>\n<p><strong>RELIABILITY</strong></p>\n<p class=\"dots\"><span class=\"d\">•</span> When you call on them, they appear half the time.</p>\n<p class=\"dots\"><span class=\"d\">••</span> When you call on them, they appear within 1-10 hours (roll a die).</p>\n<p class=\"dots\"><span class=\"d\">•••</span> When you call on them, they appear as soon as possible.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "184"
+  },
+  "multi": true,
+  "sum": "Mortal foes who work against you; rated two dots below their Effectiveness (see Allies)."
+ },
+ {
+  "n": "Minor Boon",
+  "ed": "v5",
+  "kind": "background",
+  "dots": [
+   1,
+   2,
+   3
+  ],
+  "cat": "Mawla",
+  "html": "<p>This Trait represents one or a group of Kindred who looks out for you, offering guidance, information, or aid once in a while. The word comes from medieval Arabic, meaning different things from “a trusted one” to “uncle” to “source of neighborly protection” to “non-Muslim whose oath still binds them.” Western vampires brought the term back from the Crusades, and as the Ashirra and Camarilla find themselves increasingly allied in the Gehenna War, the word enjoys a resurgence in vampire society.</p>\n<p>A Mawla may act as your mentor. Such a role commonly falls to your sire, if they don’t treat you as property or ignore you.</p>\n<p>Your Mawla might trade information to mutual benefit, or even come to your aid if you have respected the relationship. A Mawla may be powerful, but their power need not be direct. Depending on the number of dots in this Background, your Mawla might be nothing more than an ancilla with a remarkable information network, or they might be a centuries-old creature with tremendous influence and supernatural power. They may offer advice, speak to the Prince or Baron on your behalf, steer other elders clear of you, or give warning when you’re walking into situations you don’t understand. Your Mawla, of course, expects reciprocity.</p>\n<p>A Mawla rating could even represent a group of like-minded vampires, such as the elders of the city’s Tremere chantry or a Trotskyite clique amongst the Anarchs in town. (The plural of Mawla is Mawali.) As a general rule, a Mawla group costs one dot more than a single Kindred of that level: a a coven of elder Mawali would be a four-dot Mawla group, for example.</p>\n<p>Whoever they are, write them on your Relationship Map when you buy them.</p>\n<p>As a general rule, Mawali provide a helpful word and occasional political pushes or cover, but they don’t fight your battles or call in valuable favors. If they must do so for their own sake to aid you, you probably lose a dot or more of this Background, after arousing their ire.</p>\n<p>Characters can also acquire one-off Minor Boons (p. 315) from other Kindred, only during character generation. These boons cost half the points (rounded up) of the equivalent Mawla.</p>\n<p class=\"dots\"><span class=\"d\">•</span> Neonate</p>\n<p class=\"dots\"><span class=\"d\">••</span> Ancilla</p>\n<p class=\"dots\"><span class=\"d\">•••</span> Elder</p>\n<p class=\"dots\"><span class=\"d\">••••</span> Primogen or Anarch Revolutionary Council member</p>\n<p class=\"dots\"><span class=\"d\">•••••</span> Prince or Baron</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 5th Edition Corebook",
+   "page": "192"
+  },
+  "multi": true,
+  "sum": "A favor owed to you by another Kindred; costs half (rounded up) of the equivalent Mawla. Character creation only."
+ }
+]

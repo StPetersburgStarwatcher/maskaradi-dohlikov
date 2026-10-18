@@ -1,0 +1,2357 @@
+#### PAGE 110
+70|<B>Predator Pool:</B> Intelligence + Investigation to find a 
+70|victim nobody misses, or Stamina + Stealth for long 
+70|stalks of unknowing urban prey.
+70|<H>Trapdoor</H>
+70|Like the trapdoor spider, you build your nest and lure 
+70|your prey into it. You may lurk in an amusement park 
+70|dark ride or a steamy Turkish bath, haunt a house or 
+70|manage a fight club, but your victims come to your 
+70|place of power. There you might toy with them in 
+70|terror, imprison and drain them slowly, or just drink 
+70|deep and send them on their way.
+84|Add a specialty: Persuasion (Marketing) or 
+84|Stealth (Ambushes or Traps) 
+84|Gain one dot of Protean or Obfuscate
+84|Gain one dot of the Haven Background
+84|Gain one dot of either Retainers (your roper, 
+84|major-domo, etc.) or Herd (steady visitors for 
+84|whatever reason), or a second Haven dot
+84|Gain one Haven Flaw: Creepy (•) or Haunted (•)
+70|<B>Predator Pool: </B>Charisma + Stealth if your victims 
+70|enter your killing ground anticipating a fun night 
+70|out, or Dexterity + Stealth if you feed on trespassers, 
+70|urban explorers, or other passersby. Navigating the 
+70|maze inside your den calls for Wits + Awareness (but 
+70|you can add your Haven dots in dice to the pool 
+70|since you know it so well). 
+70|<H>Backgrounds</H>
+70|Taking Backgrounds lays out a solid framework for 
+70|who a vampire was in their mortal life, and shows 
+70|what parts of themselves they chose to keep or leave 
+70|behind as they moved into eternal unlife. These 
+70|are the weapons in the Kindred’s arsenal when it 
+70|comes to the mundane problems you’ll face, as 
+70|well as methods of surviving and preserving the 
+70|Masquerade. Even if you didn’t buy the Background 
+70|with the coterie pool, you might share a Haven, a 
+70|few Resources, or even a Herd member with your 
+70|mates. Use discretion when deciding what pieces of 
+70|yourself to share with your undead allies. 
+301|STANDALONE FLAWS
+301|<H>Allies</H>
+301|Allies can be as complex as a think tank a vampire 
+301|may fund under the table, and as simple as childhood 
+301|friends or family members. Allies show up to aid you, 
+301|within their power of course. How many dots you 
+301|put into your Allies will decide how reliable they can 
+301|be in a pinch. When building any number of dots 
+301|in this Background, take time to think about other 
+301|pieces of your character that would justify having 
+301|access to an Ally. For a Kindred whose Predator type 
+301|is Siren, his Ally may be his agent, who can help 
+301|him make introductions to the newest Toreador in 
+301|the Primogen at an art exhibit. Or a Ventrue whose 
+#### PAGE 111
+96|Archetype is Godfather likely has both Allies and 
+96|Enemies, coming from their crime family in life and 
+96|a rival family moving in. Allies are never vampires, 
+96|regardless of competency.
+96|<H2>Enemies</H2>
+96|On the other side of Allies are the background Flaw 
+96|Enemies. If your Allies run a small private detective 
+96|agency, their Enemies could be yours: a gang of 
+96|smash-and-grab thieves who prey on their clients 
+96|(and your Domain), or a police department using the 
+96|bureaucracy to endlessly demand useless paperwork 
+96|or seize evidence intended for you. You may also just 
+96|not have Allies at all, only Enemies who try and throw 
+96|as many impediments into your path as possible.
+105|However, you can try using this Flaw to your 
+96|advantage: manipulate the Enemies by using one of 
+96|your Masks to deniably send them after your own 
+96|foes, or frame them for such an attack on a rival. Of 
+96|course, Enemies already have plenty of motivation 
+96|to trace such mischievousness back to you or your 
+96|coterie – and you run the risk of letting them meet 
+96|your Kindred foes. Discuss such tactics with the 
+96|Storyteller, and with any other players in the group, 
+96|as this Flaw can affect them as well. Just like Allies, 
+96|Enemies are always mortals, or in some cases, ghouls.
+96|<H>Contacts</H>
+96|Where Allies help you make things happen, Contacts 
+96|help you learn about things happening to others. 
+96|How you have access to a particular Contact does not 
+96|have to synergize with your background or Concept 
+96|(a resourceful Kindred has eyes and ears everywhere 
+96|after all) but a concrete reason for this specific Contact 
+96|makes the story better and more plausible. Street-level 
+96|coteries can leverage one and two-dot Contacts who 
+96|provide street-level items and information as part of 
+96|your shared milieu.
+105|Go ahead and put a name and basic personality 
+96|to a Contact, on the Relationship Map or in 
+96|your notes. A character who worked as a radio 
+96|personality may know the tech crew from their 
+327|studio, or a mortician may still have a connection to 
+327|their funeral home. How your death changed your 
+327|relationship with them – or if it didn’t change it at 
+327|all – provides juicy roleplaying potential in even a 
+327|quick “drug buy” scene. As the vampire ages and 
+327|meets new mortals to add to their arsenal, playing 
+327|the game and being opportunistic about mortals 
+327|you meet can create new Contacts and open up new 
+327|possible story and resource opportunities.
+327|<H>Fame</H>
+327|Taking Fame as a background generally means that 
+327|the Storyteller characters in a chronicle want to have 
+327|access to you. There are two ways that a vampire may 
+327|have Fame in a modern setting, and each carries their 
+327|own dangers. Mortal fame, and having to be in the 
+327|public eye, puts these Kindred at risk of being sniffed 
+327|out by the Inquisition, or of being blackmailed by 
+327|unscrupulous fellow Kindred. Choosing to have 
+327|Fame among Kindred reduces that chance, but means 
+327|that members of other sects or factions may see you as 
+327|a potential ally, or threat, or source of information or 
+327|access to even more famous Cainites. The Storyteller 
+327|may wish to craft a Loresheet around a character’s 
+327|Fame, or offer the player the option of taking their 
+327|Fame from an existing Loresheet group or legend.
+336|Having Fame can make it difficult to get around 
+327|places discreetly, what with humans tailing you 
+327|wishing to post selfies with you, but it can protect 
+327|you in some ways. Kindred risk breaching the 
+327|Masquerade by overtly harming or attacking a 
+327|Famous character, with human entourages and 
+327|paparazzi always on the lookout in the area. You can 
+327|also escape enemies by ducking into exclusive clubs 
+327|or hotels with year-long waiting lists.
+327|<H2>Infamy</H2>
+327|The other side of the shiny Fame coin, Infamy 
+327|comes with its own host of pros and cons. An 
+327|infamous Kindred may have a hard time getting 
+327|in good with the Prince, or humans may harass 
+327|these individuals on their nightly goings-on. Other 
+#### PAGE 112
+70|unsavory individuals however 
+70|may see a vampire with Infamy as 
+70|an asset, and more likely to help 
+70|a fellow scoundrel out. While 
+70|this certainly doesn’t help with 
+70|your public image, other sketchy 
+70|organizations or persons think 
+70|you’re one of them, and you can 
+70|sometimes use that sympathy to 
+70|get things done. Just be careful to 
+70|not make them angry as well. 
+70|<H>Haven</H>
+70|One of the most useful, and 
+70|in some chronicles necessary, 
+70|Backgrounds in the game. Having 
+70|a reliable place to take shelter 
+70|from the sunrise is vital to a 
+70|Kindred’s extended survival, and 
+70|it doesn’t hurt to make it nice 
+70|either. Normally coteries build a 
+70|communal Haven, but this is not 
+70|mandatory, especially if it conflicts 
+70|with other Backgrounds you have 
+70|taken for yourself or the story you 
+70|want to play.
+79|Think creatively about your 
+70|Haven, especially if you add 
+70|Merits: a Laboratory has caustic 
+70|chemicals and an anodized metal 
+70|sink suitable for disintegrating a 
+70|corpse or removing serial numbers 
+70|from a gun. Your Storyteller may 
+70|meet you halfway for custom 
+70|havens like mortuaries: re-skin 
+70|Machine Shop (p. 112) to build 
+70|reanimated constructs in the back 
+70|and to have a handy incinerator.
+79|Remember, if you take no 
+70|Haven dots and only a Haven 
+70|Flaw (or Flaws), you still have 
+70|access to a Haven. It’s probably 
+#### PAGE 113
+96|not safe, and it’s definitely not comfortable, but 
+96|it keeps the sun out. The only way to not have 
+96|anywhere to sleep is to choose the No Haven Flaw.
+96|<H2>New Haven Merits</H2>
+96|Like all Haven Merits, coteries often find it a better deal 
+96|to buy these for an excellent group Haven rather than 
+96|spend the same number of points (or more!) on many 
+96|less-secure personal Havens.
+96|<E>BUSINESS ESTABLISHMENT •• OR •••</E>
+96|You rent out your haven to a separate business: a 
+96|9–5 call center, coffee shop, laundromat, or salon. 
+96|You might even operate the business yourselves 
+96|(or with Retainers) as a Corporate coterie (p. 160) 
+96|although the Storyteller should avoid turning this 
+96|game of personal horror into a game of business 
+96|management horror.
+105|The kine mill around living their daily lives while 
+96|you sleep in the repurposed storage basement, or one 
+96|of the server rooms where all of the out of service 
+96|equipment is stored. The business pays a monthly 
+96|rent (or profit, if you own it), providing you with a 
+96|steady stream of funding.
+105|The downside: A lot of strangers walking 
+96|around, and exposure to local officials, and 
+96|business taxes that potentially put you very much 
+96|on the grid. Renting to criminals takes the taxes 
+96|and paperwork out of the picture, but adds even 
+96|more exposure to cops and other less pliable 
+96|criminals. Reduce your base Haven dots by one 
+96|for pools involving your Haven’s privacy and 
+96|for security against either financial or criminal 
+96|intrusion (pick when you choose this Merit).
+105|Dots in this Merit roughly equate to their 
+96|Resources equivalent, and the Storyteller may 
+96|let you use its dots instead of Resources if the 
+96|substitution makes sense. It also adds two dice to 
+96|pools to do things related to your business’ activities 
+96|or core competency, to interact with other local 
+96|businesses, and to tests of preparedness to already 
+96|have something you need in the moment (<B>Vampire: </B>
+96|<B>The Masquerade</B>, p. 410). Businesses have 
+327|inventory and supply closets, after all.
+336|However, if something happens to your Haven, 
+327|you don’t have those Resource-like dots any more: 
+327|no money comes into your pool hall if it burns 
+327|down or if the FBI closes it off as a crime scene. 
+327|You may want to take “regular” Resources dots 
+327|as a backup. They don’t stack: a two-dot Business 
+327|Establishment plus two dots in Resources means 
+327|you have two Middle Class income streams; you’re 
+327|not four-dot Wealthy.
+327|•• Your haven’s business is a thriving local concern or 
+327|national chain outlet.
+327|••• Your haven’s business is a dominant local 
+327|concern or an office of an international company. 
+327|Perhaps you have a few floors of a skyscraper, or an 
+327|office building near the airport, or even a pier and 
+327|warehouses on the docks where you collect fees from 
+327|ships and shippers alike.
+327|<E>FURCUS • TO •••</E>
+327|Your haven lies over a knot or fork in the veins of the 
+327|Earth, or a frayed spot in the Veil. While invisible 
+327|to normal sight (though not perhaps to Auspex or 
+327|various Rituals), it underlies a prominent area: the 
+327|top of a staircase, a fountain in the garden, the center 
+327|of a room. (Architecture + Occult might allow 
+327|someone to deduce its location, if they know what 
+327|they’re looking for.) Kindred feel the pull of magical 
+327|energies at the site, and kine often feel nervous 
+327|or nauseated. Blood Sorcery Rituals or Oblivion 
+327|Ceremonies (pick when you take this Advantage) 
+327|tap into the furcus’ power.
+336|Each dot in this Merit adds one die to Ritual (or 
+327|Ceremonial) dice pools used at the furcus. (At the 
+327|Storyteller’s discretion it may also subtract one die from 
+327|Social pools used to calm or seduce mortals – or add a 
+327|die when interacting with mortal hedge magicians or 
+327|other occult groupies.) Bestial failures on such tests may 
+327|also lead to especially horrific or eldritch results: energy 
+327|from the furcus that harms or curses the sorcerer, 
+327|accidental summoning of an entity, or a clear magical 
+327|pulse from the haven’s location. Depending on the 
+327|Ceremony, a total or bestial failure might automatically 
+327|impose the Haunted Flaw on the haven.
+#### PAGE 114
+70|<E>MACHINE SHOP •+</E>
+70|Your haven has state of the art tools, equipment, 
+70|and machinery in a dedicated work space, plus 
+70|supplies of oil, industrial chemicals, gasoline, 
+70|and other household necessities. Each dot of this 
+70|Merit adds one to the dice pool for Craft rolls, 
+70|or to other tests related to building, repairing, or 
+70|disassembling a piece of machinery or equipment: 
+70|Intelligence + Firearms (Gunsmithing) to build a 
+70|Sten submachine gun, Intelligence + Technology 
+70|to fab a compound crossbow with a 3-D printer, 
+70|Intelligence + Craft (Engineering) to soup up a car, 
+70|etc. For particularly recondite machinery, you may 
+70|have to explain how you sourced it if you don’t 
+70|have Resources ••• or better.
+79|Small havens with this Merit can only add to 
+70|pools for one specialty of Craft: they don’t have 
+70|enough room for a general machine shop or for 
+70|automotive work.
+79|A three-dot machine shop can include an 
+70|incinerator; a three-dot machine shop in a large 
+70|haven can include a car crusher or compactor.
+70|<H2>Haven Flaw</H2>
+70|<E>SHARED (• OR ••)</E>
+70|Your haven is not entirely your own. Other Kindred, 
+70|besides you and your coterie, have access to it and 
+70|can make decisions about it without consulting you. 
+70|Decide the specific conditions and determine the 
+70|severity of this Flaw based on those circumstances.
+79|The one-dot version of this Flaw covers joint 
+70|havens: e.g., you have one or more Storyteller 
+70|character housemates, or you and a whole clutch 
+70|of fledglings squat in an abandoned building. Any 
+70|problems they bring back to the haven become your 
+70|problems, too. A coterie that takes a haven together 
+70|does not automatically invoke this Flaw; sharing 
+70|with your coterie has only as much downside as you 
+70|mutually create in play.
+79|The one-dot Shared Flaw also covers short-term 
+70|havens: you’re staying in an embassy or safe house 
+70|or campground, with the expectation that you’ll 
+70|be moving on and another Kindred may arrive to 
+301|take your place at any time. Getting a new shared 
+301|haven when that happens costs no more dots, but 
+301|you may lose dots you put into improving the old 
+301|one, in addition to moving all your belongings and 
+301|re-training your Herd where to show up at night.
+310|The two-dot version of this Flaw means you 
+301|have a local landlord. Another Kindred has 
+301|rights to the property (either an actual land title 
+301|or a grant from the local Prince or Baron) and 
+301|graciously (or not) allows you to roost there. 
+301|After haven creation, you must discuss any 
+301|changes you wish to make to your haven with 
+301|your landlord. The landlord can enter your haven 
+301|at will. Especially older Kindred landlords may 
+301|also call on you for service or dirty jobs, treating 
+301|you like a vassal or apparatchik.
+310|Tremere chantries, Nosferatu warrens, and 
+301|Ministry temples might be one or two-dot shared 
+301|havens for characters of the appropriate clan, 
+301|depending on the power balance between you and 
+301|the other Kindred there.
+301|<H>Herd</H>
+301|Some Predator types rely on this Background more 
+301|heavily than others, such as Consensualist, while the 
+301|Predator type Blood Leech won’t be able to make 
+301|effective use of this Background at all. The chronicle 
+301|may also help decide how Herds are used, if allowed 
+301|at all, as contested territories, domains in war zones, 
+301|or nomadic and fugitive coteries make it harder to 
+301|access this Background. Herds may also blend into 
+301|other Backgrounds, allowing you to get more story 
+301|mileage out of mortals. Retainers and Allies may 
+301|have tie-ins to a player’s Herd, and the Storyteller 
+301|may allow players to use similar combinations with 
+301|other Backgrounds as well. 
+301|<H>Influence </H>
+301|Based in political power,<B> </B>Influence adds intrigue and 
+301|political warfare to a chronicle. Using Influence is 
+301|more than just manipulating city politics or media 
+301|in the abstract. Vampires of certain clans may have 
+#### PAGE 115
+96|easier times adding and using Influence in various 
+96|sectors than others. Brujah have an affinity for 
+96|connecting with political activists or local militias. 
+96|Malkavians more likely have Influence in weird 
+96|collectives or mystical circles. 
+105|When creating Influences and deciding how they 
+96|connect to a character, think about Predator styles as 
+96|well: Who should you manipulate to help you hunt? 
+96|Influence also provides backup protection for your 
+96|coterie’s Domain. Within a coterie, having a wide 
+96|spread of Influence (like a wide net of Contacts) 
+96|gives your group flexibility in planning and reaction 
+96|to enemy action. For example, having influence in 
+96|a local political office would not be as effective at 
+96|blocking off street traffic as a police district may, but 
+96|the alderman’s office can put your Haven guards on 
+96|the list of city-approved “youth action groups.”
+96|<H2>Despised and Disliked</H2>
+96|These two Flaws allow for interesting gameplay if you 
+96|wish to crank up your vampires’ self-reliance in their 
+96|own Domain. Despised turns one group or region 
+96|of the city actively against you, and even neutrals 
+96|stay cold, while Disliked leaves everyone against you 
+96|equally — either of which you can play up when 
+96|rallying your own neighborhood. Of course, when 
+96|you send your Allies and Retainers into other hoods, 
+96|they may run into extra problems even if those Flaws 
+96|don’t affect them (or your Contacts) directly. 
+105|You might also run into those consequences on a 
+96|night out: a Toreador disliked<B> </B>for uploading a video 
+96|slamming the local soccer team gets into endless 
+96|sports arguments when they just want to feed in 
+96|peace. You can even combine Despised or Disliked 
+96|with regular Influence: the alderman only meets 
+96|with you in a parking garage and insists on being 
+96|paid in cash, but she still zones your nightclub for 
+96|all-night operations and a loading dock.
+96|<H>Loresheets</H>
+96|Loresheets exist to highlight a certain aspect of 
+96|the world for the interested player and Storyteller, 
+327|without forcing every player to master the entire 
+327|minutiae of the <B>Vampire</B> setting. A Loresheet 
+327|foregrounds some group, historical event, or elder 
+327|<I>as it relates specifically to the player,</I> encouraging 
+327|them to take ownership of that aspect and 
+327|reminding the Storyteller that vampiric arcana 
+327|exists to serve the story at the table tonight, not as 
+327|mandatory history lessons.
+336|A Bloodline is a specific kind of Loresheet that 
+327|acts as its own Background type.
+327|<H2>Bloodline</H2>
+327|You have been Embraced into a distinct bloodline 
+327|with unique qualities. This gives you access to 
+327|a second Loresheet that only members of your 
+327|bloodline possess. All other rules and limitations 
+327|of the Loresheet Background (<B>Vampire: The </B>
+327|<B>Masquerade,</B> p. 190) apply — “Bloodline” is a 
+327|distinct Background, and as such you can possess 
+327|an Advantage from both it as well as the Loresheet 
+327|Background. Most Hecata also have a distinct 
+327|Bloodline.
+336|Like Loresheet, you can only choose one 
+327|Bloodline, although you can have one Bloodline 
+327|and one Loresheet. Storytellers might decide 
+327|that previously-published bloodline-related 
+327|Loresheets (such as “Descendant of Hardestadt” 
+327|and “Descendant of Helena” from <B>Vampire: The </B>
+327|<B>Masquerade,</B> p. 390–391) count as Bloodlines, 
+327|allowing characters with those Loresheets to take an 
+327|additional, non-lineage-related Loresheet. 
+327|<H>Mask</H>
+327|Political intrigue and political horror imply shifting 
+327|or alternate identities, a key part of this Background. 
+327|At its base, this Background lets you hold a job, 
+327|drive a car, pay your phone bill, use a bank card, 
+327|and otherwise remain somewhat tethered to mortal 
+327|society. A chronicle that emphasizes shifted or 
+327|alternate identities might also let a character with 
+327|multiple Masks mitigate problems from Fame or 
+327|hide out from Adversaries — for a while.
+#### PAGE 116
+70|<H2>Zeroed and Cobbler</H2>
+70|Zeroed synergizes well with a character acting as a 
+70|spy or agent for their sect, a ghost in the machine for 
+70|their own ends or those of their patrons. Cobbler 
+70|gives a player the ability to make masks for others, 
+70|for a fee and small risk. This Background makes an 
+70|excellent side hustle and story hook: characters can 
+70|sell their craft for cash or boons, while also creating 
+70|potential dangers from their clients’ hunters and 
+70|enemies.
+70|<H2>Known Blankbody and Known </H2>
+70|<H2>Corpse</H2>
+70|Like other Background Flaws, these don’t require 
+70|the character to have any dots in the Mask 
+70|Background. They act as storytelling vehicles, 
+70|drawing the unwanted attention of enemies, or even 
+70|loved ones. A character careful to avoid surveillance 
+70|cameras or the attention of the security services can 
+70|stay under the Coalition’s radar even with Known 
+70|Blankbody, but Known Corpse is harder to shake 
+70|without active disguise powers.
+79|Your famous death leaves you vulnerable any 
+70|time mortals notice you: perhaps Netflix made 
+70|a documentary about your cold case murder, or 
+70|activists plastered your face all over the city during 
+70|your candlelight vigil. Did you run for local office? 
+70|Did your grin adorn billboards advertising your 
+70|ambulance-chasing law firm?
+70|<H>Mawla</H>
+70|In many cases, older or more experienced Kindred 
+70|serve as your Mawla. A sire who seeks the advancement 
+70|of their childer makes a standard Mawla, or some 
+70|member of the faction or sect that “recruited” you is 
+70|assigned as your zampolit or confessor to make sure you 
+70|don’t squander the potential your makers saw in you. 
+70|However, you might have a young Mawla: a loyal friend 
+70|from your mortal days, also Embraced and remarkably 
+70|still trustworthy. 
+79|More dots might indicate a Mawla in a more 
+70|valuable position: a neonate worth one dot 
+301|normally could be worth two or even three dots as 
+301|your informant in the personal entourage of the 
+301|local Baron or Prince. It’s up to the Storyteller to 
+301|determine whether having a spy in the enemy camp 
+301|is worth more or less than a spy in your own lord’s 
+301|court in this chronicle.
+301|<H2>Adversary</H2>
+301|Since an Adversary may drive the plot at any 
+301|time, the Storyteller and player should discuss the 
+301|specifics early and in some detail: the Adversary’s 
+301|sect or faction inevitably winds up playing a major 
+301|role in the chronicle’s narrative so it’s best to 
+301|take an Adversary who already fits into it. More 
+301|powerful Adversaries target you as leverage against 
+301|their real enemy: your sire or Mawla or other 
+301|nominal superior. 
+310|That said, a personal Adversary can be 
+301|interesting: perhaps you and your Adversary were 
+301|Embraced at the same time and have competed for 
+301|advancement within your sect ever since. Or reverse 
+301|the perspective: you’re actually your Adversary’s 
+301|great enemy. Perhaps they betrayed you, framed 
+301|you before the Prince, and got you ejected from the 
+301|court or exiled. Now you’re back, and your greatest 
+301|goal is to bring your Adversary down.
+301|<H2>Boons and Debts</H2>
+301|In most cases Status, Influence, Mawla, and other 
+301|Backgrounds sufficiently represent a character’s 
+301|social resources, but there may be times when the 
+301|story calls for more granular use of debts and boons 
+301|(<B>Vampire: The Masquerade,</B> pp. 314–315) owed 
+301|to specific individuals: “My Sire saved your Haven 
+301|during the Revolt, remember,” is more exciting and 
+301|intriguing than a dot in Status. It’s also less generally 
+301|useful, but provides more specific leverage on a 
+301|specific vampire.
+310|Individual characters can acquire one-off Boons 
+301|from other Kindred during character generation. 
+301|Minor Boons cost half the points (rounded up) of 
+301|the equivalent Mawla (<B>Vampire: The Masquerade, </B>
+301|p. 193). Major Boons cost one dot more than Minor 
+#### PAGE 117
+96|BOON AND DEBT COSTS
+105|Minor Boon
+173|Major Boon
+237|Creditor / Debtor
+130|•
+196|••
+237|Neonate
+130|•
+196|••
+237|Ancilla
+128|••
+194|•••
+237|Elder
+128|••
+194|•••
+237|Primogen or Anarch 
+237|Council member
+126|•••
+192|••••
+237|Prince or Baron
+96|Boons. Characters may not purchase Life Boons 
+96|at character creation without explicit Storyteller 
+96|agreement. If the Storyteller agrees, a Life Boon costs 
+96|three dots more than the equivalent Minor Boon.
+105|Debts provide many fewer points when taken as 
+96|Flaws than they cost as Merits. Debt sucks, what 
+96|can we say? However, being in Major Debt (owing 
+96|a Major Boon) to a higher-Status vampire is even 
+96|worse than that. Once per story the character’s 
+96|creditor or their minions can ask them for a favor 
+96|they cannot refuse without risking being shunned, 
+96|blood hunted, or worse. This favor can take on any 
+96|form and often means exposing the character to 
+96|mortal danger or reputational collapse. 
+105|If a character finds themselves in Life Debt to a 
+96|high-Status vampire, they might as well just get the 
+96|Blood Bond and enthrall themselves. Even non-
+96|Caitiff vampires may experience such indebtedness 
+96|as Debt Peonage (p. 127).
+105|In all other ways, Minor, Major, and Life Boons 
+96|function according to the descriptions in <B>Vampire: The </B>
+96|<B>Masquerade</B> (pp. 314–315). Track all debts and boons 
+96|individually. Note that trivial boons, as simple, easily 
+96|discharged promises, are not tracked using this system.
+105|Boons and Debts cannot be purchased or bought 
+96|off with experience points. After character creation, 
+96|they can only be gained (or lost) through the 
+96|character’s actions in play.
+96|<H>Resources</H>
+96|In the WORLD OF DARKNESS and the world 
+96|of the living, money always talks. Treat Resources<B> </B>
+96|as the last line of persuasion or interrogation when 
+358|Minor Debt
+424|Major Debt
+491|Life Debt
+379|(•)
+445|(•)
+505|(••)
+379|(•)
+445|(•)
+505|(••)
+379|(•)
+443|(••)
+505|(••)
+377|(••)
+443|(••)
+503|(•••)
+377|(••)
+441|(•••)
+503|(•••)
+327|charisma fails, or when your other Backgrounds 
+327|can’t reach the problem. Resources can always 
+327|reach someone. Younger vampires like yourself 
+327|have a better understanding of what mortals can 
+327|do for you than older Kindred who see them only 
+327|as food or pets. And you have both the knowledge 
+327|and the means to motivate them. Maybe you can’t 
+327|stop an elder with money, but a thick stack of 
+327|benjamins can convince plenty of mortal arsonists, 
+327|reporters, or cops to try their best to do so. 
+336|Determine the source of your Resources, the 
+327|more individual the better for the story. Do you sell 
+327|Malkavian predictions (suitably redacted) to day 
+327|traders, or live off the royalties of a decades-old hit 
+327|song? Did you find a big bag of Mafia cash in the 
+327|woods? Think of your Predator style as a possible 
+327|Resources explanation: do you tithe your worshipers 
+327|as an Osiris, or roll your victims for cash or drugs as 
+327|an Alleycat?
+336|Storytellers should also be mindful about 
+327|allowing high (4+) Resource values. Gaining 
+327|entrance to an exclusive club becomes far less 
+327|interesting when a character can just buy the 
+327|premises with a phone call.
+327|<H>Retainers</H>
+327|Retainers do things and go places that Allies and 
+327|Contacts won’t, often even commit murder or other 
+327|felonies. Mortals might even feel enough love for 
+327|or loyalty to you to do such things without being 
+327|ghouls or thralls. Since Retainers should be named 
+327|individuals, it doesn’t hurt to look at their motives 
+327|and their conditioning, and for the Storyteller to ask 
+#### PAGE 118
+70|what might theoretically break the relationship. 
+79|The relationship itself varies. Some Kindred simply 
+70|keep Retainers as reliable errand people who can 
+70|go outside in daylight. Others use their Retainer as 
+70|a confidant, a sympathetic ear to help shoulder the 
+70|burden of eternal life and the sadness that comes with 
+70|it. Whatever responsibility you feel for your Retainer, 
+70|their responsibilities to you dwarf it. In troupe-style 
+70|chronicles (p. 198), players often portray other 
+70|characters’ Retainers. Especially in such chronicles, 
+70|players need to recognize the power dynamics and 
+70|roleplaying challenges involved (see <I>Power Differentials,</I> 
+70|p.220).
+70|<H2>Stalkers</H2>
+70|The temptation with this Flaw, which the Storyteller 
+70|should absolutely encourage, is to use the Stalker as a 
+70|“free” (if somewhat unreliable) Retainer – which of 
+70|course blows up on you once you actually depend on 
+70|it. The Storyteller should insist that you answer two 
+70|main questions when you take this Flaw: what does 
+70|the stalker want from you, and why haven’t you just 
+70|killed them already? The tension between these two 
+70|answers drives the stalker subplot. 
+79|Even more than most Flaws, build this Flaw 
+70|collaboratively with the whole group to avoid 
+70|unpleasant mirrors of real-life stresses and problems 
+70|for another player. Absolutely discuss <I>Veils and Lines</I> 
+70|(<B>Vampire: The Masquerade</B>, p. 423) regarding when 
+70|the stalker is played, who plays them, and their role (if 
+70|any) in the game. It’s a bit harder to come up with a 
+70|coterie Flaw version of Stalkers, except of course the 
+70|classic “the coterie is a band” setup.
+70|<H>Status</H>
+70|Status generally doesn’t transfer between sects, as 
+70|each sect values different accomplishments and 
+70|virtues. Status might also apply more narrowly 
+70|than a full sect, denoting rank in a Ministry temple 
+70|or Tremere chantry, for instance. Status and Fame 
+70|somewhat overlap, but Status generally confers 
+70|respect. A vampire might have Fame for killing 
+#### PAGE 119
+96|a rival in dramatic fashion, but a Banu Haqim 
+96|warrior might also (or instead) have a dot of Status 
+96|in their clan for their action. Status might also 
+96|overlap with Loresheets, which could justify a 
+96|somewhat murky or nebulous Status: a double 
+96|agent of Theo Bell might have actual Status in 
+96|the Anarch soviet, and a cover Status established 
+96|within the Camarilla by some kind of shadowplay. 
+96|Discuss local, limited, or murky Status with the 
+96|Storyteller to make sure their chronicle focuses on 
+96|challenges such Status meets or flavors.
+96|<E>CITY SECRETS •</E>
+96|You have somehow acquired a damning secret 
+96|about the city’s Kindred power structure, perhaps 
+96|specifically about someone in it. Decide the exact 
+96|nature of the information with the Storyteller. 
+96|If the secret refers only to mortal business (“the 
+96|Mayor is secretly fucking a Russian Mafiya 
+96|soldier”), it’s just a way to explain your Influence.
+105|A few power players in the city know you 
+96|have this information, or strongly suspect 
+96|it. Hopefully, you’ve made arrangements for 
+96|the secret to get out upon your mysterious 
+96|disappearance. You could sell this information 
+96|for a high price, but its truest value is protection: 
+96|those who want it to stay secret have some interest 
+96|in keeping you happy. Of course, if you push your 
+96|luck, they may decide keeping you quiet forever 
+96|takes higher priority.
+105|This Background resembles Influence more than 
+96|Status in some circumstances; the Storyteller should 
+96|determine when or if it adds to a Social pool, or 
+96|possibly a Research or Insight test. 
+105|You can take this Background a maximum of three 
+96|times, with a different secret each time.
+96|<H>New Merits and Flaws</H>
+96|Merits and Flaws can help make a character more 
+96|distinct and individual. For more information on 
+96|Merits and Flaws, see p. 179 of <B>Vampire: The </B>
+96|<B>Masquerade</B>.
+336|Most of these new Advantages (those with the 
+327|symbol) apply to mortals, ghouls, and Kindred alike. 
+327|In some cases, the Storyteller (or the player) should 
+327|come up with a sufficiently persuasive explanation for 
+327|non-Kindred to have, e.g., supernatural-seeming Luck 
+327|of the Devil. For specific Caitiff, Thin-blood, and 
+327|Ghoul Advantages, see those sections (pp. 126, 134, 
+327|and 141).
+327|<H>Merits</H>
+327|<H2>Looks Merits</H2>
+348|<E> FAMOUS FACE •</E>
+327|You bear a passing or very close resemblance to 
+327|someone very well known. Sometimes this works 
+327|in your favor. Other times this results in “Charlize 
+327|Theron bit that cop on the neck!” You gain two 
+327|dice to social tests in circumstances where you can 
+327|leverage your lookalike status, but suffer a two-dice 
+327|penalty whenever you try to hide in a crowd or in 
+327|other areas where you want to avoid recognition.
+348|<E> INGÉNUE •</E>
+327|You look completely innocent and blameless, 
+327|making others believe in your good intentions much 
+327|easier. Add two dice to any rolls related to avoiding 
+327|suspicion or deflect blame, at the Storyteller’s 
+327|discretion.
+348|<E> REMARKABLE FEATURE •</E>
+327|You possess a rare, memorable feature such as a 
+327|striking eye color, atypical pupils, or an unusual 
+327|complexion, providing a two-dice bonus to social 
+327|interactions with strangers. (The novelty quickly 
+327|wears off.) Take a one-die penalty to disguise yourself.
+327|<H2>Feeding Merit</H2>
+327|<E>VESSEL RECOGNITION •</E>
+327|One easy way to piss off a Kindred is to feed off their 
+327|kine. Kindred guard their herds jealously, and you’ve 
+327|learned how to avoid them, being able to smell out 
+533| 
+#### PAGE 120
+70|which mortal belongs to a herd or is a particular 
+70|Blood Doll.
+79|A win on a Resolve + Awareness test at 
+70|Difficulty 2 lets you smell whether a mortal has 
+70|been fed on recently. A critical win lets you sense 
+70|if the feeding is recurring, likely making them part 
+70|of someone’s herd.
+70|<H2>Mythic Merits</H2>
+91|<E> LUCK OF THE DEVIL ••••</E>
+70|Someone else will always take the fall for your 
+70|missteps as long as someone’s available to take the 
+70|blame. Whether this is because of a face everyone 
+70|loves, a guardian angel, or something far darker, 
+70|you manage to slip, skate, and dodge out of trouble, 
+70|though you’re in constant need of new friends as 
+70|you burn through them like a wildfire.
+79|Once per session you can have a misfortune — an 
+70|attack, an accusation, a blame, or anything in between 
+70|— directed at you befall someone else close to you. 
+70|This can be an ally, retainer, coterie mate, or even a 
+70|Touchstone. The Storyteller is the final arbiter on what 
+70|counts as a proper misfortune.
+70|<E>NUIT MODE ••</E>
+70|Your body doesn’t automatically revert to the death-
+70|state each night, enabling you to keep things like 
+70|new haircuts, tattoos, and other body modifications 
+70|at your option. You are still able to return to your 
+70|original death-state, though, and can mend any later 
+70|modifications as if they were Aggravated damage. 
+70|This Merit is available only to Kindred of Blood 
+70|Potency 1 or lower. (If your Blood becomes more 
+70|potent at any point, the Merit no longer grants 
+70|any benefit, but if you drop back down to Blood 
+70|Potency 1 it returns.)
+70|<H2>Other Merits</H2>
+91|<E> CHECK THE TRUNK •</E>
+70|Mercenaries and gig workers have to keep their tools 
+70|of the trade close at hand. They never know what 
+70|their next job might require, but they do their best 
+301|to keep a supply of useful tools close at hand. Caitiff, 
+301|Ravnos, Anarchs, and even some mortals especially 
+301|benefit from this Merit.
+310|You have easy access to an armory or cache of tools 
+301|and hardware. None of these items can exceed a value 
+301|available to a character with Resources 2. Common 
+301|items found in a cache could include a sawed-off 
+301|shotgun, rusty bolt cutters, half a roll of duct tape, 
+301|homemade stakes, half empty squeeze bottles of 
+301|lighter fluid, and whatever else the Storyteller allows. 
+301|Take an additional two dots in Preparedness pools 
+301|(<B>Vampire: The Masquerade</B>, p. 410) for items 
+301|within this Resource band. Losing your car, haven, or 
+301|other storage space may interrupt this Merit until you 
+301|build up a new stash.
+322|<E> SIDE HUSTLER ••</E>
+301|Folks on the fringes constantly have to grind to keep the 
+301|little that they have. Juggling a million tasks, favors, and 
+301|debts has become second nature to them. 
+#### PAGE 121
+105|Once per session you can get your hands on 
+96|an item, a piece of information, or access to an 
+96|event as if you had two dots in the appropriate 
+96|Resources, Contacts or Influence Background. 
+96|(Items obtained with Resources likely have to be 
+96|returned intact.) Often this requires you to spend 
+96|part of the night calling in markers and pressing 
+96|your informal network.
+117|<E> TEMPERED WILL •••</E>
+96|Your stubborn spirit didn’t die during your 
+96|Embrace, and you find yourself knowing when 
+96|people are trying to force you to do something 
+96|against your will. 
+105|You are always aware of when someone is using 
+96|Dominate and Presence against you. Once per 
+96|session, when resisting Dominate or Presence, you 
+96|may add two additional dice to your resistance pool. 
+96|Only someone with no dots in either Dominate 
+96|or Presence can take this Merit. (If you acquire the 
+96|Disciplines afterward, or temporarily as with thin-
+96|bloods, the Merit no longer grants any benefit while 
+96|you possess them.)
+96|<E>UNTOUCHABLE •••••</E>
+96|The powers that be are very reluctant to punish 
+96|you for even the most egregious crimes. Perhaps 
+96|you’re the secret power behind the throne, or you 
+96|hold some damning blackmail over the local Baron, 
+96|or you’re the secret childe of a Justicar or other 
+96|political potentate. Once per story you can escape 
+96|all official punishment for a crime that would 
+96|otherwise see you destroyed or cast out of your 
+96|sect, though you may be privately reprimanded 
+96|or face consequences through unofficial channels. 
+96|The Court or Council often ignores your lesser 
+96|crimes as well, but lower-level Kindred may take it 
+96|upon themselves to step to you for your perceived 
+96|transgressions and flaunted impunity.
+327|<H>Flaws</H>
+327|<H2>Looks Flaws</H2>
+327|<E>STENCH (•)</E>
+327|Your breath and body odor are supernaturally foul, 
+327|redolent of open graves and rotting flesh. Even 
+327|Nosferatu object to your stink. You can take minor 
+327|steps to minimize the stench, such as splashing on 
+327|plenty of cologne, but that causes other problems. 
+327|Lose one die from seduction and similar Social dice 
+327|pools, and lose two dice from Stealth pools against 
+327|opponents who can smell, unless you are upwind.
+348|<E> TRANSPARENT (•)</E>
+327|For whatever reason, you aren’t a good liar, and it 
+327|shows. You either have a terrible poker face or your 
+327|parents instilled in you a strong urge to be truthful 
+327|even when it hurts.
+336|Lose one die from any pools requiring Subterfuge. 
+327|You cannot gain dots in Subterfuge.
+327|<H2>Feeding Flaw</H2>
+327|<E>VEIN TAPPER (•)</E>
+327|You find the act of feeding extremely personal 
+327|and cannot take blood from mortals while being 
+327|observed. This means you often feed from the 
+327|unaware and go out of your way to find (or create) 
+327|drugged or unconscious victims.
+327|<H2>Mythic Flaws</H2>
+327|<E>STARVING DECAY ••</E>
+327|Your undead body is constantly on the verge of 
+327|reverting to a corpse and only staving off Hunger 
+327|keeps you from decaying.
+336|At any point in which your Hunger is 3 or 
+327|higher your body shrivels and decays, incurring a 
+327|two-dice penalty to physical tests as well as social 
+327|interactions with mortals, not to mention risking 
+327|the Masquerade.
+#### PAGE 122
+70|<E>TWICE-CURSED ••</E>
+70|You are cursed with additional Bane, making you 
+70|labor under additional weight borne out of your 
+70|clan founder’s flawed nature.
+79|Take your clan’s variant Bane (see p. 56) <I>in </I>
+70|<I>addition </I>to your regular Bane. The Storyteller can 
+70|prohibit this Flaw if the second Bane would cause 
+70|problems for, or lack impact in, the chronicle.
+70|<H2>Other Flaws</H2>
+91|<E> KNOWLEDGE HUNGRY (•)</E>
+70|You always feared that you wouldn’t have the time 
+70|to learn everything you wanted about what’s truly 
+70|important. Well, that’s one problem solved. The 
+70|time to learn is not always now, though — you 
+70|regretfully put a bookmark in your studies and 
+70|attend to more life-threatening matters.
+79|At character creation, pick a topic that your 
+70|character hungers to study. When your character 
+70|comes across books, tutorial videos, college seminars, 
+70|or other methods of learning about their chosen 
+70|subject, make a Willpower roll at Difficulty 3 to 
+70|resist chasing their obsession.
+70|<E>PRESTATION DEBTS (•)</E>
+70|You owe another Kindred (or two others) two minor 
+70|boons. The debt-holder wields more power and 
+70|influence than you within vampire society, though 
+70|not necessarily within your sect. They receive a 
+70|one-die bonus in Social combat against you while 
+70|they hold your marker. They may call in either of 
+70|these debts at any time, but practically they do so 
+70|when you really really don’t want to (or absolutely 
+70|can’t) pay them off. However, if you do manage to 
+70|successfully pay off both debts, you don’t need to 
+70|take another Flaw to “balance” your character. The 
+70|creditor still likes to lord it over you, though, and 
+70|retains the one-die bonus.
+79|You can absolutely take this Flaw alongside one or 
+70|more Minor Boons (<B>Vampire: The Masquerade</B>, 
+70|pp. 193 and 315) at character creation. You cannot 
+70|take this Flaw owing another player’s character the 
+70|boons in question.
+310|For more a more detailed breakdown of Prestation 
+301|Debts and Boons as Backgrounds, see <I>Boons and </I>
+301|<I>Debts,</I> p. 115.
+322|<E> RISK-TAKER (•)</E>
+301|You’re one of those people who feel compelled to 
+301|take every chance to experience life at its fullest.
+310|When confronted with a chance to indulge a 
+301|risky temptation you haven’t done before (such 
+301|as snorting a new drug, imbibing vampire blood, 
+301|or taking a Kindred lover), you suffer a two-dice 
+301|penalty to all actions until you either partake of the 
+301|new experience or the scene ends. This Flaw doesn’t 
+301|compel you to do something suicidal ... but you may 
+301|not always accurately predict the full consequences 
+301|of your actions.
+322|<E> WEAK-WILLED (••)</E>
+301|You struggle to assert your own personality when 
+301|confronted with the will of another. You may not 
+301|necessarily be submissive; perhaps you feel more 
+301|confident when following another person’s lead. You 
+301|might be part of a vampire’s entourage or Herd, but 
+301|you aren’t necessarily loyal to that vampire.
+310|Take a one-die penalty to Social pools against your 
+301|leader or superior. Even when you’re aware of an 
+301|attempt to sway you mentally or emotionally (such 
+301|as with Dominate or Presence), you may not use the 
+301|active resistance systems to avoid those effects. ■
+#### PAGE 123
+#### PAGE 124
+230|Chapter Four:
+107|<H>CASTOFFS</H>
+147|Perhaps we are the discards — or we could be the 
+153|part He keeps. This mystery is what keeps us all 
+156|going, to see what happens in the next chapter.
+147|V
+231|— ISAAC BASHEVIS SINGER
+188|ampires think they run the world, or they like to say they 
+188|do. Those who see them from three steps behind know 
+188|differently.
+197|The Kindred have enough enemies to worry about, one 
+143|would think, without creating more through disdain, cruelty, panic, 
+143|neglect, and oppression. But they do just that, castigating the clanless, 
+143|the thin-blooded, their own ghoul creations, and the kine they would 
+143|truly die without as beneath their notice.
+152|They call them outcasts or castoffs, parodies of their imagined 
+143|greatness or creatures designed only to serve and to be served as food for 
+143|their betters.
+152|Some so-called outcasts take the scorn and climb the Kindred ladder 
+143|as best they can. Others refine it into blades. Many do both. Still more 
+143|try to survive on their own outside the supercilious gaze of the full-
+143|blooded … until they have no choice but to look back in anger.
+152|This chapter looks at those who the Kindred refuse to see: the 
+143|clanless Caitiff, the ominously thin-blooded, the underestimated 
+143|ghouls, and the unfortunate mortals suddenly awake in a world of 
+143|darkness.
+#### PAGE 125
+132|CAITIFF
+132|SUSPECT
+132|THIN-BLOODS
+132|CANNOT CREATE BLOOD BONDS
+79|GHOULS
+79|VITAE ADDICT
+79|MORTALS
+79|FRAGILE
+80|Choose any Discipline     Discipline associated with the Resonance last drunk.
+100|Thin-Blood Alchemy*    
+77|* Any thin-blood vampire can learn Thin-Blood Alchemy at the in-clan experience rate, even if they didn’t take the Thin-Blood Alchemy merit at 
+77|character creation.
+190|<H>Castoff Summary Sheet</H>
+228|SLOW DISCIPLINE IMPROVEMENT
+273|NO BANES OR COMPULSIONS
+230|Level 1 power in domitor’s Discipline
+396|DISCIPLINE
+396|DISCIPLINE
+396|DISCIPLINE
+396|DISCIPLINE
+#### PAGE 126
+70|<H>CAITIFF</H>
+70|Caitiff often find their place in Kindred society as 
+70|guns for hire, the ultimate expendables. However, 
+70|their deep understanding of thin-bloods and of the 
+70|streets increasingly makes them sought-after scourges 
+70|in the Camarilla and Ashirra. These so-called Panders 
+70|seek the respect and power they were denied as 
+70|fledglings by hounding their thin-blood kin out of the 
+70|territories of the Ivory Tower. While the Church of 
+70|Caine may never welcome a Freestyler to sit through 
+70|a sermon, the Primogen always have a need for 
+70|someone who doesn’t mind getting fresh blood under 
+70|their fingernails. The Anarch movement finds it easier 
+70|to use Caitiff in the frontlines than argue whether 
+70|they deserve the same respect as a Brujah or Gangrel, 
+70|especially with the influx of former Camarilla and 
+70|Ministry vampires into their ranks. Those Caitiffs 
+70|who excel may even find themselves the favored pet 
+70|of a Ventrue Prince or a Tzimsice Baron. Not quite 
+70|family, but a tool that the domain comes to rely 
+70|upon to keep others in line. While a few Ashirra have 
+70|adopted exceptional Caitiff in some emirates, this 
+70|doesn’t seem likely to catch on among their Camarilla 
+70|allies. Even in the Ashirra, the clanless more often 
+70|serve as enforcers than as officers.
+79|Thin-bloods and their fellow clanless hurl the 
+70|insult “sellout” at Orphans who find a place for 
+70|themselves among other Kindred but the clanless 
+70|have little time for regrets and recriminations. The 
+70|place they have carved out may be at the bottom of 
+70|the tower, but they remember worse places, when 
+70|superstitious elders howled for their extermination. 
+70|Even these nights, reactionary Princes in some 
+70|domains still hunt Caitiff for sport, and everyone 
+70|happily uses them as scapegoats. The Panders are 
+70|survivors, not converts. All Caitiff know their 
+70|unlives hinge on staying useful and staying out of 
+301|the limelight. While they may find themselves better 
+301|off than the thin-bloods these nights, it’s not because 
+301|they have won the love and respect of the clans. 
+301|They’ve adapted to become part of the system that 
+301|would turn on them if it didn’t need them to keep 
+301|running. So while the court may praise a clanless 
+301|Cainite, the Caitiff know no honor awaits them 
+301|there regardless of their usefulness and service. The 
+301|clans do not look upon them and see the reflection 
+301|of their Dark Father. Instead, the most devout 
+301|Kindred see Caitiff as omens of their end. 
+310|More powerful than thin-bloods, the clanless 
+301|nevertheless share many hallmarks with their 
+301|barely vampiric siblings: adaptability, survival, 
+301|and innovation. What thin-bloods scrounge up 
+301|with hard-won Alchemical formulae, Caitiff seem 
+301|to intuitively evolve: new capabilities that both 
+301|exemplify and subvert their vampiric natures. 
+301|Despite such similarities, jaded Caitiff seldom make 
+301|common cause with thin-bloods they see as naïve 
+301|and clueless. Those Caitiff that do adopt a crew of 
+301|Duskborn may revel in the role of big brother but 
+301|are hard-pressed to not to give them up when the 
+301|powers that be require a blood sacrifice. But there’s 
+301|no ethical consumption under the Camarilla and all 
+301|that, and there’s always a new gang of thin-bloods to 
+301|play fun uncle with around the next corner. 
+310|Those unbound who don’t sell out to a cruel 
+301|Prince, a petty Baron, or a pragmatic Emir often 
+301|drop out of the game entirely. Those movement 
+301|Caitiffs who thought the rise of the Anarchs meant 
+301|their empowerment were quickly disabused of that 
+301|notion as the Ministry and Brujah took charge even 
+301|though most of them were very late to the party. 
+301|These burnt-out Caitiffs have no interest in getting 
+301|sucked into someone else’s Jyhad. They do what 
+301|they must to get by, but they refuse to believe in 
+301|anything again. These drop-outs and slackers know 
+301|all the lies and slogans meant to gaslight them back 
+301|into the fold. Despite secretly cheering on the fall 
+301|of Kindred society they know even that is a sucker’s 
+301|game. These Caitiff wear their hard-won cynicism 
+301|as a badge of honor – their only mistake was ever 
+301|believing in anything in the first place.
+#### PAGE 127
+96|<H>Caitiff Merits</H>
+96|These Merits are only available to Caitiff characters.
+96|Favored Blood ••••
+96|Vampiric power unfettered by the curse of the 
+96|Ancients flows through you. Your intuitive and 
+96|legendary command of Kindred prowess likely 
+96|inspires both awe and fear in other vampires.
+105|You can buy dots in any Discipline even if you’ve 
+96|never tasted the blood of another vampire with that 
+96|Discipline. Cannot be taken with the Muddled 
+96|Blood Flaw (see p. 127).
+96|Mark of Caine ••
+96|You bear a mark, either physical or spiritual, that 
+96|gives other vampires pause. Camarilla and Ashirra 
+96|vampires look on your mark with fear, while 
+96|Anarchs claim to respect you for playing with elder 
+96|superstition — but they don’t look at your mark 
+327|too closely either. Even Sabbat Cainites hesitate 
+327|to tangle with you, though particularly religious 
+327|Noddists might target you for special attention. 
+336|You gain two bonus dice on any attempt to 
+327|intimidate, bully, or cow other vampires who 
+327|subscribe to the myth of Caine. Anyone attempting 
+327|to commit diablerie on you cannot add their Blood 
+327|Potency to the roll and any failure to their roll results 
+327|in a bestial failure.
+327|Mockingbird ••• 
+327|Orphans are often unfairly labeled thieves and 
+327|diablerists, but some actually do have the power to 
+327|mimic the powers of other vampires after tasting 
+327|their blood. 
+336|For one night after drinking one Hunger die worth 
+327|of blood from a vampire, you can choose and employ 
+327|one Discipline power possessed by the Kindred from 
+327|whom you fed. The power cannot be of a level higher 
+327|than your highest Discipline, though you do not need 
+327|to possess the same Discipline. Roll Rouse Checks 
+327|as normal to activate this power. Any other rolls 
+327|required to use the power use the donor’s Discipline 
+327|level and your Attributes. During this time, you 
+327|mimic the donor’s clan bane with the same severity 
+327|level as the donor. Only one power can be “borrowed” 
+327|in this way per night.
+327|Sun-Scarred •••••
+327|While it’s a common myth among Kindred that 
+327|Caitiff and thin-bloods can walk in the sunlight, 
+327|only a rare few have anything resembling that ability. 
+327|These few are sometimes called Daywalkers, and 
+327|those Caitiff who have this power usually keep it a 
+327|secret for fear of being hunted and cannibalized by 
+327|others. Unsurprisingly, Outcasts who can walk in 
+327|the day may find themselves sought out for their 
+327|particular acumen and the advantage it grants them 
+327|over those who must slumber by day.
+336|The first turn you are exposed to Sunlight in a scene, 
+327|take no Health damage, take 1 Aggravated Willpower 
+327|damage, and automatically succeed on any rolls to 
+327|resist terror frenzy. For the remainder of the scene all 
+327|Aggravated Health damage you take from sunlight is 
+327|instantly converted into Superficial damage.
+#### PAGE 128
+70|Uncle Fangs •••
+70|The local thin-bloods know you as a mentor and 
+70|guide. Whatever your true motivations, you can 
+70|often find aid among the Duskborn without having 
+70|to ask twice. 
+79|You have easy access to a local coterie of three to 
+70|five thin-bloods. They often know what’s happening 
+70|on the street before anyone else, and can sometimes 
+70|provide you with Alchemical concoctions. Treat this 
+70|group as an Ally group (<B>Vampire: The Masquerade</B>, 
+70|p. 192), though contrary to regular Allies, this 
+70|group is undead, if only just. Cannot be taken with 
+70|Liquidator (p. 127).
+70|<H>Caitiff Flaws</H>
+70|Befouling Vitae (••)
+70|When you Embrace mortals or leave them for dead 
+70|from feeding, the Blood twists them into maniacal 
+70|corpses with an unquenchable hunger.
+79|Any mortal you Embrace or kill by feeding 
+70|returns as a desperate wight within a few nights. 
+70|While these unfortunates are often too weak to be 
+70|much of a threat (treat as a Ghoul; see <B>Vampire: </B>
+70|<B>The Masquerade</B>, p. 372), sometimes a trick of the 
+70|Blood sees a real monster arise (treat as a Wight; see 
+70|<B>Vampire: The Masquerade</B>, p. 375). Your unlife is 
+70|a steady stream of clean-up jobs, for as soon as the 
+70|local Prince or Baron gets wind of your condition 
+70|you are likely to receive a personal (and terminal) 
+70|visit from the powers that be.
+70|Clan Curse (••)
+70|A Caitiff by hair’s breadth, you still suffer the curse 
+70|of your sire’s clan. While this can sometimes help you 
+70|pass for a member of that clan, most often than not it 
+70|just adds another pain to your tortured existence.
+79|You suffer from a vampire clan bane of your 
+70|choice, likely that of your sire (if you even know 
+70|who they are). Its severity is halved (round down, 
+70|minimum of 1).
+70|Debt Peon (••)
+70|Orphans often have to sell their proverbial souls 
+70|to Princes and Barons to find their place in 
+301|the night. These debts add up and few Caitiff 
+301|ever climb out of the pocket of those in power, 
+301|because the prestation system breaks down when 
+301|Kindred society refuses to recognize the political 
+301|existence, much less the rights, of the debtor.
+310|You owe several minor boons, or even a few 
+301|major boons, to a high-Status vampire, possibly 
+301|originally incurred by your Sire. Tracking these debts 
+301|proves pointless, as the creditor extracts new boons 
+301|whenever they have leverage over you and only 
+301|considers any boon settled when forced to by their 
+301|peers. They have a two-dice bonus to Social combat 
+301|against you in front of other Kindred. Refusal to 
+301|honor your debt adds the Shunned (••) Flaw, and 
+301|may even result in a Blood Hunt against you.
+301|Liquidator (•)
+301|Thin-bloods call you a Pander and avoid you whenever 
+301|possible. They even refuse to speak openly with your 
+301|coterie mates or other associates. Perhaps you served 
+301|as a scourge, or just displayed particular cruelty as a 
+301|member of the Sheriff’s posse.
+310|Take a two-dice penalty to all your Social skill dice 
+301|pools against thin-bloods, other than Intimidation. 
+301|Cannot be taken with Uncle Fangs (p. 127).
+301|Muddled Blood (•)
+301|Your Blood cannot recall its nature and must be 
+301|reminded of its inherent power every time you want 
+301|to strengthen it. 
+310|Even if you already possess a Discipline you must 
+301|drink the Blood of someone who possesses it in 
+301|order to buy dots in it. Cannot be taken with the 
+301|Favored Blood Merit (see p. 126).
+301|Walking Omen (••)
+301|Many vampires rely on prescience or read omens on 
+301|a nightly basis, and you happen to act as a magnet, 
+301|skewing these supernatural compasses. 
+310|Any scrying, premonitions, or other forms of future- 
+301|or fortune telling in your domain regularly points to 
+301|you as a source of disaster and misfortune. While your 
+301|close allies have learned to tune it out, other oracles 
+301|single you out, screeching, when you are not being 
+301|hunted by those who want to redirect a future that they 
+301|believe will come to pass at your hands. 
+#### PAGE 129
+105|The effects of this Flaw are ultimately up to the 
+96|Storyteller, but it should at the very least cause one 
+96|serious altercation per story.
+96|Word-Scarred (•)
+96|Your body or a portion of it is covered in ancient 
+96|texts of vampiric lore. Perhaps your sire inscribed 
+96|them upon you, or they appeared on their own after 
+96|the Embrace. Either way, shadowy forces conspire to 
+96|use or destroy this lore.
+105|The major occult foe or force in the chronicle often 
+96|interferes in your life, seeking to imprison, flense, 
+96|mind-wipe, Blood Bond, or otherwise neutralize 
+96|you. (They would never lower themselves to recruit 
+96|a Caitiff, don’t be silly. You’re just a lost, disobedient 
+96|book to them.) Maybe two such forces fight over the 
+96|right to edit you! Any other character who “reads” the 
+96|full text on your skin learns a terrible secret regarding 
+96|Gehenna, Noddist prophecy, Bahari mysteries, or the 
+96|like. You and the Storyteller may decide this together, 
+96|or it may be a mystery to you!
+96|<H>THIN-BLOODS</H>
+96|Many Kindred despise thin-bloods as weak, or 
+96|actively hunt them as harbingers of end times. Many 
+96|elders did both, and their heirs see little reason to 
+96|depart from this tradition. The weaker ancillae 
+96|project their fear of their own weakness onto the 
+96|Duskborn, arguing that letting the thin-blooded 
+96|circulate through the streets weakens the city. Thin-
+96|bloods use up valuable resources, and their growing 
+96|numbers attract Hunter attention. Also they don’t 
+96|know their place, and disrespect their betters. 
+96|Keeping them around poses an intolerable risk to 
+96|full-blooded, real vampires.
+105|Fuck that. You didn’t ask to be Embraced into 
+96|their shitty society, and you sure don’t need their 
+327|permission to stay. But if you’re going to take that 
+327|attitude, you need friends, or at least backup.
+327|Vampire
+327|<H>The Thin-Blood Chronicle</H>
+327|An all thin-blood troupe engages with very different 
+327|elements than a predominantly full-blooded 
+327|Kindred chronicle. This chronicle style centers 
+327|stories on the nightly activities of thin-bloods, how 
+327|they exist in a world hostile to them, and where they 
+327|belong within that world. 
+336|Thin-bloods spend their nights on the outskirts of 
+327|Kindred society, with doors rarely opening toward sect 
+327|membership unless the sect has something to gain. 
+327|Even within a sect, thin-bloods find an older talon on 
+327|the scales against them. The powers that be rarely allow 
+327|thin-bloods to feed in prime locations without facing 
+327|consequences, and when they can pioneer or nurture a 
+327|desirable piece of territory more powerful vampires chase 
+327|them out of it. Some thin-bloods seclude themselves in 
+327|neighborhoods nobody wants, or even drift to smaller 
+327|towns like the Caitiff did in the last centuries.
+336|The dynamics between thin-bloods also shift away 
+327|from more traditional organizations. Instead, they 
+327|tend to develop organically in each location, with 
+327|thin-bloods either keeping to themselves or taking 
+327|on roles needed within a city. Many thin-bloods keep 
+327|hidden away, their nights not much different from 
+327|when they were alive, while other thin-bloods reach 
+327|out, wanting to connect with similar vampires. Each 
+327|fledgling has their reason for doing so, leading to 
+327|many different interactions.
+327|<H2>Why Play a Thin-Blood Chronicle?</H2>
+327|Thin-blood characters have a very different perspective 
+327|on the world and the darkness it encapsulates. Thin-
+#### PAGE 130
+70|bloods occupy a narrative sweet spot among the 
+70|supernatural horrors around them, just powerful 
+70|enough to attract their attention and weak enough 
+70|to always be in constant danger. They punctuate this 
+70|scramble for survival with mysterious pursuits and the 
+70|spark of Thin-Blood Alchemy offering a chance to get 
+70|their own back or at least to hold their own.
+79|A thin-blood chronicle has less of a high political 
+70|focus, because thin-bloods can’t easily navigate 
+70|the politics of city or sect. Coteries focus on their 
+70|nightly needs and short-term problems, rarely having 
+70|the resources or power to address long-term or 
+70|systemic issues that keep them down. The tone and 
+70|action shifts to back-alley, gritty, street-style stories 
+70|not tied down to rigid plots or the expectations 
+70|of Harpies or ideologists. Themes of teamwork, 
+70|uncertainty, and being outcast predominate, as 
+70|characters build their connections within their 
+70|coterie and out into their neighborhoods first before 
+70|engaging the larger world. Hunting and learning 
+70|to maximize one-dot powers against Kindred 
+70|opposition provide plenty of bloody challenges, as 
+70|does the occasional scourge or slayer.
+79|Some players may want to experiment with 
+70|different aspects of being a vampire. They may find 
+70|other clans more restrictive than being a thin-blood. 
+70|A thin-blood chronicle allows players to impact what 
+70|it means to be a vampire, allowing them to explore 
+70|things like Thin-Blood Alchemy, undeath, what 
+70|it means to be in touch with their Beast, and even 
+70|experimenting with sunlight. Running a thin-blood 
+70|chronicle allows players to adapt to their world with 
+70|fewer restrictions while still playing vampires. 
+70|<H2>Organizing a Thin-Blood Chronicle</H2>
+70|A troupe can consider several approaches to a thin-
+70|blood chronicle when deciding what game style they 
+70|want to play. During session zero, the Storyteller and 
+70|players need to decide what type of story they want 
+70|to explore as a thin-blood troupe. Some questions to 
+70|think about are: 
+84|What kind of supernatural horror would you like 
+84|to encounter?
+84|Would your characters explore “curing” their 
+84|vampirism?
+315|Do you feel like playing with high Kindred 
+315|politics or low street action?
+315|How does your character approach Thin-Blood 
+315|Alchemy?
+315|What is one goal your thin-blood character has? 
+310|This is not an exhaustive list, and you may find 
+301|other questions to ask along the way. Each player 
+301|should answer these as best as they can. Once the 
+301|Storyteller has a good idea of the characters and 
+301|how they view the world, they can determine the 
+301|direction they want to take with their chronicle. 
+301|session zeroVampire: The Masquerade,
+301|<H2>Thin-Blood Story Hooks</H2>
+301|The Storyteller and players should consider different 
+301|story hooks for the thin-bloods in their chronicle. 
+301|Use these story hooks to help bring a thin-blood 
+301|into a chronicle, add to a character background for 
+301|future intrigue, or to drop in during a story to help 
+301|cooperatively facilitate rich play. 
+315|You spent most of your vampiric unlife alone, 
+315|secluded from other Kindred. However, you 
+315|recently learned about several thin-bloods in your 
+315|area who have wanted you to join them and work 
+315|together for resources and survival. In addition, 
+315|they are willing to teach you more about 
+315|vampires and the world you now live in. 
+315|You just made the worst discovery possible. After 
+315|moving to another city, you learn the Camarilla is 
+315|moving in to sweep the city of any vampires not 
+315|acknowledged within the sect, destroying them on 
+315|sight. You need to figure out where you are going 
+315|to hide or if you are going to try and join the sect. 
+315|If the latter, who do you turn into the scourges to 
+315|prove your loyalty?
+#### PAGE 131
+109|You have contracted, or was born with, an 
+109|unknown disease that makes you acutely allergic 
+109|to sunlight and forces you to drink blood. 
+109|Together with others afflicted in a similar way 
+109|you are trying to find a cure, all the while hiding 
+109|from human-like monsters with supernatural 
+109|abilities and political connections hunting you 
+109|for being what you are.
+109|You angered the wrong person, who put a curse 
+109|upon you, taking away any potency you had 
+109|with your blood. As a result, you find yourself 
+109|among the thin-bloods now, scared, abandoned, 
+109|and weak. You have no place in your former sect 
+109|once you were found out and now must figure 
+109|out how to survive or strengthen your blood 
+109|once more.
+96|<H>Organization</H>
+96|Thin-bloods don’t have a centralized organization, 
+96|like some clans do. They have neither the shared, 
+96|ancestral resources to keep such groups safe, nor 
+96|the political capital to integrate them within larger 
+96|Kindred society. Instead, thin-blood assemble 
+96|themselves within each city, with the degree of 
+96|organization and the number of groups dependent 
+96|on local conditions. Almost all cities have at least one 
+96|thin-blood soviet or gang of self-radicalized Anarchs, 
+96|possibly even one recognized by the real Anarch 
+96|committee in town, but often isolated both politically 
+96|and geographically. A big city with a lot of thin-
+96|bloods but a powerful Camarilla presence creates lots 
+96|of different small gangs and groups; a smaller city with 
+96|a power vacuum lets a larger network of Duskborn 
+96|emerge, only to factionalize itself within a few years.
+105|Within your city, some of these emerging nascent 
+96|groups might include:
+96| The city’s leading thin-blood 
+96|alchemist attracts a community of clients, fans, and 
+96|colleagues – and usually a rival or two with their 
+96|own posses. This scene resembles a cross between 
+96|cocktail culture and hip-hop club culture, following 
+96|mixers and AJs and occasionally beefing with bloody 
+96|results. Knowing someone in the posse generally gets 
+327|you put on the guest list and maybe even crash space.
+327| Named after either its subreddit 
+327|r/BasementDrinkin or its dank headquarters, the 
+327|Basement fancies itself the information clearinghouse 
+327|of the local Duskborn and claims a national distributed 
+327|network of such groups. The word “blockchain” gets 
+327|tossed around a lot. Well-meaning thin-bloods tell the 
+327|Basement what they’ve learned about vampirism or 
+327|the supernatural or the local power structure, which 
+327|supposedly gets archived. Indeed, some of this lore gets 
+327|passed on to newcomers. Almost certainly penetrated 
+327|by other factions, if only with disinformation, the 
+327|Basement offers a standing invitation to both the NSA 
+327|and the Camarilla to destroy it or turn it.
+327| A loose mutual-aid commune, beginning 
+327|as an all-thin-blood Plumaire coterie within the furry 
+327|community but spreading throughout other fantasy-
+327|life-themed meetup spaces. Most of the Folk organize 
+327|locally, keeping to one city or area, though a few 
+327|communicate across distances for safe travel. They 
+327|host traveling “family members,” giving a haven for 
+327|the day, providing them with vital information about 
+327|the city, and even blood if needed. In addition, they 
+327|share information when traveling, helping other Folk 
+327|to know what is going on with other thin-bloods in 
+327|other cities. To be a member of the Folk, all you need 
+327|to do is to connect with them in each city, help out 
+327|when needed, and be willing to identify yourself with 
+327|a hippie name like “The Folk.”
+327| The Mundies take their name from 
+327|Athanor Mundi, a radical alchemical manifesto 
+327|posted on Usenet by the anonymous “Philatheles 
+327|Doe” in the 1990s. Doe’s original goal was 
+327|to use Alchemy to fire all Cainites into a true 
+327|Philosopher’s Stone, gifting the world with eternal 
+327|life and freedom from disease and age. Since Doe’s 
+327|disappearance around 2002 the Mundie movement 
+327|splintered. Now Mundies generally believe that the 
+327|thin-bloods, at least, are bound to achieve a higher 
+327|state, possibly through alchemy, diablerie, or special 
+327|cocktails of blood and supplements. Mundie cliques 
+327|can be empty braggart gangs, amiable druggie co-
+#### PAGE 132
+70|ops in “Athanor Monday” shirts, or crafty lurkers 
+70|waiting to talk (or kidnap) another thin-blood into 
+70|experiments. Fortunately, they seldom cooperate, 
+70|each Mundie guru believing themselves to be the 
+70|natural Nietzschean ubervamp superior.
+70|<H>Thin-Bloods and the Sects</H>
+70|Opinions might differ among the thin-bloods 
+70|regarding the different sects, but there is a consensus 
+70|among most of them. A singular thin-blood may 
+70|find themselves in a good position with one or more 
+70|of the sects, but not every Duskborn enjoys that 
+70|comfort. A lucky thin-blood who finds a teacher 
+70|will pass along this information, knowing they could 
+70|have a very different experience. 
+70|<H2>Anarchs</H2>
+70|“We have more of a chance with the Anarchs than any 
+70|other sect, to be honest. Most of them don’t ask many 
+70|questions as long as we don’t cause a fuss. Though I 
+70|think they might tolerate us simply out of spite.”
+70|When the Anarchs pushed back against the Camarilla 
+70|and took most of the Brujah and Gangrel with them, 
+301|many thin-bloods saw an opportunity to form a 
+301|relationship with the sect and gain the protection of 
+301|stronger-blooded Kindred. The Anarchs, in turn, 
+301|started working more with thin-bloods purely to spite 
+301|the Camarilla.
+310|If a thin-blood looks for the protection of an 
+301|organization, this is the one they likely secure the 
+301|most comfort in. A thin-blood gang could get 
+301|Anarch standing, or a thin-blood may accept Anarch 
+301|protection in exchange for a few favors. Thin-bloods 
+301|have better access to Anarch leadership, on the whole, 
+301|than in other sects. Anarchs often see themselves as 
+301|underdogs, and sympathize with thin-bloods for that 
+301|reason, but the practicalities of survival almost always 
+301|trump their allegiance to egalitarian ideals. Cainite 
+301|Anarchs still see the Duskborn as liabilities that drain 
+301|limited resources while contributing very little in the 
+301|way of raw power.
+310|The Anarchs accept the Duskborn more than does 
+301|the Camarilla, but they can count fangs better than 
+301|the Ivory Tower can, too. If thin-blood numbers grow 
+301|too great, the Anarchs become wary of their potential 
+301|influence and might even declare a purge or a rumble 
+301|to drop the ratio. Longer-term minded Barons 
+#### PAGE 133
+96|aggressively recruit thin-bloods into particularly 
+96|dangerous coterie types such as a Day Watch.
+96|<H2>Camarilla</H2>
+96|“If I had to choose between any of the sects, the 
+96|Camarilla would be the last one on my list. These 
+96|elitist bastards make it their personal mission to make 
+96|our existence so miserable we end our own unlives.”
+96|Any thin-blood who travels to (or awakens in) a 
+96|Camarilla-controlled city needs to keep on their toes 
+96|to avoid being caught or introduce themselves to 
+96|the city’s Prince and ask for permission to stay. This 
+96|poses a considerable risk unless the thin-blood has a 
+96|highly-specialized skill set, or the city an unusually 
+96|open-minded Prince. Only vampires with little 
+96|to lose dare to openly flout social convention and 
+96|tastelessly consort with thin-blood scum. Some 
+96|Malkavians and Nosferatu particularly delight in 
+96|taking thin-bloods under their wings to flout social 
+96|norms, but too many such protégés draws the 
+96|Harpies’ disdain and social death.
+105|Most Mercurians opt to keep their heads down 
+96|and stick to the outskirts of the city, or to whatever 
+96|unpromising domain they have homesteaded. Thus 
+96|the Scourge often becomes a thin-blood coterie’s 
+96|main point of contact with the powers that be in a 
+96|Camarilla city. These enforcers of the Prince’s will 
+96|oscillate between threatening and guiding thin-blood 
+96|coteries to stay within the lines of the city’s traditions. 
+96|At best the coterie has to deal with a reluctant bully 
+96|who only makes an example out of them when 
+96|demanded by the Prince or the Primogen. At worst, 
+96|the Scourge is a violent butcher looking for any excuse 
+96|to tear the coterie, and its members, apart.
+105|The most insidious threat that faces a thin-blood 
+96|coterie when operating out of a Camarilla domain 
+96|is the allure of the Ivory Tower itself. The Camarilla 
+96|understands how difficult unlife can be without a 
+96|support system and they can offer a great deal to a 
+96|promising vampire who can brew elixirs or walk in 
+96|the sun or otherwise prove useful. The promise of an 
+96|easy unlife and being adopted into a real clan can be 
+96|hard to resist for those thin-bloods that have given up 
+96|on curing their condition. Such opportunities are rare 
+327|and a thin-blood coterie may find itself torn apart as 
+327|its members vie against each other for a chance to join 
+327|the Camarilla as a full member.
+327|<H>Blood Destiny</H>
+327|Spending nights walking a thin line between mortal 
+327|and immortal proves challenging for many thin-
+327|bloods. The choice between walking back to the sun 
+327|and losing their immortality or trying to strengthen 
+327|their blood and stain their soul hovers ever-present 
+327|in their minds. However, much like immortality, 
+327|achieving either of these options does not prove easy, 
+327|and may take decades. 
+336|Developing a Project (p. 214) with the Storyteller 
+327|is an excellent way to start. It allows players to think 
+327|through and design how their character would turn 
+327|back to mortal or strengthen their blood, but it is not 
+327|the only way. You could build your entire chronicle 
+327|around trying to achieve either, or both, of these goals.
+327|<H2>Finding The Sun</H2>
+327|Players who want to explore trying to change their 
+327|blood back and finding their mortality again have 
+327|a chronicle-long goal ahead of them, and one well 
+327|worth investigating. Whether they pursue Golconda, 
+327|team up with a mortal mystic or clergyman, or 
+327|dive into ancient sorcerous lore or new alchemical 
+327|transformations they meet plenty of weird and 
+327|dangerous opposition while perhaps increasingly 
+327|doubting the value of becoming fragile and 
+327|vulnerable again.
+327|<H2>Strengthening the Blood</H2>
+327|When it comes to strengthening their blood, the 
+327|Kindred know and fear the act of diablerie, drinking 
+327|from one’s elders. Getting opportunity for access to 
+327|a full-blood vein, much less permission, can prove 
+327|challenge enough for a chronicle. Many thin-blood 
+327|coteries form just to get revenge on the vampire who 
+327|made them by drinking him dry. But success carries 
+327|its own stigma: neither the Camarilla nor the Anarchs 
+327|approve of such actions even among other full-bloods.
+336|Kindred know of no other method, but very few 
+#### PAGE 134
+70|Kindred know Thin-Blood Alchemy. Constant 
+70|experimentation, research, and inspiration has 
+70|already led to impossible elixirs and dangerous 
+70|formulae: can the True Red Elixir be far away? 
+70|Players and Storytellers should work together to 
+70|develop any ideas and plots the characters may want 
+70|to explore. Not every experiment works, but there is 
+70|always a chance it could succeed. These temporary 
+70|boosts could be enough to help a thin-blood pass 
+70|for full-blood Kindred within a sect, or to let them 
+70|surpass the sects entirely.
+234|Ch4_ThinBloodStoryHooks
+301|<H>Thin-Blood Archetypes</H>
+301|Thin-blooded characters are more than just the 
+301|product of their Embrace. They have interests in 
+301|exploring their condition, understanding their place 
+301|in the supernatural world, and pushing their abilities 
+301|to the limits. Beyond the original Archetypes 
+301|(<B>Vampire: The Masquerade</B>, p. 110), here are some 
+301|new Archetypes to explore in a thin-blood chronicle. 
+301|<H2>Blood Chemist</H2>
+301|In their previous life, the Blood Chemist concocted 
+301|designer drugs, seeking different types of chemical 
+301|romance or psychedelic highs. With their newfound 
+301|Embrace, they shifted interest from drugs to 
+301|different Thin-Blood Alchemy formulae. They keep 
+301|one foot in the fancy drug scene to make money 
+301|— and to score potentially game-changing new 
+301|ingredients for potentially world-changing formulae. 
+#### PAGE 135
+96|<H2>Caretaker</H2>
+96|The Caretaker takes it upon themselves to help others 
+96|in dire situations, both the newly Embraced and the 
+96|generally outcast. They help provide shelter, blood, and 
+96|knowledge around their very survival. Community and 
+96|family are important to them, and they try to build up 
+327|their resources to help those in their care, protecting 
+327|and nurturing whatever way they can. Some Caretakers 
+327|commit an awful lot of what looks like mayhem in the 
+327|name of charity and community.
+327|<H2>Paranormalist</H2>
+327|If vampires exist, then what else is out there? 
+327|The Paranormalist eagerly investigates this world 
+327|of darkness they have awakened into, gathering 
+327|information and making contacts with any and 
+327|all supernatural contactees or, better yet, with 
+327|supernatural beings. They don’t know (or care) 
+327|about ancient rivalries; what matters is filling in their 
+327|knowledge and stunting on their rival cryptid-hunters 
+327|and conspiracy theorists on 4chan. The Paranormalist 
+327|leaves a trail behind them, but normies (and older 
+327|Kindred) find it too baffling (and ridiculous) to 
+327|follow. Until the Paranormalist stumbles onto a <I>real</I> 
+327|secret, of course … 
+327|<H2>Street Rat</H2>
+327|The Street Rat may not realize what they are, instead 
+327|attributing it to some lousy drug trip, medical 
+327|ailment left untreated, or even a bad dream. They 
+327|scavenge around, looking for trinkets, valuable 
+327|items, or discarded valuables that could earn them 
+327|some cash. The Rat gets good at pick-pocketing, 
+327|begging, and becoming invisible when needed, or 
+327|the Rat gets eaten.
+327|<H2>Sun Seeker</H2>
+327|This thin-blood doesn’t seek to change their 
+327|vampiric state. Instead, they want to develop a way 
+327|to experience the sun without losing their vampiric 
+327|powers. The Sun Seeker may try to convince the 
+327|Bahari cult (<B>Vampire: The Masquerade,</B> p. 382) 
+327|to accept them as fellow seekers, but the Lilin don’t 
+327|accept thin-bloods easily. The solution: find some 
+327|artifact, tome, method, or ritual that the Bahari need 
+327|for their own purposes and come to an arrangement 
+327|that may benefit all Duskborn. 
+#### PAGE 136
+70|<H>New Thin-Blood Merits and </H>
+70|<H>Flaws</H>
+70|These Merits and Flaws are available only to thin-
+70|blood characters. They have no dot value; each 
+70|Flaw balances a Merit and vice versa. They do not 
+70|count against the maximum dots in Advantages 
+70|and Flaws allowed during character creation or 
+70|purchased through experience. You can find further 
+70|Thin-Blood Merits and Flaws in <B>Vampire: The </B>
+70|<B>Masquerade</B> (p. 183).
+70|<H2>Thin-Blood Flaws</H2>
+70|Heliophobia
+70|An overly cautious Sire hammered the reminder 
+70|to avoid sunlight into you a little too hard, or you 
+70|saw someone catch fire in a sunrise early after your 
+70|Embrace. Either way, you fear sunlight as though 
+70|you were a full vampire. You are susceptible to terror 
+70|frenzy from sunlight.
+70|Night Terrors
+70|You sleep as usual, with no memory of any of the 
+70|dreams you may have had during the day. However, 
+70|at night those dreams come flooding in at the most 
+70|inopportune times. During times of stress, or when 
+70|your Beast is strongest, nightmares pull through 
+70|and feel excruciatingly real. They may be disjointed 
+70|hallucinations, or they may be a way for the Storyteller to 
+70|feed theme or foreshadow events. Once per session, your 
+70|night terrors onset and you take a one-die penalty to all 
+70|actions for the rest of the scene.
+70|Plague Bearer
+70|You are still susceptible to mortal sickness: colds, flu, 
+70|and other more severe infections. Every time you feed 
+70|you must roll a die for each Hunger slaked, and if any 
+70|come up a “1,” you’ve caught something nasty. (Effect 
+70|is up to the Storyteller, but could range from die 
+70|penalties to slow Health degradation.) Mortal medicine 
+70|doesn’t cure you; only drinking a functioning immune 
+70|system by slaking your Hunger to 0 does so. And of 
+70|course, you run the risk of infecting anyone you feed 
+70|on, using the same die roll as above.
+301|Sloppy Drinker
+301|Your bite is careless, or your fangs are ill suited 
+301|to puncture skin cleanly. When feeding, make a 
+301|Dexterity + Medicine test against a Difficulty equal 
+301|to Hunger slaked to cover your feed marks before 
+301|too much blood is spilled. On a failure, the wound 
+301|is too ragged to close: the mortal may bleed out with 
+301|Masquerade-threatening neck wounds. 
+301|Sun-Faded
+301|You cannot use Discipline powers – including Thin-
+301|Blood Alchemy – in sunlight, and active powers 
+301|cease when you enter sunlight. You can use them 
+301|indoors by day, with a two-dice penalty, as long as 
+301|you avoid any hint of sunlight.
+301|Supernatural Tell
+301|Whether it’s your smell, your aura, or something 
+301|even subtler, other supernatural entities can sense 
+301|your presence. They may be curious, hungry, or 
+301|irritated, but they definitely clock you. Lose two dice 
+301|from Stealth pools and similar against supernatural 
+301|opponents including other vampires.
+301|Twilight Presence
+301|You make others uncomfortable around you. Most 
+301|mortals don’t want to be around you at all, and 
+301|other Kindred dislike you even more than they do 
+301|regular thin-bloods. Only thin-bloods can adjust to 
+301|your weird demeanor. Lose a die from Social pools 
+301|involving anyone except thin-bloods.
+301|Unending Hunger
+301|Your Beast always hungers for more, never finding 
+301|sustenance with smaller sips. When feeding in a 
+301|scene you sate one less Hunger than other thin-
+301|bloods. This applies only once per scene.
+301|<H2>Thin-Blood Merits</H2>
+301|Abhorrent Blood
+301|Something in your Blood makes other vampires unable 
+301|to stomach it. Whether it is the perverse mix of life and 
+301|undeath or your history of questionable Thin-Blood 
+301|Alchemy, other vampires gag and vomit when they 
+301|try to drink from you. Other vampires abort any bite 
+#### PAGE 137
+96|attempts after the initial damage and anyone who tries 
+96|to keep drinking from you must spend two points 
+96|of Willpower each turn that they do so. Mortals and 
+96|Thin-Blood Alchemy are not affected by this anomaly.
+96|Faith-Proof
+96|Whether you consider yourself an atheist or 
+96|devoutly religious, you remain too close to mortality 
+96|for True Faith to affect you.
+96|Low Appetite
+96|When at Hunger 0 or 1, and when rising at sunset, 
+96|roll two dice on your Rouse Check and take the 
+96|highest of the two.
+96|Lucid Dreamer
+96|Most vampires don’t dream because they don’t sleep. 
+96|You dream; you can recall and even sometimes control 
+96|your dreams. Once per session, if you’re asleep by day 
+96|you can ask the Storyteller to provide a clue from the 
+96|previous night’s memories or a hint about the story 
+96|suitable for dream revelation.
+96|Mortality’s Mien
+96|Your mortal nature still outshines your Beast. Your 
+96|aura does not appear vampiric or supernatural; 
+96|instead it looks mortal to anyone able to detect 
+96|supernatural creatures. You can also add two dice to 
+96|any attempt to make yourself appear mortal in other 
+96|regards, such as makeup.
+96|Swift Feeder
+96|Maybe you were a phlebotomist in life, or just didn’t 
+96|like mess. You sip delicately and quickly, neatly slaking 
+96|one Hunger in one turn, including licking the wound 
+96|closed. This Merit can only be used once per scene.
+105|In the World of Darkness, the focus of the story 
+96|often lingers on Kindred, with mortals holding a 
+96|nominal and transactional focus to the intrigues of 
+96|those bearing the Curse of Caine and haunted by 
+96|the Beast. Ghouls, however, allow a distinct niche 
+96|for storytelling and engagement that makes them 
+96|compelling as player characters in their own right. 
+96|Occupying the strange space between mortal and 
+96|Kindred, ghouls offer all of the benefits of being a 
+96|mortal — ability to function and act during the day, 
+327|interfacing with the full breadth of mortal society, and 
+327|the like — with some supernatural benefits granted to 
+327|them by the Blood of their Kindred domitor.
+336|The word “domitor,” a perversion of the Latin 
+327|<I>dominus </I>meaning “lord” or “master,” describes the 
+327|vampire to whom a mortal is bound. Vampires who 
+327|consider themselves cultured or more refined may 
+327|prefer more affected terms for the relationship, but, 
+327|semantics aside, it doesn’t change the fundamental 
+327|truth. One is subservient to the other, with vitae 
+327|being the tie that binds them to one another.
+336|Most mortals go through life without realizing 
+327|that danger and power coexist in the shadows, 
+327|blissfully unaware of what lurks beneath the veneer 
+327|of normality they experience daily. But at night the 
+327|lines between what is perceived to be reality and the 
+327|world that lies beneath blur.
+336|Maybe you stumbled upon a vampire feeding on a 
+327|panhandler in an alleyway, or you were mesmerized 
+327|by a creature of impossible beauty and magnetism in 
+327|the club. Whatever was the inciting event that opened 
+327|your eyes, one thing was certain: You caught just a hint, 
+327|a glance of something darker, something primal, and 
+327|you’ve not been able to get it out of your head since.
+327|<H>In the Half-Light</H>
+327|Just as vampires have an interest in mortals to 
+327|meet their vital needs, there exist mortals aware of 
+327|Kindred society who have just as keen an interest in 
+327|their undead overlords. This can range from casual 
+327|curiosity from someone with a passing familiarity 
+327|with the occult to an all-out obsession that threatens 
+327|their livelihood and personal relationships.
+336|It’s one thing to experience the stories of vampires 
+327|fictionalized in the written word or on the silver 
+327|screen, but it’s a whole other thing when you realize 
+327|that they actually exist, and that maybe, just maybe, 
+327|they turn others among the still-living to their 
+327|monstrous ends.
+336|The degree to which these mortals pursue their 
+327|interest in Kindred society varies, but it usually 
+327|results in either becoming part of the vampire’s 
+327|sphere of influence or becoming one of their 
+327|faithful attendants. In doing so, these mortals 
+#### PAGE 138
+70|open themselves up to a whole new world, where 
+70|danger lurks around every corner if they are not 
+70|cautious. Rival Kindred, coteries, and sects clash 
+70|for supremacy in domains. All of these play a role 
+70|in their new existence, leading to decisions once 
+70|unthinkable. Choice becomes less about right or 
+70|wrong, but what it takes to survive and navigate 
+70|the world now thrust upon you, safety being but a 
+70|distant memory.
+70|<H>GHOULS</H>
+70|<H>Fatal Addiction</H>
+70|All relationships involving Kindred are undoubtedly 
+70|parasitic, and the relationship between mortals and 
+70|Kindred is no different. Mortals use other mortals, 
+70|Kindred use mortals. It’s cyclical and perhaps more 
+70|symbiotic than parasitic, but those are just semantics 
+70|that ghouls use to justify their reliance on their 
+70|Kindred masters. They can lie to themselves about 
+70|having things like “ethics” and “morals,” but when it 
+70|comes down to it, they’re willing to cast those aside 
+70|for a number of things, such as another hit of vitae, 
+70|the continued support a vampiric patron offers, and 
+70|the ability to forego aging without the baggage of 
+70|the Curse.
+79|Being a ghoul causes complications, certainly. 
+70|Ghouls are more than an average mortal, arguably 
+70|comparable in might to some thin-bloods, but far 
+70|less than Kindred in the eyes of most vampires. 
+70|Some vampires associated with the Anarchs may 
+70|have a more progressive view of ghouls, but the more 
+70|palatable rhetoric doesn’t change the fact that ghouls 
+70|and Kindred aren’t equals.
+79|Are there individuals who deliberately court 
+70|danger by moving in the same circles as Kindred, 
+70|if they’ve somehow learned about them? Of 
+70|course, though they likely don’t remain an 
+70|“innocent” bystander to the world of the Damned 
+70|for long. On the other side of the spectrum 
+70|are those who through either happenstance or 
+70|misfortune find themselves in the wrong place 
+301|at the wrong time. Or they find themselves at 
+301|death’s door, faced with the possibility of death or 
+301|being inextricably linked to a vampire. Regardless 
+301|of the circumstances that brought ghoul and 
+301|domitor together, this relationship plays an 
+301|important role in the ghoul’s life.
+310|Ghouls also must come to grips with their new 
+301|reality. They’re beholden to creatures who prey 
+301|on mortals; perhaps on their friends, their peers, 
+301|their community, even their loved ones. Ghouls 
+301|commonly act as a sort of gateway to these groups, 
+301|which their domitor can use as a herd to sustain 
+301|their existence. Kindred need mortal blood to 
+301|survive, and ghouls need Kindred blood — a 
+301|continuous cycle of reliance.
+310|The shroud has been pulled back, and reality is 
+301|changed.
+310|Ghouls, too, are forever changed.
+301|<H>The Role of Ghouls</H>
+301|The place of a ghoul in Kindred society is best 
+301|described as liminal. They exist on the outermost 
+301|fringes of the vampires’ world of secrets, never 
+301|truly recognized for what they bring to it, but 
+301|playing a vital role in its upkeep nonetheless. 
+301|Without ghouls to act as their eyes and ears 
+301|during the daylight hours or as their connection 
+301|to the modern world, the society of the Damned 
+301|would begin to break down. While ghouls 
+301|occupy lower rungs of vampire society than 
+301|their domitors, and are often even considered 
+301|disposable, they are also necessary.
+310|Needless to say, the vast majority of ghouls labor 
+301|under an all-consuming vitae addiction, if they’re 
+301|not outright Blood Bonded.
+310|How a ghoul copes with their existence is entirely 
+301|up to the player. Just how much has the character 
+301|bought into this society they now find themselves a 
+301|part of, whether willingly or forcibly? Some ghouls 
+301|learn to accept their place as less-than, and even those 
+301|not under the Bond may develop a twisted love for 
+301|their Kindred masters, owing to their dependency 
+301|on vitae and the imbalanced power dynamic. Some 
+301|learn to repress the deeds they have done in the name 
+#### PAGE 139
+96|of gaining some diminished praise or approval in a 
+96|sort of blissful ignorance. Others find a way to make 
+96|the most of it, perhaps through careful cultivation of 
+96|relationships within the society, and transform their 
+96|place into that of a coveted ally.
+105|The Storyteller should make efforts to ensure that 
+96|this optional character type can thrive under the 
+96|chronicle’s Tenets if they choose to permit player 
+96|ghouls. These characters are more than just mere 
+96|servants. They are wholly realized individuals pulled 
+96|into a world previously hidden from them, a world 
+96|where ghouls are equally as complicit (and culpable) in 
+96|perpetuating monstrous acts alongside their domitors.
+105|Like young generations of vampires, ghouls 
+96|have familial and other relationship ties that have 
+96|narrative gravity. Ties that can be used to manipulate 
+96|or blackmail ghouls can make for a darker turn. 
+96|Playing a ghoul lends itself to emotionally intense 
+96|roleplaying, especially when balancing the demands 
+96|of a domitor and the ghoul’s own needs, desires, 
+96|and responsibilities. Ghoul characters always have 
+96|difficult choices to make, decisions that have long-
+96|lasting ramifications: Do you obey your domitor or 
+96|do you follow your conscience? How many times 
+96|can you tell a domitor “no” before they deem you 
+96|too tiresome to deal with?
+105|These are the situations a ghoul inevitably 
+96|finds themselves grappling with. The place of the 
+96|ghoul is a perilous one, walking a fine line between 
+96|maintaining their own Humanity and serving as 
+96|thrall to creatures of the night.
+96|<H>Ghoul Archetypes</H>
+96|<H2>Unwitting Subject</H2>
+96|They told you it was a medical trial, but the place 
+96|sure wasn’t a hospital and they sure didn’t look 
+96|like doctors. Usual suspects showed up, though, 
+96|and the money was real. Had you sign stuff, but 
+96|looking at the guy by the door, lawyers weren’t 
+96|the main thing that scared you. Still, the stuff was 
+96|potent. Had you up all night, like some high-
+96|grade research chemical straight off the Dark Web. 
+96|Probably was, too. The second time had fewer 
+327|volunteers, and you all got assigned tasks as well. 
+327|“For metrics,” they said. Weird, but the pay was 
+327|too good to pass up, not to mention the buzz. The 
+327|third time they handed the four of you who were 
+327|left a list of names and instructions. You wonder 
+327|how many will show up next time.
+327|<H2>Cleaning Specialist</H2>
+327|Kindred needs are a bloody business, and sometimes 
+327|the pangs of their monstrous hunger makes a more 
+327|thorough clean-up necessary. It’s not always as easy 
+327|as dumping a body wrapped in plastic into some 
+327|dumpster in a back alley. It can be as involved as 
+327|erasing a person wholesale from the system, and in 
+327|the most extreme cases, snipping the loose threads 
+327|so that evidence cannot be traced back to any one 
+327|person. At any rate, it’s a demanding profession. 
+327|One that requires a strong stomach, but if push 
+327|comes to shove at least you have the skills to cover up 
+327|deaths — or fake them, if need be.
+327|<H2>Mnemonic Courier</H2>
+327|When something needs to be delivered discreetly 
+327|and prying eyes kept looking elsewhere, 
+327|your masters call on you. A life-long courier, 
+327|graduating from drugs to weapons to near-extinct 
+327|exotics, you now ply your trade transporting the 
+327|most volatile merchandise of all: information. 
+327|Their secrets are safe with you. After all, you 
+327|never learn them. All you ever remember is the 
+327|masters’ eyes and a queasy sense of falling. At your 
+327|destination, a word sets your cargo free, owing 
+327|from your lips while you sink into the river of 
+327|unmemory. Whether traveling across town or the 
+327|world, your masters can rely on your capability, 
+327|your discretion, and above all, your ability to 
+327|remember and then forget.
+327|<H2>Maverick</H2>
+327|Where others are content to go with the flow and 
+327|follow every order given to them, you buck every 
+327|expectation and social trend. It’s not that you’re 
+327|a contrarian, but rather that you possess a strong 
+327|sense of self that’s difficult to circumvent, and 
+#### PAGE 140
+70|mundane attempts to manipulate you tend to 
+70|fail. There is a give and take in your relationship: 
+70|While your domitor didn’t quite know what they 
+70|were getting with you, your ardent self-advocacy 
+70|and frankness has been the talk of the domain ever 
+70|since. While it is important to you to stay in your 
+70|domitor’s good graces, you also have a life outside 
+70|of them — wholly separate, and you would prefer 
+70|it to stay that way.
+70|USING VITAE TO HEAL THE LIVING
+301|<H>Creating a Ghoul Character</H>
+301|<H2>Character Concept</H2>
+301|Like their vampiric counterparts, character concepts 
+301|for ghouls are limited only by your imagination. 
+301|Ghouls can come from all walks of life, from medical 
+301|professionals to social media influencers to runaways 
+301|living on the fringes of society.
+310|Ghouls also can be chosen for any reason that 
+301|suits their domitor. Ventrue may create ghouls 
+#### PAGE 141
+96|from those closely aligned with their financial or 
+96|political goals, but no one too far up the corporate 
+96|ladder because when the time comes to dispose of 
+96|them, the Blue Blood probably doesn’t want them 
+96|to be missed.
+105|Some young Kindred detest the practice of 
+96|creating ghouls but even they understand its utility. 
+96|These are more likely to work with their ghoul in 
+96|something approaching an equitable fashion. A few, 
+96|in their naiveté, find themselves assisting so-called 
+96|“independent ghouls” (p. 143), which rarely ends 
+96|well for an altruistic neonate.
+105|A core character concept for your ghoul should 
+96|include a basic identity (example: an unassuming 
+96|librarian or a workers’ rights activist), general 
+96|disposition toward the world (and their domitor), 
+96|and an ambition that drives them to do what they 
+96|do. Then spend some time considering the following 
+96|questions to help further flesh your ghoul out:
+109|Are you even aware of what you are? 
+109|Did you drink “from the tap,” or did you become 
+109|a ghoul more innocuously? 
+109|What are your feelings toward your new 
+109|“normal?”
+109|Did you become a ghoul willingly or was the 
+109|choice made for you? 
+105|Keep in mind that though a ghoul depends 
+96|upon their domitor (unless circumstances liberate 
+96|them...), they still have their own drives, goals, 
+96|thoughts, and motivations. Playing a ghoul whose 
+96|domitor is a player’s character or Storyteller 
+96|character requires ongoing consideration regarding 
+96|consent (see p. 216).
+105|Ghouls do not have a Beast in the same sense 
+96|that vampires do, but they still have Humanity 
+96|scores, and actions they take, whether it be 
+96|in service to their domitor or otherwise, can 
+96|negatively affect their Humanity. The downward 
+96|spiral for mortals and ghouls is not constrained 
+96|by being lost to the Beast. And while the Beast 
+96|is not a personified, inchoate monster for a 
+96|ghoul, ghouls nonetheless have described the 
+96|drive for vitae as everything from a dependency 
+96|to an addiction to a relentless, consuming need 
+96|that informs everything they do, even if it isn’t 
+327|figuratively whispering in their ear. Choose your 
+327|Ambition and Desire as normal.
+327|<H2>Set Your Attributes</H2>
+327|Before deciding which dots go where, consider your 
+327|character concept and what the character is best at, 
+327|what they are moderate at, and what is their weakest 
+327|aspect. See the list of Attributes on p. 62.
+340|Take your best Attribute at 4
+340|Take your worst Attribute at 1
+340|Take three Attributes at 3
+340|Take the rest of your Attributes at 2
+340|Now derive two more Traits from your 
+340|Attributes as follows:
+340|Add three to your Stamina to derive your Health. 
+340|Add your Resolve to your Composure to derive 
+340|your Willpower.
+327|<H2>Choose Your Skills</H2>
+327|Skills speak to a character’s everyday life, what 
+327|they know, how they perform certain actions, or 
+327|even how they react to situations as they arise. A 
+327|ghoul may have skills that their domitor lacks, such 
+327|as Streetwise or Technology, or ones they have 
+327|gained through education, a professional career, or 
+327|through significant life events. It is wise to consider 
+327|Skills as part of the reason your domitor chose you, 
+327|Skills relevant to your current profession, or that 
+327|display some manner of personal interest. You are 
+327|(probably) not a mindless drone; you are someone’s 
+327|hand-picked attaché. 
+336|As well, consider for a moment what Skills 
+327|represent in the character’s life story. Did they learn 
+327|about Politics during a summer when they were 
+327|part of a grassroots canvassing campaign? Are they 
+327|part of an emergency response team, increasing 
+327|their knowledge of Medicine along the way? Being 
+327|a top-notch brawler or expert marksman may help 
+327|in combat situations, but without a rationale to 
+327|accompany having those skills, it doesn’t offer quite 
+327|the same vitality to your character. Consider hobbies 
+327|and after-hours activities they may participate in that 
+327|manifest as low-level Skills.
+336|You can choose your Skills on your own: Use 
+#### PAGE 142
+70|the Sample Professions Package (<B>Vampire: The </B>
+70|<B>Masquerade</B>, p. 145), or use the Quick Skills 
+70|Assignment method (p. 64). That is:
+84|<B>Jack of all Trades: </B>One Skill at 3; eight Skills at 
+84|2; ten Skills at 1
+84|<B>Balanced:</B> Three Skills at 3; five Skills at 2; seven 
+84|Skills at 1
+84|<B>Specialist:</B> One Skill at 4; three Skills at 3; three 
+84|Skills at 2; three Skills at 1
+79|Add free specialties to Academics, Craft, 
+70|Performance, and Science Skills. Take one more free 
+70|specialty. Specialties can be applied only to skills 
+70|with at least one level.
+70|<H2>Disciplines and Predator Type</H2>
+70|Upon becoming a ghoul, the character gains a level-1 
+70|Discipline power in a Discipline possessed by their 
+70|domitor. Ghouls can purchase additional level-1 
+70|powers at the cost of 10 experience points each, but 
+70|they must all belong to Disciplines possessed by their 
+70|domitor. (The powers themselves do not need to be 
+70|possessed by the domitor, however.)
+79|Ghouls can never purchase actual dots in 
+70|Disciplines, but always count as having a single 
+70|dot for the purpose of using Discipline powers. 
+70|(In rare cases this rating can increase temporarily, 
+70|but only from using external augmentation such as 
+70|Draughts.)
+79|Ghouls are not vampires and do not have a 
+70|Predator Type.
+70|<H2>Advantages</H2>
+70|Ghouls take 7 points of Advantages and 2 points of 
+70|Flaws. They may not spend any points on Kindred-
+70|exclusive Advantages or Flaws, though they can 
+70|generally use the same Merits and Flaws as mortals.
+79|Like mortals, ghouls may not spend points in the 
+70|following Advantages: Domain, Feeding, Herd, or 
+70|Thin-Blooded. As with mortals, Haven isn’t the 
+70|same concept for a ghoul as for a vampire, but the 
+70|Background remains available to them, with some 
+70|amount of interpretation. Ghouls are not restricted 
+70|from taking the Status Background, though this 
+70|Status almost certainly derives at least partially 
+301|from the esteem of their domitor. In fact, certain 
+301|ghouls may be notorious or even infamous among 
+301|the Damned.
+310|Players who wish to use Kindred-exclusive Loresheets 
+301|for ghoul characters likely gained their knowledge 
+301|thanks to their domitor’s connections. If their domitor 
+301|is a player character without that Loresheet Advantage, 
+301|explain the ghoul’s access somehow: previous domitor? 
+301|A source in another domain? Work with your 
+301|Storyteller to ensure that both your character and the 
+301|story get served by taking this Background.
+310|Unless otherwise specified, Merits and Flaws 
+301|acquired as mortals continue to apply to ghouls.
+301|<H2>New Ghoul Merits</H2>
+301|These Merits only apply to ghoul characters.
+301|Blood Empathy ••
+301|You share a closer bond to your domitor than 
+301|most ghouls, able to sense their emotional and 
+301|psychological state, even when not physically in 
+301|their presence. An astute ghoul can “feel” if their 
+301|current domitor is in peril or requires their presence 
+301|immediately, but it does not allow for direct telepathic 
+301|communication. You feel Blood Empathy at a 
+301|distance of one mile or less from your domitor, and 
+301|the domitor to whom you feel Blood Empathy is the 
+301|one whose blood you have most recently consumed. 
+301|Note that this does not require a Blood Bond, though 
+301|the effect feels stronger if one is present.
+301|Unseemly Aura ••
+301|The Blood did something strange to you. Whereas 
+301|your aura was once vibrant and full of the flush 
+301|of mortal-adjacent life, it has become muted and 
+301|indistinguishable from that of a Kindred. While it 
+301|may lead others to overestimate you, it could also 
+301|lead to some awkward situations later down the line.
+301|<H2>New Ghoul Flaws</H2>
+301|These Flaws apply only to ghoul characters.
+301|Baneful Blood (• to ••)
+301|Due to some mysterious property of the Blood, you 
+301|experience the bane of your first domitor’s clan to a 
+#### PAGE 143
+96|degree. Your first domitor, the Kindred whose blood 
+96|you tasted in order to become a ghoul, must be of 
+96|Clan Lasombra, Malkavian, Ministry, Nosferatu, 
+96|Ravnos, Salubri, or Toreador. Even if your domitor 
+96|changes, the bane you experience does not.
+105|You experience the domitor’s bane at one level for 
+96|each dot in this Flaw.
+96|Crone’s Curse (••)
+96|When you partook of your domitor’s vitae, you aged 
+96|rapidly. You appear at least a decade older than you are. 
+96|In addition, your health has suffered, and you have one 
+96|fewer box on your Health tracker than you otherwise 
+96|would. The Embrace negates this Flaw, unless the 
+96|Storyteller rules otherwise (because the problem was 
+96|you all along, not your domitor’s Blood).
+96|Distressing Fangs (•)
+96|The Blood, in addition to giving you increased healing, 
+96|physical prowess, and use of some minor Disciplines, 
+96|also gave you sharpened teeth. But they’re strange, 
+96|stunted, and unsettling to those who can discern 
+96|them, causing mortals to think you’re part of some 
+96|questionable subculture (ahem).
+105|You lose one die on Social pools involving mortals 
+96|because your fangs make them uneasy.
+327|<H2>Convictions & Touchstones</H2>
+327|Convictions and Touchstones are treated the 
+327|same for ghouls as for mortals, and ghouls should 
+327|choose one to three of each. See p. 149 for more 
+327|information.
+336|Ghouls start play with Humanity at 7.
+327|<H2>Health</H2>
+327|Ghouls are stronger and more resilient than their 
+327|mortal counterparts, and depending on their 
+327|domitor’s clan and Disciplines, they can call upon 
+327|feats of strength, hardiness, and speed that exceed 
+327|mortal limitations.
+336|In general, treat ghouls the same way as mortals 
+327|in terms of healing and recovery (<B>Vampire: The </B>
+327|<B>Masquerade,</B> p. 127), with a few notable exceptions.
+336|Ghouls heal all damage done to them at double 
+327|the rate of mortals with one exception: fire. Bodies, 
+327|even those augmented by vitae, still require a certain 
+327|amount of downtime to heal burns.
+336|It bears repeating that ghouls can use powers 
+327|above the first level due to other circumstances, 
+327|such as Draught of Elegance, through Thin-Blood 
+327|Alchemy, or other means, but in doing so they take 1 
+327|point of Aggravated damage as opposed to making a 
+327|Rouse Check.
+327|<H>Special Situations</H>
+327|Life is unpredictable, and it’s no different for a 
+327|ghoul. Ghouls may find themselves in situations that 
+327|change the trajectory of their development and how 
+327|they interact with other characters.
+327|<H2>Changing Domitors</H2>
+327|The bond between ghoul and domitor runs deep, 
+327|with ghouls experiencing a degree of emotional and 
+327|psychological dependence in addition to their need 
+327|for vitae. It is this type of relationship that makes 
+327|the very notion of changing domitors an unwelcome 
+327|event among ghouls.
+336|Sometimes a ghoul needs to change their domitor, 
+327|such as when the domitor goes into torpor. At 
+327|that time, a domitor might “dismiss” their ghoul 
+#### PAGE 144
+70|from service — which doesn’t change the ghoul’s 
+70|dependency on the Blood. Indeed, this may result in 
+70|the domitor having an increasingly desperate thrall 
+70|standing vigil over them in their unnatural sleep. Most 
+70|ghouls would rather not face the rapid onset of age and 
+70|so they may find themselves placed into the service of 
+70|a domitor’s confidante or even at the general disposal 
+70|of their domitor’s coterie or clan. It’s still an emotional 
+70|event, but it at least allows for an easier transition on 
+70|part of the ghoul, and small comforts are still comforts, 
+70|as most ghouls are not so fortunate when faced with 
+70|the predicament of changing domitors.
+79|History has seen ghouls who have been bartered, 
+70|traded, and lost in gambling wagers. Others have 
+70|been stolen, seduced, or even taken as spoils of 
+70|war between the sects. Where once you were the 
+70|loyal ghoul of a prestigious domitor, you may find 
+70|yourself handed over to a social pariah. Worse still 
+70|is the ghoul who has had to experience the death 
+70|of a domitor and must choose between following 
+70|their master into death or continuing in the service 
+70|of someone else. Keep these thoughts in mind and 
+70|explore also what this change means and represents 
+70|to the character — the Blood Bond is powerful and 
+70|evokes emotions that weigh on such decisions.
+70|<H2>What Happens If a Ghoul is Embraced?</H2>
+70|So, you decided to get Embraced. Well, actually, the 
+70|choice may have been made for you by a desperate 
+70|domitor. Whichever way that cookie crumbled, 
+70|a few new details now apply to your erstwhile 
+70|ghoul’s situation.
+79|Ghoul-specific Advantages (both Merits and 
+70|Flaws) are lost, with the points refunded to buy new 
+70|Advantages for the character agreed upon by the 
+70|Storyteller. At the Storyteller’s discretion, a former 
+70|ghoul can maintain ghoul-specific Advantages.
+79|The fledgling gains Generation dependent on the 
+70|Generation of your sire. Blood Potency starts at the 
+70|lowest value of that Generation’s bracket. See the 
+70|Generation and Blood Potency table on p. 214 of 
+70|<B>Vampire: The Masquerade</B>.
+79|Humanity score remains the same as the ghoul’s at 
+70|the time of the Embrace.
+301|<H2>Independent Ghouls</H2>
+301|Many ghouls, whether willing or coerced, manage 
+301|to adapt to whatever relationship exists with their 
+301|domitor. In most cases, in return for assistance with 
+301|functions that the Kindred cannot attend to (or 
+301|be bothered with), ghouls gain some amount of 
+301|protection, attention, and the blood that sustains 
+301|their existence. Such a lifestyle isn’t for everyone, and 
+301|some ghouls acknowledge no domitor, avoid blood 
+301|bonds, and effectively do favors in return for vitae. Or 
+301|they just straight-up steal it.
+310|Kindred society considers these so-called 
+301|Independent Ghouls loose cannons at best, and 
+301|more than one unwitting neonate or foolish ancilla 
+301|has learned a hard lesson by dealing with them. 
+301|Many Camarilla Kindred consider Independent 
+301|Ghouls to be unacceptable threats to carefully 
+301|constructed social hierarchies. Many Anarchs, 
+301|however, see these mercenary individuals as 
+301|worthy of respect — they managed to hoodwink 
+301|a lick and turn the power dynamic around. The 
+301|Oswobodziciele movement in Anarch society 
+301|actively liberates ghouls wherever possible. But even 
+301|an appreciative Anarch doesn’t necessarily trust an 
+301|independent ghoul, though.
+310|It’s not an easy existence and the wise independent 
+301|ghoul cultivates a network of Contacts, Allies, and 
+301|Influences, not to mention a great deal of Wits and 
+301|Resolve to stay one step ahead. Independent ghouls 
+301|must seek out vitae to maintain their state, and 
+301|the savvy ones know to imbibe inert blood rather 
+301|than directly from a domitor, lest they risk a Blood 
+301|Bond to a different “patron.” If they become too 
+301|desperate, they’ll find themselves thrall to the very 
+301|bond they attempted to circumvent.
+310|Of course, this sort of attitude makes these already 
+301|mistrusted ghouls an even bigger threat: Predators do 
+301|not like being targeted by what they see as their prey, or 
+301|those who should be servile instead of independent.
+310|Consider what motivates a mortal to interact 
+301|with vampires. The relationship between mortals 
+301|and Kindred may be antagonistic, but not 
+301|exclusively so, though rarely is it equitable. A 
+301|mortal has inarguable advantages — anything from 
+301|meeting a genuine friend, tasting a freshly brewed 
+#### PAGE 145
+96|MORTALS AND GHOUL CHARACTERS IN VARIANT CHRONICLES
+96|Vampire: The Masquerade
+96|The All-Mortal Chronicle
+96|Ghouls, Ghouls, Ghouls
+96|Mixed Mortalities
+96|cup of coffee, or watching the sun set and rise with 
+96|their own eyes. For a player or Storyteller, placing 
+96|a focus on mortal characters can emphasize the 
+96|personal horror of Vampire.
+96|<H>MORTALS</H>
+96|<H>Why Play a Mortal?</H>
+96|Mortals have access to the resources of a society built 
+96|by themselves and for their own use. The modern 
+96|world isn’t designed for vampires, it’s designed for 
+96|mortals (particularly those of considerable wealth), 
+327|and vampires can at best avail themselves of only 
+327|certain elements of it. Maintaining the Masquerade 
+327|becomes more difficult as society’s governments 
+327|and corporations increase surveillance of the general 
+327|populace. Any Kindred hoping to evade the lex 
+327|talionis and escape to Melbourne by sleeping in a 
+327|coffin aboard an airplane is in for a rather unfortunate 
+327|awakening when airport security notices a mismatch 
+327|between the cargo scan and the plane’s manifest.
+336|The growth of online social media platforms 
+327|allows mortals to connect like never before, 
+327|with no shortage of anonymous communities 
+327|where mortals turn an eye to monitoring undead 
+327|activity in local areas. In the last two years alone, 
+327|numerous Kindred have been confirmed destroyed 

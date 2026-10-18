@@ -1,0 +1,2300 @@
+[
+ {
+  "n": "Acute Sense",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   1
+  ],
+  "cat": "Physical",
+  "html": "<p>Acute Sense (1pt. Merit)</p>\n<p>One of your senses is exceptionally sharp, be it sight, hearing, smell, touch, or taste. The difficulties for all tasks involving the use of this particular sense are reduced by two. This Merit can be combined with the Discipline of Auspex to produce superhuman sensory acuity.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "479"
+  }
+ },
+ {
+  "n": "Ambidextrous",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   1
+  ],
+  "cat": "Physical",
+  "html": "<p>Ambidextrous (1pt. Merit)</p>\n<p>You have a high degree of off-hand dexterity and can perform tasks with the “wrong” hand at no penalty. The rules for taking multiple actions still apply, but you do not suffer a difficulty penalty if you use two weapons or are forced to use your off hand.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "480"
+  }
+ },
+ {
+  "n": "Bruiser",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   1
+  ],
+  "cat": "Physical",
+  "html": "<p>Bruiser (1pt. Merit)</p>\n<p>Your appearance is sufficiently thug-like to inspire fear (or at least disquiet) in those who see you. While you’re not necessarily ugly, you do radiate a quiet menace, to the point where people cross the street to avoid passing near you. All Intimidation rolls against those who have not demonstrated their physical superiority to you are at -1 difficulty.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "480"
+  }
+ },
+ {
+  "n": "Catlike Balance",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   1
+  ],
+  "cat": "Physical",
+  "html": "<p>Catlike Balance (1pt. Merit)</p>\n<p>You possess an innately perfect sense of balance. Characters with this Merit reduce difficulties of all balance-related rolls (e.g., Dexterity + Athletics to walk along a narrow ledge) by two.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "480"
+  }
+ },
+ {
+  "n": "Early Riser",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   1
+  ],
+  "cat": "Physical",
+  "html": "<p>Early Riser (1pt. Merit)</p>\n<p>No one can explain it, but you seem to have the ability to work on less rest than your fellow vampires. You always seem to be the first to rise and the last to go to bed even if you’re been out until dawn. Your Humanity or Path score is considered to be 10 for purposes of deciding when you rise each evening. Vampires with this Merit cannot take the Deep Sleeper Flaw.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "480"
+  }
+ },
+ {
+  "n": "Eat Food",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   1
+  ],
+  "cat": "Physical",
+  "html": "<p>Eat Food (1pt. Merit)</p>\n<p>You have the capacity to eat food and even savor its taste. While you cannot derive any nourishment from eating regular foods, this ability will serve you well in pretending to be human. Of course, you can’t digest what you eat, and there will be some point during the evening when you have to heave it back up.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "480"
+  }
+ },
+ {
+  "n": "Friendly Face",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   1
+  ],
+  "cat": "Physical",
+  "html": "<p>Friendly Face (1pt. Merit)</p>\n<p>You have a face that reminds everyone of someone, to the point where strangers are inclined to be wellinclined toward you because of it. The effect doesn’t fade even if you explain the “mistake,” leaving you at -1 difficulty on all appropriate Social-based rolls (yes for Seduction, no for Intimidation, for example) when a stranger is involved. This Merit only functions on a first meeting.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "480"
+  }
+ },
+ {
+  "n": "Blush of Health",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   2
+  ],
+  "cat": "Physical",
+  "html": "<p>Blush of Health (2pt. Merit)</p>\n<p>You look more hale and healthy in appearance than other vampires, allowing you to blend with human society much more easily. You still retain the color of a living mortal, and your skin feels only slightly cool to the touch.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "480"
+  }
+ },
+ {
+  "n": "Enchanting Voice",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   2
+  ],
+  "cat": "Physical",
+  "html": "<p>Enchanting Voice (2pt. Merit)</p>\n<p>There is something about your voice that others cannot ignore. When you command, they are cowed. When you seduce, they swoon. Whether thundering, soothing, persuading, or simply talking, your voice commands attention. The difficulties of all rolls involving the use of the voice to persuade, charm, or command are reduced by two.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "480"
+  }
+ },
+ {
+  "n": "Daredevil",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   3
+  ],
+  "cat": "Physical",
+  "html": "<p>Daredevil (3pt. Merit)</p>\n<p>You are good at taking risks, and even better at surviving them. When attempting exceptionally risky non-combat actions (such as leaping from one moving car to another), characters with this Merit add an additional three dice to their rolls, and negate a single botch die that may result from such a roll. Generally, such actions must be at least difficulty 8 and have the potential to inflict at least three health levels of damage if failed.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "480"
+  }
+ },
+ {
+  "n": "Efficient Digestion",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   3
+  ],
+  "cat": "Physical",
+  "html": "<p>Efficient Digestion (3pt. Merit)</p>\n<p>You are able to draw more than the usual amount of nourishment from blood. When feeding, you gain an additional point to your blood pool for every two points of blood you consume. This does not allow you to exceed your blood pool maximum.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "480"
+  }
+ },
+ {
+  "n": "Huge Size",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   4
+  ],
+  "cat": "Physical",
+  "html": "<p>Huge Size (4pt. Merit)</p>\n<p>You are abnormally large in size, at least 6’10” and 300 pounds in weight (well over two meters tall and over 130 kgs). Aside from making you extremely noticeable in public, this extra mass bestows an additional Bruised health level. Characters with this Merit may also gain bonuses to push objects, open barred doors, avoid being knocked down, etc.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "480"
+  }
+ },
+ {
+  "n": "Hard of Hearing",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Physical",
+  "html": "<p>Hard of Hearing (1pt. Flaw)</p>\n<p>Your hearing is defective. The difficulties of any rolls involving the use of hearing are increased by two.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "480"
+  }
+ },
+ {
+  "n": "Short",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Physical",
+  "html": "<p>Short (1pt. Flaw)</p>\n<p>You are well below average height — four and a half feet (1.5 meters) tall or less. You have difficulty reaching or manipulating objects designed for normal adult size, and your running speed is one-half that of an average human.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "481"
+  }
+ },
+ {
+  "n": "Smell of the Grave",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Physical",
+  "html": "<p>Smell of the Grave (1pt. Flaw)</p>\n<p>You exude an odor of dampness and newly turned earth, which no amount of scents or perfumes will cover. Mortals in your immediate presence become uncomfortable, so the difficulties of all Social rolls to affect mortals increase by one.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "481"
+  }
+ },
+ {
+  "n": "Tic/Twitch",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Physical",
+  "html": "<p>Tic/Twitch (1pt. Flaw)</p>\n<p>You have some sort of repetitive motion that you make in times of stress, and it’s a dead giveaway as to your identity. Examples include a nervous cough, constantly wringing your hands, cracking your knuckles, and so on. It costs one Willpower to refrain from engaging in your tic.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "481"
+  }
+ },
+ {
+  "n": "Bad Sight",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   1,
+   3
+  ],
+  "cat": "Physical",
+  "html": "<p>Bad Sight (1 or 3pt. Flaw)</p>\n<p>Your sight is defective. The difficulties of any die rolls involving the use of your eyesight are increased by two. As a one-point Flaw, this condition can be corrected with glasses or contacts; as a three-point Flaw, the condition is too severe to be corrected.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "481"
+  }
+ },
+ {
+  "n": "Fourteenth Generation",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Physical",
+  "html": "<p>Fourteenth Generation (2pt. Flaw)</p>\n<p>You were created five or fewer years ago by a member of the Thirteenth Generation. Though you have 10 blood points in your body, only eight of them may be used to heal wounds, power Disciplines, raise Attributes, etc. You can still use the final two blood points for other purposes, though. The blood point costs of nightly rising, creating and sustaining ghouls, and creating blood bonds remains the same as for other vampires. You cannot raise any Discipline above four dots.</p>\n<p>Taking this Flaw precludes you from taking the Generation Background, and you may not start with Status, either. You are likely a Clanless Caitiff, for your blood is probably too thin to pass down the distinguishing characteristics of a Clan. Most Fourteenth-Generation vampires should also take the Thin Blood Flaw (p. 483).</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "481"
+  }
+ },
+ {
+  "n": "Fifteenth Generation",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   4
+  ],
+  "cat": "Physical",
+  "html": "<p>Fifteenth Generation (4pt. Flaw)</p>\n<p>Your vitae is so weak that only six of your 10 blood points can be used for Disciplines, healing or raising Attributes. For these functions, you must expend two blood points to obtain the effect a normal vampire would achieve with one. (The cost for nightly rising remains a single blood point.) What’s more, you cannot create or sustain ghouls, create a blood bond, or sire a vampiric childe. You can use the remaining four blood points to survive through the day and wake up each night, nothing more.</p>\n<p>You cannot raise any Discipline above three dots.</p>\n<p>The weakening of the Curse of Caine has compensations, though (which distinguish this Flaw from the Thin Blood Flaw itself). Sunlight does lethal damage to you, instead of aggravated damage as it does to other vampires. You can hold down mortal food and drink for an hour or so; other vampires vomit immediately if they try (unless they have the Eat Food Merit). Strangest of all, once in a while you might actually have a child the normal, human way... though it will hardly be a normal, human child.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "481"
+  }
+ },
+ {
+  "n": "Disfigured",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Physical",
+  "html": "<p>Disfigured (2pt. Flaw)</p>\n<p>A hideous disfigurement makes your appearance disturbing and memorable. The difficulties of all die rolls relating to social interaction are increased by two. You may not have an Appearance rating greater than 2.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "481"
+  }
+ },
+ {
+  "n": "Dulled Bite",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Physical",
+  "html": "<p>Dulled Bite (2pt. Flaw)</p>\n<p>For some reason your fangs never developed fully, or they may not have manifested at all. When feeding, you need to find some other method of making the blood flow. Failing that, you must achieve double the normal number of successes in order to make your bite penetrate properly. A number of Caitiff and high- Generation vampires often manifest this Flaw.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "481"
+  }
+ },
+ {
+  "n": "Infectious Bite",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Physical",
+  "html": "<p>Infectious Bite (2pt. Flaw)</p>\n<p>You may not automatically lick the wounds of your feeding closed. In fact, your bites have a one in five chance of becoming infected and causing mortal victims to become seriously ill. The precise nature of the infection is determined by the Storyteller.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "481"
+  }
+ },
+ {
+  "n": "One Eye",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Physical",
+  "html": "<p>One Eye (2pt. Flaw)</p>\n<p>You have only one eye — which eye is missing is up to you. The difficulties of all Perception rolls involving eyesight are increased by two, and the difficulties of all die rolls requiring depth perception are increased by one (this includes ranged combat).</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "481"
+  }
+ },
+ {
+  "n": "Vulnerability to Silver",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Physical",
+  "html": "<p>Vulnerability to Silver (2pt. Flaw)</p>\n<p>To you, silver is as painful and as deadly as the rays of the sun. You suffer aggravated wounds from any silver weapons (bullets, knives, etc.), and the mere touch of silver objects discomfits you.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "482"
+  }
+ },
+ {
+  "n": "Open Wound",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   2,
+   4
+  ],
+  "cat": "Physical",
+  "html": "<p>Open Wound (2 or 4pt. Flaw)</p>\n<p>You have one or more wounds that refuse to heal, and which constantly drip blood. This slow leakage costs you an extra blood point per evening (marked off just before dawn), in addition to drawing attention to you. If the wound is visible, you are at + 1 difficulty for all Social-based rolls. For two points, the Flaw is simply unsightly and has the basic effect mentioned above; for four points the seeping wound is serious or disfiguring and includes the effects of the Flaw Permanent Wound (below).</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "482"
+  }
+ },
+ {
+  "n": "Addiction",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   3
+  ],
+  "cat": "Physical",
+  "html": "<p>Addiction (3pt. Flaw)</p>\n<p>You suffer from an addiction to a substance, which must now be present in the blood you drink (or you automatically frenzy, as per the Prey Exclusion Flaw). This can be alcohol, nicotine, hard drugs, or simply adrenaline. This substance always impairs you in some fashion (see “Poisons and Drugs,” p. 301, for particulars).</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "482"
+  }
+ },
+ {
+  "n": "Child",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   3
+  ],
+  "cat": "Physical",
+  "html": "<p>Child (3pt. Flaw)</p>\n<p>You were a small child (between five and 10 years old) at the time of your Embrace, leaving your Physical Attributes underdeveloped and making it difficult to interact with some aspects of mortal society. You may not have more than two dots in Strength or Stamina at character creation, except when raising Physical Attributes with blood points, and the difficulties of all die rolls when attempting to direct or lead mortal adults are increased by two. Characters with this Flaw should also take the Short Flaw.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "482"
+  }
+ },
+ {
+  "n": "Deformity",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   3
+  ],
+  "cat": "Physical",
+  "html": "<p>Deformity (3pt. Flaw)</p>\n<p>You have some kind of deformity — a misshapen limb, hunchback, or clubfoot, for example — which affects your physical abilities and interactions with others. A hunchback, for instance, would lower a character’s Dexterity by two dots and increase the difficulty of die rolls relating to social skills by one. It is the responsibility of the Storyteller to determine the specific effects of the deformity chosen.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "482"
+  }
+ },
+ {
+  "n": "Glowing Eyes",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   3
+  ],
+  "cat": "Physical",
+  "html": "<p>Glowing Eyes (3pt. Flaw)</p>\n<p>You have the stereotypical glowing eyes of vampire legend, which gives you a -1 difficulty on Intimidation rolls when you’re dealing with mortals. However, the tradeoffs are many; you must constantly disguise your condition (no, contacts don’t cut it); the glow impairs your vision and puts you at +1 difficulty on all sightbased rolls (including the use of ranged weapons); and the radiance emanating from your eye sockets makes it difficult to hide (+2 difficulty to Stealth rolls) in the dark.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "482"
+  }
+ },
+ {
+  "n": "Lame",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   3
+  ],
+  "cat": "Physical",
+  "html": "<p>Lame (3pt. Flaw)</p>\n<p>Your legs are damaged, which prevents you from running or walking easily. You are forced to walk with a cane or possibly leg braces, and you have a pronounced limp to your stride. Your walking speed is one-quarter that of a normal human, and running is impossible.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "482"
+  }
+ },
+ {
+  "n": "Lazy",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   3
+  ],
+  "cat": "Physical",
+  "html": "<p>Lazy (3pt. Flaw)</p>\n<p>You are simply lazy, avoiding anything that requires effort on your part. Preferring to let others do the hard work, you lounge around. For any action that requires preparation, there’s a good chance you didn’t properly prepare. Difficulty rolls for spontaneous Physical actions (including combat, unless it’s part of a planned offensive) increase by one.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "482"
+  }
+ },
+ {
+  "n": "Monstrous",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   3
+  ],
+  "cat": "Physical",
+  "html": "<p>Monstrous (3pt. Flaw)</p>\n<p>Your physical form was twisted during the Embrace, and now reflects the Beast that rages inside you. Characters with this Flaw appear to be savage monsters and have Appearance ratings of zero. Nosferatu and other bloodlines whose weaknesses cause them to start off with Appearance zero cannot take this Flaw.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "482"
+  }
+ },
+ {
+  "n": "Permanent Fangs",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   3
+  ],
+  "cat": "Physical",
+  "html": "<p>Permanent Fangs (3pt. Flaw)</p>\n<p>Your fangs do not retract, making it impossible for you to hide your true nature. While some mortals may think you’ve had your teeth filed or are wearing prosthetics, sooner or later you’re going to run into someone who knows what you truly are. You are also limited to a maximum Appearance rating of 3.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "482"
+  }
+ },
+ {
+  "n": "Permanent Wound",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   3
+  ],
+  "cat": "Physical",
+  "html": "<p>Permanent Wound (3pt. Flaw)</p>\n<p>You suffered injuries during your Embrace which your transformation somehow failed to repair. At the beginning of each night, you rise from sleep at the Wounded health level, though this may be healed by spending blood points.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "482"
+  }
+ },
+ {
+  "n": "Slow Healing",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   3
+  ],
+  "cat": "Physical",
+  "html": "<p>Slow Healing (3pt. Flaw)</p>\n<p>You have difficulty healing wounds. It requires two blood points to heal one health level of bashing or lethal damage, and you heal one health level of aggravated damage every five days (plus the usual five blood points and Willpower expenditure).</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "483"
+  }
+ },
+ {
+  "n": "Disease Carrier",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   4
+  ],
+  "cat": "Physical",
+  "html": "<p>Disease Carrier (4pt. Flaw)</p>\n<p>Your blood carries a lethal and highly contagious disease. The disease can be anything from rabies to HIV, and Kindred who drink your blood have a 10% chance of becoming a carrier as well. You must spend an extra blood point each night on awakening, or you will begin manifesting symptoms of the disease (increased chance to frenzy for rabies, reduced soak rolls for HIV, etc.).</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "483"
+  }
+ },
+ {
+  "n": "Deaf",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   4
+  ],
+  "cat": "Physical",
+  "html": "<p>Deaf (4pt. Flaw)</p>\n<p>You cannot hear. While you may be more resistant to some applications of Dominate, you also may not listen to electronic or vocal media, and the difficulties of many Perception rolls are increased by three.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "483"
+  }
+ },
+ {
+  "n": "Mute",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   4
+  ],
+  "cat": "Physical",
+  "html": "<p>Mute (4pt. Flaw)</p>\n<p>You cannot speak. You may communicate with the Storyteller and describe your actions, but cannot talk to player or Storyteller characters unless everyone concerned purchases a commonly understood sign language (via the Language Merit) or you write down what you wish to say.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "483"
+  }
+ },
+ {
+  "n": "Thin Blood",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   4
+  ],
+  "cat": "Physical",
+  "html": "<p>Thin Blood (4pt. Flaw)</p>\n<p>Your blood is thin, weak, and does not sustain you well. All blood point costs are doubled (e.g., using blood-related Disciplines or healing damage), although you only lose one blood upon rising in the evening. Furthermore, you are unable to create a blood bond, and efforts to sire other vampires succeed only one in five times.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "483"
+  }
+ },
+ {
+  "n": "Flesh of the Corpse",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   5
+  ],
+  "cat": "Physical",
+  "html": "<p>Flesh of the Corpse (5pt. Flaw)</p>\n<p>Your flesh does not fully regenerate itself once it is damaged. While you are able to heal yourself to the point of regaining full functionality, your skin still retains the cuts, tears, bullet holes, and other visible damage that you have incurred. Depending on the nature of the damage, this Flaw will make social dealings exceedingly difficult, and may decrease your Appearance dots over time (even to 0).</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "483"
+  }
+ },
+ {
+  "n": "Infertile Vitae",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   5
+  ],
+  "cat": "Physical",
+  "html": "<p>Infertile Vitae (5pt. Flaw)</p>\n<p>During your Embrace, something went horribly wrong, causing your blood to mutate under the stress of dying and rising again. All those you try to Embrace die. No matter what you do, you may not create any childer. However, your blood can still be used in blood rituals like Thaumaturgy and the Vaulderie, or for any other vampiric needs like making ghouls.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "484"
+  }
+ },
+ {
+  "n": "Blind",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   6
+  ],
+  "cat": "Physical",
+  "html": "<p>Blind (6pt. Flaw)</p>\n<p>You cannot see. Characters can compensate for the loss of vision by becoming more attuned to other sensory input, but visual cues and images are lost to them. Difficulties of all Dexterity-based rolls are increased by two. Oddly, vampires with Aura Perception (Auspex 2) are still able to use this ability, thought the information is interpreted via the other senses. On the other hand, vampires who need make eye contact to enact powers like Dominate against you are only at a penalty to do so (see the sidebar on p. 152).</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "484"
+  }
+ },
+ {
+  "n": "Coldly Logical",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   1
+  ],
+  "cat": "Mental",
+  "html": "<p>Coldly Logical (1pt. Merit)</p>\n<p>While some might refer to you as a “cold fish,” you have a knack for separating factual reporting from emotional or hysterical coloration. You may or may not be emotional yourself, but you can see clearly when others are clouding the facts with their feelings (-1 difficulty on all related rolls).</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "484"
+  }
+ },
+ {
+  "n": "Common Sense",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   1
+  ],
+  "cat": "Mental",
+  "html": "<p>Common Sense (1pt. Merit)</p>\n<p>You have a significant amount of practical, everyday wisdom. Whenever you are about to act in a way contrary to common sense, the Storyteller can make suggestions or warnings about the implications of said action. This is a very useful Merit for beginning players unfamiliar with the game.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "484"
+  }
+ },
+ {
+  "n": "Concentration",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   1
+  ],
+  "cat": "Mental",
+  "html": "<p>Concentration (1pt. Merit)</p>\n<p>You have the ability to focus your mind and shut out any distractions or annoyances. Characters with this Merit are unaffected by any penalties stemming from distracting circumstances (e.g., loud noises, strobe lights, or hanging upside down).</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "484"
+  }
+ },
+ {
+  "n": "Introspection",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   1
+  ],
+  "cat": "Mental",
+  "html": "<p>Introspection (1pt. Merit)</p>\n<p>You have keen insight into the ulterior motives of all your actions. Through this nightly exercise, you also have incredible insight into the underlying motives of others’ actions. Add two dice to your Perception dice pool when you must take an action against someone with the same Nature or Demeanor as you.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "484"
+  }
+ },
+ {
+  "n": "Language",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   1
+  ],
+  "cat": "Mental",
+  "html": "<p>Language (1pt. Merit)</p>\n<p>You know a language in addition to your native one. You can take this Merit multiple times, each reflecting a different language.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "484"
+  }
+ },
+ {
+  "n": "Time Sense",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   1
+  ],
+  "cat": "Mental",
+  "html": "<p>Time Sense (1pt. Merit)</p>\n<p>You have an innate sense of time and are able to estimate the passage of time accurately without using a watch or other mechanical device.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "484"
+  }
+ },
+ {
+  "n": "Useful Knowledge",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   1
+  ],
+  "cat": "Mental",
+  "html": "<p>Useful Knowledge (1pt. Merit)</p>\n<p>You have expertise in a specific field that makes your conversation intriguing to an older Kindred. So long as your knowledge holds the other vampire’s attention, he has a vested interest in keeping you around. Then again, once he’s pumped you for every iota of information you possess, that patronage may suddenly vanish. (Note: This Merit should be played like a 1-dot Mentor with a specific interest. However, unlike a Mentor, Useful Knowledge does not imply a permanent relationship.)</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "484"
+  }
+ },
+ {
+  "n": "Code of Honor",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   2
+  ],
+  "cat": "Mental",
+  "html": "<p>Code of Honor (2pt. Merit)</p>\n<p>You have a personal code of ethics to which you adhere. The specifics of this code must be worked out with the Storyteller prior to play, and the character must follow it strictly. Characters with this Merit gain two additional dice to all Willpower or Virtue rolls when acting in accordance with their code (e.g., defending the helpless) or when attempting to avoid situations that might force them to violate their code.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "484"
+  }
+ },
+ {
+  "n": "Computer Aptitude",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   2
+  ],
+  "cat": "Mental",
+  "html": "<p>Computer Aptitude (2pt. Merit)</p>\n<p>You are familiar with and talented in the uses of computer equipment. Other Kindred may not understand computers, but to you they are intuitive. All rolls involving computers are at -2 difficulty for you.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "484"
+  }
+ },
+ {
+  "n": "Eidetic Memory",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   2
+  ],
+  "cat": "Mental",
+  "html": "<p>Eidetic Memory (2pt. Merit)</p>\n<p>You remember, with perfect detail, things you see and hear. Documents, photographs, conversations, etc., can be committed to memory with only minor concentration. Under stressful conditions involving numerous distractions, you must make a Perception + Alertness roll (difficulty 6) to summon enough concentration to absorb what your senses detect.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "484"
+  }
+ },
+ {
+  "n": "Light Sleeper",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   2
+  ],
+  "cat": "Mental",
+  "html": "<p>Light Sleeper (2pt. Merit)</p>\n<p>You can awaken instantly at any sign of trouble or danger, and do so without any sleepiness or hesitation. You may ignore rules regarding how Humanity or your morality Path restricts the number of dice available during the day.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "485"
+  }
+ },
+ {
+  "n": "Natural Linguist",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   2
+  ],
+  "cat": "Mental",
+  "html": "<p>Natural Linguist (2pt. Merit)</p>\n<p>You have a flair for languages. You may add three dice to any dice pool involving written or spoken languages, and each purchase of the Language Merit (previous page) gives you two languages instead of just one.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "485"
+  }
+ },
+ {
+  "n": "Calm Heart",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   3
+  ],
+  "cat": "Mental",
+  "html": "<p>Calm Heart (3pt. Merit)</p>\n<p>You are naturally calm and do not easily fly off the handle. You receive two extra dice when attempting to resist a frenzy. Brujah may not take this Merit.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "485"
+  }
+ },
+ {
+  "n": "Iron Will",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   3
+  ],
+  "cat": "Mental",
+  "html": "<p>Iron Will (3pt. Merit)</p>\n<p>When you are determined and your mind is set, nothing can thwart you from your goals. Characters using Dementation, Dominate, or any other mind-altering magic, spell, or Thaumaturgy path against your character are at +3 difficulty.</p>\n<p>Elder levels of powers like Dementation and Dominate may overwhelm even this resistance. Against Level Six powers, the expenditure of a Willpower point through Iron Will only raises the difficulty of the Discipline roll by two. Against Level Seven powers, the difficulty is increased by only one. Level Eight and higher powers cannot be resisted with Iron Will.</p>\n<p>This Merit does not affect Presence or other powers dealing with the emotions. Characters will Willpower scores below 8 cannot take this Merit.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "485"
+  }
+ },
+ {
+  "n": "Precocious",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   3
+  ],
+  "cat": "Mental",
+  "html": "<p>Precocious (3pt. Merit)</p>\n<p>You learn quickly. The time for you to pick up a particular Ability (or Abilities, at Storyteller discretion) is cut in half, as is the experience cost.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "485"
+  }
+ },
+ {
+  "n": "Deep Sleeper",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Mental",
+  "html": "<p>Deep Sleeper (1pt. Flaw)</p>\n<p>When you sleep, it is very difficult for you to awaken. The difficulty of any roll to awaken during the day is increased by two.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "485"
+  }
+ },
+ {
+  "n": "Impatient",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Mental",
+  "html": "<p>Impatient (1pt. Flaw)</p>\n<p>You have no patience for standing around and waiting. You want to do things <em>now</em> — fuck those slowpokes trying to hold you back. Every time you are forced to wait around instead of acting, a Self-Control roll is required to see if you go tearing off on your own instead.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "485"
+  }
+ },
+ {
+  "n": "Nightmares",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Mental",
+  "html": "<p>Nightmares (1pt. Flaw)</p>\n<p>You experience horrendous nightmares every time you sleep, and memories of them haunt you during your waking hours. Upon awakening, you must make a Willpower roll (difficulty 7) or lose a die on all actions for that night. A botched Willpower roll indicates that, even when awake, you still believe that you are locked in a nightmare.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "485"
+  }
+ },
+ {
+  "n": "Prey Exclusion",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Mental",
+  "html": "<p>Prey Exclusion (1pt. Flaw)</p>\n<p>You refuse to hunt a certain class of prey. You might refuse to feed on drug dealers, policemen, accountants, or rich people — if you accidentally feed upon such an individual, you automatically frenzy and must make a roll to prevent Humanity or Path loss (difficulty 7). Witnessing other Kindred feeding on the object of your exclusion might also provoke a frenzy, at the Storyteller’s discretion. Ventrue, owing to the limitations already imposed on their feeding by their Clan weakness, may not take this Flaw.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "485"
+  }
+ },
+ {
+  "n": "Shy",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Mental",
+  "html": "<p>Shy (1pt. Flaw)</p>\n<p>You are distinctly ill at ease when dealing with people and try to avoid social situations whenever possible. Difficulties for all rolls involving social interaction with strangers are increased by two. If the character becomes the center of attention in a large group, difficulties are increased by three.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "485"
+  }
+ },
+ {
+  "n": "Soft-Hearted",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Mental",
+  "html": "<p>Soft-Hearted (1pt. Flaw)</p>\n<p>You cannot stand to watch others suffer. You avoid any situation that involves causing someone physical or emotional pain, unless you make a Willpower roll (difficulty 8). You must have a Humanity rating of 7 or above to take this Flaw — vampires on Paths of Enlightenment can only take this Flaw with Storyteller approval.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "485"
+  }
+ },
+ {
+  "n": "Speech Impediment",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Mental",
+  "html": "<p>Speech Impediment (1pt. Flaw)</p>\n<p>You have a stammer or other speech impediment that hampers verbal communication. The difficulties of all die rolls involving verbal communication are increased by two. This Flaw must be roleplayed whenever possible.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "485"
+  }
+ },
+ {
+  "n": "Unconvinced",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Mental",
+  "html": "<p>Unconvinced (1pt. Flaw)</p>\n<p>You fail to see the need for the core ideologies of your Sect or Clan, and have gone on record as saying so. Taking your stand has made you suspect in the eyes of your superiors, and may have attracted the attention of your enemies as well.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "485"
+  }
+ },
+ {
+  "n": "Amnesia",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Mental",
+  "html": "<p>Amnesia (2pt. Flaw)</p>\n<p>You are unable to remember anything about your past, yourself, or your family (whether mortal or vampiric), though your past might well come back to haunt you. Your origins and the circumstances behind your amnesia are for the Storyteller to determine, and she is encouraged to make it as interesting as possible.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "486"
+  }
+ },
+ {
+  "n": "Lunacy",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Mental",
+  "html": "<p>Lunacy (2pt. Flaw)</p>\n<p>You are affected by the phases of the moon, increasing your chances to frenzy. Under the crescent moon, difficulties to avoid frenzy increase by one. Under the half or gibbous moon, difficulties rise by two. When the moon is full, difficulties increase by three.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "486"
+  }
+ },
+ {
+  "n": "Phobia",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Mental",
+  "html": "<p>Phobia (2pt. Flaw)</p>\n<p>You have an overpowering fear of something. Spiders, snakes, crowds, and heights are examples of common phobias. You must make a Courage roll every time you encounter the object of your fear. The difficulty of the roll is determined by the Storyteller. If you fail the roll, you must retreat from the object.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "486"
+  }
+ },
+ {
+  "n": "Short Fuse",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Mental",
+  "html": "<p>Short Fuse (2pt. Flaw)</p>\n<p>You are easily angered. Difficulties to avoid frenzy are two greater. Brujah vampires cannot take this Flaw, as they already suffer from a similar weakness.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "486"
+  }
+ },
+ {
+  "n": "Stereotype",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Mental",
+  "html": "<p>Stereotype (2pt. Flaw)</p>\n<p>You buy heavily into all of the vampire stories you’ve read and heard. You wear a cape or body glitter, speak with an accent, and otherwise act in a cartoonish fashion. Such behavior is embarrassing in the extreme to other Kindred, who are likely to ostracize or mock you (+2 difficulty to Social rolls with other vampires who don’t share your habits). You also stand out to hunters.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "486"
+  }
+ },
+ {
+  "n": "Territorial",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Mental",
+  "html": "<p>Territorial (2pt. Flaw)</p>\n<p>You are extremely territorial, staking out a particular area as your hunting ground and reacting aggressively to trespassers. If another vampire enters your territory uninvited, you must make a frenzy roll. If you fail, you immediately attack the interloper and continue attacking until the intruder is dead or has left your hunting grounds. You are reluctant to leave your territory except in desperate circumstances.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "486"
+  }
+ },
+ {
+  "n": "Thirst for Innocence",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Mental",
+  "html": "<p>Thirst for Innocence (2pt. Flaw)</p>\n<p>The sight of innocence — of any sort — arouses in you a terrible bloodlust. Roll Self-Control or Instincts, or else frenzy and attack the source of your hunger.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "486"
+  }
+ },
+ {
+  "n": "Vengeful",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Mental",
+  "html": "<p>Vengeful (2pt. Flaw)</p>\n<p>You have a score to settle, incurred either during your mortal days or after the Embrace. You are obsessed with taking your revenge on an individual or group, and it is your overriding priority in any situation where you encounter the object of your revenge. You may temporarily resist your need for vengeance by spending a Willpower point.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "486"
+  }
+ },
+ {
+  "n": "Victim of the Masquerade",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Mental",
+  "html": "<p>Victim of the Masquerade (2pt. Flaw)</p>\n<p>The Camarilla’s propaganda machine did too good a job on you. Even after your Embrace you refused to believe you were a vampire. You remain convinced that there is some logical explanation for your condition, and spend as much time as you can searching for it. You also have problems feeding, and may insist on trying to eat regular food. None of these habits makes you particularly pleasant company for other Kindred. This Flaw must be roleplayed at all times, and is generally taken by Camarilla vampires.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "486"
+  }
+ },
+ {
+  "n": "Weak-Willed",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   3
+  ],
+  "cat": "Mental",
+  "html": "<p>Weak-Willed (3pt. Flaw)</p>\n<p>You are highly susceptible to Dominate and intimidation by others; Dominate attempts automatically affect you unless the Discipline wielder is of higher Generation, and your difficulties to resist Social abilities such as Intimidation or Leadership, as well as mind-altering spells or magic, are increased by two. Your Willpower Trait may never rise above 4.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "486"
+  }
+ },
+ {
+  "n": "Conspicuous Consumption",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   4
+  ],
+  "cat": "Mental",
+  "html": "<p>Conspicuous Consumption (4pt. Flaw)</p>\n<p>It is not enough for you to draw nourishment from the blood of mortals — you believe you must also consume your victim’s heart, liver, and other blood-rich tissue. Of course, this will necessitate the deaths of all of your victims (unless you are extremely creative), which might lead to numerous problems with maintaining Humanity (and a low profile). Characters with this Flaw should additionally purchase the Eat Food Merit.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "486"
+  }
+ },
+ {
+  "n": "Guilt-Wracked",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   4
+  ],
+  "cat": "Mental",
+  "html": "<p>Guilt-Wracked (4pt. Flaw)</p>\n<p>You simply cannot come to grips with the fact that you must drink blood to survive. You suffer horrible guilt over each time you feed (roll Conscience, difficulty 7, or else frenzy every time you feed — characters with the Conviction Virtue cannot take this Flaw) and try to avoid doing so as much as possible. This means that you rarely have much blood in your system, leaving you vulnerable to both attacks and hunger-based frenzies.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "486"
+  }
+ },
+ {
+  "n": "Flashbacks",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   6
+  ],
+  "cat": "Mental",
+  "html": "<p>Flashbacks (6pt. Flaw)</p>\n<p>You managed to make it through the Creation Rites or other similarly traumatic experience, but not wholly intact. The most insignificant thing can throw you into a different mood or state of mind, and as such your behavior is extremely unpredictable. Because of your precarious emotional state, your Willpower fluctuates. At the beginning of each story, make a Willpower roll (you may not spend Willpower for an automatic success). If you succeed, you may participate in the story as normal. If you fail, however, your Willpower score is considered to be 1 for the duration of that session, and you only have one Willpower point to spend. You may roll again at the beginning of the next session to see if you regain your Willpower.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "487"
+  }
+ },
+ {
+  "n": "Elysium Regular",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   1
+  ],
+  "cat": "Social",
+  "html": "<p>Elysium Regular (1pt. Merit)</p>\n<p>You spend an unusual amount of time in Elysium. You see and are seen to such an extent that all of the movers and shakers of Elysium at least know who you are. Extended time spent in Elysium also gives you extended opportunities to interact with the Harpies and other Kindred of that stature — and they’ll know your name when you approach them. This Merit is generally taken by vampires that respect and attend Elysium on a regular basis.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "487"
+  }
+ },
+ {
+  "n": "Former Ghoul",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   1
+  ],
+  "cat": "Social",
+  "html": "<p>Former Ghoul (1pt. Merit)</p>\n<p>You were introduced to the Blood long before you were made Kindred. Your long experience as a ghoul gives you insight into and comfort with vampiric society. You are at -1 difficulty on all Social rolls when in the presence of other neonates (particularly those who haven’t been educated by their sires), and have a -1 difficulty on all rolls relating to vampiric knowledge.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "487"
+  }
+ },
+ {
+  "n": "Harmless",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   1
+  ],
+  "cat": "Social",
+  "html": "<p>Harmless (1pt. Merit)</p>\n<p>Everyone in the city knows you, and knows that you’re no threat to their plans. While that sort of estimation may seem insulting, it’s also what’s kept you from being killed. No one considers you worth their time to deal with, and that low opinion keeps you safe. If you start acting in a way that demonstrates that you are no longer harmless, others’ reactions to you will likely change as a result.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "487"
+  }
+ },
+ {
+  "n": "Natural Leader",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   1
+  ],
+  "cat": "Social",
+  "html": "<p>Natural Leader (1pt. Merit)</p>\n<p>You are gifted with a certain magnetism to which others naturally defer. You receive two extra dice when making Leadership rolls. You must have a Charisma rating of 3 or greater to purchase this Merit.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "487"
+  }
+ },
+ {
+  "n": "Prestigious Sire",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   1
+  ],
+  "cat": "Social",
+  "html": "<p>Prestigious Sire (1pt. Merit)</p>\n<p>Your sire has or had great status in her Sect or Clan, and this has accorded you a certain amount of prestige. Though your sire may no longer have any dealings with you, the simple fact of your ancestry has marked you forever. This prestige might aid you greatly in dealings with other vampires, or it might engender jealousy or contempt.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "488"
+  }
+ },
+ {
+  "n": "Protégé",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   1
+  ],
+  "cat": "Social",
+  "html": "<p>Protégé (1pt. Merit)</p>\n<p>Your sire watched you for some time before Embracing you, and spoke glowingly of you to acquaintances. These vampires may be inclined to look favorably on you by dint of your sire’s recommendation; you are at -1 difficulty on Social rolls with all those who’ve heard good things about you.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "488"
+  }
+ },
+ {
+  "n": "Rep",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   1
+  ],
+  "cat": "Social",
+  "html": "<p>Rep (1pt. Merit)</p>\n<p>Your fame has exceeded the bounds of your Sect. Everyone knows who you are, what you’ve done and what you’re supposed to have done (which might not be the same thing). The publicity can be good or bad; what matters is that everybody knows your name. Whether individuals outside of your immediate social circle know enough to match your face to your name is a different matter.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "488"
+  }
+ },
+ {
+  "n": "Sabbat Survivor",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   1
+  ],
+  "cat": "Social",
+  "html": "<p>Sabbat Survivor (1pt. Merit)</p>\n<p>You’ve lived through at least one Sabbat attack or attempted recruitment. Your experience helps you anticipate situations where you might potentially be endangered by the Sabbat once again. You are at -1 difficulty on all Perception rolls when it comes to Sabbat-based matters. This Merit is generally taken by groups in conflict with the Sabbat, and comes into play most frequently as a means of avoiding ambushes.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "488"
+  }
+ },
+ {
+  "n": "Boon",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  "cat": "Social",
+  "html": "<p>Boon (1-6pt. Merit)</p>\n<p>Someone owes you a favor. The vampire in your debt might be the lowliest neonate in the city or might be the Prince herself; it all depends on how many points the Merit costs. You only have that single favor owed you (unless you take the Merit multiple times), so using it properly is of paramount importance. Depending on status and other factors, the vampire who owes you a favor may well resent his debt, and might go out of his way to “settle” it early — even going so far as to create situations from which he must “rescue” you and thus clear the slate.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "488"
+  }
+ },
+ {
+  "n": "Bullyboy",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   2
+  ],
+  "cat": "Social",
+  "html": "<p>Bullyboy (2pt. Merit)</p>\n<p>You’re part of the brute squad the local Sheriff or Bishop calls on when he needs some muscle. As a result, you get in on action that others miss entirely, score points with those in power, and occasionally get a chance to act outside of the law. How far outside the law you can go depends on circumstance and how much the vampire you report to likes you.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "488"
+  }
+ },
+ {
+  "n": "Old Pal",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   2
+  ],
+  "cat": "Social",
+  "html": "<p>Old Pal (2pt. Merit)</p>\n<p>An acquaintance from your breathing days was Embraced at the same time you were. Fortunately, your friendship has endured even death and unlife, and you find a constant source of support and aid in your old friend. She expects the same of you, which isn’t always convenient, but at least you each have someone to hang onto who remembers the good old nights — and days. The Storyteller should play the Old Pal as a very loyal Ally.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "488"
+  }
+ },
+ {
+  "n": "Lawman’s Friend",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   2
+  ],
+  "cat": "Social",
+  "html": "<p>Lawman’s Friend (2pt. Merit)</p>\n<p>For whatever reason (maybe your winning smile or perhaps just your superb groveling technique), the local Sheriff or Bishop in charge of discipline likes you. He’s inclined to overlook your minor trespasses and let you in on things you’re not supposed to know about. He even gives you warnings about occasional crackdowns and times when the higher-ups aren’t feeling generous. Of course, abusing this connection might well turn a friendly vampire into an enemy — and the change might not be apparent until it’s too late.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "488"
+  }
+ },
+ {
+  "n": "Open Road",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   2
+  ],
+  "cat": "Social",
+  "html": "<p>Open Road (2pt. Merit)</p>\n<p>Unlike many Kindred, you like to travel. You have a solid knowledge of safe travel routes and methodologies, not to mention haven space available in any number of destinations. Unless someone out there knows your exact route and is specifically looking for you, you can move between cities unimpeded by random encounters with Lupines, overzealous state troopers, and the like.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "488"
+  }
+ },
+ {
+  "n": "Sanctity",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   2
+  ],
+  "cat": "Social",
+  "html": "<p>Sanctity (2pt. Merit)</p>\n<p>This Merit is sometimes called the halo effect; everyone considers you pure and innocent, though not necessarily naïve. You have a saint-like quality that is hard to pinpoint but cannot be denied. You are trusted, even if you are not trustworthy. At the Storyteller’s discretion, you tend to receive lesser punishments for wrongdoing, and you are liked by most.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "488"
+  }
+ },
+ {
+  "n": "Scholar of Enemies",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   2
+  ],
+  "cat": "Social",
+  "html": "<p>Scholar of Enemies (2pt. Merit)</p>\n<p>You have taken the time to learn about and specialize in one particular enemy of your Sect. You are aware of at least some of the group’s customs, strategies, abilities, and long-term goals, and can put that knowledge to good use. This Merit is worth a -2 difficulty for all non-combat rolls pertaining specifically to the subject of your specialization. On the other hand, you are at a +1 difficulty when it comes to dealing with other enemies, simply because you’re so thoroughly focused on your field.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "489"
+  }
+ },
+ {
+  "n": "Scholar of Others",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   2
+  ],
+  "cat": "Social",
+  "html": "<p>Scholar of Others (2pt. Merit)</p>\n<p>This Merit functions identically to Scholar of Enemies, except that it applies to a group that is not necessarily inimical to your Sect.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "489"
+  }
+ },
+ {
+  "n": "Friend of the Underground",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   3
+  ],
+  "cat": "Social",
+  "html": "<p>Friend of the Underground (3pt. Merit)</p>\n<p>While you’re not a Nosferatu, you know your way around the sewers, tunnels, ducts, subway tubes, and other subterranean passages of your hometown. The local Nosferatu (and any other creatures dwelling down in the muck) may not actually like you, but they’re not inclined to kill you on sight when they see you in their territory. You are at -1 difficulty on any rolls involving the subterranean world (sneaking from place to place underground, finding routes into sub-basements, and so on). Nosferatu cannot purchase this Merit.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "489"
+  }
+ },
+ {
+  "n": "Mole",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   3
+  ],
+  "cat": "Social",
+  "html": "<p>Mole (3pt. Merit)</p>\n<p>You have an informer buried in one of your Sect’s enemy organizations who funnels you all sorts of information as to what her peers are up to. What you do with the information is up to you, but abusing the knowledge might be a good way to get your informer killed. The other side has spies too….</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "489"
+  }
+ },
+ {
+  "n": "Rising Star",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   3
+  ],
+  "cat": "Social",
+  "html": "<p>Rising Star (3pt. Merit)</p>\n<p>You’re one of the up-and-comers in the city, a rising star in your Sect. Everyone wants to know you and be your friend, even as those in power groom you for positions of greater responsibility. You are at -1 difficulty on all Social rolls against any vampires in your Sect who aren’t actively opposing your ascent.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "489"
+  }
+ },
+ {
+  "n": "Broken Bond",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   4
+  ],
+  "cat": "Social",
+  "html": "<p>Broken Bond (4pt. Merit)</p>\n<p>You were once blood-bound but have secretly slipped the leash, and you are free to act as you will once more. Your regnant has no idea that you are not in fact bound, and continues to treat you as if you were. At Storyteller discretion, the experience of having been bound once may render you immune to ever being enthralled again. Sabbat vampires cannot take this Merit.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "489"
+  }
+ },
+ {
+  "n": "Clan Friendship",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   4
+  ],
+  "cat": "Social",
+  "html": "<p>Clan Friendship (4pt. Merit)</p>\n<p>One particular Clan (not your own) has a special liking for you. You might have done the Clan as a whole a favor at some point, or perhaps you’re just a loud voice in support of their aims. Whatever the case, you’re at -2 difficulty on all friendly Social rolls involving members of the Clan in question. Of course, the reaction your cozy relationship with another Clan is likely to draw from your own Clan leaders is an entirely different can of worms.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "489"
+  }
+ },
+ {
+  "n": "Primogen/Bishop Friendship",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   4
+  ],
+  "cat": "Social",
+  "html": "<p>Primogen/Bishop Friendship (4pt. Merit)</p>\n<p>The ruling vampires of the city value you and your opinions. You are called in to consult on decisions, and your recommendations carry great weight. Your position may not be an official one, but it’s powerful nonetheless.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "489"
+  }
+ },
+ {
+  "n": "Botched Presentation",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Social",
+  "html": "<p>Botched Presentation (1pt. Flaw)</p>\n<p>When your sire presented you to the Prince of the city, you flubbed it. Now you’re convinced His Majesty hates you (whether he does or not). You need to succeed on a Willpower roll (difficulty 7) just to stand in front of the Prince or one of his duly authorized representatives without running, blubbering, or otherwise making a fool of yourself. This Flaw can only be taken by Camarilla vampires.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "489"
+  }
+ },
+ {
+  "n": "Dark Secret",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Social",
+  "html": "<p>Dark Secret (1pt. Flaw)</p>\n<p>You have some sort of secret that, if uncovered, would be of immense embarrassment to you and would make you a pariah in the local Kindred community. This could be anything from having murdered an elder to being a member of the Anarchs.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "489"
+  }
+ },
+ {
+  "n": "Expendable",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Social",
+  "html": "<p>Expendable (1pt. Flaw)</p>\n<p>Someone in power doesn’t want you around. Maybe she wants territory you possess, or is jealous of the attention you’re getting from a prize mortal retainer — the details are irrelevant. What does matter is that she has the power to maneuver you into dangerous situations “for the good of the Sect,” and has no compunctions about doing so.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "489"
+  }
+ },
+ {
+  "n": "Incomplete Understanding",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Social",
+  "html": "<p>Incomplete Understanding (1pt. Flaw)</p>\n<p>The whole matter has been explained to you, but you’re still not quite sure how things in your Sect work. Your imperfect understanding of the rules and regulations of your new existence means that sooner or later, you’re going to make a mistake. It’s only a matter of time….</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "490"
+  }
+ },
+ {
+  "n": "Infamous Sire",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Social",
+  "html": "<p>Infamous Sire (1pt. Flaw)</p>\n<p>Your sire was, and perhaps still is, distrusted and disliked by many of the city’s Kindred. As a result, you are distrusted and disliked as well.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "490"
+  }
+ },
+ {
+  "n": "Mistaken Identity",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Social",
+  "html": "<p>Mistaken Identity (1pt. Flaw)</p>\n<p>You look similar to descriptions of another Kindred, which cause cases of mistaken identity. This can prompt numerous awkward or even dangerous situations, especially if your “twin” has a terrible reputation or is wanted for some crime.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "490"
+  }
+ },
+ {
+  "n": "New Arrival",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Social",
+  "html": "<p>New Arrival (1pt. Flaw)</p>\n<p>You’ve just arrived in your new city of residence, and don’t know anyone in the place. Existing factions may try to recruit or eliminate you, while vampires in positions of authority size you up and take your measure. Meanwhile, your ignorance of the city’s current events, history, and politics (not to mention the personality quirks of the vampires already in place) may cause you to make a serious blunder.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "490"
+  }
+ },
+ {
+  "n": "New Kid",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Social",
+  "html": "<p>New Kid (1pt. Flaw)</p>\n<p>You’re the latest in the city to be Embraced or have yet to prove yourself to your Sect, and everyone knows it. That automatically puts you at the bottom of the social totem pole. Other neonates take every opportunity to demonstrate your inferiority, or rival packs constantly test your worthiness to the Sabbat. Even if someone else is added to the ranks of the unliving, you’re still regarded as something as a bit of a geek by your peers — a distinction that can have dangerous consequences if bullets start flying. All Social-related rolls are at +1 difficulty when you are dealing with other neonates. (Ancillae and elders lump you in with all the other neonates under their general disdain.)</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "490"
+  }
+ },
+ {
+  "n": "Recruitment Target",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Social",
+  "html": "<p>Recruitment Target (1pt. Flaw)</p>\n<p>Someone in one of your Sect’s enemy organizations wants you, and they want you <em>bad</em>. Every effort is being made to recruit you, willing or no, and the press gangs usually show up at the worst possible time.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "490"
+  }
+ },
+ {
+  "n": "Sire’s Resentment",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Social",
+  "html": "<p>Sire’s Resentment (1pt. Flaw)</p>\n<p>Your sire dislikes you and wishes you ill. Given the smallest opportunity, she will actively seek to do you harm. Your sire’s allies also work against you, and many elders may resent you.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "490"
+  }
+ },
+ {
+  "n": "Special Responsibility",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Social",
+  "html": "<p>Special Responsibility (1pt. Flaw)</p>\n<p>Shortly after your Embrace, you volunteered for some task in order to gain respect and approval from the vampires around you. Now, you wish you had never opened your damn mouth! While you are not given any special credit for performing this duty, you would lose a lot of respect if you were to stop. The nature and the details of your duty should be worked out with the Storyteller in advance. Ideas can range from lending money to other Kindred to acting as a messenger or possibly gathering victims for ritae (such as Blood Feasts).</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "490"
+  }
+ },
+ {
+  "n": "Sympathizer",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Social",
+  "html": "<p>Sympathizer (1pt. Flaw)</p>\n<p>You have publicly expressed sympathy for some of the goals and policies of the enemies of your Sect. Your outspoken views on the subject have made you suspect in the eyes of the city’s hierarchy, and you may be suspected of (or arrested for) treason.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "490"
+  }
+ },
+ {
+  "n": "Enemy",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "cat": "Social",
+  "html": "<p>Enemy (1-5pt. Flaw)</p>\n<p>You have an enemy, or perhaps a group of enemies, who seek to harm you. The power of the enemy depends upon how many points the player wishes to spend (five points indicate the wrath of a Methuselah or other potent supernatural foe).</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "490"
+  }
+ },
+ {
+  "n": "Bound",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Social",
+  "html": "<p>Bound (2pt. Flaw)</p>\n<p>You are blood bound to another vampire. Your regnant may not necessarily treat you badly, but the fact remains that your will is not entirely your own. The knowledge gnaws at you, even as you find yourself lost in devotion to your vampiric master. Sabbat vampires cannot take this Flaw.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "490"
+  }
+ },
+ {
+  "n": "Catspaw",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Social",
+  "html": "<p>Catspaw (2pt. Flaw)</p>\n<p>You’ve done dirty work for someone high up in the city’s hierarchy in the past — the Sheriff, the Bishop, or even someone higher. However, instead of granting you favor, your deeds have made you an embarrassment or a liability. For the moment, your former employer’s concern is to keep you quiet. In the long term, it’s to get rid of you.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "490"
+  }
+ },
+ {
+  "n": "Escaped Target",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Social",
+  "html": "<p>Escaped Target (2pt. Flaw)</p>\n<p>You had targeted a mortal for the Embrace, but someone else got there first. You cannot stand the humiliation of being cheated of your prize, and fly into a rage (+2 difficulty to avoid frenzy) whenever you see the one who got away. This hatred may lead you into other irrational behaviors, like Embracing enemies of the neonate, creating unauthorized childer, or even trying to kill your rival. Furthermore, your petty and irrational behavior is well-known and quite noticeable, and as a result you are at + 1 difficulty on all Charisma rolls until the situation is resolved.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "491"
+  }
+ },
+ {
+  "n": "Failure",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Social",
+  "html": "<p>Failure (2pt. Flaw)</p>\n<p>You once held a title in the city, but failed catastrophically in your duties. Now you are branded incompetent, excluded from circles of power and responsibility, and generally ostracized by those on their way up. Your exclusion may make you a target for recruitment by the Sect’s enemies (or so the whispers run, making you even more distrusted). Conversely, the consequences of your error might come back to haunt you.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "491"
+  }
+ },
+ {
+  "n": "Masquerade Breaker",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Social",
+  "html": "<p>Masquerade Breaker (2pt. Flaw)</p>\n<p>In your first nights as a vampire, you accidentally broke the Masquerade — and were spotted doing so. Someone else covered for your mistake, but holds the favor over you. Now you exist in fear that your error will be revealed. In the meantime, your “savior” takes pitiless advantage of you. This Flaw can only be taken by vampires in Sects or Clans that respect the Masquerade.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "491"
+  }
+ },
+ {
+  "n": "Hunted",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   4
+  ],
+  "cat": "Social",
+  "html": "<p>Hunted (4pt. Flaw)</p>\n<p>You are pursued by a fanatical witch-hunter who believes (perhaps correctly) that you are a danger to humanity. All those with whom you associate, be they mortal or Kindred, may be hunted as well.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "491"
+  }
+ },
+ {
+  "n": "Old Flame",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Social",
+  "html": "<p>Old Flame (2pt. Flaw)</p>\n<p>Someone you once cared deeply for is now with the enemy. He still attempts to play on your sympathies “for old times’ sake” while working against you. Unless you succeed on a contested Manipulation + Expression roll against your former friend, you cannot act against him unless the situation becomes life-threatening.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "491"
+  }
+ },
+ {
+  "n": "Rival Sires",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Social",
+  "html": "<p>Rival Sires (2pt. Flaw)</p>\n<p>The flip side of Escaped Target, two vampires wanted to gift you with the Embrace. One succeeded, one failed — and she’s not happy about that failure. You, your actual sire, or both of you have become the target of the failed suitor’s ire. Regardless, your persecutor is at +2 difficulty to refrain from frenzy in your presence. In addition, she may well be working actively to discredit or destroy you.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "491"
+  }
+ },
+ {
+  "n": "Uppity",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Social",
+  "html": "<p>Uppity (2pt. Flaw)</p>\n<p>You are proud of your new status in the Sect — so proud that you’ve shot your mouth off to other Kindred and made some enemies. Wiser vampires laugh at you and chalk your rudeness up to youth, but others find you arrogant and insulting. These enemies will take action to embarrass or harm you. Furthermore, you are at +2 difficulty on all Social rolls against any vampires you have alienated through your yammering — and you may not know who they are.</p>\n<p>At Storyteller discretion, you may also be required to make a Willpower roll (difficulty 6) to keep your mouth shut any time the opportunity presents itself for you to brag about your pack, your Clan, or your status.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "492"
+  }
+ },
+ {
+  "n": "Disgrace to the Blood",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   3
+  ],
+  "cat": "Social",
+  "html": "<p>Disgrace to the Blood (3pt. Flaw)</p>\n<p>Your sire regards the fact that he Embraced you to be a titanic mistake, and has let everyone know it. You are mocked at gatherings, taunted by your peers, and actively despised by the one who should be giving you guidance. Any request or petition you make is likely to be looked down upon by friends of your sire, and your achievements are likely to be discounted.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "492"
+  }
+ },
+ {
+  "n": "Former Prince",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   3
+  ],
+  "cat": "Social",
+  "html": "<p>Former Prince (3pt. Flaw)</p>\n<p>Once, you held near-absolute power in a city, but those nights are gone now. Perhaps you stepped down, perhaps you were deposed, or perhaps your city fell to the Sabbat; it matters little in your reduced state. What does matter is that the Prince in the city where you now dwell is aware of your prior employment, and has concerns that you might be trying to make a comeback. The machinery of the Camarilla in the city where you now make your home is subtly stacked against you, and if the Prince sees an opportunity to get rid of you he just might take it. This Flaw can only be taken by Camarilla vampires.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "492"
+  }
+ },
+ {
+  "n": "Hunted Like a Dog",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   3
+  ],
+  "cat": "Social",
+  "html": "<p>Hunted Like a Dog (3pt. Flaw)</p>\n<p>Another Sect or group of vampires has decided that you’re a target for extermination, and pursues you relentlessly. On the bright side, the enemies of your enemy may well wish to help you out, potentially garnering you allies.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "492"
+  }
+ },
+ {
+  "n": "Narc",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   3
+  ],
+  "cat": "Social",
+  "html": "<p>Narc (3pt. Flaw)</p>\n<p>You are known to be a snitch, an informer firmly planted in the pocket of the vampires in charge. Those on whom you might yet inform loathe you as a result, feeding you misinformation when they can in an attempt to discredit you. Given the opportunity, they might do you mischief. Regardless, your reputation as a weasel precedes you, putting you at +1 difficulty on all Social rolls against those who don’t agree with your politics.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "492"
+  }
+ },
+ {
+  "n": "Sleeping With the Enemy",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   3
+  ],
+  "cat": "Social",
+  "html": "<p>Sleeping With the Enemy (3pt. Flaw)</p>\n<p>You have some sort of intimate connection with a member of an opposing Sect or inimical Clan. You may have a lover, a childe, a friend, or a contact working the other side of the fence, but regardless of politics you retain a friendly (or more than friendly) relationship with your putative foe. Your close ties to someone on the other side would be regarded as treason by your superiors within the Sect, and if you are discovered, the penalty will surely be death.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "492"
+  }
+ },
+ {
+  "n": "Clan Enmity",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   4
+  ],
+  "cat": "Social",
+  "html": "<p>Clan Enmity (4pt. Flaw)</p>\n<p>One Clan in particular wants you dead. You have offended the entire Clan, from elders to neonates, and as a result every member of that bloodline wants your head on a plate. The effects of the Flaw may manifest as anything from very public snubs and insults to actual attempts on your unlife. You are also at +2 difficulty on all Social rolls relating to members of the Clan in question.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "492"
+  }
+ },
+ {
+  "n": "Loathsome Regnant",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   4
+  ],
+  "cat": "Social",
+  "html": "<p>Loathsome Regnant (4pt. Flaw)</p>\n<p>Not only are you blood bound, but you are also in thrall to a vampire who mistreats you hideously. Perhaps you are publicly abused or humiliated; perhaps your master forces you to commit unspeakable acts for him. In any case, existence under the bond is a neverending nightmare, with your regnant serving to conduct the symphony of malice. Sabbat vampires cannot take this Flaw.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "492"
+  }
+ },
+ {
+  "n": "Overextended",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   4
+  ],
+  "cat": "Social",
+  "html": "<p>Overextended (4pt. Flaw)</p>\n<p>You’ve got your fingers in too many pies, and people are starting to notice. You have too many ghouls, too many retainers, or too much influence, which means that a lot of people have a vested interest in trimming back your operations. These enemies take every opportunity to reduce your power and influence, and if that means lying, cheating, or killing, so be it. Furthermore, your enemies block every attempt you make to move into new areas of control. You’re boxed in, and the box is getting smaller.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "492"
+  }
+ },
+ {
+  "n": "Probationary Sect Member",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   4
+  ],
+  "cat": "Social",
+  "html": "<p>Probationary Sect Member (4pt. Flaw)</p>\n<p>You are a defector. You turned traitor to the Camarilla, Sabbat, or other Sect, and you still have much to prove before you are accepted by the Kindred you have defected to. Other vampires treat you with distrust and even hostility, and your reputation might even sully those whom you regularly associate with.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "493"
+  }
+ },
+ {
+  "n": "Blood Hunted",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   4,
+   6
+  ],
+  "cat": "Social",
+  "html": "<p>Blood Hunted (4 or 6pt. Flaw)</p>\n<p>You have been made the target of a blood hunt, and for you to return to your home city is death. For four points, this Flaw means that only your home city is offlimits to you. For six, it means that the entire Camarilla is howling for your vitae. This Flaw can only be taken by Camarilla vampires.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "493"
+  }
+ },
+ {
+  "n": "Laughingstock",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   5
+  ],
+  "cat": "Social",
+  "html": "<p>Laughingstock (5pt. Flaw)</p>\n<p>Somehow you’ve drawn the scorn of the local Harpies, who make you their favorite target. You are at a +2 difficulty on all Social rolls in Elysium and a +1 anywhere else in the city. In addition, you are at +2 difficulty to use Intimidation or any Dominate powers on anyone who has heard the stories mocking you. This Flaw can only be taken by Camarilla vampires.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "493"
+  }
+ },
+ {
+  "n": "Red List",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   7
+  ],
+  "cat": "Social",
+  "html": "<p>Red List (7pt. Flaw)</p>\n<p>You are either being considered for or are already on the dreaded Red List, the registry of those vampires the Camarilla most wants extinguished. Any Camarilla vampire will either attack you on sight or, more likely, call in for a great deal of help.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "493"
+  }
+ },
+ {
+  "n": "Deceptive Aura",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   1
+  ],
+  "cat": "Supernatural",
+  "html": "<p>Deceptive Aura (1pt. Merit)</p>\n<p>Your aura is unnaturally bright and colorful for a vampire. You register as a mortal on all attempts to read your aura.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "493"
+  }
+ },
+ {
+  "n": "Healing Touch",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   1
+  ],
+  "cat": "Supernatural",
+  "html": "<p>Healing Touch (1pt. Merit)</p>\n<p>Normally vampires can only seal the wounds they inflict from feeding by licking them. With but a touch, you can achieve the same effect, closing the puncture wounds left by drinking blood.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "493"
+  }
+ },
+ {
+  "n": "Inoffensive to Animals",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   1
+  ],
+  "cat": "Supernatural",
+  "html": "<p>Inoffensive to Animals (1pt. Merit)</p>\n<p>With rare exceptions, animals usually despise the Kindred. Some flee, others attack, but all dislike being in the presence of a vampire. You have no such problem. Animals may not enjoy being in your company, but they don’t actively flee from you.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "493"
+  }
+ },
+ {
+  "n": "Medium",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   2
+  ],
+  "cat": "Supernatural",
+  "html": "<p>Medium (2pt. Merit)</p>\n<p>You possess the natural affinity to sense and hear spirits, ghosts, and shades. Though you cannot see them, you can sense them, speak to them and, through pleading or cajoling, draw them to your presence. You may call upon them for aid or advice, but there will always be a price. Also, your difficulty is reduced by two for all Awareness rolls involving the spirits of the dead.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "493"
+  }
+ },
+ {
+  "n": "Magic Resistance",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   2
+  ],
+  "cat": "Supernatural",
+  "html": "<p>Magic Resistance (2pt. Merit)</p>\n<p>You have an inherent resistance to the rituals of the Tremere and the spells of the mages of other Clans. The difficulty of all such magic, both malicious and beneficent, is two higher when directed at you. You may never learn magical Disciplines such as Thaumaturgy and Necromancy.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "493"
+  }
+ },
+ {
+  "n": "Hidden Diablerie",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   3
+  ],
+  "cat": "Supernatural",
+  "html": "<p>Hidden Diablerie (3pt. Merit)</p>\n<p>The tell-tale black streaks of diablerie do not manifest in your aura.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "493"
+  }
+ },
+ {
+  "n": "Lucky",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   3
+  ],
+  "cat": "Supernatural",
+  "html": "<p>Lucky (3pt. Merit)</p>\n<p>You were born lucky — or else the Devil looks after his own. Either way, you may repeat any three failed rolls per story, including botches, but you may try only once per failed roll.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "493"
+  }
+ },
+ {
+  "n": "Oracular Ability",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   3
+  ],
+  "cat": "Supernatural",
+  "html": "<p>Oracular Ability (3pt. Merit)</p>\n<p>You can see and interpret signs and omens. You are able to draw advice from these omens, for they provide hints of the future and warnings of the present. When the Storyteller feels that you are in position to see an omen, you will be required to make a Perception + Awareness roll, with the difficulty relative to how well the omen is concealed. If successful, you may then roll Intelligence + Occult to interpret what you have seen; the difficulty is again relative to the complexity of the omen.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "493"
+  }
+ },
+ {
+  "n": "Spirit Mentor",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   3
+  ],
+  "cat": "Supernatural",
+  "html": "<p>Spirit Mentor (3pt. Merit)</p>\n<p>You have a ghostly companion and guide. The identity and exact powers of this spirit are up to the Storyteller, but it can be called upon in difficult situations for help and guidance.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "493"
+  }
+ },
+ {
+  "n": "True Love",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   4
+  ],
+  "cat": "Supernatural",
+  "html": "<p>True Love (4pt. Merit)</p>\n<p>You have discovered, perhaps too late, a true love. He or she is mortal, but is the center of your existence, and inspires you to keep going in a world of darkness and despair. Whenever you suffer, the thought of your true love gives you the strength to persevere. This Merit grants you one automatic success on all Willpower rolls, which can be negated only by a botch die. This can be a great gift but also a hindrance, for your true love may require protection and occasionally rescue.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "493"
+  }
+ },
+ {
+  "n": "Additional Discipline",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   5
+  ],
+  "cat": "Supernatural",
+  "html": "<p>Additional Discipline (5pt. Merit)</p>\n<p>You can take one additional Discipline (Storyteller discretion) as if it were a Clan Discipline. All costs to learn that Discipline are paid out as if it were native to your Clan. A character cannot take this Merit more than once, and Caitiff vampires cannot take this Merit.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "494"
+  }
+ },
+ {
+  "n": "Unbondable",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   5
+  ],
+  "cat": "Supernatural",
+  "html": "<p>Unbondable (5pt. Merit)</p>\n<p>You are immune to being blood bound. Tremere cannot take this Merit.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "494"
+  }
+ },
+ {
+  "n": "Nine Lives",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   6
+  ],
+  "cat": "Supernatural",
+  "html": "<p>Nine Lives (6pt. Merit)</p>\n<p>Fate has granted you the opportunity to come as close to Final Death as anyone can get and still survive. When a roll occurs that would result in your death, the roll is made again. If the next roll succeeds, then you live — and one of your nine lives is used up. If that subsequent roll fails, then another reroll is made, until either a successful roll occurs or your nine lives are used up. The Storyteller should keep careful count of how many lives the character has remaining.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "494"
+  }
+ },
+ {
+  "n": "True Faith",
+  "ed": "v20",
+  "kind": "merit",
+  "dots": [
+   7
+  ],
+  "cat": "Supernatural",
+  "html": "<p>True Faith (7pt. Merit)</p>\n<p>You have a deep-seated faith in and love for God, or whatever name you choose to call the Almighty. You begin the game with one point of True Faith (see the sidebar on p. 372); this Trait adds one die per point to all Willpower and Virtue rolls. You must have a Humanity of 9 or higher to choose this Merit, and if you lose even a single point, all your Faith points are lost and may be regained only when the lost Humanity is recovered. Individuals with True Faith are capable of performing magical acts akin to miracles, but the exact nature of those acts are up to the Storyteller.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "494"
+  }
+ },
+ {
+  "n": "Cast No Reflection",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Supernatural",
+  "html": "<p>Cast No Reflection (1pt. Flaw)</p>\n<p>You actually cast no reflection, just like the vampires of legend. This can have a detrimental effect when trying to pass as a human. Vampires of Clan Lasombra automatically have this Flaw (and you may be mistaken for one of them if you possess this).</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "494"
+  }
+ },
+ {
+  "n": "Cold Breeze",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Supernatural",
+  "html": "<p>Cold Breeze (1pt. Flaw)</p>\n<p>A chill wind follows you everywhere you go. While it may make for dramatic entrances, this effect also discomfits mortals (+1 difficulty on all appropriate Social rolls) and marks you as obviously supernatural. Cold winds sweeping through executive offices or crowded nightclubs can raise all sorts of questions.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "494"
+  }
+ },
+ {
+  "n": "Repulsed by Garlic",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Supernatural",
+  "html": "<p>Repulsed by Garlic (1pt. Flaw)</p>\n<p>You cannot abide garlic, and the smallest whiff of its scent will drive you from a room unless you make a successful Willpower roll (difficulty based on the strength of the odor).</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "494"
+  }
+ },
+ {
+  "n": "Touch of Frost",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   1
+  ],
+  "cat": "Supernatural",
+  "html": "<p>Touch of Frost (1pt. Flaw)</p>\n<p>Plants wither as you approach and die at your touch. Your touch leeches heat from living beings, as though you were made of ice.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "494"
+  }
+ },
+ {
+  "n": "Cursed",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "cat": "Supernatural",
+  "html": "<p>Cursed (1-5pt. Flaw)</p>\n<p>You are the recipient of a supernatural curse. The strength and pervasiveness of the curse depend upon how many points you wish to incur. Examples follow:</p>\n<p class=\"dots\"><span class=\"d\">•</span> If you pass on a secret you were entrusted with,</p>\n<p>your betrayal will come back to harm you in some way. (1 pt.)</p>\n<p class=\"dots\"><span class=\"d\">•</span> You stutter uncontrollably when you try to describe</p>\n<p>what you have seen or heard. (2 pts.)</p>\n<p class=\"dots\"><span class=\"d\">•</span> Tools break or malfunction when you try to use</p>\n<p>them. (3 pts.)</p>\n<p class=\"dots\"><span class=\"d\">•</span> You are doomed to make enemies of those whom</p>\n<p>you most love or admire. (4 pts.)</p>\n<p class=\"dots\"><span class=\"d\">•</span> Every one of your accomplishments or triumphs</p>\n<p>will eventually become soiled or fail in some way. (5 pts.)</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "494"
+  }
+ },
+ {
+  "n": "Beacon of the Unholy",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Supernatural",
+  "html": "<p>Beacon of the Unholy (2pt. Flaw)</p>\n<p>You radiate palpable evil. Clergy and devout mortals know instinctively that there is something horribly wrong with you, and react accordingly.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "494"
+  }
+ },
+ {
+  "n": "Deathsight",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Supernatural",
+  "html": "<p>Deathsight (2pt. Flaw)</p>\n<p>Everything appears rotted and decayed to you. The world appears to you as a corpse; mortals look diseased or skeletal, buildings seem decrepit, and your fellow Kindred seem to be walking, moldering cadavers. You are at -2 difficulty to resist all rolls based on Appearance, but by the same token you are at +2 difficulty on all Perception-based rolls. In addition, you find social interaction difficult and are at +1 difficulty on all Social-based rolls.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "494"
+  }
+ },
+ {
+  "n": "Eerie Presence",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Supernatural",
+  "html": "<p>Eerie Presence (2pt. Flaw)</p>\n<p>Mortals have an unconscious awareness of your undead nature, which makes then anxious and ill at ease in your presence. Because of this, difficulties of all rolls relating to social interaction with mortals are increased by two.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "495"
+  }
+ },
+ {
+  "n": "Lord of the Flies",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   2
+  ],
+  "cat": "Supernatural",
+  "html": "<p>Lord of the Flies (2pt. Flaw)</p>\n<p>Buzzing harbingers of decay swirl around you everywhere. Their constant presence makes it difficult for you to interact socially (+1 difficulty when appropriate) and nearly impossible to sneak up on someone or hide effectively. The buzzing of the flies inevitably gives you away — all Stealth rolls are at +2 difficulty.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "495"
+  }
+ },
+ {
+  "n": "Can’t Cross Running Water",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   3
+  ],
+  "cat": "Supernatural",
+  "html": "<p>Can’t Cross Running Water (3pt. Flaw)</p>\n<p>You believe in the old folklore, and cannot cross running water unless you are at least 50 feet (15 meters) above it. Running water is considered to be any body of water at least two feet (half a meter) wide in any direction and not completely stagnant.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "495"
+  }
+ },
+ {
+  "n": "Haunted",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   3
+  ],
+  "cat": "Supernatural",
+  "html": "<p>Haunted (3pt. Flaw)</p>\n<p>You are haunted by an angry and tormented spirit, most likely one of your first victims. This spirit actively attempts to hinder you, especially when feeding, and does its utmost to vent its anguish upon you and anyone in your presence. The Storyteller determines the exact nature of the spirit, its powers, and whether or not it can eventually be laid to rest.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "495"
+  }
+ },
+ {
+  "n": "Repelled by Crosses",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   3
+  ],
+  "cat": "Supernatural",
+  "html": "<p>Repelled by Crosses (3pt. Flaw)</p>\n<p>You are repelled by the sight of ordinary crosses, believing them to be symbols of holy might. When confronted by a cross, you must make a Willpower roll (difficulty 9) or flee from the symbol for the duration of the scene. If you botch the roll, not only must you attempt to flee, but the touch of the cross can cause aggravated damage (one health level of damage per turn that the cross touches your skin). This damage cannot be soaked, even if the vampire possesses Fortitude.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "495"
+  }
+ },
+ {
+  "n": "Grip of the Damned",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   4
+  ],
+  "cat": "Supernatural",
+  "html": "<p>Grip of the Damned (4pt. Flaw)</p>\n<p>There is no ecstasy in your Embrace — only terror and pain. Mortals upon whom you feed struggle and shriek while you attempt to feed, requiring you to grapple with them for as long as you wish to take their blood. For vampires with high Humanity, this experience may require a Humanity roll, at the discretion of the Storyteller. Giovanni cannot take this Flaw.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "495"
+  }
+ },
+ {
+  "n": "Dark Fate",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   5
+  ],
+  "cat": "Supernatural",
+  "html": "<p>Dark Fate (5pt. Flaw)</p>\n<p>You are doomed to experience Final Death or, worse, suffer eternal agony. No matter what you do, you cannot avoid this terrible fate. At some point during the chronicle, your Dark Fate will come upon you. Even more ghastly is the fact that you occasionally have visions of this fate, and the malaise these images inspire requires an expenditure of a temporary Willpower point to avoid, or else you lose a die from all of your actions for the remainder of the night. It is up to the Storyteller to determine the exact nature of this fate, and when it will occur. This is a difficult Flaw to roleplay; ironically, though it may seem as though it removes all free will, the knowledge of one’s death can be quite liberating.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "495"
+  }
+ },
+ {
+  "n": "Light-Sensitive",
+  "ed": "v20",
+  "kind": "flaw",
+  "dots": [
+   5
+  ],
+  "cat": "Supernatural",
+  "html": "<p>Light-Sensitive (5pt. Flaw)</p>\n<p>You are even more sensitive to sunlight than other vampires are. Sunlight causes double normal damage, and the light of the moon can cause lethal damage in a manner similar to the sun, though it must shine directly upon you. Even bright lights hurt your eyes, requiring the use of sunglasses. Followers of Set and related bloodlines cannot take this Flaw, as they already have a worse version of it.</p>",
+  "src": {
+   "book": "Vampire: The Masquerade 20th Anniversary Edition",
+   "page": "495"
+  }
+ }
+]

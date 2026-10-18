@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>VTM Builder</title>
+<meta name="description" content="Vampire: The Masquerade 5th Edition character builder with Dark Gifts Restored Disciplines and Foundry VTT export.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath d='M16 3c4 7 9 11 9 17a9 9 0 0 1-18 0c0-6 5-10 9-17z' fill='%238C1626'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<a class="skip" href="#page">Skip to the builder</a>
+<header class="top">
+  <div class="brand"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3c4 7 9 11 9 17a9 9 0 0 1-18 0c0-6 5-10 9-17z"/></svg><span>VTM Builder</span></div>
+  <p id="chronicle" class="chronicle"></p>
+  <nav class="top-actions" aria-label="File and mode">
+    <button class="tbtn" data-act="newChar">New</button>
+    <button class="tbtn" data-act="openFile">Open file</button>
+    <button class="tbtn" data-act="saveFile">Save file</button>
+    <button class="tbtn" data-act="loadRules">Load chronicle rules</button>
+    <button class="tbtn free-btn" data-act="freeEdit" aria-pressed="false">Free edit</button>
+    <button class="tbtn st-btn" data-act="mode" data-k="st">Storyteller</button>
+  </nav>
+</header>
+<div class="layout">
+  <nav class="rail" aria-label="Steps"><ol id="steps"></ol></nav>
+  <main id="page" class="page" tabindex="-1"></main>
+  <aside id="summary" class="summary" aria-label="Character summary"></aside>
+</div>
+<aside id="reader" class="reader" aria-label="Full description" aria-live="polite"></aside>
+<input type="file" id="file" accept=".json,application/json" hidden>
+<dialog id="rules-dialog">
+  <form method="dialog">
+    <h2>Load chronicle rules</h2>
+    <p>Paste the code your Storyteller sent you. For a rules file, close this and use <em>Open file</em>.</p>
+    <textarea rows="5" aria-label="Chronicle code"></textarea>
+    <p class="err" role="alert"></p>
+    <div class="dlg-btns"><button class="btn" value="cancel" formnovalidate>Cancel</button><button class="btn primary" value="ok">Load rules</button></div>
+  </form>
+</dialog>
+<dialog id="ally-dialog">
+  <form method="dialog">
+    <h2>You already have Allies</h2>
+    <p class="ally-q"></p>
+    <div class="ally-opts dlg-col"></div>
+    <div class="dlg-btns"><button class="btn" value="cancel" formnovalidate>Cancel</button></div>
+  </form>
+</dialog>
+<dialog id="more-dialog">
+  <form method="dialog">
+    <h2>More Merits, at a price</h2>
+    <p>An optional rule from <em>Vampire: The Masquerade 20th Anniversary Edition</em> (p. 82), converted to V5: you may take more Flaws than you have to, and every extra Flaw point buys one more point of Merits.</p>
+    <ul>
+      <li>You still take the usual Flaws first; only points beyond them count.</li>
+      <li>Flaws are capped at 7 points in all, so you can gain at most a few extra points.</li>
+      <li>The extra points buy Merits only, not Backgrounds.</li>
+      <li>Your Storyteller has the last word on which Flaws make sense for the chronicle.</li>
+    </ul>
+    <div class="dlg-btns"><button class="btn" value="cancel">Not now</button><button class="btn primary" value="ok">I’m ready to pay the cost</button></div>
+  </form>
+</dialog>
+<dialog id="custom-dialog">
+  <form method="dialog" class="custom-form">
+    <h2>Add a custom Merit or Flaw</h2>
+    <p class="small muted">For something your Storyteller has agreed to that isn’t in the lists.</p>
+    <label class="fld"><span>Name</span><input name="n" required maxlength="80" placeholder="e.g. Old Friend at the Docks"></label>
+    <div class="custom-row">
+      <label class="fld"><span>Kind</span><select name="kind"><option value="merit">Merit</option><option value="flaw">Flaw</option></select></label>
+      <label class="fld"><span>Dots</span><select name="dots"><option value="1">•</option><option value="2">••</option><option value="3">•••</option><option value="4">••••</option><option value="5">•••••</option></select></label>
+      <label class="fld"><span>Category</span><select name="cat"></select></label>
+    </div>
+    <label class="fld"><span>What it does</span><textarea name="text" rows="4" placeholder="The effect, as agreed with your Storyteller"></textarea></label>
+    <div class="dlg-btns"><button class="btn" value="cancel" formnovalidate>Cancel</button><button class="btn primary" value="ok">Add</button></div>
+  </form>
+</dialog>
+<dialog id="lightbox" class="lightbox" aria-label="Clan picture"></dialog>
+<dialog id="free-dialog">
+  <form method="dialog">
+    <h2>Switch to Free Edit?</h2>
+    <p>This is a mode for Storytellers and those who are already in the game. If this is your first time building this character, we recommend you continue with a regular character creation.</p>
+    <p class="small muted">Free Edit lifts the creation rules: dots go up to 5, Disciplines and powers aren’t limited by the starting spread, and budgets and the to-do list are switched off. Experience isn’t used: anything already bought with it becomes part of the character. You can switch back at any time.</p>
+    <div class="dlg-btns"><button class="btn" value="cancel">Keep regular creation</button><button class="btn primary" value="ok">Switch to Free Edit</button></div>
+  </form>
+</dialog>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<noscript><p class="noscript">VTM Builder needs JavaScript.</p></noscript>
+<script src="data/core.js"></script>
+<script src="data/powers.js"></script>
+<script src="data/advantages.js"></script>
+<script src="data/dgr-advantages.js"></script>
+<script src="data/foundry-docs.js"></script>
+<script src="data/lore.js"></script>
+<script src="data/advtext.js"></script>
+<script src="data/advantages-extra.js"></script>
+<script src="data/traits.js"></script>
+<script src="data/bane-mech.js"></script>
+<script src="data/powertext.js"></script>
+<script src="data/gallery.js"></script>
+<script src="js/rules.js"></script>
+<script src="js/export.js"></script>
+<script src="js/preset.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

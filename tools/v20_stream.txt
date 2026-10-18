@@ -1,0 +1,1444 @@
+#### PAGE 485
+#### PAGE 486
+54|<H>Merits and Flaws</H>
+63|Merits and Flaws are optional Traits that a Storytell-
+54|er may choose to include, or prohibit, in her chronicle. 
+54|Properly used, Merits and Flaws help players create and 
+54|individualize their characters. Merits are special abili-
+54|ties or advantages that are rare or unique in the general 
+54|Kindred population, while Flaws are liabilities or disad-
+54|vantages that pose challenges to a character’s nightly 
+54|existence. These Traits can provide player characters 
+54|with added depth and personality, but Storytellers 
+54|should be careful to ensure that any Traits chosen will 
+54|not adversely influence the course of the chronicle or 
+54|give one character an unfair advantage over the rest.
+63|Merits and Flaws can be selected only during char-
+53|acter creation and are purchased using freebie points 
+53|(although existing Merits and Flaws can be removed 
+53|or new ones added by the Storyteller during the course 
+53|of the chronicle). Each Merit has its own point cost, 
+53|while each Flaw has a point value which adds to the 
+53|amount of freebie points a player can spend during the 
+53|creation process. A character may take as many Mer-
+53|its as the player can afford, but no character may have 
+53|more than seven points’ worth of Flaws (which would 
+177|<H>Appendix</H>
+180|<I>"Friends, friends... I thought we were committed to science, </I>
+205|<B>- Albertus Magnus, </B><B>Encyclopaedia Vampirica</B>
+267|<I>not mythology." </I>
+307|give a character a total of 22 freebie points to spend in 
+307|other areas).
+316|Merits and Flaws are divided into four categories: 
+307|physical, mental, social and supernatural. The physi-
+307|cal category describes Merits or Flaws that deal with 
+307|a character’s physical makeup or abilities, while the 
+307|mental category addresses intellectual abilities or pat-
+307|terns of behavior. The social category comprises rela-
+307|tionships and status in Kindred or mortal society, while 
+307|supernatural Merits and Flaws concern the paranormal 
+307|abilities of vampires and the way they interact with the 
+307|physical world. Storytellers are encouraged to not only 
+307|restrict and disallow any Merits and Flaws that don’t fit 
+307|with their chronicles or for specific characters, but also 
+307|to create their own to reflect unique elements of their 
+307|games. Some example restrictions are given in the text 
+307|of each Merit and Flaw, but Storytellers can allow (or 
+307|disallow) any combination that don’t make sense for 
+307|their games.
+307|<H>Physical</H>
+307|<E>Acute Sense (1pt. Merit)</E>
+316|One of your senses is exceptionally sharp, be it sight, 
+307|hearing, smell, touch, or taste. The difficulties for all 
+#### PAGE 487
+54|tasks involving the use of this particular sense are re-
+53|duced by two. This Merit can be combined with the 
+53|Discipline of Auspex to produce superhuman sensory 
+53|acuity.
+54|<E>Ambidextrous (1pt. Merit)</E>
+63|You have a high degree of off-hand dexterity and 
+54|can perform tasks with the “wrong” hand at no pen-
+54|alty. The rules for taking multiple actions still apply, 
+54|but you do not suffer a difficulty penalty if you use two 
+54|weapons or are forced to use your off hand.
+54|<E>Bruiser (1pt. Merit)</E>
+63|Your appearance is sufficiently thug-like to inspire 
+54|fear (or at least disquiet) in those who see you. While 
+54|you’re not necessarily ugly, you do radiate a quiet men-
+54|ace, to the point where people cross the street to avoid 
+54|passing near you. All Intimidation rolls against those 
+54|who have not demonstrated their physical superiority 
+54|to you are at -1 difficulty.
+54|<E>Catlike Balance (1pt. Merit)</E>
+63|You possess an innately perfect sense of balance. 
+54|Characters with this Merit reduce difficulties of all bal-
+54|ance-related rolls (e.g., Dexterity + Athletics to walk 
+54|along a narrow ledge) by two.
+54|<E>Early Riser (1pt. Merit)</E>
+63|No one can explain it, but you seem to have the abil-
+53|ity to work on less rest than your fellow vampires. You 
+53|always seem to be the first to rise and the last to go to 
+53|bed even if you’re been out until dawn. Your Human-
+53|ity or Path score is considered to be 10 for purposes of 
+53|deciding when you rise each evening. Vampires with 
+53|this Merit cannot take the Deep Sleeper Flaw.
+54|<E>Eat Food (1pt. Merit)</E>
+63|You have the capacity to eat food and even savor its 
+54|taste. While you cannot derive any nourishment from 
+54|eating regular foods, this ability will serve you well in 
+54|pretending to be human. Of course, you can’t digest 
+54|what you eat, and there will be some point during the 
+54|evening when you have to heave it back up.
+54|<E>Friendly Face (1pt. Merit)</E>
+63|You have a face that reminds everyone of someone, 
+54|to the point where strangers are inclined to be well-
+54|inclined toward you because of it. The effect doesn’t 
+54|fade even if you explain the “mistake,” leaving you at 
+54|-1 difficulty on all appropriate Social-based rolls (yes 
+307|for Seduction, no for Intimidation, for example) when 
+307|a stranger is involved. This Merit only functions on a 
+307|first meeting.
+307|<E>Blush of Health (2pt. Merit)</E>
+316|You look more hale and healthy in appearance than 
+307|other vampires, allowing you to blend with human so-
+307|ciety much more easily. You still retain the color of a 
+307|living mortal, and your skin feels only slightly cool to 
+307|the touch.
+307|<E>Enchanting Voice (2pt. Merit)</E>
+316|There is something about your voice that others 
+307|cannot ignore. When you command, they are cowed. 
+307|When you seduce, they swoon. Whether thundering, 
+307|soothing, persuading, or simply talking, your voice com-
+307|mands attention. The difficulties of all rolls involving 
+307|the use of the voice to persuade, charm, or command 
+307|are reduced by two.
+307|<E>Daredevil (3pt. Merit)</E>
+316|You are good at taking risks, and even better at sur-
+307|viving them. When attempting exceptionally risky 
+307|non-combat actions (such as leaping from one moving 
+307|car to another), characters with this Merit add an ad-
+307|ditional three dice to their rolls, and negate a single 
+307|botch die that may result from such a roll. Generally, 
+307|such actions must be at least difficulty 8 and have the 
+307|potential to inflict at least three health levels of dam-
+307|age if failed.
+307|<E>Efficient Digestion (3pt. Merit)</E>
+316|You are able to draw more than the usual amount 
+307|of nourishment from blood. When feeding, you gain 
+307|an additional point to your blood pool for every two 
+307|points of blood you consume. This does not allow you 
+307|to exceed your blood pool maximum.
+307|<E>Huge Size (4pt. Merit)</E>
+316|You are abnormally large in size, at least 6’10” and 
+307|300 pounds in weight (well over two meters tall and 
+307|over 130 kgs). Aside from making you extremely no-
+307|ticeable in public, this extra mass bestows an addition-
+307|al Bruised health level. Characters with this Merit may 
+307|also gain bonuses to push objects, open barred doors, 
+307|avoid being knocked down, etc.
+307|<E>Hard of Hearing (1pt. Flaw)</E>
+316|Your hearing is defective. The difficulties of any rolls 
+307|involving the use of hearing are increased by two.
+#### PAGE 488
+54|<E>Short (1pt. Flaw)</E>
+63|You are well below average height — four and a half 
+54|feet (1.5 meters) tall or less. You have difficulty reach-
+54|ing or manipulating objects designed for normal adult 
+54|size, and your running speed is one-half that of an aver-
+54|age human.
+54|<E>Smell of the Grave (1pt. Flaw)</E>
+63|You exude an odor of dampness and newly turned 
+54|earth, which no amount of scents or perfumes will 
+54|cover. Mortals in your immediate presence become 
+54|uncomfortable, so the difficulties of all Social rolls to 
+54|affect mortals increase by one.
+54|<E>Tic/Twitch (1pt. Flaw)</E>
+63|You have some sort of repetitive motion that you 
+54|make in times of stress, and it’s a dead giveaway as to 
+54|your identity. Examples include a nervous cough, con-
+54|stantly wringing your hands, cracking your knuckles, 
+54|and so on. It costs one Willpower to refrain from en-
+54|gaging in your tic.
+54|<E>Bad Sight (1 or 3pt. Flaw)</E>
+63|Your sight is defective. The difficulties of any die 
+54|rolls involving the use of your eyesight are increased by 
+54|two. As a one-point Flaw, this condition can be cor-
+54|rected with glasses or contacts; as a three-point Flaw, 
+54|the condition is too severe to be corrected.
+54|<E>Fourteenth Generation (2pt. Flaw)</E>
+63|You were created five or fewer years ago by a mem-
+53|ber of the Thirteenth Generation. Though you have 
+53|10 blood points in your body, only eight of them may 
+53|be used to heal wounds, power Disciplines, raise Attri-
+53|butes, etc. You can still use the final two blood points 
+53|for other purposes, though. The blood point costs of 
+53|nightly rising, creating and sustaining ghouls, and cre-
+53|ating blood bonds remains the same as for other vam-
+53|pires. You cannot raise any Discipline above four dots.
+62|Taking this Flaw precludes you from taking the Gen-
+53|eration Background, and you may not start with Status, 
+53|either. You are likely a Clanless Caitiff, for your blood 
+53|is probably too thin to pass down the distinguishing 
+53|characteristics of a Clan. Most Fourteenth-Genera-
+53|tion vampires should also take the Thin Blood Flaw 
+53|(p. 483).
+54|<E>Fifteenth Generation (4pt. Flaw)</E>
+63|Your vitae is so weak that only six of your 10 blood 
+54|points can be used for Disciplines, healing or raising 
+307|Attributes. For these functions, you must expend two 
+307|blood points to obtain the effect a normal vampire 
+307|would achieve with one. (The cost for nightly rising 
+307|remains a single blood point.) What’s more, you can-
+307|not create or sustain ghouls, create a blood bond, or 
+307|sire a vampiric childe. You can use the remaining four 
+307|blood points to survive through the day and wake up 
+307|each night, nothing more.
+316|You cannot raise any Discipline above three dots.
+316|The weakening of the Curse of Caine has compen-
+307|sations, though (which distinguish this Flaw from the 
+307|Thin Blood Flaw itself). Sunlight does lethal damage 
+307|to you, instead of aggravated damage as it does to other 
+307|vampires. You can hold down mortal food and drink 
+307|for an hour or so; other vampires vomit immediately if 
+307|they try (unless they have the Eat Food Merit). Strang-
+307|est of all, once in a while you might actually have a 
+307|child the normal, human way... though it will hardly 
+307|be a normal, human child.
+307|<E>Disfigured (2pt. Flaw)</E>
+316|A hideous disfigurement makes your appearance dis-
+307|turbing and memorable. The difficulties of all die rolls 
+307|relating to social interaction are increased by two. You 
+307|may not have an Appearance rating greater than 2.
+307|<E>Dulled Bite (2pt. Flaw)</E>
+316|For some reason your fangs never developed fully, 
+307|or they may not have manifested at all. When feed-
+307|ing, you need to find some other method of making 
+307|the blood flow. Failing that, you must achieve double 
+307|the normal number of successes in order to make your 
+307|bite penetrate properly. A number of Caitiff and high-
+307|Generation vampires often manifest this Flaw.
+307|<E>Infectious Bite (2pt. Flaw)</E>
+316|You may not automatically lick the wounds of your 
+307|feeding closed. In fact, your bites have a one in five 
+307|chance of becoming infected and causing mortal vic-
+307|tims to become seriously ill. The precise nature of the 
+307|infection is determined by the Storyteller.
+307|<E>One Eye (2pt. Flaw)</E>
+316|You have only one eye — which eye is missing is up 
+307|to you. The difficulties of all Perception rolls involving 
+307|eyesight are increased by two, and the difficulties of all 
+307|die rolls requiring depth perception are increased by 
+307|one (this includes ranged combat).
+#### PAGE 489
+54|<E>Vulnerability to Silver (2pt. Flaw)</E>
+63|To you, silver is as painful and as deadly as the rays of 
+54|the sun. You suffer aggravated wounds from any silver 
+54|weapons (bullets, knives, etc.), and the mere touch of 
+54|silver objects discomfits you.
+54|<E>Open Wound (2 or 4pt. Flaw)</E>
+63|You have one or more wounds that refuse to heal, 
+54|and which constantly drip blood. This slow leakage 
+54|costs you an extra blood point per evening (marked off 
+54|just before dawn), in addition to drawing attention to 
+54|you. If the wound is visible, you are at + 1 difficulty for 
+54|all Social-based rolls. For two points, the Flaw is simply 
+54|unsightly and has the basic effect mentioned above; for 
+54|four points the seeping wound is serious or disfiguring 
+54|and includes the effects of the Flaw Permanent Wound 
+54|(below).
+54|<E>Addiction (3pt. Flaw)</E>
+63|You suffer from an addiction to a substance, which 
+54|must now be present in the blood you drink (or you 
+54|automatically frenzy, as per the Prey Exclusion Flaw). 
+54|This can be alcohol, nicotine, hard drugs, or simply 
+54|adrenaline. This substance always impairs you in some 
+54|fashion (see “Poisons and Drugs,” p. 301, for particu-
+53|lars).
+54|<E>Child (3pt. Flaw)</E>
+63|You were a small child (between five and 10 years 
+54|old) at the time of your Embrace, leaving your Physical 
+54|Attributes underdeveloped and making it difficult to 
+54|interact with some aspects of mortal society. You may 
+54|not have more than two dots in Strength or Stamina 
+54|at character creation, except when raising Physical At-
+54|tributes with blood points, and the difficulties of all die 
+54|rolls when attempting to direct or lead mortal adults 
+54|are increased by two. Characters with this Flaw should 
+54|also take the Short Flaw.
+54|<E>Deformity (3pt. Flaw)</E>
+63|You have some kind of deformity — a misshapen 
+54|limb, hunchback, or clubfoot, for example — which 
+54|affects your physical abilities and interactions with 
+54|others. A hunchback, for instance, would lower a char-
+54|acter’s Dexterity by two dots and increase the difficulty 
+54|of die rolls relating to social skills by one. It is the re-
+54|sponsibility of the Storyteller to determine the specific 
+54|effects of the deformity chosen.
+307|<E>Glowing Eyes (3pt. Flaw)</E>
+316|You have the stereotypical glowing eyes of vampire 
+307|legend, which gives you a -1 difficulty on Intimidation 
+307|rolls when you’re dealing with mortals. However, the 
+307|tradeoffs are many; you must constantly disguise your 
+307|condition (no, contacts don’t cut it); the glow impairs 
+307|your vision and puts you at +1 difficulty on all sight-
+307|based rolls (including the use of ranged weapons); and 
+307|the radiance emanating from your eye sockets makes 
+307|it difficult to hide (+2 difficulty to Stealth rolls) in the 
+307|dark.
+307|<E>Lame (3pt. Flaw)</E>
+316|Your legs are damaged, which prevents you from run-
+307|ning or walking easily. You are forced to walk with a 
+307|cane or possibly leg braces, and you have a pronounced 
+307|limp to your stride. Your walking speed is one-quarter 
+307|that of a normal human, and running is impossible.
+307|<E>Lazy (3pt. Flaw)</E>
+316|You are simply lazy, avoiding anything that requires 
+307|effort on your part. Preferring to let others do the hard 
+307|work, you lounge around. For any action that requires 
+307|preparation, there’s a good chance you didn’t properly 
+307|prepare. Difficulty rolls for spontaneous Physical ac-
+307|tions (including combat, unless it’s part of a planned 
+307|offensive) increase by one.
+307|<E>Monstrous (3pt. Flaw)</E>
+316|Your physical form was twisted during the Embrace, 
+307|and now reflects the Beast that rages inside you. Char-
+307|acters with this Flaw appear to be savage monsters and 
+307|have Appearance ratings of zero. Nosferatu and other 
+307|bloodlines whose weaknesses cause them to start off 
+307|with Appearance zero cannot take this Flaw.
+307|<E>Permanent Fangs (3pt. Flaw)</E>
+316|Your fangs do not retract, making it impossible for 
+307|you to hide your true nature. While some mortals may 
+307|think you’ve had your teeth filed or are wearing pros-
+307|thetics, sooner or later you’re going to run into some-
+307|one who knows what you truly are. You are also limited 
+307|to a maximum Appearance rating of 3.
+307|<E>Permanent Wound (3pt. Flaw)</E>
+316|You suffered injuries during your Embrace which your 
+307|transformation somehow failed to repair. At the begin-
+307|ning of each night, you rise from sleep at the Wounded 
+#### PAGE 490
+54|health level, though this may be healed by spending 
+54|blood points.
+54|<E>Slow Healing (3pt. Flaw)</E>
+63|You have difficulty healing wounds. It requires two 
+54|blood points to heal one health level of bashing or le-
+54|thal damage, and you heal one health level of aggra-
+54|vated damage every five days (plus the usual five blood 
+54|points and Willpower expenditure).
+54|<E>Disease Carrier (4pt. Flaw)</E>
+63|Your blood carries a lethal and highly contagious dis-
+54|ease. The disease can be anything from rabies to HIV, 
+54|and Kindred who drink your blood have a 10% chance 
+54|of becoming a carrier as well. You must spend an extra 
+54|blood point each night on awakening, or you will begin 
+54|manifesting symptoms of the disease (increased chance 
+54|to frenzy for rabies, reduced soak rolls for HIV, etc.).
+54|<E>Deaf (4pt. Flaw)</E>
+63|You cannot hear. While you may be more resistant 
+54|to some applications of Dominate, you also may not 
+54|listen to electronic or vocal media, and the difficulties 
+54|of many Perception rolls are increased by three.
+54|<E>Mute (4pt. Flaw)</E>
+63|You cannot speak. You may communicate with the 
+54|Storyteller and describe your actions, but cannot talk 
+54|to player or Storyteller characters unless everyone 
+54|concerned purchases a commonly understood sign 
+54|language (via the Language Merit) or you write down 
+54|what you wish to say.
+54|<E>Thin Blood (4pt. Flaw)</E>
+63|Your blood is thin, weak, and does not sustain you 
+54|well. All blood point costs are doubled (e.g., using 
+54|blood-related Disciplines or healing damage), although 
+54|you only lose one blood upon rising in the evening. 
+54|Furthermore, you are unable to create a blood bond, 
+54|and efforts to sire other vampires succeed only one in 
+54|five times.
+54|<E>Flesh of the Corpse (5pt. Flaw)</E>
+63|Your flesh does not fully regenerate itself once it is 
+54|damaged. While you are able to heal yourself to the 
+54|point of regaining full functionality, your skin still 
+54|retains the cuts, tears, bullet holes, and other visible 
+54|damage that you have incurred. Depending on the na-
+54|ture of the damage, this Flaw will make social dealings 
+54|exceedingly difficult, and may decrease your Appear-
+54|ance dots over time (even to 0).
+#### PAGE 491
+54|<E>Infertile Vitae (5pt. Flaw)</E>
+63|During your Embrace, something went horribly 
+54|wrong, causing your blood to mutate under the stress 
+54|of dying and rising again. All those you try to Embrace 
+54|die. No matter what you do, you may not create any 
+54|childer. However, your blood can still be used in blood 
+54|rituals like Thaumaturgy and the Vaulderie, or for any 
+54|other vampiric needs like making ghouls.
+54|<E>Blind (6pt. Flaw)</E>
+63|You cannot see. Characters can compensate for the 
+54|loss of vision by becoming more attuned to other sen-
+54|sory input, but visual cues and images are lost to them. 
+54|Difficulties of all Dexterity-based rolls are increased by 
+54|two. Oddly, vampires with Aura Perception (Auspex 
+54|2) are still able to use this ability, thought the informa-
+54|tion is interpreted via the other senses. On the other 
+54|hand, vampires who need make eye contact to enact 
+54|powers like Dominate against you are only at a penalty 
+54|to do so (see the sidebar on p. 152).
+54|<H>Mental</H>
+54|<E>Coldly Logical (1pt. Merit)</E>
+63|While some might refer to you as a “cold fish,” you 
+54|have a knack for separating factual reporting from emo-
+54|tional or hysterical coloration. You may or may not be 
+54|emotional yourself, but you can see clearly when others 
+54|are clouding the facts with their feelings (-1 difficulty 
+54|on all related rolls).
+54|<E>Common Sense (1pt. Merit)</E>
+63|You have a significant amount of practical, every-
+53|day wisdom. Whenever you are about to act in a way 
+53|contrary to common sense, the Storyteller can make 
+53|suggestions or warnings about the implications of said 
+53|action. This is a very useful Merit for beginning players 
+53|unfamiliar with the game.
+54|<E>Concentration (1pt. Merit)</E>
+63|You have the ability to focus your mind and shut out 
+54|any distractions or annoyances. Characters with this 
+54|Merit are unaffected by any penalties stemming from 
+54|distracting circumstances (e.g., loud noises, strobe 
+54|lights, or hanging upside down).
+54|<E>Introspection (1pt. Merit)</E>
+63|You have keen insight into the ulterior motives of all 
+54|your actions. Through this nightly exercise, you also 
+54|have incredible insight into the underlying motives of 
+307|others’ actions. Add two dice to your Perception dice 
+307|pool when you must take an action against someone 
+307|with the same Nature or Demeanor as you.
+307|<E>Language (1pt. Merit)</E>
+316|You know a language in addition to your native one. 
+307|You can take this Merit multiple times, each reflecting 
+307|a different language.
+307|<E>Time Sense (1pt. Merit)</E>
+316|You have an innate sense of time and are able to es-
+307|timate the passage of time accurately without using a 
+307|watch or other mechanical device.
+307|<E>Useful Knowledge (1pt. Merit)</E>
+316|You have expertise in a specific field that makes your 
+307|conversation intriguing to an older Kindred. So long 
+307|as your knowledge holds the other vampire’s attention, 
+307|he has a vested interest in keeping you around. Then 
+307|again, once he’s pumped you for every iota of informa-
+307|tion you possess, that patronage may suddenly vanish. 
+307|(Note: This Merit should be played like a 1-dot Men-
+307|tor with a specific interest. However, unlike a Mentor, 
+307|Useful Knowledge does not imply a permanent rela-
+307|tionship.)
+307|<E>Code of Honor (2pt. Merit)</E>
+316|You have a personal code of ethics to which you ad-
+307|here. The specifics of this code must be worked out with 
+307|the Storyteller prior to play, and the character must 
+307|follow it strictly. Characters with this Merit gain two 
+307|additional dice to all Willpower or Virtue rolls when 
+307|acting in accordance with their code (e.g., defending 
+307|the helpless) or when attempting to avoid situations 
+307|that might force them to violate their code.
+307|<E>Computer Aptitude (2pt. Merit)</E>
+316|You are familiar with and talented in the uses of 
+307|computer equipment. Other Kindred may not under-
+307|stand computers, but to you they are intuitive. All rolls 
+307|involving computers are at -2 difficulty for you.
+307|<E>Eidetic Memory (2pt. Merit)</E>
+316|You remember, with perfect detail, things you see and 
+307|hear. Documents, photographs, conversations, etc., 
+307|can be committed to memory with only minor concen-
+307|tration. Under stressful conditions involving numerous 
+307|distractions, you must make a Perception + Alertness 
+307|roll (difficulty 6) to summon enough concentration to 
+307|absorb what your senses detect.
+#### PAGE 492
+54|<E>Light Sleeper (2pt. Merit)</E>
+63|You can awaken instantly at any sign of trouble or 
+54|danger, and do so without any sleepiness or hesitation. 
+54|You may ignore rules regarding how Humanity or your 
+54|morality Path restricts the number of dice available 
+54|during the day.
+54|<E>Natural Linguist (2pt. Merit)</E>
+63|You have a flair for languages. You may add three dice 
+54|to any dice pool involving written or spoken languag-
+54|es, and each purchase of the Language Merit (previous 
+54|page) gives you two languages instead of just one.
+54|<E>Calm Heart (3pt. Merit)</E>
+63|You are naturally calm and do not easily fly off the 
+54|handle. You receive two extra dice when attempting to 
+54|resist a frenzy. Brujah may not take this Merit.
+54|<E>Iron Will (3pt. Merit)</E>
+63|When you are determined and your mind is set, noth-
+53|ing can thwart you from your goals. Characters using 
+53|Dementation, Dominate, or any other mind-altering 
+53|magic, spell, or Thaumaturgy path against your charac-
+53|ter are at +3 difficulty. 
+62|Elder levels of powers like Dementation and Domi-
+53|nate may overwhelm even this resistance. Against 
+53|Level Six powers, the expenditure of a Willpower point 
+53|through Iron Will only raises the difficulty of the Disci-
+53|pline roll by two. Against Level Seven powers, the dif-
+53|ficulty is increased by only one. Level Eight and higher 
+53|powers cannot be resisted with Iron Will.
+62|This Merit does not affect Presence or other powers 
+53|dealing with the emotions. Characters will Willpower 
+53|scores below 8 cannot take this Merit.
+54|<E>Precocious (3pt. Merit)</E>
+63|You learn quickly. The time for you to pick up a par-
+53|ticular Ability (or Abilities, at Storyteller discretion) is 
+53|cut in half, as is the experience cost.
+54|<E>Deep Sleeper (1pt. Flaw)</E>
+63|When you sleep, it is very difficult for you to awaken. 
+54|The difficulty of any roll to awaken during the day is 
+54|increased by two.
+54|<E>Impatient (1pt. Flaw)</E>
+63|You have no patience for standing around and wait-
+53|ing. You want to do things <I>now</I> — fuck those slowpokes 
+53|trying to hold you back. Every time you are forced to 
+53|wait around instead of acting, a Self-Control roll is re-
+53|quired to see if you go tearing off on your own instead.
+307|<E>Nightmares (1pt. Flaw)</E>
+316|You experience horrendous nightmares every time 
+307|you sleep, and memories of them haunt you during 
+307|your waking hours. Upon awakening, you must make 
+307|a Willpower roll (difficulty 7) or lose a die on all ac-
+307|tions for that night. A botched Willpower roll indi-
+307|cates that, even when awake, you still believe that you 
+307|are locked in a nightmare.
+307|<E>Prey Exclusion (1pt. Flaw)</E>
+316|You refuse to hunt a certain class of prey. You might 
+307|refuse to feed on drug dealers, policemen, accountants, 
+307|or rich people — if you accidentally feed upon such 
+307|an individual, you automatically frenzy and must make 
+307|a roll to prevent Humanity or Path loss (difficulty 7). 
+307|Witnessing other Kindred feeding on the object of 
+307|your exclusion might also provoke a frenzy, at the Sto-
+307|ryteller’s discretion. Ventrue, owing to the limitations 
+307|already imposed on their feeding by their Clan weak-
+307|ness, may not take this Flaw.
+307|<E>Shy (1pt. Flaw)</E>
+316|You are distinctly ill at ease when dealing with peo-
+307|ple and try to avoid social situations whenever possi-
+307|ble. Difficulties for all rolls involving social interaction 
+307|with strangers are increased by two. If the character 
+307|becomes the center of attention in a large group, dif-
+307|ficulties are increased by three.
+307|<E>Soft-Hearted (1pt. Flaw)</E>
+316|You cannot stand to watch others suffer. You avoid 
+307|any situation that involves causing someone physical 
+307|or emotional pain, unless you make a Willpower roll 
+307|(difficulty 8). You must have a Humanity rating of 7 
+307|or above to take this Flaw — vampires on Paths of En-
+307|lightenment can only take this Flaw with Storyteller 
+307|approval.
+307|<E>Speech Impediment (1pt. Flaw)</E>
+316|You have a stammer or other speech impediment 
+307|that hampers verbal communication. The difficulties 
+307|of all die rolls involving verbal communication are in-
+307|creased by two. This Flaw must be roleplayed when-
+307|ever possible.
+307|<E>Unconvinced (1pt. Flaw)</E>
+316|You fail to see the need for the core ideologies of 
+307|your Sect or Clan, and have gone on record as saying 
+307|so. Taking your stand has made you suspect in the eyes 
+307|of your superiors, and may have attracted the attention 
+307|of your enemies as well.
+#### PAGE 493
+54|<E>Amnesia (2pt. Flaw)</E>
+63|You are unable to remember anything about your 
+54|past, yourself, or your family (whether mortal or vam-
+54|piric), though your past might well come back to haunt 
+54|you. Your origins and the circumstances behind your 
+54|amnesia are for the Storyteller to determine, and she is 
+54|encouraged to make it as interesting as possible.
+54|<E>Lunacy (2pt. Flaw)</E>
+63|You are affected by the phases of the moon, increas-
+53|ing your chances to frenzy. Under the crescent moon, 
+53|difficulties to avoid frenzy increase by one. Under the 
+53|half or gibbous moon, difficulties rise by two. When 
+53|the moon is full, difficulties increase by three.
+54|<E>Phobia (2pt. Flaw)</E>
+63|You have an overpowering fear of something. Spi-
+53|ders, snakes, crowds, and heights are examples of com-
+53|mon phobias. You must make a Courage roll every time 
+53|you encounter the object of your fear. The difficulty of 
+53|the roll is determined by the Storyteller. If you fail the 
+53|roll, you must retreat from the object.
+54|<E>Short Fuse (2pt. Flaw)</E>
+63|You are easily angered. Difficulties to avoid frenzy are 
+54|two greater. Brujah vampires cannot take this Flaw, as 
+54|they already suffer from a similar weakness.
+54|<E>Stereotype (2pt. Flaw)</E>
+63|You buy heavily into all of the vampire stories you’ve 
+54|read and heard. You wear a cape or body glitter, speak 
+54|with an accent, and otherwise act in a cartoonish fash-
+54|ion. Such behavior is embarrassing in the extreme to 
+54|other Kindred, who are likely to ostracize or mock you 
+54|(+2 difficulty to Social rolls with other vampires who 
+54|don’t share your habits). You also stand out to hunters.
+54|<E>Territorial (2pt. Flaw)</E>
+63|You are extremely territorial, staking out a particular 
+54|area as your hunting ground and reacting aggressively 
+54|to trespassers. If another vampire enters your territory 
+54|uninvited, you must make a frenzy roll. If you fail, you 
+54|immediately attack the interloper and continue at-
+54|tacking until the intruder is dead or has left your hunt-
+54|ing grounds. You are reluctant to leave your territory 
+54|except in desperate circumstances.
+54|<E>Thirst for Innocence (2pt. Flaw)</E>
+63|The sight of innocence — of any sort — arouses in 
+54|you a terrible bloodlust. Roll Self-Control or Instincts, 
+54|or else frenzy and attack the source of your hunger.
+307|<E>Vengeful (2pt. Flaw)</E>
+316|You have a score to settle, incurred either during 
+307|your mortal days or after the Embrace. You are obsessed 
+307|with taking your revenge on an individual or group, 
+307|and it is your overriding priority in any situation where 
+307|you encounter the object of your revenge. You may 
+307|temporarily resist your need for vengeance by spending 
+307|a Willpower point.
+307|<E>Victim of the Masquerade (2pt. Flaw)</E>
+316|The Camarilla’s propaganda machine did too good a 
+307|job on you. Even after your Embrace you refused to be-
+307|lieve you were a vampire. You remain convinced that 
+307|there is some logical explanation for your condition, 
+307|and spend as much time as you can searching for it. 
+307|You also have problems feeding, and may insist on try-
+307|ing to eat regular food. None of these habits makes you 
+307|particularly pleasant company for other Kindred. This 
+307|Flaw must be roleplayed at all times, and is generally 
+307|taken by Camarilla vampires.
+307|<E>Weak-Willed (3pt. Flaw)</E>
+316|You are highly susceptible to Dominate and intimida-
+307|tion by others; Dominate attempts automatically affect 
+307|you unless the Discipline wielder is of higher Genera-
+307|tion, and your difficulties to resist Social abilities such 
+307|as Intimidation or Leadership, as well as mind-altering 
+307|spells or magic, are increased by two. Your Willpower 
+307|Trait may never rise above 4.
+307|<E>Conspicuous Consumption (4pt. Flaw)</E>
+316|It is not enough for you to draw nourishment from 
+307|the blood of mortals — you believe you must also con-
+307|sume your victim’s heart, liver, and other blood-rich 
+307|tissue. Of course, this will necessitate the deaths of all 
+307|of your victims (unless you are extremely creative), 
+307|which might lead to numerous problems with main-
+307|taining Humanity (and a low profile). Characters with 
+307|this Flaw should additionally purchase the Eat Food 
+307|Merit.
+307|<E>Guilt-Wracked (4pt. Flaw)</E>
+316|You simply cannot come to grips with the fact that 
+307|you must drink blood to survive. You suffer horrible 
+307|guilt over each time you feed (roll Conscience, diffi-
+307|culty 7, or else frenzy every time you feed — characters 
+307|with the Conviction Virtue cannot take this Flaw) and 
+307|try to avoid doing so as much as possible. This means 
+307|that you rarely have much blood in your system, leav-
+307|ing you vulnerable to both attacks and hunger-based 
+307|frenzies.
+#### PAGE 494
+307|<E>Flashbacks (6pt. Flaw)</E>
+316|You managed to make it through the Creation Rites or 
+307|other similarly traumatic experience, but not wholly in-
+307|tact. The most insignificant thing can throw you into a 
+307|different mood or state of mind, and as such your behav-
+307|ior is extremely unpredictable. Because of your precarious 
+307|emotional state, your Willpower fluctuates. At the begin-
+307|ning of each story, make a Willpower roll (you may not 
+307|spend Willpower for an automatic success). If you succeed, 
+307|you may participate in the story as normal. If you fail, how-
+307|ever, your Willpower score is considered to be 1 for the 
+307|duration of that session, and you only have one Willpower 
+307|point to spend. You may roll again at the beginning of the 
+307|next session to see if you regain your Willpower.
+307|<H>Social</H>
+307|<E>Elysium Regular (1pt. Merit)</E>
+316|You spend an unusual amount of time in Elysium. 
+307|You see and are seen to such an extent that all of the 
+307|movers and shakers of Elysium at least know who you 
+307|are. Extended time spent in Elysium also gives you ex-
+307|tended opportunities to interact with the Harpies and 
+307|other Kindred of that stature — and they’ll know your 
+307|name when you approach them. This Merit is gener-
+307|ally taken by vampires that respect and attend Elysium 
+307|on a regular basis.
+307|<E>Former Ghoul (1pt. Merit)</E>
+316|You were introduced to the Blood long before you 
+307|were made Kindred. Your long experience as a ghoul 
+307|gives you insight into and comfort with vampiric soci-
+307|ety. You are at -1 difficulty on all Social rolls when in 
+307|the presence of other neonates (particularly those who 
+307|haven’t been educated by their sires), and have a -1 
+307|difficulty on all rolls relating to vampiric knowledge.
+307|<E>Harmless (1pt. Merit)</E>
+316|Everyone in the city knows you, and knows that 
+307|you’re no threat to their plans. While that sort of es-
+307|timation may seem insulting, it’s also what’s kept you 
+307|from being killed. No one considers you worth their 
+307|time to deal with, and that low opinion keeps you safe. 
+307|If you start acting in a way that demonstrates that you 
+307|are no longer harmless, others’ reactions to you will 
+307|likely change as a result.
+307|<E>Natural Leader (1pt. Merit)</E>
+316|You are gifted with a certain magnetism to which 
+307|others naturally defer. You receive two extra dice when 
+#### PAGE 495
+54|making Leadership rolls. You must have a Charisma 
+54|rating of 3 or greater to purchase this Merit.
+54|<E>Prestigious Sire (1pt. Merit)</E>
+63|Your sire has or had great status in her Sect or Clan, 
+54|and this has accorded you a certain amount of pres-
+54|tige. Though your sire may no longer have any dealings 
+54|with you, the simple fact of your ancestry has marked 
+54|you forever. This prestige might aid you greatly in deal-
+54|ings with other vampires, or it might engender jealousy 
+54|or contempt.
+54|<E>Protégé (1pt. Merit)</E>
+63|Your sire watched you for some time before Embrac-
+53|ing you, and spoke glowingly of you to acquaintances. 
+53|These vampires may be inclined to look favorably on 
+53|you by dint of your sire’s recommendation; you are at 
+53|-1 difficulty on Social rolls with all those who’ve heard 
+53|good things about you.
+54|<E>Rep (1pt. Merit)</E>
+63|Your fame has exceeded the bounds of your Sect. Ev-
+53|eryone knows who you are, what you’ve done and what 
+53|you’re supposed to have done (which might not be the 
+53|same thing). The publicity can be good or bad; what 
+53|matters is that everybody knows your name. Wheth-
+53|er individuals outside of your immediate social circle 
+53|know enough to match your face to your name is a dif-
+53|ferent matter.
+54|<E>Sabbat Survivor (1pt. Merit)</E>
+63|You’ve lived through at least one Sabbat attack or 
+54|attempted recruitment. Your experience helps you 
+54|anticipate situations where you might potentially 
+54|be endangered by the Sabbat once again. You are at 
+54|-1 difficulty on all Perception rolls when it comes to 
+54|Sabbat-based matters. This Merit is generally taken by 
+54|groups in conflict with the Sabbat, and comes into play 
+54|most frequently as a means of avoiding ambushes.
+54|<E>Boon (1-6pt. Merit)</E>
+63|Someone owes you a favor. The vampire in your debt 
+54|might be the lowliest neonate in the city or might be 
+54|the Prince herself; it all depends on how many points 
+54|the Merit costs. You only have that single favor owed 
+54|you (unless you take the Merit multiple times), so us-
+54|ing it properly is of paramount importance. Depending 
+54|on status and other factors, the vampire who owes you 
+54|a favor may well resent his debt, and might go out of 
+54|his way to “settle” it early — even going so far as to 
+54|create situations from which he must “rescue” you and 
+54|thus clear the slate.
+307|<E>Bullyboy (2pt. Merit)</E>
+316|You’re part of the brute squad the local Sheriff or 
+307|Bishop calls on when he needs some muscle. As a 
+307|result, you get in on action that others miss entirely, 
+307|score points with those in power, and occasionally get 
+307|a chance to act outside of the law. How far outside 
+307|the law you can go depends on circumstance and how 
+307|much the vampire you report to likes you.
+307|<E>Old Pal (2pt. Merit)</E>
+316|An acquaintance from your breathing days was Em-
+307|braced at the same time you were. Fortunately, your 
+307|friendship has endured even death and unlife, and you 
+307|find a constant source of support and aid in your old 
+307|friend. She expects the same of you, which isn’t always 
+307|convenient, but at least you each have someone to 
+307|hang onto who remembers the good old nights — and 
+307|days. The Storyteller should play the Old Pal as a very 
+307|loyal Ally.
+307|<E>Lawman’s Friend (2pt. Merit)</E>
+316|For whatever reason (maybe your winning smile or 
+307|perhaps just your superb groveling technique), the lo-
+307|cal Sheriff or Bishop in charge of discipline likes you. 
+307|He’s inclined to overlook your minor trespasses and let 
+307|you in on things you’re not supposed to know about. 
+307|He even gives you warnings about occasional crack-
+307|downs and times when the higher-ups aren’t feeling 
+307|generous. Of course, abusing this connection might 
+307|well turn a friendly vampire into an enemy — and the 
+307|change might not be apparent until it’s too late. 
+307|<E>Open Road (2pt. Merit)</E>
+316|Unlike many Kindred, you like to travel. You have 
+307|a solid knowledge of safe travel routes and methodolo-
+307|gies, not to mention haven space available in any num-
+307|ber of destinations. Unless someone out there knows 
+307|your exact route and is specifically looking for you, you 
+307|can move between cities unimpeded by random en-
+307|counters with Lupines, overzealous state troopers, and 
+307|the like.
+307|<E>Sanctity (2pt. Merit)</E>
+316|This Merit is sometimes called the halo effect; ev-
+307|eryone considers you pure and innocent, though not 
+307|necessarily naïve. You have a saint-like quality that is 
+307|hard to pinpoint but cannot be denied. You are trust-
+307|ed, even if you are not trustworthy. At the Storyteller’s 
+307|discretion, you tend to receive lesser punishments for 
+307|wrongdoing, and you are liked by most.
+#### PAGE 496
+54|<E>Scholar of Enemies (2pt. Merit)</E>
+63|You have taken the time to learn about and special-
+53|ize in one particular enemy of your Sect. You are aware 
+53|of at least some of the group’s customs, strategies, abili-
+53|ties, and long-term goals, and can put that knowledge 
+53|to good use. This Merit is worth a -2 difficulty for all 
+53|non-combat rolls pertaining specifically to the subject 
+53|of your specialization. On the other hand, you are at a 
+53|+1 difficulty when it comes to dealing with other en-
+53|emies, simply because you’re so thoroughly focused on 
+53|your field.
+54|<E>Scholar of Others (2pt. Merit)</E>
+63|This Merit functions identically to Scholar of Ene-
+54|mies, except that it applies to a group that is not neces-
+54|sarily inimical to your Sect.
+54|<E>Friend of the Underground  </E>
+54|<E>(3pt. Merit)</E>
+63|While you’re not a Nosferatu, you know your way 
+54|around the sewers, tunnels, ducts, subway tubes, and 
+54|other subterranean passages of your hometown. The lo-
+54|cal Nosferatu (and any other creatures dwelling down 
+54|in the muck) may not actually like you, but they’re not 
+54|inclined to kill you on sight when they see you in their 
+54|territory. You are at -1 difficulty on any rolls involving 
+54|the subterranean world (sneaking from place to place 
+54|underground, finding routes into sub-basements, and 
+54|so on). Nosferatu cannot purchase this Merit.
+54|<E>Mole (3pt. Merit)</E>
+63|You have an informer buried in one of your Sect’s 
+54|enemy organizations who funnels you all sorts of in-
+54|formation as to what her peers are up to. What you 
+54|do with the information is up to you, but abusing the 
+54|knowledge might be a good way to get your informer 
+54|killed. The other side has spies too….
+54|<E>Rising Star (3pt. Merit)</E>
+63|You’re one of the up-and-comers in the city, a rising 
+54|star in your Sect. Everyone wants to know you and be 
+54|your friend, even as those in power groom you for posi-
+54|tions of greater responsibility. You are at -1 difficulty 
+54|on all Social rolls against any vampires in your Sect 
+54|who aren’t actively opposing your ascent.
+54|<E>Broken Bond (4pt. Merit)</E>
+63|You were once blood-bound but have secretly slipped 
+54|the leash, and you are free to act as you will once more. 
+54|Your regnant has no idea that you are not in fact bound, 
+307|and continues to treat you as if you were. At Storyteller 
+307|discretion, the experience of having been bound once 
+307|may render you immune to ever being enthralled again. 
+307|Sabbat vampires cannot take this Merit.
+307|<E>Clan Friendship (4pt. Merit)</E>
+316|One particular Clan (not your own) has a special lik-
+307|ing for you. You might have done the Clan as a whole a 
+307|favor at some point, or perhaps you’re just a loud voice 
+307|in support of their aims. Whatever the case, you’re at 
+307|-2 difficulty on all friendly Social rolls involving mem-
+307|bers of the Clan in question. Of course, the reaction 
+307|your cozy relationship with another Clan is likely to 
+307|draw from your own Clan leaders is an entirely differ-
+307|ent can of worms.
+307|<E>Primogen/Bishop Friendship  </E>
+307|<E>(4pt. Merit)</E>
+316|The ruling vampires of the city value you and your 
+307|opinions. You are called in to consult on decisions, and 
+307|your recommendations carry great weight. Your posi-
+307|tion may not be an official one, but it’s powerful none-
+307|theless.
+307|<E>Botched Presentation (1pt. Flaw)</E>
+316|When your sire presented you to the Prince of the 
+307|city, you flubbed it. Now you’re convinced His Majesty 
+307|hates you (whether he does or not). You need to suc-
+307|ceed on a Willpower roll (difficulty 7) just to stand in 
+307|front of the Prince or one of his duly authorized rep-
+307|resentatives without running, blubbering, or otherwise 
+307|making a fool of yourself. This Flaw can only be taken 
+307|by Camarilla vampires.
+307|<E>Dark Secret (1pt. Flaw)</E>
+316|You have some sort of secret that, if uncovered, 
+307|would be of immense embarrassment to you and would 
+307|make you a pariah in the local Kindred community. 
+307|This could be anything from having murdered an elder 
+307|to being a member of the Anarchs.
+307|<E>Expendable (1pt. Flaw)</E>
+316|Someone in power doesn’t want you around. Maybe 
+307|she wants territory you possess, or is jealous of the at-
+307|tention you’re getting from a prize mortal retainer — 
+307|the details are irrelevant. What does matter is that she 
+307|has the power to maneuver you into dangerous situa-
+307|tions “for the good of the Sect,” and has no compunc-
+307|tions about doing so.
+#### PAGE 497
+54|<E>Incomplete Understanding (1pt. Flaw)</E>
+63|The whole matter has been explained to you, but 
+54|you’re still not quite sure how things in your Sect work. 
+54|Your imperfect understanding of the rules and regula-
+54|tions of your new existence means that sooner or later, 
+54|you’re going to make a mistake. It’s only a matter of 
+54|time….
+54|<E>Infamous Sire (1pt. Flaw)</E>
+63|Your sire was, and perhaps still is, distrusted and dis-
+53|liked by many of the city’s Kindred. As a result, you are 
+53|distrusted and disliked as well.
+54|<E>Mistaken Identity (1pt. Flaw)</E>
+63|You look similar to descriptions of another Kin-
+53|dred, which cause cases of mistaken identity. This can 
+53|prompt numerous awkward or even dangerous situa-
+53|tions, especially if your “twin” has a terrible reputation 
+53|or is wanted for some crime.
+54|<E>New Arrival (1pt. Flaw)</E>
+63|You’ve just arrived in your new city of residence, and 
+54|don’t know anyone in the place. Existing factions may 
+54|try to recruit or eliminate you, while vampires in posi-
+54|tions of authority size you up and take your measure. 
+54|Meanwhile, your ignorance of the city’s current events, 
+54|history, and politics (not to mention the personality 
+54|quirks of the vampires already in place) may cause you 
+54|to make a serious blunder.
+54|<E>New Kid (1pt. Flaw)</E>
+63|You’re the latest in the city to be Embraced or have 
+54|yet to prove yourself to your Sect, and everyone knows 
+54|it. That automatically puts you at the bottom of the 
+54|social totem pole. Other neonates take every oppor-
+54|tunity to demonstrate your inferiority, or rival packs 
+54|constantly test your worthiness to the Sabbat. Even 
+54|if someone else is added to the ranks of the unliving, 
+54|you’re still regarded as something as a bit of a geek by 
+54|your peers — a distinction that can have dangerous 
+54|consequences if bullets start flying. All Social-related 
+54|rolls are at +1 difficulty when you are dealing with oth-
+54|er neonates. (Ancillae and elders lump you in with all 
+54|the other neonates under their general disdain.)
+54|<E>Recruitment Target (1pt. Flaw)</E>
+63|Someone in one of your Sect’s enemy organizations 
+54|wants you, and they want you <I>bad</I>. Every effort is being 
+54|made to recruit you, willing or no, and the press gangs 
+54|usually show up at the worst possible time.
+307|<E>Sire’s Resentment (1pt. Flaw)</E>
+316|Your sire dislikes you and wishes you ill. Given the 
+307|smallest opportunity, she will actively seek to do you 
+307|harm. Your sire’s allies also work against you, and many 
+307|elders may resent you. 
+307|<E>Special Responsibility (1pt. Flaw)</E>
+316|Shortly after your Embrace, you volunteered for 
+307|some task in order to gain respect and approval from 
+307|the vampires around you. Now, you wish you had nev-
+307|er opened your damn mouth! While you are not given 
+307|any special credit for performing this duty, you would 
+307|lose a lot of respect if you were to stop. The nature 
+307|and the details of your duty should be worked out with 
+307|the Storyteller in advance. Ideas can range from lend-
+307|ing money to other Kindred to acting as a messenger 
+307|or possibly gathering victims for ritae (such as Blood 
+307|Feasts).
+307|<E>Sympathizer (1pt. Flaw)</E>
+316|You have publicly expressed sympathy for some of 
+307|the goals and policies of the enemies of your Sect. Your 
+307|outspoken views on the subject have made you suspect 
+307|in the eyes of the city’s hierarchy, and you may be sus-
+307|pected of (or arrested for) treason.
+307|<E>Enemy (1-5pt. Flaw)</E>
+316|You have an enemy, or perhaps a group of enemies, 
+307|who seek to harm you. The power of the enemy de-
+307|pends upon how many points the player wishes to 
+307|spend (five points indicate the wrath of a Methuselah 
+307|or other potent supernatural foe).
+307|<E>Bound (2pt. Flaw)</E>
+316|You are blood bound to another vampire. Your reg-
+307|nant may not necessarily treat you badly, but the fact 
+307|remains that your will is not entirely your own. The 
+307|knowledge gnaws at you, even as you find yourself lost 
+307|in devotion to your vampiric master. Sabbat vampires 
+307|cannot take this Flaw.
+307|<E>Catspaw (2pt. Flaw)</E>
+316|You’ve done dirty work for someone high up in the 
+307|city’s hierarchy in the past — the Sheriff, the Bishop, 
+307|or even someone higher. However, instead of granting 
+307|you favor, your deeds have made you an embarrassment 
+307|or a liability. For the moment, your former employer’s 
+307|concern is to keep you quiet. In the long term, it’s to 
+307|get rid of you.
+#### PAGE 498
+54|<E>Escaped Target (2pt. Flaw)</E>
+63|You had targeted a mortal for the Embrace, but 
+54|someone else got there first. You cannot stand the hu-
+54|miliation of being cheated of your prize, and fly into a 
+54|rage (+2 difficulty to avoid frenzy) whenever you see 
+54|the one who got away. This hatred may lead you into 
+54|other irrational behaviors, like Embracing enemies of 
+54|the neonate, creating unauthorized childer, or even 
+54|trying to kill your rival. Furthermore, your petty and 
+54|irrational behavior is well-known and quite noticeable, 
+54|and as a result you are at + 1 difficulty on all Charisma 
+54|rolls until the situation is resolved.
+54|<E>Failure (2pt. Flaw)</E>
+63|You once held a title in the city, but failed catastroph-
+53|ically in your duties. Now you are branded incompe-
+53|tent, excluded from circles of power and responsibility, 
+53|and generally ostracized by those on their way up. Your 
+53|exclusion may make you a target for recruitment by 
+53|the Sect’s enemies (or so the whispers run, making you 
+53|even more distrusted). Conversely, the consequences 
+53|of your error might come back to haunt you.
+54|<E>Masquerade Breaker (2pt. Flaw)</E>
+63|In your first nights as a vampire, you accidentally 
+54|broke the Masquerade — and were spotted doing so. 
+54|Someone else covered for your mistake, but holds the 
+54|favor over you. Now you exist in fear that your error 
+54|will be revealed. In the meantime, your “savior” takes 
+54|pitiless advantage of you. This Flaw can only be taken 
+54|by vampires in Sects or Clans that respect the Mas-
+54|querade.
+54|<E>Hunted (4pt. Flaw)</E>
+63|You are pursued by a fanatical witch-hunter who 
+54|believes (perhaps correctly) that you are a danger to 
+54|humanity. All those with whom you associate, be they 
+54|mortal or Kindred, may be hunted as well.
+54|<E>Old Flame (2pt. Flaw)</E>
+63|Someone you once cared deeply for is now with the 
+54|enemy. He still attempts to play on your sympathies 
+54|“for old times’ sake” while working against you. Unless 
+54|you succeed on a contested Manipulation + Expression 
+54|roll against your former friend, you cannot act against 
+54|him unless the situation becomes life-threatening.
+54|<E>Rival Sires (2pt. Flaw)</E>
+63| The flip side of Escaped Target, two vampires want-
+53|ed to gift you with the Embrace. One succeeded, one 
+53|failed — and she’s not happy about that failure. You, 
+#### PAGE 499
+54|your actual sire, or both of you have become the target 
+54|of the failed suitor’s ire. Regardless, your persecutor is 
+54|at +2 difficulty to refrain from frenzy in your presence. 
+54|In addition, she may well be working actively to dis-
+53|credit or destroy you.
+54|<E>Uppity (2pt. Flaw)</E>
+63|You are proud of your new status in the Sect — so 
+54|proud that you’ve shot your mouth off to other Kindred 
+54|and made some enemies. Wiser vampires laugh at you 
+54|and chalk your rudeness up to youth, but others find 
+54|you arrogant and insulting. These enemies will take ac-
+54|tion to embarrass or harm you. Furthermore, you are 
+54|at +2 difficulty on all Social rolls against any vampires 
+54|you have alienated through your yammering — and 
+54|you may not know who they are.
+63|At Storyteller discretion, you may also be required 
+54|to make a Willpower roll (difficulty 6) to keep your 
+54|mouth shut any time the opportunity presents itself for 
+54|you to brag about your pack, your Clan, or your status.
+54|<E>Disgrace to the Blood (3pt. Flaw)</E>
+63|Your sire regards the fact that he Embraced you to 
+54|be a titanic mistake, and has let everyone know it. You 
+54|are mocked at gatherings, taunted by your peers, and 
+54|actively despised by the one who should be giving you 
+54|guidance. Any request or petition you make is likely to 
+54|be looked down upon by friends of your sire, and your 
+54|achievements are likely to be discounted.
+54|<E>Former Prince (3pt. Flaw)</E>
+63|Once, you held near-absolute power in a city, but 
+54|those nights are gone now. Perhaps you stepped down, 
+54|perhaps you were deposed, or perhaps your city fell 
+54|to the Sabbat; it matters little in your reduced state. 
+54|What does matter is that the Prince in the city where 
+54|you now dwell is aware of your prior employment, and 
+54|has concerns that you might be trying to make a come-
+54|back. The machinery of the Camarilla in the city where 
+54|you now make your home is subtly stacked against you, 
+54|and if the Prince sees an opportunity to get rid of you 
+54|he just might take it. This Flaw can only be taken by 
+54|Camarilla vampires.
+54|<E>Hunted Like a Dog (3pt. Flaw)</E>
+63|Another Sect or group of vampires has decided that 
+54|you’re a target for extermination, and pursues you re-
+54|lentlessly. On the bright side, the enemies of your en-
+54|emy may well wish to help you out, potentially garner-
+54|ing you allies.
+307|<E>Narc (3pt. Flaw)</E>
+316|You are known to be a snitch, an informer firmly 
+307|planted in the pocket of the vampires in charge. Those 
+307|on whom you might yet inform loathe you as a result, 
+307|feeding you misinformation when they can in an attempt 
+307|to discredit you. Given the opportunity, they might do 
+307|you mischief. Regardless, your reputation as a weasel pre-
+307|cedes you, putting you at +1 difficulty on all Social rolls 
+307|against those who don’t agree with your politics.
+307|<E>Sleeping With the Enemy (3pt. Flaw)</E>
+316|You have some sort of intimate connection with a 
+307|member of an opposing Sect or inimical Clan. You may 
+307|have a lover, a childe, a friend, or a contact working 
+307|the other side of the fence, but regardless of politics 
+307|you retain a friendly (or more than friendly) relation-
+307|ship with your putative foe. Your close ties to someone 
+307|on the other side would be regarded as treason by your 
+307|superiors within the Sect, and if you are discovered, 
+307|the penalty will surely be death.
+307|<E>Clan Enmity (4pt. Flaw)</E>
+316|One Clan in particular wants you dead. You have of-
+307|fended the entire Clan, from elders to neonates, and as a 
+307|result every member of that bloodline wants your head on 
+307|a plate. The effects of the Flaw may manifest as anything 
+307|from very public snubs and insults to actual attempts on 
+307|your unlife. You are also at +2 difficulty on all Social 
+307|rolls relating to members of the Clan in question.
+307|<E>Loathsome Regnant (4pt. Flaw)</E>
+316|Not only are you blood bound, but you are also in 
+307|thrall to a vampire who mistreats you hideously. Per-
+307|haps you are publicly abused or humiliated; perhaps 
+307|your master forces you to commit unspeakable acts for 
+307|him. In any case, existence under the bond is a never-
+307|ending nightmare, with your regnant serving to con-
+307|duct the symphony of malice. Sabbat vampires cannot 
+307|take this Flaw.
+307|<E>Overextended (4pt. Flaw)</E>
+316|You’ve got your fingers in too many pies, and people 
+307|are starting to notice. You have too many ghouls, too 
+307|many retainers, or too much influence, which means 
+307|that a lot of people have a vested interest in trimming 
+307|back your operations. These enemies take every oppor-
+307|tunity to reduce your power and influence, and if that 
+307|means lying, cheating, or killing, so be it. Furthermore, 
+307|your enemies block every attempt you make to move 
+307|into new areas of control. You’re boxed in, and the box 
+307|is getting smaller.
+#### PAGE 500
+54|<E>Probationary Sect Member (4pt. Flaw)</E>
+63|You are a defector. You turned traitor to the Cama-
+53|rilla, Sabbat, or other Sect, and you still have much to 
+53|prove before you are accepted by the Kindred you have 
+53|defected to. Other vampires treat you with distrust and 
+53|even hostility, and your reputation might even sully 
+53|those whom you regularly associate with.
+54|<E>Blood Hunted (4 or 6pt. Flaw)</E>
+63|You have been made the target of a blood hunt, and 
+54|for you to return to your home city is death. For four 
+54|points, this Flaw means that only your home city is off-
+54|limits to you. For six, it means that the entire Cama-
+54|rilla is howling for your vitae. This Flaw can only be 
+54|taken by Camarilla vampires.
+54|<E>Laughingstock (5pt. Flaw)</E>
+63|Somehow you’ve drawn the scorn of the local Har-
+53|pies, who make you their favorite target. You are at 
+53|a +2 difficulty on all Social rolls in Elysium and a +1 
+53|anywhere else in the city. In addition, you are at +2 
+53|difficulty to use Intimidation or any Dominate pow-
+53|ers on anyone who has heard the stories mocking you. 
+53|This Flaw can only be taken by Camarilla vampires.
+54|<E>Red List (7pt. Flaw)</E>
+63|You are either being considered for or are already on 
+54|the dreaded Red List, the registry of those vampires the 
+54|Camarilla most wants extinguished. Any Camarilla 
+54|vampire will either attack you on sight or, more likely, 
+54|call in for a great deal of help.
+54|<H>Supernatural</H>
+54|<E>Deceptive Aura (1pt. Merit)</E>
+63|Your aura is unnaturally bright and colorful for a 
+54|vampire. You register as a mortal on all attempts to 
+54|read your aura.
+54|<E>Healing Touch (1pt. Merit)</E>
+63|Normally vampires can only seal the wounds they 
+54|inflict from feeding by licking them. With but a touch, 
+54|you can achieve the same effect, closing the puncture 
+54|wounds left by drinking blood.
+54|<E>Inoffensive to Animals (1pt. Merit)</E>
+63|With rare exceptions, animals usually despise the 
+54|Kindred. Some flee, others attack, but all dislike being 
+54|in the presence of a vampire. You have no such prob-
+54|lem. Animals may not enjoy being in your company, 
+54|but they don’t actively flee from you.
+307|<E>Medium (2pt. Merit)</E>
+316|You possess the natural affinity to sense and hear spir-
+307|its, ghosts, and shades. Though you cannot see them, 
+307|you can sense them, speak to them and, through plead-
+307|ing or cajoling, draw them to your presence. You may 
+307|call upon them for aid or advice, but there will always 
+307|be a price. Also, your difficulty is reduced by two for all 
+307|Awareness rolls involving the spirits of the dead.
+307|<E>Magic Resistance (2pt. Merit)</E>
+316|You have an inherent resistance to the rituals of the 
+307|Tremere and the spells of the mages of other Clans. 
+307|The difficulty of all such magic, both malicious and be-
+307|neficent, is two higher when directed at you. You may 
+307|never learn magical Disciplines such as Thaumaturgy 
+307|and Necromancy.
+307|<E>Hidden Diablerie (3pt. Merit)</E>
+316|The tell-tale black streaks of diablerie do not mani-
+307|fest in your aura.
+307|<E>Lucky (3pt. Merit)</E>
+316|You were born lucky — or else the Devil looks after 
+307|his own. Either way, you may repeat any three failed 
+307|rolls per story, including botches, but you may try only 
+307|once per failed roll.
+307|<E>Oracular Ability (3pt. Merit)</E>
+316|You can see and interpret signs and omens. You are 
+307|able to draw advice from these omens, for they pro-
+307|vide hints of the future and warnings of the present. 
+307|When the Storyteller feels that you are in position to 
+307|see an omen, you will be required to make a Perception 
+307|+ Awareness roll, with the difficulty relative to how 
+307|well the omen is concealed. If successful, you may then 
+307|roll Intelligence + Occult to interpret what you have 
+307|seen; the difficulty is again relative to the complexity 
+307|of the omen.
+307|<E>Spirit Mentor (3pt. Merit)</E>
+316|You have a ghostly companion and guide. The iden-
+307|tity and exact powers of this spirit are up to the Story-
+307|teller, but it can be called upon in difficult situations 
+307|for help and guidance.
+307|<E>True Love (4pt. Merit)</E>
+316|You have discovered, perhaps too late, a true love. 
+307|He or she is mortal, but is the center of your existence, 
+307|and inspires you to keep going in a world of darkness 
+307|and despair. Whenever you suffer, the thought of your 
+307|true love gives you the strength to persevere. This Mer-
+#### PAGE 501
+54|it grants you one automatic success on all Willpower 
+54|rolls, which can be negated only by a botch die. This 
+54|can be a great gift but also a hindrance, for your true 
+54|love may require protection and occasionally rescue.
+54|<E>Additional Discipline (5pt. Merit)</E>
+63|You can take one additional Discipline (Storyteller 
+54|discretion) as if it were a Clan Discipline. All costs 
+54|to learn that Discipline are paid out as if it were na-
+54|tive to your Clan. A character cannot take this Merit 
+54|more than once, and Caitiff vampires cannot take this 
+54|Merit.
+54|<E>Unbondable (5pt. Merit)</E>
+63|You are immune to being blood bound. Tremere can-
+53|not take this Merit.
+54|<E>Nine Lives (6pt. Merit)</E>
+63|Fate has granted you the opportunity to come as 
+54|close to Final Death as anyone can get and still survive. 
+54|When a roll occurs that would result in your death, the 
+54|roll is made again. If the next roll succeeds, then you 
+54|live — and one of your nine lives is used up. If that 
+54|subsequent roll fails, then another reroll is made, until 
+54|either a successful roll occurs or your nine lives are used 
+54|up. The Storyteller should keep careful count of how 
+54|many lives the character has remaining.
+54|<E>True Faith (7pt. Merit)</E>
+63|You have a deep-seated faith in and love for God, or 
+54|whatever name you choose to call the Almighty. You 
+54|begin the game with one point of True Faith (see the 
+54|sidebar on p. 372); this Trait adds one die per point to 
+54|all Willpower and Virtue rolls. You must have a Hu-
+54|manity of 9 or higher to choose this Merit, and if you 
+54|lose even a single point, all your Faith points are lost 
+54|and may be regained only when the lost Humanity is 
+54|recovered. Individuals with True Faith are capable of 
+54|performing magical acts akin to miracles, but the exact 
+54|nature of those acts are up to the Storyteller.
+54|<E>Cast No Reflection (1pt. Flaw)</E>
+63|You actually cast no reflection, just like the vampires 
+54|of legend. This can have a detrimental effect when try-
+54|ing to pass as a human. Vampires of Clan Lasombra au-
+54|tomatically have this Flaw (and you may be mistaken 
+54|for one of them if you possess this).
+307|<E>Cold Breeze (1pt. Flaw)</E>
+316|A chill wind follows you everywhere you go. While 
+307|it may make for dramatic entrances, this effect also dis-
+307|comfits mortals (+1 difficulty on all appropriate Social 
+307|rolls) and marks you as obviously supernatural. Cold 
+307|winds sweeping through executive offices or crowded 
+307|nightclubs can raise all sorts of questions.
+307|<E>Repulsed by Garlic (1pt. Flaw)</E>
+316|You cannot abide garlic, and the smallest whiff of its 
+307|scent will drive you from a room unless you make a suc-
+307|cessful Willpower roll (difficulty based on the strength 
+307|of the odor).
+307|<E>Touch of Frost (1pt. Flaw)</E>
+316|Plants wither as you approach and die at your touch. 
+307|Your touch leeches heat from living beings, as though 
+307|you were made of ice.
+307|<E>Cursed (1-5pt. Flaw)</E>
+316|You are the recipient of a supernatural curse. The 
+307|strength and pervasiveness of the curse depend upon 
+307|how many points you wish to incur. Examples follow:
+316|• If you pass on a secret you were entrusted with, 
+307|your betrayal will come back to harm you in some way. 
+307|(1 pt.)
+316|• You stutter uncontrollably when you try to describe 
+307|what you have seen or heard. (2 pts.)
+316|• Tools break or malfunction when you try to use 
+307|them. (3 pts.)
+316|• You are doomed to make enemies of those whom 
+307|you most love or admire. (4 pts.)
+316|• Every one of your accomplishments or triumphs 
+307|will eventually become soiled or fail in some way. (5 
+307|pts.)
+307|<E>Beacon of the Unholy (2pt. Flaw)</E>
+316|You radiate palpable evil. Clergy and devout mor-
+307|tals know instinctively that there is something horribly 
+307|wrong with you, and react accordingly.
+307|<E>Deathsight (2pt. Flaw)</E>
+316|Everything appears rotted and decayed to you. The 
+307|world appears to you as a corpse; mortals look diseased 
+307|or skeletal, buildings seem decrepit, and your fellow 
+307|Kindred seem to be walking, moldering cadavers. You 
+307|are at -2 difficulty to resist all rolls based on Appear-
+#### PAGE 502
+54|ance, but by the same token you are at +2 difficulty 
+54|on all Perception-based rolls. In addition, you find so-
+53|cial interaction difficult and are at +1 difficulty on all 
+53|Social-based rolls.
+54|<E>Eerie Presence (2pt. Flaw)</E>
+63|Mortals have an unconscious awareness of your un-
+53|dead nature, which makes then anxious and ill at ease 
+53|in your presence. Because of this, difficulties of all rolls 
+53|relating to social interaction with mortals are increased 
+53|by two.
+54|<E>Lord of the Flies (2pt. Flaw)</E>
+63|Buzzing harbingers of decay swirl around you every-
+54|where. Their constant presence makes it difficult for 
+54|you to interact socially (+1 difficulty when appropri-
+54|ate) and nearly impossible to sneak up on someone 
+54|or hide effectively. The buzzing of the flies inevitably 
+54|gives you away — all Stealth rolls are at +2 difficulty.
+54|<E>Can’t Cross Running Water  </E>
+54|<E>(3pt. Flaw)</E>
+63|You believe in the old folklore, and cannot cross run-
+53|ning water unless you are at least 50 feet (15 meters) 
+53|above it. Running water is considered to be any body of 
+53|water at least two feet (half a meter) wide in any direc-
+53|tion and not completely stagnant. 
+54|<E>Haunted (3pt. Flaw)</E>
+63|You are haunted by an angry and tormented spirit, 
+54|most likely one of your first victims. This spirit actively 
+54|attempts to hinder you, especially when feeding, and 
+54|does its utmost to vent its anguish upon you and any-
+54|one in your presence. The Storyteller determines the 
+54|exact nature of the spirit, its powers, and whether or 
+54|not it can eventually be laid to rest.
+54|<E>Repelled by Crosses (3pt. Flaw)</E>
+63|You are repelled by the sight of ordinary crosses, 
+54|believing them to be symbols of holy might. When 
+54|confronted by a cross, you must make a Willpower roll 
+307|(difficulty 9) or flee from the symbol for the duration 
+307|of the scene. If you botch the roll, not only must you 
+307|attempt to flee, but the touch of the cross can cause ag-
+307|gravated damage (one health level of damage per turn 
+307|that the cross touches your skin). This damage cannot 
+307|be soaked, even if the vampire possesses Fortitude.
+307|<E>Grip of the Damned (4pt. Flaw)</E>
+316|There is no ecstasy in your Embrace — only terror 
+307|and pain. Mortals upon whom you feed struggle and 
+307|shriek while you attempt to feed, requiring you to 
+307|grapple with them for as long as you wish to take their 
+307|blood. For vampires with high Humanity, this experi-
+307|ence may require a Humanity roll, at the discretion of 
+307|the Storyteller. Giovanni cannot take this Flaw.
+307|<E>Dark Fate (5pt. Flaw)</E>
+316|You are doomed to experience Final Death or, worse, 
+307|suffer eternal agony. No matter what you do, you can-
+307|not avoid this terrible fate. At some point during the 
+307|chronicle, your Dark Fate will come upon you. Even 
+307|more ghastly is the fact that you occasionally have vi-
+307|sions of this fate, and the malaise these images inspire 
+307|requires an expenditure of a temporary Willpower 
+307|point to avoid, or else you lose a die from all of your ac-
+307|tions for the remainder of the night. It is up to the Sto-
+307|ryteller to determine the exact nature of this fate, and 
+307|when it will occur. This is a difficult Flaw to roleplay; 
+307|ironically, though it may seem as though it removes 
+307|all free will, the knowledge of one’s death can be quite 
+307|liberating.
+307|<E>Light-Sensitive (5pt. Flaw)</E>
+316|You are even more sensitive to sunlight than other 
+307|vampires are. Sunlight causes double normal damage, 
+307|and the light of the moon can cause lethal damage in a 
+307|manner similar to the sun, though it must shine direct-
+307|ly upon you. Even bright lights hurt your eyes, requir-
+307|ing the use of sunglasses. Followers of Set and related 
+307|bloodlines cannot take this Flaw, as they already have 
+307|a worse version of it.
+#### PAGE 503
+54|<H>Ghouls</H>
+63|A vampire’s blood has great power — power that 
+54|can be passed on. Long ago, the Kindred discovered 
+54|that mortals who drank vampiric blood would become 
+54|possessed of supernatural abilities and dark appetites. 
+54|Soon it became common practice for vampires to keep 
+54|certain favored servants, fattening them on vitae, and 
+54|blood bonding them in the process. In doing so, they 
+54|created undying, hellishly loyal servitors — ghouls.
+63|Most ghouls exist at the whim of their domitors (mas-
+54|ters), serving loyally in exchange for vitae. As they are 
+54|as susceptible to the blood bond as anyone, ghouls are 
+54|almost without exception unfailingly devoted to their 
+54|masters — and if the domitor has more than one ghoul 
+54|servant, the result may be a jealous struggle between 
+54|them for the domitor’s favor. A ghoul’s emotions run to 
+54|extremes with the heady drug of vitae in his veins — such 
+54|a creature often falls prey to great rages and disturbing 
+54|cravings. The name “ghouls” was not chosen at random.
+54|<H>Types of Ghouls</H>
+54|<E>Vassals</E>
+63|<I>“No, you listen to me. I don’t care who you are or who </I>
+54|<I>you’re with; the lady asked not to be disturbed. And she </I>
+54|<I>isn’t going to be. Capisce?”</I>
+63|When most vampires think of ghouls, they picture 
+54|the vassal. Many Cainites find it inconceivable to cre-
+54|ate ghouls for any other purpose; indeed, to most Kin-
+54|dred, any ghouls other than vassals are blasphemies. 
+54|By and large, vassals are the “normal people” among 
+54|ghouls. Most of them didn’t ask for their new power or 
+54|immortality, although few complain too much once the 
+54|blood bond takes effect. Scant few of them know even 
+54|a quarter what a neonate does about Kindred society. 
+54|Somewhere along the line, they were just singled out 
+54|by something old and powerful, something that wanted 
+54|another pair of hands. Although a vassal’s supply of vi-
+54|tae is pretty much assured, that’s really all she has to 
+54|look forward to. In fact, she’d better be on her very 
+54|best behavior if she wants to keep her liquid strength 
+54|coming regularly. She also has to come to terms with 
+54|the fact that she’s in love — truly, passionately, in a 
+54|way she didn’t think she’d ever feel again after her first 
+54|love left — with a person who treats her with passing 
+54|kindness at best and draconian cruelty at worst.
+63|The sad thing is that the great majority of vassals 
+54|really have no idea what’s going on. They don’t know 
+307|why they feel the way they do; they don’t know what’s 
+307|in that miracle drink their new friend gives them. But 
+307|they’re loyal, if for no other reason than they don’t 
+307|want the magic to stop. They don’t want to go back to 
+307|the monochromatic, tasteless lives they knew before. 
+307|And you know what? Those are the lucky ones. Be-
+307|cause once a ghoul’s been dragged to the other side of 
+307|that mystery, once the Masquerade’s been broken, she 
+307|exists entirely at the sufferance of her domitor.
+307|<E>Independents</E>
+316|<I>“You know just us well as I do that you can’t do </I>
+307|<I>everything yourself, or have you forgotten that you’re </I>
+307|<I>exclusively nocturnal? Trust me, I’m reliable help, and my </I>
+307|<I>price isn’t hard to pay at all.”</I>
+316|You think being a junkie is rough? Try doing it when 
+307|the dealers want to shoot you on sight. An indepen-
+307|dent‘s road is a hard one. Kindred view these masterless 
+307|ghouls as dangerous and uncontrollable, and a vampire 
+307|very much mistrusts what he doesn’t control. Usually, 
+307|the only recourse is to kidnap and kill vampires in or-
+307|der to gain their blood. Others serve vampires as free-
+307|lance “help,” taking care of particularly nasty daylight 
+307|problems.
+316|Independent ghouls come from all places, but they 
+307|put a bit of distance between themselves and ordinary 
+307|people. They aren’t pawns; they do what they do delib-
+307|erately. Usually, they’re orphans: A domitor dies, and 
+307|his enemies are careless enough to let a servant or two 
+307|get away. Sometimes the orphan’s been a ghoul for so 
+307|long that he knows he’ll wither away to old age in a 
+307|month if he doesn’t get some vitae. Desperation gets a 
+307|lot of independents started down this road.
+316|Of course, some independents have more compli-
+307|cated stories. Some may have stumbled across Cain-
+307|ite society accidentally, and eventually discovered the 
+307|power that vitae contains. Others may have been cult-
+307|ists who discovered that there was a variety of blood 
+307|that worked much better in rituals. Some few might 
+307|even have been cannibalistic killers who picked an un-
+307|usually strong victim, and learned the source of that 
+307|strength. But even without the blood bond, the addic-
+307|tion remains, and only a handful of those who’ve tasted 
+307|vitae never try to taste it again.
+307|<E>Revenants</E>
+316|<I>“What? What’s wrong? You look… disconcerted. </I>
+307|<I>Please, don’t be. Come inside. I want you to meet the </I>
+307|<I>family. I think they’ll like you.”</I>

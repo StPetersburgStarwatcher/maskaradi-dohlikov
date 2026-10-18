@@ -1,0 +1,570 @@
+{
+ "Allies": {
+  "dots": "• TO ••••••",
+  "sum": "Mortal supporters and helpers"
+ },
+ "Bloodline": {
+  "dots": "• TO •••••",
+  "sum": "Your bloodline gives you unique qualities"
+ },
+ "Contacts": {
+  "dots": "• TO •••",
+  "sum": "Mortals who provide information or items"
+ },
+ "Fame": {
+  "dots": "• TO •••••",
+  "sum": "Fame among mortals (or Kindred)"
+ },
+ "Haven": {
+  "dots": "• TO •••+",
+  "sum": "A place to sleep by day; V:tM, pp. 188–189. See Haven Merits and Haven Flaws."
+ },
+ "Herd": {
+  "dots": "• TO •••••",
+  "sum": "Mortals on whom you feed"
+ },
+ "Influence": {
+  "dots": "• TO •••••",
+  "sum": "Influence and clout in the mortal community"
+ },
+ "Loresheets": {
+  "dots": "• TO •••••",
+  "sum": "Information on or access to elements of deeper World of Darkness lore; V:tM, p. 190. See V:tM (pp. 382–406), Anarch (pp.190–198), Camarilla (pp. 184–190), and other Vampire books for specific loresheets."
+ },
+ "Mask": {
+  "dots": "• OR ••",
+  "sum": "False identity; you can buy multiple Masks"
+ },
+ "Mawla": {
+  "dots": "• TO •••••",
+  "sum": "Kindred patron, mentor, or other sometime ally; the plural of mawla is mawali"
+ },
+ "Minor Boon": {
+  "dots": "• TO •••",
+  "sum": "Favors owed by other Kindred"
+ },
+ "Resources": {
+  "dots": "• TO •••••",
+  "sum": "Wealth or source of income"
+ },
+ "Retainers": {
+  "dots": "• TO •••",
+  "sum": "Loyal servant such as a ghoul or thrall; you can buy multiple Retainers"
+ },
+ "Status": {
+  "dots": "• TO •••••",
+  "sum": "Status and rank in a sect of Kindred; V:tM, p. Merits"
+ },
+ "Beautiful": {
+  "dots": "••",
+  "sum": "Add one die to looks-dependent Social pools"
+ },
+ "Bloodhound": {
+  "dots": "•",
+  "sum": "You can smell Resonance"
+ },
+ "Bond Resistance": {
+  "dots": "• TO •••",
+  "sum": "You resist Blood Bonds more easily"
+ },
+ "Check The Trunk": {
+  "dots": "•",
+  "sum": "Two-dice bonus to Preparedness dice pools (V:tM, p. 410)"
+ },
+ "City Secrets": {
+  "dots": "•",
+  "sum": "You know a damning secret about the city’s Kindred power structure"
+ },
+ "Cobbler": {
+  "dots": "•+",
+  "sum": "You can make Masks, requires Mask ••"
+ },
+ "Eat Food": {
+  "dots": "••",
+  "sum": "You can consume normal food"
+ },
+ "Famous Face": {
+  "dots": "•",
+  "sum": "You resemble someone very well known"
+ },
+ "High-Functioning Addict": {
+  "dots": "•",
+  "sum": "You add a die to one pool type while on your drug"
+ },
+ "Ingénue": {
+  "dots": "•",
+  "sum": "Add two dice to rolls to avoid suspicion"
+ },
+ "Iron Gullet": {
+  "dots": "•••",
+  "sum": "You can feed on cold blood. Not available to Ventrue"
+ },
+ "Linguistics": {
+  "dots": "•+",
+  "sum": "One additional language per dot"
+ },
+ "Luck Of The Devil": {
+  "dots": "••••",
+  "sum": "Others take the fall for your fuckups"
+ },
+ "Nuit Mode": {
+  "dots": "••",
+  "sum": "Your body can keep tattoos, haircuts, etc. Not available over Blood Potency 1"
+ },
+ "Remarkable Feature": {
+  "dots": "•",
+  "sum": "Add two dice to Social rolls with strangers, lose one die from disguise pools"
+ },
+ "Short Bond": {
+  "dots": "••",
+  "sum": "Blood Bond on you decays more rapidly"
+ },
+ "Side Hustler": {
+  "dots": "••",
+  "sum": "Once per session, get something as if you had two dots in Resources, Contacts, or Influence through your network."
+ },
+ "Stunning": {
+  "dots": "••••",
+  "sum": "Add two dice to looks-dependent Social pools"
+ },
+ "Tempered Will": {
+  "dots": "•••",
+  "sum": "Add a die to resist Dominate or Presence. May not have dots in either Discipline"
+ },
+ "Unbondable": {
+  "dots": "•••••",
+  "sum": "Cannot be Blood Bound"
+ },
+ "Untouchable": {
+  "dots": "•••••",
+  "sum": "Escape official punishment once per story"
+ },
+ "Vessel Recognition": {
+  "dots": "•",
+  "sum": "You can smell whether a mortal has been fed upon"
+ },
+ "Zeroed": {
+  "dots": "•",
+  "sum": "You officially don’t exist. Requires Mask •• ; V:tM, p. 192. Haven Merits Unless noted, Haven Merits appear in V:tM (p. 189)."
+ },
+ "Business Establishment": {
+  "dots": "•• OR •••",
+  "sum": "Renting to (or running) a business out of your haven at the cost of some privacy"
+ },
+ "Cell": {
+  "dots": "• TO •••••",
+  "sum": "Minimum Haven ••"
+ },
+ "Furcus": {
+  "dots": "• TO •••",
+  "sum": "Adds dice to Rituals or Ceremonies (pick one)"
+ },
+ "Hidden Armory": {
+  "dots": "•+",
+  "sum": ""
+ },
+ "Laboratory": {
+  "dots": "•+",
+  "sum": "Minimum Haven ••"
+ },
+ "Library": {
+  "dots": "•+",
+  "sum": "Only one dot allowed in Haven •"
+ },
+ "Location": {
+  "dots": "•",
+  "sum": ""
+ },
+ "Luxury": {
+  "dots": "•",
+  "sum": ""
+ },
+ "Machine Shop": {
+  "dots": "•+",
+  "sum": "Adds dice to Craft, repair, etc. pools"
+ },
+ "Postern": {
+  "dots": "•+",
+  "sum": "Hidden exit."
+ },
+ "Security System": {
+  "dots": "•+",
+  "sum": "Alarms."
+ },
+ "Surgery": {
+  "dots": "•",
+  "sum": "Minimum Haven ••"
+ },
+ "Warding": {
+  "dots": "•+",
+  "sum": ""
+ },
+ "Watchmen": {
+  "dots": "•+",
+  "sum": "Guards. Caitiff Merits These Merits only apply to Caitiff characters. They appear on"
+ },
+ "Death-Proof": {
+  "dots": "•",
+  "sum": "Cannot learn Oblivion, but immune to it."
+ },
+ "Favored Blood": {
+  "dots": "••••",
+  "sum": "Can buy powers from any Discipline as in-clan, needing only one prerequisite power for amalgams."
+ },
+ "Mark Of Caine": {
+  "dots": "••",
+  "sum": "Two phantom dots of Status for bullying and intimidating other Kindred, harder to diablerize."
+ },
+ "Mockingbird": {
+  "dots": "•••",
+  "sum": "Can drink Discipline powers from other vampires."
+ },
+ "Sun-Scarred": {
+  "dots": "•••••",
+  "sum": "Less harmed by sunlight."
+ },
+ "Uncle Fangs": {
+  "dots": "•••",
+  "sum": "Thin-blood ally group. Ghoul Merits These Merits only apply to ghoul characters. They appear on"
+ },
+ "Blood Empathy": {
+  "dots": "••",
+  "sum": "Can sense your domitor’s emotional state at a distance."
+ },
+ "Unseemly Aura": {
+  "dots": "••",
+  "sum": "Your Aura resembles a Kindred aura. Thin-Blood Merits These Merits only apply to thin-blood characters. They have no dot value; each Flaw balances a Merit, and vice versa. Thin-Blood Merits appear in V:tM (pp. 183-184) and on"
+ },
+ "Abhorrent Blood": {
+  "dots": "",
+  "sum": "Other Kindred cannot drink your blood"
+ },
+ "Anarch Comrades": {
+  "dots": "",
+  "sum": ""
+ },
+ "Camarilla Contact": {
+  "dots": "",
+  "sum": ""
+ },
+ "Catenating Blood": {
+  "dots": "",
+  "sum": "You can create Blood Bonds and Embrace."
+ },
+ "Day Drinker": {
+  "dots": "",
+  "sum": "Can walk around in daylight."
+ },
+ "Discipline Affinity": {
+  "dots": "",
+  "sum": "Gain a dot in a Discipline, as a normal vampire."
+ },
+ "Faith-Proof": {
+  "dots": "",
+  "sum": "Immune to True Faith"
+ },
+ "Lifelike": {
+  "dots": "",
+  "sum": "Medically mortal; you can eat, drink, fuck, etc."
+ },
+ "Low Appetite": {
+  "dots": "",
+  "sum": "Roll two dice on some Rouse Checks"
+ },
+ "Lucid Dreamer": {
+  "dots": "",
+  "sum": "You dream and can remember relevant details; p."
+ },
+ "Mortality’s Mien": {
+  "dots": "",
+  "sum": "Aura reads as mortal"
+ },
+ "Swift Feeder": {
+  "dots": "",
+  "sum": "Slake one Hunger in one turn including closing wounds"
+ },
+ "Thin-Blood Alchemist": {
+  "dots": "",
+  "sum": "You can take Thin-Blood Alchemy as a Discipline."
+ },
+ "Vampiric Resilience": {
+  "dots": "",
+  "sum": "You take damage as a regular vampire. Flaws"
+ },
+ "Addiction": {
+  "dots": "(•)",
+  "sum": "Lose one die without a fix"
+ },
+ "Adversary": {
+  "dots": "(• TO •••)",
+  "sum": "Kindred who opposes you"
+ },
+ "Archaic": {
+  "dots": "(••)",
+  "sum": "Cannot use technology. Ancillae or older only"
+ },
+ "Bond Junkie": {
+  "dots": "(•)",
+  "sum": "Harder to resist the Blood Bond"
+ },
+ "Bondslave": {
+  "dots": "(••)",
+  "sum": "Easily Blood Bound"
+ },
+ "Dark Secret": {
+  "dots": "(• TO ••••)",
+  "sum": "If found out, you would be infamous and hunted"
+ },
+ "Despised": {
+  "dots": "(••)",
+  "sum": "One group or region of the city despises you"
+ },
+ "Destitute": {
+  "dots": "(•)",
+  "sum": "No money or home"
+ },
+ "Disliked": {
+  "dots": "(•)",
+  "sum": "The city generally dislikes you"
+ },
+ "Enemies": {
+  "dots": "(• TO ••••)",
+  "sum": "Mortal hunters and foes"
+ },
+ "Folkloric Bane": {
+  "dots": "(•)",
+  "sum": "A folkloric bane (e.g., silver, holy water) causes you Aggravated damage"
+ },
+ "Folkloric Block": {
+  "dots": "(•)",
+  "sum": "Must spend Willpower to push through a folkloric block (e.g., spilled seeds, running water, holy symbols)"
+ },
+ "Hopeless Addiction": {
+  "dots": "(••)",
+  "sum": "Lose two dice without a fix"
+ },
+ "Illiterate": {
+  "dots": "(••)",
+  "sum": ""
+ },
+ "Infamy": {
+  "dots": "(• TO •••••)",
+  "sum": "Infamy among mortals (or Kindred)"
+ },
+ "Knowledge Hungry": {
+  "dots": "(•)",
+  "sum": "Must make a Willpower roll to resist studying your obsession"
+ },
+ "Known Blankbody": {
+  "dots": "(••)",
+  "sum": "Biometrics in Second Inquisition files"
+ },
+ "Known Corpse": {
+  "dots": "(•)",
+  "sum": "Your death is well-known"
+ },
+ "Living In The Past": {
+  "dots": "(•)",
+  "sum": "Outmoded Convictions cause Social penalties. Ancillae or older only"
+ },
+ "Long Bond": {
+  "dots": "(•)",
+  "sum": "Blood Bond on you decays more slowly"
+ },
+ "Methuselah’s Thirst": {
+  "dots": "(•)",
+  "sum": "You can only fully slake Hunger with supernatural blood"
+ },
+ "No Haven": {
+  "dots": "(•)",
+  "sum": "No secure sleeping place"
+ },
+ "Obvious Predator": {
+  "dots": "(••)",
+  "sum": "You frighten mortals and cannot maintain a Herd"
+ },
+ "Organovore": {
+  "dots": "(••)",
+  "sum": "You can only feed on human organs"
+ },
+ "Prestation Debts": {
+  "dots": "(•)",
+  "sum": "You owe two Minor Boons"
+ },
+ "Prey Exclusion": {
+  "dots": "(•)",
+  "sum": "You refuse to hunt specific prey"
+ },
+ "Repulsive": {
+  "dots": "(••)",
+  "sum": "Lose two dice from looks-dependent Social pools"
+ },
+ "Risk-Taker": {
+  "dots": "(•)",
+  "sum": "Compulsive risk-taker, two dice penalty when resisting risky behavior"
+ },
+ "Shunned": {
+  "dots": "(••)",
+  "sum": "Loathed by the vampire sect"
+ },
+ "Stake Bait": {
+  "dots": "(••)",
+  "sum": "Stakes to the heart cause the Final Death"
+ },
+ "Stalkers": {
+  "dots": "(•)",
+  "sum": "Annoying hangers-on"
+ },
+ "Starving Decay": {
+  "dots": "(••)",
+  "sum": "At Hunger 3+ your body decays for a two-dice penalty to physical tests and to social tests with mortals"
+ },
+ "Stench": {
+  "dots": "(•)",
+  "sum": "Lose one die from relevant Social pools, two dice from relevant Stealth pools"
+ },
+ "Stigmata": {
+  "dots": "(•)",
+  "sum": "You bleed from hands and feet at Hunger 4"
+ },
+ "Suspect": {
+  "dots": "(•)",
+  "sum": "Two-dice Social penalties with the vampire sect"
+ },
+ "Transparent": {
+  "dots": "(•)",
+  "sum": "One-die penalty to Subterfuge. Cannot gain dots in Subterfuge"
+ },
+ "Twice-Cursed": {
+  "dots": "(••)",
+  "sum": "Take your clan’s variant Bane (p. 56) in addition to your regular Bane"
+ },
+ "Ugly": {
+  "dots": "(•)",
+  "sum": "Lose one die from looks-dependent Social pools"
+ },
+ "Vegan": {
+  "dots": "(••)",
+  "sum": "You only feed on animal blood"
+ },
+ "Vein Tapper": {
+  "dots": "(•)",
+  "sum": "You cannot take blood from mortals while being observed"
+ },
+ "Weak-Willed": {
+  "dots": "(••)",
+  "sum": "One-die penalty to social combat against a superior, you may not use active resistance against Dominate or Presence; p. 121. Haven Flaws"
+ },
+ "Compromised": {
+  "dots": "(••)",
+  "sum": ""
+ },
+ "Creepy": {
+  "dots": "(•)",
+  "sum": ""
+ },
+ "Haunted": {
+  "dots": "(•+)",
+  "sum": ""
+ },
+ "Shared": {
+  "dots": "(• OR ••)",
+  "sum": "Another Kindred (or more) can use and change your haven without asking; p. 113. Caitiff Flaws These Flaws only apply to Caitiff characters. They appear on"
+ },
+ "Befouling Vitae": {
+  "dots": "(••)",
+  "sum": "Your Embrace creates monsters."
+ },
+ "Clan Curse": {
+  "dots": "",
+  "sum": "Pick a Clan Bane."
+ },
+ "Debt Peon": {
+  "dots": "(••)",
+  "sum": "Crippling debt to a high-Status vampire."
+ },
+ "Liquidator": {
+  "dots": "(•)",
+  "sum": "Considered an enemy to thin-bloods, two-dice penalty to social pools with them."
+ },
+ "Muddled Blood": {
+  "dots": "(•)",
+  "sum": "Must drink Blood of someone with a Discipline to buy dots in it."
+ },
+ "Walking Omen": {
+  "dots": "(••)",
+  "sum": "Scrying, premonitions, divination point to you as the cause of misfortune."
+ },
+ "Word-Scarred": {
+  "dots": "(•)",
+  "sum": "Skin covered with vampire lore texts, making you an occult target. Ghoul Flaws These Flaws only apply to ghoul characters. They appear on"
+ },
+ "Baneful Blood": {
+  "dots": "(• TO ••)",
+  "sum": "You suffer from your domitor’s clan Bane."
+ },
+ "Crone’s Curse": {
+  "dots": "(••)",
+  "sum": "The Blood aged and weakened you, lose one Health box."
+ },
+ "Distressing Fangs": {
+  "dots": "(•)",
+  "sum": "Lose one die on Social pools with mortals. Thin-Blood Flaws These Flaws only apply to thin-blood characters. They have no dot value; each Flaw balances a Merit, and vice versa. Thin-Blood Flaws appear in V:tM (pp. 182–183) and on"
+ },
+ "Baby Teeth": {
+  "dots": "",
+  "sum": "No fangs."
+ },
+ "Branded By The Camarilla": {
+  "dots": "",
+  "sum": ""
+ },
+ "Dead Flesh": {
+  "dots": "",
+  "sum": "You’re slowly rotting."
+ },
+ "Heliophobia": {
+  "dots": "",
+  "sum": "Terror frenzy from sunlight"
+ },
+ "Mortal Frailty": {
+  "dots": "",
+  "sum": "You heal as a mortal."
+ },
+ "Night Terrors": {
+  "dots": "",
+  "sum": "Dreams invade your waking night"
+ },
+ "Plague Bearer": {
+  "dots": "",
+  "sum": "Mortal illness still affects you"
+ },
+ "Shunned By The Anarchs": {
+  "dots": "",
+  "sum": ""
+ },
+ "Sloppy Drinker": {
+  "dots": "",
+  "sum": "Dexterity + Medicine to avoid leaving wounds"
+ },
+ "Sun-Faded": {
+  "dots": "",
+  "sum": "No Discipline powers in sunlight"
+ },
+ "Supernatural Tell": {
+  "dots": "",
+  "sum": "Supernaturals can detect you"
+ },
+ "Twilight Presence": {
+  "dots": "",
+  "sum": "You make mortals and full-bloods uneasy"
+ },
+ "Unending Hunger": {
+  "dots": "",
+  "sum": "Resist hunger frenzy when you feed"
+ },
+ "Vitae Dependency": {
+  "dots": "",
+  "sum": "Must drink vitae to use powers."
+ }
+}
