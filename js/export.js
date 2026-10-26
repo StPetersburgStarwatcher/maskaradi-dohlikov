@@ -80,11 +80,19 @@
     return feature(label + tag, A.kind, a.dots || 0, html, A.src, { id: A.id });
   }
 
+  // Allies and Retainers: who they are, built or left to the Storyteller (built ones also export as their own actors)
+  function companions(c) {
+    const slots = R.companionSlots(c).map((slot) => [slot, (c.npcs || {})[slot.key]]).filter(([, n]) => n && n.mode);
+    if (!slots.length) return '';
+    return '<h3>Allies and retainers</h3><ul>' + slots.map(([slot, n]) => `<li>${esc(R.npcSummary(c, slot, n))}</li>`).join('') + '</ul>';
+  }
+
   X.actor = function (c) {
+    const mk = R.isMortalKind(c);
     const clan = R.clan(c.clan);
     const items = [];
-    // clan
-    if (clan) {
+    // clan (a ghoul's domitor clan only goes in the notes)
+    if (clan && !mk) {
       items.push(fromDGR(clan.id, (doc) => {
         const bane = clan.banes.find((b) => b.id === c.bane);
         if (bane) doc.system.bane = '<h3>' + esc(bane.title || bane.label) + '</h3>\n<p><em>' + esc(bane.srcLine || bane.label) + '</em></p>\n' + bane.html;
@@ -92,12 +100,12 @@
       }));
     }
     // predator
-    if (c.predator && c.predator !== 'none') items.push(fromDGR(c.predator));
+    if (!mk && c.predator && c.predator !== 'none') items.push(fromDGR(c.predator));
     // powers
     const powerIds = R.allPowerIds(c);
     powerIds.forEach((id) => { const d = fromDGR(id); if (d) items.push(d); });
     // sorcery: school intro, path intros (with ratings), rituals & effects
-    const sk = R.schoolKey(c);
+    const sk = mk ? null : R.schoolKey(c);
     let sorcNote = '';
     if (sk) {
       const S = R.school(sk);
@@ -136,7 +144,7 @@
       disciplines.rituals = { value: 0, visible: true, powers: [], description: '', selected: false };
 
     const age = R.AGES[R.ageOf(c)];
-    const gen = c.gen || (R.isThin(c) ? age.thinGens || age.gens : age.gens)[age.gens.length - 1];
+    const gen = mk ? '' : c.gen || (R.isThin(c) ? age.thinGens || age.gens : age.gens)[age.gens.length - 1];
     const hum = R.humanity(c);
     const touch = c.convictions.filter((x) => x.c || x.t)
       .map((x) => `<p><strong>${esc(x.c)}</strong>${x.t ? ' — ' + esc(x.t) : ''}</p>`).join('');
@@ -149,7 +157,10 @@
     const notes = [
       c.notes ? `<p>${esc(c.notes).replace(/\n/g, '</p><p>')}</p>` : '',
       spentRows.length ? '<h3>Experience spent at creation</h3><ul>' + spentRows.map((r) => `<li>${esc(r[0])}: ${r[1]} XP</li>`).join('') + '</ul>' : '',
-      clan && clan.castes ? `<p>Caste: ${esc(clan.castes[c.caste || 0].n)}</p>` : '',
+      !mk && clan && clan.castes ? `<p>Caste: ${esc(clan.castes[c.caste || 0].n)}</p>` : '',
+      mk && R.tmpl(c).attrs ? `<p>Built with the ${esc(R.tmpl(c).label)} template (V5 Corebook p. 184).</p>` : '',
+      R.isGhoul(c) && clan ? `<p>Domitor’s clan: ${esc(clan.dn)}</p>` : '',
+      companions(c),
     ].join('');
 
     const system = {
@@ -157,7 +168,7 @@
       bio: { age: { trueage: '', apparent: '' }, dateof: { birth: '', death: '' }, history: bio },
       headers: {
         concept: c.concept, chronicle: c.chronicle || R.preset().name || '', ambition: c.ambition, desire: c.desire,
-        touchstones: touch, tenets: '', sire: c.sire, generation: gen, domitor: '', creedfields: '', cellname: '',
+        touchstones: touch, tenets: '', sire: mk ? '' : c.sire, generation: gen, domitor: R.isGhoul(c) ? c.sire : '', creedfields: '', cellname: '',
       },
       experiences, exp: { value: total - spent, max: total }, derivedXP: { totalXP: total, remainingXP: total - spent },
       health: { aggravated: 0, superficial: 0, max: R.health(c), value: R.health(c) },
@@ -166,15 +177,15 @@
       settings: { headerbg: '', background: '', limited: { biography: true, appearance: true, touchstones: false, tenets: false }, skillAttributeInputs: false, enableGifts: false, enableDisciplines: false, enableEdges: false, generalDifficultyEnabled: true },
       description: '', notes, privatenotes: '', biography: bio, appearance: c.appearance ? `<p>${esc(c.appearance)}</p>` : '', equipment: '',
       bonuses: {},
-      hunger: { value: 1, max: 5 },
+      hunger: { value: mk ? 0 : 1, max: 5 },
       humanity: { value: hum, stains: 0 },
       blood: { potency: R.bp(c), generation: gen },
       selectedDiscipline: '', selectedDisciplinePower: '',
       disciplines,
     };
-    const name = c.name || 'Unnamed Kindred';
+    const name = c.name || (mk ? 'Unnamed ' + R.KINDS[c.kind] : 'Unnamed Kindred');
     return {
-      name, type: 'vampire', img: 'icons/svg/mystery-man.svg', system,
+      name, type: mk ? c.kind : 'vampire', img: 'icons/svg/mystery-man.svg', system,
       prototypeToken: { name, actorLink: true, disposition: 1, displayName: 20, displayBars: 20, bar1: { attribute: 'health' }, bar2: { attribute: 'willpower' }, texture: { src: 'icons/svg/mystery-man.svg' } },
       items: items.filter(Boolean), effects: [], folder: null, sort: 0, ownership: { default: 0 },
       flags: { 'vtm-builder': { version: 1, character: c, preset: R.preset() } },
