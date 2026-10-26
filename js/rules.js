@@ -37,7 +37,7 @@
   R.FREE_SPEC_SKILLS = ['academics', 'craft', 'performance', 'science'];
   // Mortals and ghouls: a player character (V5 Players Guide p. 141, Companion pp. 44–55) or one of the
   // Storyteller templates (V5 Corebook, 2021 printing, p. 184). Templates: attribute spread, skill counts, specialties,
-  // Advantage points and the most Flaw points allowed (Flaws are optional and buy nothing).
+  // Advantage points and the Flaw points to take (Flaws are required and buy nothing).
   R.TEMPLATES = {
     pc: { label: 'Player character', note: 'Built like a vampire: same Attributes, Skills and Advantages, no Disciplines of their own.' },
     weak: { label: 'Weak', attrs: [2, 2, 1, 1, 1, 1, 1, 1, 1], skills: { 2: 3, 1: 5 }, specs: 0, adv: 0, flawMax: 0, note: 'Bystanders, victims, the herd.' },
@@ -497,8 +497,8 @@
   R.advBudget = (c) => {
     const P = R.preset(); const age = R.isMortalKind(c) ? {} : R.AGES[R.ageOf(c)];
     const T = c.npcT || R.tmpl(c);
-    // templates: one pool for Backgrounds and Merits, Flaws optional up to a cap
-    if (T.attrs) return { merit: T.adv, flaw: 0, bg: 0, flawMax: T.flawMax };
+    // templates: one pool for Backgrounds and Merits, and exactly the template's Flaws
+    if (T.attrs) return { merit: T.adv, flaw: T.flawMax, bg: 0, flawMax: T.flawMax };
     return { merit: (P.meritPts ?? 7) + (age.adv || 0), flaw: (P.flawPts ?? 2) + (age.flaw || 0), bg: P.bgBonus ?? 5 };
   };
   R.FLAW_CAP = 7;

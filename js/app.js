@@ -130,7 +130,7 @@
           <li class="${T.left < 0 ? 'over' : ''}"><span>Advantage points</span><b>${T.used} / ${T.B.merit}</b></li>
           ${C.moreMerits ? `<li><span>Extra Merit points</span><b>${T.extra - T.extraLeft} / ${T.extra}</b></li>` : ''}
           ${T.B.bg ? `<li><span>Free Background points</span><b>${T.bgFromBonus} / ${T.B.bg}</b></li>` : ''}
-          ${T.B.flawMax != null ? (T.B.flawMax || T.flaw ? `<li class="${T.flaw > T.B.flawMax ? 'over' : ''}"><span>Flaw points (optional)</span><b>${T.flaw} / ${T.B.flawMax}</b></li>` : '')
+          ${T.B.flawMax != null ? (T.B.flawMax || T.flaw ? `<li class="${T.flaw > T.B.flawMax ? 'over' : T.flaw < T.B.flawMax ? 'under' : ''}"><span>Flaw points</span><b>${T.flaw} / ${T.B.flawMax}</b></li>` : '')
             : `<li class="${T.flaw < T.B.flaw ? 'under' : ''}"><span>Flaw points</span><b>${T.flaw} / ${T.B.flaw}${C.moreMerits ? `–${R.FLAW_CAP}` : ''}</b></li>`}
           ${total && !C.free ? `<li class="${spent > total ? 'over' : ''}"><span>Experience</span><b>${spent} / ${total}</b></li>` : ''}
         </ul></div>
@@ -190,7 +190,7 @@
   // mortals and ghouls: a player character, or one of the Corebook's quick templates for Storyteller characters
   function tmplPicker() {
     const cur = R.tmplKey(C);
-    const line = (T) => T.attrs ? `Attributes ${R.spreadText(R.countsOf(T.attrs))}. Skills ${R.spreadText(T.skills)}${T.specs ? `, ${['', 'one', 'two', 'three'][T.specs] || T.specs} ${T.specs === 1 ? 'specialty' : 'specialties'}${T.specOn4 ? ' (on a Skill at 4)' : ''}` : ''}. ${T.adv ? `Up to ${T.adv} Advantage points${T.flawMax ? `, up to ${T.flawMax} points of Flaws` : ', no Flaws'}` : 'No Advantages'}.`
+    const line = (T) => T.attrs ? `Attributes ${R.spreadText(R.countsOf(T.attrs))}. Skills ${R.spreadText(T.skills)}${T.specs ? `, ${['', 'one', 'two', 'three'][T.specs] || T.specs} ${T.specs === 1 ? 'specialty' : 'specialties'}${T.specOn4 ? ' (on a Skill at 4)' : ''}` : ''}. ${T.adv ? `Up to ${T.adv} Advantage points${T.flawMax ? `, ${T.flawMax} points of Flaws` : ', no Flaws'}` : 'No Advantages'}.`
       : `Attributes and Skills as for a vampire, ${app.preset.meritPts ?? 7} Advantage points${+app.preset.bgBonus ? ` (plus ${app.preset.bgBonus} free Background points)` : ''} and ${app.preset.flawPts ?? 2} points of Flaws.${C.kind === 'ghoul' ? ' One free level 1 Discipline power; more at 10 XP each.' : ''}`;
     return `<h2>How are you building them?</h2>
       <p class="hint">Player characters follow the Players Guide (p. 141) and the Companion. The four templates are the Corebook’s quick builds for Storyteller characters (p. 184).</p>
@@ -644,7 +644,7 @@
       return `<div class="meters">${meter('Free Background points taken', T.bgFromBonus, T.B.bg)}</div>
         ${extra > 0 ? `<p class="hint">You’ve taken ${plural(extra, 'more Background dot')} than the free ${T.B.bg}; ${extra === 1 ? 'it comes' : 'they come'} out of your Merit points.</p>` : ''}`;
     }
-    if (T.B.flawMax != null) return `<div class="meters">${meter('Advantage points', T.used, T.B.merit)}${T.B.flawMax ? (C.npc ? meter('Flaws', T.flaw, T.B.flawMax, true) : meter('Flaws (optional)', T.flaw, T.B.flawMax)) : ''}</div>`;
+    if (T.B.flawMax != null) return `<div class="meters">${meter('Advantage points', T.used, T.B.merit)}${T.B.flawMax ? meter('Flaws', T.flaw, T.B.flawMax, true) : ''}</div>`;
     return `<div class="meters">${meter('Merits', T.used, T.B.merit)}${C.moreMerits ? meter('Extra Merits (from Flaws)', T.extra - T.extraLeft, T.extra) : ''}${meter('Flaws', T.flaw, T.B.flaw, true, C.moreMerits ? `${T.flaw} / ${T.B.flaw}–${R.FLAW_CAP}` : undefined)}
       ${R.isThin(C) ? meter('Thin-Blood Merits / Flaws', T.tbM, T.tbF, false, `${T.tbM} / ${T.tbF}`) : ''}</div>`;
   }
@@ -669,7 +669,7 @@
     return `<header class="page-head"><h1>Backgrounds</h1>
       <p class="lede">${R.isMortalKind(C) ? `Who and what your character can lean on: allies, contacts, a home, money, a mask for the night’s work. ${T.B.bg ? `You have ${T.B.bg} free points for Backgrounds only, and you can spend your ${T.B.merit} Advantage points here too.` : T.B.merit ? `Backgrounds and Merits share your ${T.B.merit} Advantage points.` : 'This template has no Advantage points.'} Herd and Domain are for the Kindred.`
         : `Who and what your character can lean on: allies, a haven, a herd, money, standing. You have ${T.B.bg} free points for Backgrounds only, and you can spend your ${T.B.merit} Advantage points here too. Don’t skip this: a few dots of Herd, Haven or Contacts will come up every session.`}</p>
-      <p class="hint">Each Background lists its own Merits and Flaws. Background Flaws count toward your ${T.B.flawMax != null ? `Flaws (up to ${T.B.flawMax} points)` : `${T.B.flaw} points of Flaws`} on the next step.</p></header>
+      <p class="hint">Each Background lists its own Merits and Flaws. Background Flaws count toward your ${T.B.flawMax != null ? `${T.B.flawMax} points of Flaws` : `${T.B.flaw} points of Flaws`} on the next step.</p></header>
       ${T.B.bg ? advMeters(T, 'bg') : advMeters(T)}
       ${mineBox('Your Backgrounds', mine, preds, 'Nothing taken yet. Browse below.')}
       ${predSpreadsFor('backgrounds').map(([s, i]) => spreadBox(s, i, true)).join('')}
@@ -688,7 +688,7 @@
     const preds = R.predGrants(C).filter((g) => !predIsBg(g));
     const count = (k) => pool.filter((a) => a.kind === k).length;
     return `<header class="page-head"><h1>Merits and Flaws</h1>
-      <p class="lede">Merits are your character’s gifts, Flaws their weaknesses. ${T.B.flawMax != null ? `Spend up to ${T.B.merit} Advantage points on Merits and Backgrounds. ${T.B.flawMax ? `Flaws are optional, up to ${T.B.flawMax} points, and don’t buy anything back.` : 'This template takes no Flaws.'}` : `Spend what’s left of your ${T.B.merit} Advantage points on Merits, and take at least ${T.B.flaw} points of Flaws.`}${R.isMortalKind(C) ? ' Kindred-only Merits and Flaws are hidden.' : ''}</p>
+      <p class="lede">Merits are your character’s gifts, Flaws their weaknesses. ${T.B.flawMax != null ? `Spend up to ${T.B.merit} Advantage points on Merits and Backgrounds. ${T.B.flawMax ? `Take ${T.B.flawMax} points of Flaws; they don’t buy anything back.` : 'This template takes no Flaws.'}` : `Spend what’s left of your ${T.B.merit} Advantage points on Merits, and take at least ${T.B.flaw} points of Flaws.`}${R.isMortalKind(C) ? ' Kindred-only Merits and Flaws are hidden.' : ''}</p>
       ${app.preset.allowV20 ? `<p class="hint v20-note"><span class="ed-badge">V20</span> entries come from <em>Vampire: The Masquerade 20th Anniversary Edition</em> and its supplements, or from Revised-era books. They’re often more interesting and unique than their V5 cousins, but may need some tweaking with your Storyteller to work in V5.</p>` : ''}</header>
       ${T.B.flawMax != null ? '' : `<label class="more-merits check"><input type="checkbox" data-act-change="moreMerits" ${C.moreMerits ? 'checked' : ''}> <span><strong>I want more merits and I’m ready to pay the cost</strong>${C.moreMerits ? `<span class="small muted"> Each Flaw point beyond ${T.B.flaw}, up to ${R.FLAW_CAP} in all, buys one more point of Merits. <button class="link" data-act="moreMeritsInfo">How it works</button></span>` : ''}</span></label>`}
       ${advMeters(T)}
