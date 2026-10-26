@@ -86,17 +86,20 @@
     const longText = (names, value, size) => { const rest = wrap(names, value, size); if (rest) notes.push('…' + rest); };
 
     // ---- page 1: identity
-    const cl = R.clan(c.clan);
+    const mk = R.isMortalKind(c);
+    const cl = mk ? null : R.clan(c.clan);
     const caste = cl && cl.castes ? ((R.casteOf(c) || {}).n || '').replace(/ Caste$/, '') : '';
-    const pred = R.predator(c.predator);
+    const pred = mk ? null : R.predator(c.predator);
+    const dom = R.isGhoul(c) ? R.clan(c.clan) : null;
     text('name', c.name);
     text('concept', c.concept);
     text('chronicle', c.chronicle || R.preset().name);
     text('ambition', c.ambition);
     text('desire', c.desire);
-    text('sire', c.sire);
-    text('generation', c.gen ? ord(c.gen) : '');
+    text('sire', R.isGhoul(c) && c.sire ? 'Domitor: ' + c.sire : mk ? '' : c.sire);
+    if (!mk) text('generation', c.gen ? ord(c.gen) : '');
     if (cl) text('clan', cl.dn + (caste ? ` (${caste})` : ''));
+    if (mk) text('clan', R.KINDS[c.kind] + (dom ? ` (${dom.dn} domitor)` : ''));
     if (pred) text('predator', pred.n);
 
     // attributes and skills
@@ -166,6 +169,7 @@
     // humanity, blood potency, hunting
     dots([31, 32, 33, 34, 35, 36, 37, 38, 39, 40].map((i) => 'check' + i), R.humanity(c));
     const bp = R.bp(c), B = R.BP[bp];
+    if (!mk) {
     dots([1, 2, 3, 4, 5, 6, 7, 8, 9, 10].map((i) => 'hdot' + i), bp);
     text('BPstat1', `Add ${B.surge} ${B.surge === 1 ? 'die' : 'dice'}`);
     text('BPstat2', `${B.mend} Superficial`);
@@ -173,6 +177,7 @@
     text('BPstat4', B.reroll ? `Level ${B.reroll}` : 'None');
     text('BPstat5', B.feed, 7);
     text('BPstat6', String(B.bane));
+    }
     if (pred && pred.pool) text('hunting1', pred.pool.split(':')[0].trim(), 8);
 
     // ---- page 2: advantages
@@ -222,7 +227,8 @@
 
     // notes: whatever didn't fit, plus a few things the sheet has no box for
     if (c.sabbat) notes.unshift('Sabbat.');
-    if (c.kind && c.kind !== 'vampire') notes.unshift(R.KINDS[c.kind] + '.');
+    if (c.kind && c.kind !== 'vampire') notes.unshift(R.KINDS[c.kind] + (R.tmpl(c).attrs ? `, ${R.tmpl(c).label} template` : '') + '.');
+    R.companionSlots(c).forEach((slot) => { const n = (c.npcs || {})[slot.key]; if (n && n.mode) notes.push(R.npcSummary(c, slot, n)); });
     if (c.notes) notes.push(c.notes);
     if (notes.length) {
       const rest = wrap(Array.from({ length: 13 }, (_, i) => 'notes' + (i + 1)), notes.join(' '), 8);

@@ -14,6 +14,9 @@
   let C = Object.assign(R.newChar(), load(LS_CHAR) || {});
   C.xp = Object.assign(R.newChar().xp, C.xp || {});
   C.pred = Object.assign(R.newChar().pred, C.pred || {});
+  C.npcs = C.npcs || {};
+  // companions opened in an earlier version but never filled in start again from the first choice
+  Object.values(C.npcs).forEach((n) => { if (n && n.mode === 'self' && !('extra' in n) && !n.name && !n.concept && !(n.adv || []).length && !Object.values(n.skills || {}).some(Boolean)) n.mode = null; });
   const ui = Object.assign({ step: 'concept', mfTab: 'merit', q: {}, open: {}, stTab: 'rules', xpAdv: false }, load(LS_UI) || {});
   ui.mode = 'build';
   if (ui.step === 'advantages') ui.step = 'backgrounds';
@@ -21,8 +24,17 @@
 
   const STEPS = [
     ['concept', 'Concept'], ['clan', 'Clan'], ['attributes', 'Attributes'], ['skills', 'Skills'], ['disciplines', 'Disciplines'],
-    ['predator', 'Predator type'], ['backgrounds', 'Backgrounds'], ['merits', 'Merits & Flaws'], ['blood', 'Blood & bane'], ['xp', 'Experience'], ['review', 'Review & export'],
+    ['predator', 'Predator Type'], ['backgrounds', 'Backgrounds'], ['merits', 'Merits & Flaws'], ['blood', 'Blood & Bane'], ['xp', 'Experience'], ['companions', 'Allies & Retainers'], ['review', 'Review & Export'],
   ];
+  // mortals skip clan, Disciplines and predator type; ghouls pick their domitor's clan and a power, but no predator type
+  const MORTAL_LABEL = { clan: 'Domitor', blood: 'Humanity' };
+  function steps() {
+    const skip = C.kind === 'mortal' ? ['clan', 'disciplines', 'predator'] : C.kind === 'ghoul' ? ['predator'] : [];
+    // the Allies & Retainers step appears once the character has any
+    if (!R.companionSlots(C).length) skip.push('companions');
+    return STEPS.filter(([k]) => !skip.includes(k)).map(([k, l]) => [k, (R.isMortalKind(C) && MORTAL_LABEL[k]) || l]);
+  }
+  const kindWord = () => (C.kind === 'mortal' ? 'Mortal' : C.kind === 'ghoul' ? 'Ghoul' : 'Kindred');
 
   // ------------------------------------------------------------------ helpers
   const esc = (s) => String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -86,7 +98,7 @@
   }
   function renderNav() {
     const issues = R.validate(C);
-    $('#steps').innerHTML = STEPS.map(([k, label], i) => {
+    $('#steps').innerHTML = steps().map(([k, label], i) => {
       const iss = issues.filter((x) => x.step === k);
       const st = iss.some((x) => x.level === 'err') ? 'err' : iss.length ? 'warn' : 'ok';
       return `<li><button class="step ${ui.step === k ? 'cur' : ''} st-${st}" data-act="go" data-k="${k}" ${ui.step === k ? 'aria-current="step"' : ''}>
@@ -94,34 +106,39 @@
     }).join('');
   }
   function renderSummary() {
-    const cl = R.clan(C.clan);
+    const mk = R.isMortalKind(C);
+    const cl = C.kind === 'mortal' ? null : R.clan(C.clan);
     const issues = R.validate(C);
     const T = R.advTally(C);
     const spent = sum(R.xpSpent(C).map((r) => r[1])), total = R.xpTotal(C);
+    const TP = R.tmpl(C);
+    const sub = mk ? [kindWord() + (TP.attrs ? ` (${TP.label})` : ''), C.kind === 'ghoul' && (cl ? 'domitor: ' + cl.dn : 'no domitor yet')].filter(Boolean).join(' · ')
+      : `${cl ? esc(cl.dn) + (cl.castes ? ', ' + esc(casteName(R.casteOf(C))) : '') : 'No clan yet'}${C.sabbat ? ' · Sabbat' : ''}${C.predator ? ' · ' + esc(R.predName(C)) : ''}`;
     const discs = R.activeDiscs(C).map((k) => `<li><span>${esc(R.discName(k))}</span>${dots(R.discTotal(C, k), 5, { base: R.discBase(C, k) })}</li>`).join('');
     $('#summary').innerHTML = `
       <div class="sum-id">
-        ${C.portrait ? `<img class="sum-art portrait" src="${C.portrait}" alt="">` : cl ? `<img class="sum-art ${cl.art ? 'art' : 'logo'}" src="${clanArt(cl)}" alt="">` : ''}
+        ${C.portrait ? `<img class="sum-art portrait" src="${C.portrait}" alt="">` : cl && !mk ? `<img class="sum-art ${cl.art ? 'art' : 'logo'}" src="${clanArt(cl)}" alt="">` : ''}
         <div><p class="sum-name">${esc(C.name || 'Unnamed')}</p>
-        <p class="sum-sub">${cl ? esc(cl.dn) + (cl.castes ? ', ' + esc(casteName(R.casteOf(C))) : '') : 'No clan yet'}${C.sabbat ? ' · Sabbat' : ''}${C.predator ? ' · ' + esc(R.predName(C)) : ''}</p></div>
+        <p class="sum-sub">${mk ? esc(sub) : sub}</p></div>
       </div>
       <dl class="sum-stats">
         <div><dt>Health</dt><dd>${R.health(C)}</dd></div><div><dt>Willpower</dt><dd>${R.willpower(C)}</dd></div>
-        <div><dt>Humanity</dt><dd>${R.humanity(C)}</dd></div><div><dt>Blood Potency</dt><dd>${R.bp(C)}</dd></div>
+        <div><dt>Humanity</dt><dd>${R.humanity(C)}</dd></div>${mk ? '' : `<div><dt>Blood Potency</dt><dd>${R.bp(C)}</dd></div>`}
       </dl>
       <div class="sum-block"><h3>Budget</h3>
         <ul class="budget">
           <li class="${T.left < 0 ? 'over' : ''}"><span>Advantage points</span><b>${T.used} / ${T.B.merit}</b></li>
           ${C.moreMerits ? `<li><span>Extra Merit points</span><b>${T.extra - T.extraLeft} / ${T.extra}</b></li>` : ''}
-          <li><span>Free Background points</span><b>${T.bgFromBonus} / ${T.B.bg}</b></li>
-          <li class="${T.flaw < T.B.flaw ? 'under' : ''}"><span>Flaw points</span><b>${T.flaw} / ${T.B.flaw}${C.moreMerits ? `–${R.FLAW_CAP}` : ''}</b></li>
+          ${T.B.bg ? `<li><span>Free Background points</span><b>${T.bgFromBonus} / ${T.B.bg}</b></li>` : ''}
+          ${T.B.flawMax != null ? (T.B.flawMax || T.flaw ? `<li class="${T.flaw > T.B.flawMax ? 'over' : ''}"><span>Flaw points (optional)</span><b>${T.flaw} / ${T.B.flawMax}</b></li>` : '')
+            : `<li class="${T.flaw < T.B.flaw ? 'under' : ''}"><span>Flaw points</span><b>${T.flaw} / ${T.B.flaw}${C.moreMerits ? `–${R.FLAW_CAP}` : ''}</b></li>`}
           ${total && !C.free ? `<li class="${spent > total ? 'over' : ''}"><span>Experience</span><b>${spent} / ${total}</b></li>` : ''}
         </ul></div>
       ${discs ? `<div class="sum-block"><h3>Disciplines</h3><ul class="sum-discs">${discs}</ul></div>` : ''}
       ${C.free ? '<div class="sum-block"><h3>Free Edit</h3><p class="fine">Creation rules are off, so nothing is checked. Switch back to regular creation to see what’s left to do.</p></div>' : ''}
       <div class="sum-block" ${C.free ? 'hidden' : ''}><h3>${issues.length ? 'Still to do' : 'Ready to export'}</h3>
         ${issues.length ? `<ul class="issues">${issues.slice(0, 14).map((x) => `<li class="${x.level}"><button data-act="go" data-k="${x.step}"${x.tab ? ` data-tab="${x.tab}"` : ''}${x.anchor ? ` data-anchor="${x.anchor}"` : ''}>${esc(x.msg)}</button></li>`).join('')}${issues.length > 14 ? `<li class="more">and ${issues.length - 14} more</li>` : ''}</ul>`
-        : '<p class="fine">Everything checks out. Head to Review &amp; export to download the Foundry file.</p>'}
+        : '<p class="fine">Everything checks out. Head to Review &amp; Export to download the Foundry file.</p>'}
       </div>`;
   }
 
@@ -147,15 +164,16 @@
       <div class="grid2">
         ${field('name', 'Name', 'The name they go by now')}${field('player', 'Player')}
         ${field('concept', 'Concept', 'Disgraced paramedic, art-forger, union organizer…', true)}
-        ${field('chronicle', 'Chronicle', P.name || '')}${field('sire', 'Sire')}
+        ${field('chronicle', 'Chronicle', P.name || '')}${C.kind === 'mortal' ? '' : field('sire', C.kind === 'ghoul' ? 'Domitor' : 'Sire', C.kind === 'ghoul' ? 'The vampire whose Blood you drink' : '')}
         ${field('ambition', 'Ambition', 'A long-term goal')}${field('desire', 'Desire', 'What they want tonight')}
       </div>
       </div>
       <h2>What are you?</h2>
-      <div class="cards3">${[['vampire', 'Vampire', 'One of the Kindred. Everything in this builder is made for you.'], ['ghoul', 'Ghoul', 'A mortal fed on vampire Blood and bound to a domitor.'], ['revenant', 'Revenant', 'Born into a family that carries vampire Blood in its veins.']].map(([k, l, t]) => `<button class="choice ${(C.kind || 'vampire') === k ? 'sel' : ''}" data-act="setKind" data-k="${k}"><strong>${l}</strong><span class="small">${t}</span></button>`).join('')}</div>
-      ${C.kind && C.kind !== 'vampire' ? '<p class="note">Ghoul and revenant creation isn’t in the builder yet. For now this only opens up their Merits and Flaws; the rest of the steps still build a vampire.</p>' : ''}
-      <h2>Sea of time</h2>
-      <p class="hint">How long ago were they Embraced? This sets Generation, Blood Potency and starting experience${P.locked ? '; the Storyteller has limited the choices.' : '.'}</p>
+      <div class="cards3 kind-cards">${[['vampire', 'Vampire', 'One of the Kindred: clan, Disciplines, predator type and Blood Potency. Everything in this builder is made for you.'], ['mortal', 'Mortal', 'A living human: a hunter, a retainer, a Touchstone, a victim. No Disciplines.'], ['ghoul', 'Ghoul', 'A mortal fed on vampire Blood and bound to a domitor. One level 1 power from the domitor’s Disciplines.'], ['revenant', 'Revenant', 'Born into a family that carries vampire Blood in its veins.']].map(([k, l, t]) => `<button class="choice ${k === 'vampire' ? 'wide ' : ''}${(C.kind || 'vampire') === k ? 'sel' : ''}" data-act="setKind" data-k="${k}"><strong>${l}</strong><span class="small">${t}</span></button>`).join('')}</div>
+      ${C.kind === 'revenant' ? '<p class="note">Revenant creation isn’t in the builder yet. For now this only opens up their Merits and Flaws; the rest of the steps still build a vampire.</p>' : ''}
+      ${R.isMortalKind(C) ? tmplPicker() : ''}
+      ${R.isMortalKind(C) ? '' : `<h2>Sea of time</h2>`}
+      ${R.isMortalKind(C) ? '' : `<p class="hint">How long ago were they Embraced? This sets Generation, Blood Potency and starting experience${P.locked ? '; the Storyteller has limited the choices.' : '.'}</p>
       <div class="cards3">${Object.keys(R.AGES).map((k) => {
         const a = R.AGES[k], allowed = P.ages.includes(k);
         return `<button class="choice ${age === k ? 'sel' : ''}" data-act="setAge" data-k="${k}" ${allowed ? '' : 'disabled'}>
@@ -163,11 +181,21 @@
           <span class="small">Generation ${a.gens.join(' or ')} · Blood Potency ${a.bp} · ${a.xp ? a.xp + ' XP' : 'no XP'}${a.adv ? ' · +2 Advantages, +2 Flaws, −1 Humanity' : ''}</span>
           ${allowed ? '' : '<span class="small muted">Not used in this chronicle</span>'}</button>`;
       }).join('')}</div>
-      <label class="fld narrow"><span>Generation</span><select data-bind="gen">${gens.map((g) => `<option value="${g}" ${C.gen === g ? 'selected' : ''}>${g}th</option>`).join('')}</select></label>
+      <label class="fld narrow"><span>Generation</span><select data-bind="gen">${gens.map((g) => `<option value="${g}" ${C.gen === g ? 'selected' : ''}>${g}th</option>`).join('')}</select></label>`}
       <h2>Appearance and history</h2>
       <label class="fld wide"><span>Appearance</span><textarea data-bind="appearance" rows="3">${esc(C.appearance)}</textarea></label>
       <label class="fld wide"><span>History</span><textarea data-bind="history" rows="6">${esc(C.history)}</textarea></label>`;
   };
+
+  // mortals and ghouls: a player character, or one of the Corebook's quick templates for Storyteller characters
+  function tmplPicker() {
+    const cur = R.tmplKey(C);
+    const line = (T) => T.attrs ? `Attributes ${R.spreadText(R.countsOf(T.attrs))}. Skills ${R.spreadText(T.skills)}${T.specs ? `, ${['', 'one', 'two', 'three'][T.specs] || T.specs} ${T.specs === 1 ? 'specialty' : 'specialties'}${T.specOn4 ? ' (on a Skill at 4)' : ''}` : ''}. ${T.adv ? `Up to ${T.adv} Advantage points${T.flawMax ? `, up to ${T.flawMax} points of Flaws` : ', no Flaws'}` : 'No Advantages'}.`
+      : `Attributes and Skills as for a vampire, ${app.preset.meritPts ?? 7} Advantage points${+app.preset.bgBonus ? ` (plus ${app.preset.bgBonus} free Background points)` : ''} and ${app.preset.flawPts ?? 2} points of Flaws.${C.kind === 'ghoul' ? ' One free level 1 Discipline power; more at 10 XP each.' : ''}`;
+    return `<h2>How are you building them?</h2>
+      <p class="hint">Player characters follow the Players Guide (p. 141) and the Companion. The four templates are the Corebook’s quick builds for Storyteller characters (p. 184).</p>
+      <div class="cards-tmpl">${Object.keys(R.TEMPLATES).map((k) => { const T = R.TEMPLATES[k]; return `<button class="choice ${k === 'pc' ? 'wide ' : ''}${cur === k ? 'sel' : ''}" data-act="setTmpl" data-k="${k}"><strong>${T.label}</strong><span class="small muted">${esc(T.note)}</span><span class="small">${esc(line(T))}</span></button>`; }).join('')}</div>`;
+  }
 
   // --- clan
   const casteName = (ca) => ca.n.replace(/ Caste$/, '');
@@ -181,7 +209,8 @@
     if (cl.caitiff) return [];
     if (cl.thin) return ['Thin-Blood Alchemy'];
     const ks = cl.castes ? cl.castes[0].disc : cl.disc || [];
-    return ks.map(R.discName).concat(cl.pick ? ['+' + cl.pick + ' of choice'] : []);
+    // the card names the Discipline only (Quietus, Valeren); the subtype depends on the caste and shows in the detail
+    return [...new Set(ks.map((k) => R.discName(k).replace(/\s*\([^)]*\)$/, '')))].concat(cl.pick ? ['+' + cl.pick + ' of choice'] : []);
   }
   function clanCard(cl) {
     const off = app.preset.disabledClans.includes(cl.id);
@@ -203,7 +232,7 @@
     if (cl.caitiff) discBlock = '<p class="hint">No clan Disciplines. Pick any two at creation; every Discipline costs ×6 experience.</p>';
     else if (cl.thin) discBlock = '<p class="hint">No clan Disciplines. Take the Thin-Blood Alchemist Merit for Thin-Blood Alchemy, or Discipline Affinity for one Discipline.</p>';
     else discBlock = `<ul class="disc-chips">${R.clanDisc(C).map((k) => { const d = R.disc(k) || {}; const sc = R.school(k); return `<li><img src="assets/icons/${esc(sc ? sc.icon : d.icon)}" alt=""><span>${esc(R.discName(k))}</span></li>`; }).join('')}</ul>`;
-    const pick = cl.pick ? `<p class="hint">Choose ${cl.pick} more:</p><div class="pickdisc">${[0, 1].slice(0, cl.pick).map((i) => `<select data-act-change="pickDisc" data-k="${i}" aria-label="Discipline ${i + 1}"><option value="">—</option>${R.allDiscKeys().filter((k) => k !== 'bardo').map((k) => `<option value="${k}" ${C.pickDisc[i] === k ? 'selected' : ''}>${esc(R.discName(k))}</option>`).join('')}</select>`).join('')}</div>` : '';
+    const pick = cl.pick ? `<p class="hint">Choose ${cl.pick} more:</p><div class="pickdisc">${[0, 1].slice(0, cl.pick).map((i) => `<select data-act-change="pickDisc" data-k="${i}" aria-label="Discipline ${i + 1}"><option value="">—</option>${R.allDiscKeys().filter((k) => k !== 'bardo' && !R.discBanned(k)).map((k) => `<option value="${k}" ${C.pickDisc[i] === k ? 'selected' : ''}>${esc(R.discName(k))}</option>`).join('')}</select>`).join('')}</div>` : '';
     const nb = R.banesFor(C).filter((b) => app.preset.baneKinds.includes(b.kind)).length;
     return `<article class="clan-detail" id="clan-detail">
       ${clanFigure(cl, art)}
@@ -218,7 +247,7 @@
         <p class="clan-play">${esc((ca && ca.play) || cl.play)}</p>
         ${cl.note ? `<p class="note">${esc(cl.note)}</p>` : ''}
         <p class="clan-more"><button class="link" data-act="readClan">Read the full write-up</button> <span class="small muted">${srcLine((ca && ca.src) || cl.src)}</span></p>
-        <p class="small muted">${plural(nb, 'bane')} to choose from in Blood &amp; bane.</p>
+        ${R.isGhoul(C) ? `<p class="small muted">As a ghoul you can learn level 1 powers of ${esc(R.ghoulDiscs(C).map(R.discName).join(', ') || 'none of these')}. You don’t carry the clan’s bane.</p>` : `<p class="small muted">${plural(nb, 'bane')} to choose from in Blood &amp; Bane.</p>`}
       </div></article>`;
   }
   // Clan portrait with a gallery from every edition: the Revised art first, then the rest
@@ -241,25 +270,35 @@
     const toggle = P.sabbat === 'off' ? '' : `<label class="sect-switch"><input type="checkbox" role="switch" data-act-change="toggleSabbat" ${C.sabbat ? 'checked' : ''} ${P.sabbat === 'only' ? 'disabled' : ''}>
       <span class="sw" aria-hidden="true"></span><span class="sw-text"><strong>I am Sabbat</strong><span>${P.sabbat === 'only' ? 'This is a Sabbat chronicle.' : 'Swap the clans for their Sabbat lines: antitribu, the Lasombra and the Tzimisce.'}</span></span></label>`;
     const secs = R.clanSections(C).map((s) => {
-      const list = s.clans.filter((c) => !c.thin || P.thinAllowed);
+      const list = s.clans.filter((c) => !c.thin || (P.thinAllowed && !R.isGhoul(C)));
       if (!list.length) return '';
       return `<section class="cgroup g-${s.id} ${s.main ? 'main' : 'lines'}"><h2 class="cgroup-h"><span>${esc(s.n)}</span></h2><div class="cgrid">${list.map(clanCard).join('')}</div></section>`;
     }).join('');
-    return `<header class="page-head clan-head"><h1>Choose your ${C.sabbat ? 'Sabbat clan' : 'clan'}</h1>
-      <p class="lede">Your clan is your lineage, your powers and your curse. Disciplines follow Dark Gifts; the write-ups come from V20.</p>${toggle}</header>
+    const head = R.isGhoul(C) ? `<h1>Your domitor’s clan</h1>
+      <p class="lede">Whose Blood do you drink? Your domitor’s clan decides which Disciplines you can learn. You don’t take on their bane or their clan Merits.</p>`
+      : `<h1>Choose your ${C.sabbat ? 'Sabbat clan' : 'clan'}</h1>
+      <p class="lede">Your clan is your lineage, your powers and your curse. Disciplines follow Dark Gifts; the write-ups come from V20.</p>`;
+    return `<header class="page-head clan-head">${head}${toggle}</header>
       ${cl && R.clanAvailable(C, cl) ? clanDetail(cl) : ''}
       <div class="clan-picker">${secs}</div>`;
   };
 
+  // Health and Willpower boxes; only boxes that have just been gained play their little animation
+  const trackSeen = {};
+  function tracker(key, label, n, how) {
+    const was = trackSeen[key]; trackSeen[key] = n;
+    return `<div class="tracker"><span class="tr-name">${label}</span><span class="tr-boxes" aria-label="${label} ${n}">${Array.from({ length: 10 }, (_, i) => `<i class="${i < n ? 'on' : ''}${i < n && was != null && i >= was ? ' new' : ''}"></i>`).join('')}</span><span class="tr-how">${n} = ${how}</span></div>`;
+  }
   S.attributes = () => {
     const counts = {}; R.ATTR_LIST.forEach((a) => (counts[C.attrs[a]] = (counts[C.attrs[a]] || 0) + 1));
-    const need = { 4: 1, 3: 3, 2: 4, 1: 1 };
-    const tally = [4, 3, 2, 1].map((v) => `<li class="${(counts[v] || 0) === need[v] ? 'ok' : (counts[v] || 0) > need[v] ? 'over' : ''}"><b>${dots(v, v)}</b><span>${counts[v] || 0} of ${need[v]}</span></li>`).join('');
+    const spread = R.attrSpread(C), need = R.countsOf(spread), top = spread[0];
+    const tally = Object.keys(need).map(Number).sort((a, b) => b - a).map((v) => `<li class="${(counts[v] || 0) === need[v] ? 'ok' : (counts[v] || 0) > need[v] ? 'over' : ''}"><b>${dots(v, v)}</b><span>${counts[v] || 0} of ${need[v]}</span></li>`).join('');
     const col = (grp, label) => `<section class="trait-col"><h2>${label}</h2>${R.ATTRS[grp].map((a) =>
-      `<div class="trait-row"><span class="tname" data-trait="attr:${a}" tabindex="0">${R.ATTR_NAMES[a]}</span>${dots(R.attr(C, a), 5, { act: 'setAttr', k: a, base: C.attrs[a], label: R.ATTR_NAMES[a], lock: 4 })}</div>`).join('')}</section>`;
+      `<div class="trait-row"><span class="tname" data-trait="attr:${a}" tabindex="0">${R.ATTR_NAMES[a]}</span>${dots(R.attr(C, a), 5, { act: 'setAttr', k: a, base: C.attrs[a], label: R.ATTR_NAMES[a], lock: top })}</div>`).join('')}</section>`;
     // Health and Willpower as they appear on the sheet: one box per point
-    const track = (label, n, how) => `<div class="tracker"><span class="tr-name">${label}</span><span class="tr-boxes" aria-label="${label} ${n}">${Array.from({ length: 10 }, (_, i) => `<i class="${i < n ? 'on' : ''}"></i>`).join('')}</span><span class="tr-how">${n} = ${how}</span></div>`;
-    return `<header class="page-head"><h1>Attributes</h1><p class="lede">One at 4, three at 3, four at 2, one at 1. Click a dot to set the rating.</p></header>
+    const track = (label, n, how) => tracker('pc:' + label, label, n, how);
+    const sp = R.spreadText(need);
+    return `<header class="page-head"><h1>Attributes</h1><p class="lede">${sp[0].toUpperCase() + sp.slice(1)}${R.tmpl(C).attrs ? ` (${R.tmpl(C).label} template)` : ''}. Click a dot to set the rating.</p></header>
       <ul class="spread">${tally}</ul>
       <div class="cols3">${col('physical', 'Physical')}${col('social', 'Social')}${col('mental', 'Mental')}</div>
       <div class="trackers">${track('Health', R.health(C), `Stamina ${R.attr(C, 'stamina')} + 3`)}${track('Willpower', R.willpower(C), `Composure ${R.attr(C, 'composure')} + Resolve ${R.attr(C, 'resolve')}`)}</div>
@@ -267,34 +306,37 @@
   };
 
   S.skills = () => {
-    const dist = R.SKILL_DISTS[C.skillDist];
+    const TP = R.tmpl(C);
+    const dist = TP.attrs ? { label: TP.label, need: TP.skills } : R.SKILL_DISTS[C.skillDist];
     const counts = {}; R.SKILL_LIST.forEach((s) => { const v = C.skills[s]; if (v) counts[v] = (counts[v] || 0) + 1; });
     const lv = Object.keys(dist.need).map(Number).sort((a, b) => b - a);
     const tally = lv.map((v) => `<li class="${(counts[v] || 0) === dist.need[v] ? 'ok' : (counts[v] || 0) > dist.need[v] ? 'over' : ''}"><b>${dots(v, v)}</b><span>${counts[v] || 0} of ${dist.need[v]}</span></li>`).join('');
     const maxLv = lv[0];
     const specCount = (s) => R.allSpecs(C).filter((x) => x.skill === s).length;
     const col = (grp, label) => `<section class="trait-col"><h2>${label}</h2>${R.SKILLS[grp].map((s) =>
-      `<div class="trait-row"><span class="tname" data-trait="skill:${s}" tabindex="0">${R.SKILL_NAMES[s]}${R.FREE_SPEC_SKILLS.includes(s) ? '<sup title="Needs a specialty if rated">✦</sup>' : ''}${specCount(s) ? `<em class="spec-badge">${specCount(s)} spec.</em>` : ''}</span>
+      `<div class="trait-row"><span class="tname" data-trait="skill:${s}" tabindex="0">${R.SKILL_NAMES[s]}${R.FREE_SPEC_SKILLS.includes(s) && !TP.attrs ? '<sup title="Needs a specialty if rated">✦</sup>' : ''}${specCount(s) ? `<em class="spec-badge">${specCount(s)} spec.</em>` : ''}</span>
       ${dots(R.skill(C, s), 5, { act: 'setSkill', k: s, base: C.skills[s], label: R.SKILL_NAMES[s], lock: maxLv })}</div>`).join('')}</section>`;
     const allow = R.freeSpecAllowance(C);
     const free = C.specs.filter((x) => x.src === 'free');
     const predSpec = R.allSpecs(C).filter((x) => x.src === 'pred');
     const rated = R.SKILL_LIST.filter((s) => R.skill(C, s) > 0);
-    return `<header class="page-head"><h1>Skills</h1><p class="lede">Pick a spread, then place the dots. Academics, Craft, Performance and Science each need a specialty once rated.</p></header>
-      <div class="cards3">${Object.keys(R.SKILL_DISTS).map((k) => {
+    const specHint = TP.attrs ? (TP.specs ? `${free.length} of ${allow} specialties taken${TP.specOn4 ? ' (put it on one of your Skills at 4)' : ''}.` : 'This template has no specialties.')
+      : `${free.length} of ${allow} free specialties taken (one per rated Academics, Craft, Performance and Science, plus one of your choice).`;
+    return `<header class="page-head"><h1>Skills</h1><p class="lede">${TP.attrs ? `${TP.label} template: ${R.spreadText(TP.skills)}.` : 'Pick a spread, then place the dots. Academics, Craft, Performance and Science each need a specialty once rated.'}</p></header>
+      ${TP.attrs ? '' : `<div class="cards3">${Object.keys(R.SKILL_DISTS).map((k) => {
         const d = R.SKILL_DISTS[k];
         return `<button class="choice ${C.skillDist === k ? 'sel' : ''}" data-act="setDist" data-k="${k}"><strong>${d.label}</strong>
           <span class="small">${Object.keys(d.need).sort((a, b) => b - a).map((v) => `${d.need[v]} at ${v}`).join(', ')}</span></button>`;
-      }).join('')}</div>
+      }).join('')}</div>`}
       <ul class="spread">${tally}</ul>
       <div class="cols3">${col('physical', 'Physical')}${col('social', 'Social')}${col('mental', 'Mental')}</div>
       <section class="specs"><h2>Specialties</h2>
-        <p class="hint">${free.length} of ${allow} free specialties taken (one per rated Academics, Craft, Performance and Science, plus one of your choice).</p>
+        <p class="hint">${specHint}</p>
         <ul class="spec-list">${C.specs.map((sp, i) => `<li><select data-act-change="specSkill" data-k="${i}">${rated.concat(rated.includes(sp.skill) ? [] : [sp.skill]).map((s) => `<option value="${s}" ${sp.skill === s ? 'selected' : ''}>${R.SKILL_NAMES[s]}</option>`).join('')}</select>
           <input data-bind-spec="${i}" value="${esc(sp.name)}" placeholder="Specialty"><button class="icon-btn" data-act="delSpec" data-k="${i}" aria-label="Remove">✕</button></li>`).join('')}
           ${predSpec.map((sp) => `<li class="fixed"><span>${R.SKILL_NAMES[sp.skill]}</span><span>${esc(sp.name)}</span><span class="small muted">from predator type</span></li>`).join('')}
         </ul>
-        ${rated.length ? `<button class="btn" data-act="addSpec">Add a specialty</button>` : '<p class="hint">Rate a Skill first.</p>'}
+        ${rated.length ? (TP.attrs && !TP.specs && !C.specs.length ? '' : `<button class="btn" data-act="addSpec">Add a specialty</button>`) : '<p class="hint">Rate a Skill first.</p>'}
       </section>`;
   };
 
@@ -310,7 +352,7 @@
     const ing = (C.xp.ipow || []).includes(p.id), bpx = (C.xp.bpow || []).includes(p.id);
     const chosen = C.powers.includes(p.id) || (C.xp.powers || []).includes(p.id) || ing || bpx;
     const P = app.preset;
-    const banned = P.bannedPowers.includes(p.id);
+    const banned = R.powerBanned(p.id);
     const tooHigh = p.lv > R.effRating(C, k);
     const amOk = !p.amr || R.meetsReq(C, p.amr);
     const preOk = R.prereqMet(C, p);
@@ -367,7 +409,7 @@
       const items = owned && open ? [...P.fx, ...P.rit].map(R.power).filter(Boolean).map((p) => {
         const sel = C.sorc.includes(p.id) || C.xp.sorc.includes(p.id);
         const tooHigh = p.lv > n + x;
-        const banned = app.preset.bannedPowers.includes(p.id);
+        const banned = R.powerBanned(p.id);
         const kind = p.d === 'rituals' ? 'Ritual' : 'Effect';
         return `<li class="pw ${sel ? 'sel' : ''} ${tooHigh || banned ? 'dis' : ''}"><label><input type="checkbox" data-act-change="toggleSorc" data-k="${p.id}" ${sel ? 'checked' : ''} ${(tooHigh || banned) && !sel ? 'disabled' : ''}>
           <span class="pw-name">${esc(p.n)}</span></label><span class="tag">${kind} ${pips(p.lv)}</span>${C.xp.sorc.includes(p.id) ? '<span class="tag xp">XP</span>' : ''}${banned ? '<span class="tag bad">Banned</span>' : ''}
@@ -395,7 +437,40 @@
       <ul class="paths">${pathRows}</ul>` : ''}
     </section>`;
   }
+  // a ghoul's Disciplines: level 1 powers of the domitor's Disciplines, one free, the rest 10 XP each
+  function ghoulBlock(k) {
+    const d = R.disc(k) || {};
+    const mine = R.ghoulPowers(C);
+    const isOpen = ui.open['g:' + k] ?? true;
+    const pw = (d.powers || []).map(R.power).filter((p) => p && p.lv === 1).sort((a, b) => a.n.localeCompare(b.n));
+    const n = pw.filter((p) => mine.includes(p.id)).length;
+    const row = (p) => {
+      const free = C.powers.includes(p.id), xp = (C.xp.gpow || []).includes(p.id), on = free || xp;
+      const banned = R.powerBanned(p.id), amOk = !p.amr || R.meetsReq(C, p.amr);
+      const dis = !on && (banned || (app.preset.enforceAmalgams && !amOk));
+      return `<li class="pw ${on ? 'sel' : ''} ${dis ? 'dis' : ''}"><label><input type="checkbox" data-act-change="ghoulPower" data-k="${p.id}" ${on ? 'checked' : ''} ${dis ? 'disabled' : ''}>
+        <span class="pw-name">${esc(p.n)}</span></label>${free ? '<span class="tag">Free</span>' : xp ? `<span class="tag xp">${R.XP.ghoulPower()} XP</span>` : ''}${p.am ? `<span class="tag ${amOk ? '' : 'bad'}">Amalgam: ${esc(p.am)}</span>` : ''}${banned ? '<span class="tag bad">Banned</span>' : ''}
+        <p class="pw-sum">${esc(PT(p))}</p><button class="link" data-act="readPower" data-k="${p.id}">Full text</button></li>`;
+    };
+    return `<section class="disc ${isOpen ? 'open' : ''}" id="disc-${k}">
+      <header class="disc-head"><img src="assets/icons/${esc(d.icon)}" alt="">
+        <div><h2>${esc(d.n)}</h2><p class="small muted">Your domitor’s Discipline · level 1 powers only</p></div>
+        <span class="disc-total">${dots(n ? 1 : 0, 1)}</span>
+        <span class="count ${n ? 'ok' : ''}">Powers ${n}</span>
+        <button class="icon-btn" data-act="toggleOpen" data-k="g:${k}" aria-expanded="${isOpen}" aria-label="Show powers">${isOpen ? '−' : '+'}</button></header>
+      ${isOpen ? `<p class="disc-sum">${esc(LORE.discSum[k] || d.sum)} <button class="link" data-act="readDisc" data-k="${k}">About ${esc(d.n)}</button></p>
+        <ul class="powers">${pw.map(row).join('') || '<li class="muted">No level 1 powers.</li>'}</ul>` : ''}</section>`;
+  }
+  function ghoulDiscPage(xpPage) {
+    if (!C.clan) return `<p class="empty">Choose your domitor’s clan first; your Disciplines come from their Blood. <button class="link" data-act="go" data-k="clan">Go to Domitor</button></p>`;
+    const keys = R.ghoulDiscs(C);
+    const extra = (C.xp.gpow || []).length;
+    return `${xpPage ? '' : `<ul class="spread"><li class="${C.powers.length === 1 ? 'ok' : C.powers.length > 1 ? 'over' : ''}"><b>Free power</b><span>${C.powers.length} of 1</span></li>${extra ? `<li><b>Bought</b><span>${plural(extra, 'power')}, ${extra * R.XP.ghoulPower()} XP</span></li>` : ''}</ul>`}
+      ${keys.map(ghoulBlock).join('') || '<p class="empty">Your domitor has no Disciplines a ghoul can learn in this chronicle.</p>'}`;
+  }
   S.disciplines = () => {
+    if (R.isGhoul(C)) return `<header class="page-head"><h1>Disciplines</h1><p class="lede">Your domitor’s Blood lets you use one level 1 power of one of their Disciplines. Each further power costs ${R.XP.ghoulPower()} experience and must also be level 1, from a Discipline your domitor has. You never gain Discipline dots: each Discipline you know counts as one dot.</p>
+      <p class="hint">Tick a power to take it. The first is free; the rest come out of your experience (${R.xpTotal(C)} XP to spend).</p></header>${ghoulDiscPage()}`;
     if (!C.clan) return `<header class="page-head"><h1>Disciplines</h1></header><p class="empty">Choose a clan first; your Disciplines follow from it.</p>`;
     const keys = new Set(R.isCaitiff(C) ? [] : R.clanDisc(C));
     R.activeDiscs(C).forEach((k) => keys.add(k));
@@ -404,7 +479,7 @@
       extra.forEach((k) => keys.add(k));
     }
     const list = [...keys];
-    const caitiff = R.isCaitiff(C) || C.free ? `<div class="add-disc"><label class="fld narrow"><span>Add a Discipline</span><select data-act-change="caitiffAdd"><option value="">—</option>${R.allDiscKeys().filter((k) => !keys.has(k)).map((k) => `<option value="${k}">${esc(R.discName(k))}</option>`).join('')}</select></label></div>` : '';
+    const caitiff = R.isCaitiff(C) || C.free ? `<div class="add-disc"><label class="fld narrow"><span>Add a Discipline</span><select data-act-change="caitiffAdd"><option value="">—</option>${R.allDiscKeys().filter((k) => !keys.has(k) && !R.discBanned(k)).map((k) => `<option value="${k}">${esc(R.discName(k))}</option>`).join('')}</select></label></div>` : '';
     const intro = R.isThin(C) ? '<p class="lede">Thin-bloods have no intrinsic Disciplines. Thin-Blood Alchemist and Discipline Affinity (Advantages) add them here.</p>'
       : R.isCaitiff(C) ? '<p class="lede">Pick any two Disciplines: two dots in one, one in the other. Click the dots beside a Discipline’s name to place them.</p>'
         : '<p class="lede">Two dots in one clan Discipline, one in another: click the dots beside its name. Each dot buys one power of that level or lower.</p>';
@@ -453,6 +528,24 @@
           ${spreadInfo(o, sp0.pts)}
           ${o === 'Mythic Flaws' && sp[o] ? `<label class="fld"><span>Which Mythic Flaws?</span><input data-bind-prednote="${esc(o)}" value="${esc((C.pred.notes || {})[o] || '')}" placeholder="e.g. Folkloric Bane (silver)"></label>` : ''}</div>`).join('')}</fieldset>`;
   }
+  // what a predator type gives, for its card in the list
+  function predMech(x) {
+    const g = x.g || {};
+    const disc = (k) => k === '@sorcery' ? 'Blood Sorcery' : k === '@oblivion' ? 'Oblivion' : R.discName(k);
+    const one = (n, d) => `${esc(n)} ${pips(d)}`;
+    const or = (xs) => xs.join(' or ');
+    const gains = [], flaws = [];
+    (g.merit || []).forEach(([n, d]) => gains.push(one(n, d)));
+    (g.bg || []).forEach(([n, d]) => gains.push(one(n, d)));
+    (g.flaw || []).forEach(([n, d]) => flaws.push(one(n, d)));
+    (g.choice || []).forEach((opts) => (opts[0][0] === 'flaw' ? flaws : gains).push(or(opts.map((o) => one(o[1], o[2])))));
+    (g.spread || []).forEach((sp) => (sp.kind === 'flaw' ? flaws : gains).push(`${sp.pts} dots among ${sp.opts.map(esc).join(' and ')}`));
+    const extra = [];
+    if (g.hum) extra.push(`Humanity ${g.hum > 0 ? '+' : '−'}${Math.abs(g.hum)}`);
+    if (g.bp) extra.push(`Blood Potency +${g.bp}`);
+    const row = (k, v) => v ? `<span class="pm"><b>${k}</b> ${v}</span>` : '';
+    return `<span class="pm-list">${row('Specialty', esc(or(g.spec || [])))}${row('Discipline', esc(or((g.disc || []).map(disc))))}${row('Gain', gains.join(', '))}${row('Flaws', flaws.join(', '))}${row('Also', extra.join(', '))}</span>`;
+  }
   const predSpreadsFor = (step) => { const p = R.predator(C.predator); return p ? (p.g.spread || []).map((s, i) => [s, i]).filter(([s]) => R.spreadStep(s) === step) : []; };
   S.predator = () => {
     const p = R.predator(C.predator);
@@ -486,7 +579,7 @@
       ${detail}
       ${C.predator === R.NO_PRED ? `<article class="pred-detail"><h2>No predator type</h2><p>This character has no predator type: no extra specialty, Discipline dot, Advantages or Flaws come from how they hunt. Work out with your Storyteller how they feed.</p></article>` : ''}
       <ul class="pred-list"><li class="pred-wide"><button class="pred none ${C.predator === R.NO_PRED ? 'sel' : ''}" data-act="setPred" data-k="${R.NO_PRED}"><strong>No predator type</strong><span>Skip the predator type and everything it grants. For chronicles that don’t use them, or a character whose hunting is still undecided.</span></button></li>${core.predators.map((x) => { const no = x.g.notClan && C.clan && x.g.notClan.includes((R.clan(C.clan) || {}).n); return `<li><button class="pred ${C.predator === x.id ? 'sel' : ''}" data-act="setPred" data-k="${x.id}" ${no ? 'disabled' : ''}>
-        <strong>${esc(x.n)}</strong><span>${esc(x.sum)}</span><span class="small muted">${no ? 'Not available to your clan' : srcLine(x.src)}</span></button></li>`; }).join('')}</ul>`;
+        <strong>${esc(x.n)}</strong><span>${esc(x.sum)}</span>${no ? '<span class="small muted">Not available to your clan</span>' : predMech(x)}</button></li>`; }).join('')}</ul>`;
   };
 
   // --- backgrounds, merits and flaws
@@ -498,7 +591,7 @@
   const slug = (t) => t.toLowerCase().replace(/[^a-z0-9]+/g, '-');
   function advAvailable(a) {
     const P = app.preset;
-    if (P.bannedAdv.includes(a.id)) return 'Banned by the Storyteller';
+    if (R.advBanned(a)) return 'Banned by the Storyteller';
     if (a.clan && C.clan && !R.clanIn(C, a.clan)) return a.clan[0] + ' only';
     if (a.notClan && C.clan && R.clanIn(C, a.notClan)) return 'Not for ' + (R.clan(C.clan) || {}).dn;
     return '';
@@ -551,6 +644,7 @@
       return `<div class="meters">${meter('Free Background points taken', T.bgFromBonus, T.B.bg)}</div>
         ${extra > 0 ? `<p class="hint">You’ve taken ${plural(extra, 'more Background dot')} than the free ${T.B.bg}; ${extra === 1 ? 'it comes' : 'they come'} out of your Merit points.</p>` : ''}`;
     }
+    if (T.B.flawMax != null) return `<div class="meters">${meter('Advantage points', T.used, T.B.merit)}${T.B.flawMax ? (C.npc ? meter('Flaws', T.flaw, T.B.flawMax, true) : meter('Flaws (optional)', T.flaw, T.B.flawMax)) : ''}</div>`;
     return `<div class="meters">${meter('Merits', T.used, T.B.merit)}${C.moreMerits ? meter('Extra Merits (from Flaws)', T.extra - T.extraLeft, T.extra) : ''}${meter('Flaws', T.flaw, T.B.flaw, true, C.moreMerits ? `${T.flaw} / ${T.B.flaw}–${R.FLAW_CAP}` : undefined)}
       ${R.isThin(C) ? meter('Thin-Blood Merits / Flaws', T.tbM, T.tbF, false, `${T.tbM} / ${T.tbF}`) : ''}</div>`;
   }
@@ -573,9 +667,10 @@
     const mine = C.adv.map((x, i) => [x, i]).filter(([x]) => x.src !== 'xp' && R.adv(x.id) && R.isBgEntry(R.adv(x.id)));
     const preds = R.predGrants(C).filter(predIsBg);
     return `<header class="page-head"><h1>Backgrounds</h1>
-      <p class="lede">Who and what your character can lean on: allies, a haven, a herd, money, standing. You have ${T.B.bg} free points for Backgrounds only, and you can spend your ${T.B.merit} Advantage points here too. Don’t skip this: a few dots of Herd, Haven or Contacts will come up every session.</p>
-      <p class="hint">Each Background lists its own Merits and Flaws. Background Flaws count toward your ${T.B.flaw} points of Flaws on the next step.</p></header>
-      ${advMeters(T, 'bg')}
+      <p class="lede">${R.isMortalKind(C) ? `Who and what your character can lean on: allies, contacts, a home, money, a mask for the night’s work. ${T.B.bg ? `You have ${T.B.bg} free points for Backgrounds only, and you can spend your ${T.B.merit} Advantage points here too.` : T.B.merit ? `Backgrounds and Merits share your ${T.B.merit} Advantage points.` : 'This template has no Advantage points.'} Herd and Domain are for the Kindred.`
+        : `Who and what your character can lean on: allies, a haven, a herd, money, standing. You have ${T.B.bg} free points for Backgrounds only, and you can spend your ${T.B.merit} Advantage points here too. Don’t skip this: a few dots of Herd, Haven or Contacts will come up every session.`}</p>
+      <p class="hint">Each Background lists its own Merits and Flaws. Background Flaws count toward your ${T.B.flawMax != null ? `Flaws (up to ${T.B.flawMax} points)` : `${T.B.flaw} points of Flaws`} on the next step.</p></header>
+      ${T.B.bg ? advMeters(T, 'bg') : advMeters(T)}
       ${mineBox('Your Backgrounds', mine, preds, 'Nothing taken yet. Browse below.')}
       ${predSpreadsFor('backgrounds').map(([s, i]) => spreadBox(s, i, true)).join('')}
       <label class="search"><span class="sr">Search</span><input type="search" data-filter="bg" value="${esc(ui.q.bg || '')}" placeholder="Search Backgrounds"></label>
@@ -593,9 +688,9 @@
     const preds = R.predGrants(C).filter((g) => !predIsBg(g));
     const count = (k) => pool.filter((a) => a.kind === k).length;
     return `<header class="page-head"><h1>Merits and Flaws</h1>
-      <p class="lede">Merits are your character’s gifts, Flaws their weaknesses. Spend what’s left of your ${T.B.merit} Advantage points on Merits, and take at least ${T.B.flaw} points of Flaws.</p>
+      <p class="lede">Merits are your character’s gifts, Flaws their weaknesses. ${T.B.flawMax != null ? `Spend up to ${T.B.merit} Advantage points on Merits and Backgrounds. ${T.B.flawMax ? `Flaws are optional, up to ${T.B.flawMax} points, and don’t buy anything back.` : 'This template takes no Flaws.'}` : `Spend what’s left of your ${T.B.merit} Advantage points on Merits, and take at least ${T.B.flaw} points of Flaws.`}${R.isMortalKind(C) ? ' Kindred-only Merits and Flaws are hidden.' : ''}</p>
       ${app.preset.allowV20 ? `<p class="hint v20-note"><span class="ed-badge">V20</span> entries come from <em>Vampire: The Masquerade 20th Anniversary Edition</em> and its supplements, or from Revised-era books. They’re often more interesting and unique than their V5 cousins, but may need some tweaking with your Storyteller to work in V5.</p>` : ''}</header>
-      <label class="more-merits check"><input type="checkbox" data-act-change="moreMerits" ${C.moreMerits ? 'checked' : ''}> <span><strong>I want more merits and I’m ready to pay the cost</strong>${C.moreMerits ? `<span class="small muted"> Each Flaw point beyond ${T.B.flaw}, up to ${R.FLAW_CAP} in all, buys one more point of Merits. <button class="link" data-act="moreMeritsInfo">How it works</button></span>` : ''}</span></label>
+      ${T.B.flawMax != null ? '' : `<label class="more-merits check"><input type="checkbox" data-act-change="moreMerits" ${C.moreMerits ? 'checked' : ''}> <span><strong>I want more merits and I’m ready to pay the cost</strong>${C.moreMerits ? `<span class="small muted"> Each Flaw point beyond ${T.B.flaw}, up to ${R.FLAW_CAP} in all, buys one more point of Merits. <button class="link" data-act="moreMeritsInfo">How it works</button></span>` : ''}</span></label>`}
       ${advMeters(T)}
       ${mineBox('Your Merits and Flaws', mine, preds, 'Nothing taken yet. Browse below.')}
       ${predSpreadsFor('merits').map(([s, i]) => spreadBox(s, i, true)).join('')}
@@ -626,7 +721,22 @@
     return `<div class="meter ${st}"><span class="m-label">${label}</span><span class="m-val">${text || `${val} / ${max}`}</span><span class="m-bar"><i style="width:${pct}%"></i></span></div>`;
   }
 
+  // Convictions and Touchstones, shared by vampires, ghouls and mortals
+  const convList = () => `<ul class="convs">${C.convictions.map((x, i) => `<li><input data-bind-conv="${i}|c" value="${esc(x.c)}" placeholder="Conviction: Never harm a child"><input data-bind-conv="${i}|t" value="${esc(x.t)}" placeholder="Touchstone: Maya, my niece"><button class="icon-btn" data-act="delConv" data-k="${i}" aria-label="Remove">✕</button></li>`).join('')}</ul>
+        ${C.convictions.length < 3 ? '<button class="btn" data-act="addConv">Add a Conviction</button>' : ''}`;
+  function mortalBlood() {
+    const ghoul = R.isGhoul(C);
+    return `<header class="page-head"><h1>Humanity</h1><p class="lede">${ghoul ? 'The Blood keeps you young and strong, and it is slowly eating the person you were.' : 'What keeps them human, and what they would never do.'}</p></header>
+      <section><h2>Humanity ${R.humanity(C)}</h2>
+        ${C.free ? `<div class="trait-row"><span class="tname">Humanity</span>${dots(R.humanity(C), 10, { act: 'setHum', k: 'hum', label: 'Humanity' })}</div><p class="hint">Free Edit: set Humanity directly.</p>` : `<p class="hint">${ghoul ? 'Ghouls' : 'Mortals'} start at Humanity 7. They gain Stains and lose Humanity like the Kindred when they break the Chronicle Tenets.</p>`}
+        ${ghoul ? `<div class="why-box"><p><strong>Living on the Blood.</strong> A ghoul who goes without Vitae for a month loses their powers and starts to age again. Drinking from the domitor feeds the Blood Bond: three drinks on three separate nights bind you completely. <span class="cite">V5 Companion pp. 44–55</span></p></div>` : ''}
+        <h3>Convictions and Touchstones</h3>
+        <p class="hint">One to three Convictions, each tied to a Touchstone: a value they live by and a person who embodies it.</p>
+        ${convList()}
+      </section>`;
+  }
   S.blood = () => {
+    if (R.isMortalKind(C)) return mortalBlood();
     const cl = R.clan(C.clan);
     const bp = R.bp(C), B = R.BP[bp];
     const kinds = app.preset.baneKinds;
@@ -656,18 +766,17 @@
           </ul>
           <p><strong>Without them,</strong> you have no Conviction to excuse or soften your Tenet violations, so you lose Humanity faster than other Kindred. The Players Guide describes such a vampire as “dangerously close to falling to the Beast”, one who clings to Kindred society at the cost of their individuality and follows only the Tenets. <span class="cite">V5 Players Guide p. 212</span></p>
         </div>
-        <ul class="convs">${C.convictions.map((x, i) => `<li><input data-bind-conv="${i}|c" value="${esc(x.c)}" placeholder="Conviction: Never harm a child"><input data-bind-conv="${i}|t" value="${esc(x.t)}" placeholder="Touchstone: Maya, my niece"><button class="icon-btn" data-act="delConv" data-k="${i}" aria-label="Remove">✕</button></li>`).join('')}</ul>
-        ${C.convictions.length < 3 ? '<button class="btn" data-act="addConv">Add a Conviction</button>' : ''}
+        ${convList()}
       </section>`;
   };
 
   S.xp = () => {
-    if (C.free) return `<header class="page-head"><h1>Experience</h1><p class="lede">Experience isn’t used in Free Edit. Set Attributes, Skills, Disciplines, powers and Advantages directly on their own steps, and Blood Potency and Humanity on Blood &amp; bane.</p></header>`;
+    if (C.free) return `<header class="page-head"><h1>Experience</h1><p class="lede">Experience isn’t used in Free Edit. Set Attributes, Skills, Disciplines, powers and Advantages directly on their own steps, and Blood Potency and Humanity on Blood &amp; Bane.</p></header>`;
     const total = R.xpTotal(C);
     const rows = R.xpSpent(C);
     const spent = sum(rows.map((r) => r[1]));
     const P = app.preset;
-    const tab = ['traits', 'disc', 'bg', 'merit'].includes(ui.xpTab) ? ui.xpTab : 'traits';
+    const tab = ['traits', 'disc', 'bg', 'merit'].includes(ui.xpTab) && !(ui.xpTab === 'disc' && C.kind === 'mortal') ? ui.xpTab : 'traits';
     // one trait: name (with next-dot cost) and clickable dots; dots below the starting value are fixed
     const xr = (t, k, label, cur, base, max, cost, opts) => {
       opts = opts || {};
@@ -686,6 +795,8 @@
         <h2 class="xh">Specialties <span class="small muted">3 XP each</span></h2>
         <ul class="spec-list">${C.xp.specs.map((sp, i) => `<li><select data-act-change="xpSpecSkill" data-k="${i}">${R.SKILL_LIST.filter((x) => R.skill(C, x) > 0 || x === sp.skill).map((x) => `<option value="${x}" ${sp.skill === x ? 'selected' : ''}>${R.SKILL_NAMES[x]}</option>`).join('')}</select><input data-bind-xpspec="${i}" value="${esc(sp.name)}" placeholder="Specialty"><button class="icon-btn" data-act="delXpSpec" data-k="${i}" aria-label="Remove">✕</button></li>`).join('')}</ul>
         <button class="btn sm" data-act="addXpSpec">Buy a specialty</button>`;
+    } else if (tab === 'disc' && R.isGhoul(C)) {
+      body = `<p class="hint">More level 1 powers from your domitor’s Disciplines, ${R.XP.ghoulPower()} XP each. Your first power is free and is chosen on the Disciplines step.</p>${ghoulDiscPage(true)}`;
     } else if (tab === 'disc') {
       const mine = R.activeDiscs(C).filter((k) => k !== 'alchemy' || R.hasAlchemy(C));
       const sk = R.schoolKey(C);
@@ -718,8 +829,11 @@
         ${groups.length ? toc(groups.map((g) => [pre + slug(g), g, isBg ? null : list.filter((a) => inGroup(a, g)).length])) : ''}
         <div id="adv-list">${groups.map((g) => `<h3 class="cat" id="${pre}${slug(g)}">${esc(g)}</h3><ul class="advs">${list.filter((a) => inGroup(a, g)).sort((x, y) => isBg ? order[x.kind] - order[y.kind] : x.n.localeCompare(y.n)).map((a) => advRow(a, { kindTag: isBg, xp: true })).join('')}</ul>`).join('') || '<p class="empty">No matches.</p>'}</div>`;
     }
-    const tabs = [['traits', 'Attributes & Skills'], ['disc', 'Disciplines & Blood Potency'], ['bg', 'Backgrounds'], ['merit', 'Merits']];
-    return `<header class="page-head"><h1>Experience</h1><p class="lede">${total ? `${total} XP to spend: ${R.AGES[R.ageOf(C)].xp} for your age${+P.xpBonus ? ` and ${P.xpBonus} from the Storyteller` : ''}.` : 'No starting experience for this age and chronicle.'} Click a dot to buy up to it, or the last bought dot to take it back. Costs follow the V5 table.</p></header>
+    const mk = R.isMortalKind(C);
+    const tabs = [['traits', 'Attributes & Skills'], ['disc', R.isGhoul(C) ? 'Discipline powers' : 'Disciplines & Blood Potency'], ['bg', 'Backgrounds'], ['merit', 'Merits']].filter(([k]) => k !== 'disc' || !mk || R.isGhoul(C));
+    const why = mk ? (total ? `${total} XP from the Storyteller.` : `${kindWord() === 'Ghoul' ? 'Ghouls' : 'Mortals'} start without experience unless the Storyteller gives some (Bonus XP in the Storyteller menu).`)
+      : total ? `${total} XP to spend: ${R.AGES[R.ageOf(C)].xp} for your age${+P.xpBonus ? ` and ${P.xpBonus} from the Storyteller` : ''}.` : 'No starting experience for this age and chronicle.';
+    return `<header class="page-head"><h1>Experience</h1><p class="lede">${why} Click a dot to buy up to it, or the last bought dot to take it back. Costs follow the V5 table.</p></header>
       <div class="meters xp-meter">${meter('Experience spent', spent, total)}</div>
       <div class="tabs" role="tablist">${tabs.map(([k, l]) => `<button role="tab" class="tab ${tab === k ? 'sel' : ''}" aria-selected="${tab === k}" data-act="xpTab" data-k="${k}">${l}</button>`).join('')}</div>
       <div class="xp-body">${body}</div>
@@ -741,7 +855,7 @@
       const pw = ((R.disc(k) || {}).powers || []).map(R.power).filter((p) => p && p.lv <= rating && !C.powers.includes(p.id)).sort((x, y) => x.lv - y.lv || x.n.localeCompare(y.n));
       const rows = (bCap || iCap) ? `<ul class="ing-pw">${pw.map((p) => {
         const inB = (C.xp.bpow || []).includes(p.id), inI = (C.xp.ipow || []).includes(p.id), on = inB || inI;
-        const banned = P.bannedPowers.includes(p.id);
+        const banned = R.powerBanned(p.id);
         const fits = bUsed + p.lv <= bCap || iUsed + p.lv <= iCap;
         const dis = !on && (!fits || banned || (P.enforceAmalgams && p.amr && !R.meetsReq(C, p.amr)));
         return `<li class="${on ? 'sel' : ''} ${dis ? 'dis' : ''}"><label class="check"><input type="checkbox" data-act-change="toggleXPow" data-k="${p.id}" ${on ? 'checked' : ''} ${dis ? 'disabled' : ''}>
@@ -760,9 +874,164 @@
     </section>`;
   }
 
+  // ------------------------------------------------------------------ allies and retainers
+  // Each sheet is addressed as "slot.sheet": slot = index in R.companionSlots, sheet 0 = the entry itself, 1–2 = other group members.
+  const NPC_NO_ADV = new Set(['v5-allies', 'v5-retainers']);
+  const npcG = { physical: 'Physical', social: 'Social', mental: 'Mental' };
+  // the companion as a character, sharing their Advantages list, so the Merits & Flaws machinery can work on it
+  function npcPseudo(slot, n, sh) {
+    const kind = R.npcKind(C, slot, n);
+    return Object.assign(R.newChar(), { npc: true, kind, tmpl: R.npcTmplKey(C, slot, n), npcT: R.npcTmpl(C, slot, n), adv: sh.adv, customAdv: [], clan: kind === 'ghoul' ? C.clan : null, sabbat: C.sabbat, name: sh.name });
+  }
+  let holdRender = 0, pendingRender = false;
+  function withNpc(ref, fn) {
+    const [slot, n, sh] = npcAt(ref); if (!sh) return;
+    const saved = C; C = npcPseudo(slot, n, sh); holdRender++;
+    try { return fn(); } finally { C = saved; holdRender--; }
+  }
+  function npcAdvSection(ref, slot, n, sh) {
+    return withNpc(ref, () => {
+      const T = R.advTally(C);
+      const tab = ['bg', 'merit', 'flaw'].includes((ui.npcTab || {})[ref]) ? ui.npcTab[ref] : 'bg';
+      const qk = 'npc:' + ref; const q = (ui.q[qk] || '').toLowerCase();
+      const pool = D.allAdv.filter((a) => !a.ingrained && !a.thin && !NPC_NO_ADV.has(a.id) && a.n !== 'Unusual Retainers' && R.advShown(C, a));
+      const inTab = (a, t) => (t === 'bg' ? R.isBgEntry(a) : !R.isBgEntry(a) && a.kind !== 'background' && a.kind === t);
+      const list = pool.filter((a) => inTab(a, tab)).filter(advMatch(q));
+      const groupOf = (a) => (tab === 'bg' ? R.bgGroup(a) : R.mfCat(a));
+      const groups = tab === 'bg' ? R.BG_GROUPS.filter((g) => list.some((a) => R.bgGroup(a) === g))
+        : R.MF_CATS.filter((c) => list.some((a) => R.mfCat(a) === c)).concat([...new Set(list.map(R.mfCat))].filter((c) => !R.MF_CATS.includes(c)));
+      const order = { background: 0, merit: 1, flaw: 2 };
+      const pre = 'n' + ref.replace('.', '-') + '-';
+      const mine = C.adv.map((x, i) => [x, i]).filter(([x]) => R.adv(x.id));
+      const open = (ui.stOpen || {})['npcadv:' + ref] !== false;
+      return `<div class="npc-adv" data-npc-scope="${ref}">
+        <h3 class="npc-h">Backgrounds, Merits and Flaws</h3>
+        <p class="hint">${T.B.merit ? `Up to ${T.B.merit} Advantage points for Backgrounds and Merits` : 'No Advantage points'}${T.B.flawMax ? `, and ${T.B.flawMax} points of Flaws to take` : T.B.merit ? ', no Flaws' : ''}.</p>
+        ${advMeters(T)}
+        ${mineBox('Their Backgrounds, Merits and Flaws', mine, [], 'Nothing taken yet.')}
+        <details class="npc-browse" ${open ? 'open' : ''} data-dk="npcadv:${ref}"><summary>Browse and take Backgrounds, Merits and Flaws</summary>
+        <div class="tabs" role="tablist">${[['bg', 'Backgrounds'], ['merit', 'Merits'], ['flaw', 'Flaws']].map(([k, l]) => `<button role="tab" class="tab ${tab === k ? 'sel' : ''}" aria-selected="${tab === k}" data-act="npcTab" data-k="${ref}" data-v="${k}">${l} <span class="small muted">${pool.filter((a) => inTab(a, k)).length}</span></button>`).join('')}</div>
+        <label class="search"><span class="sr">Search</span><input type="search" data-filter="${qk}" value="${esc(ui.q[qk] || '')}" placeholder="Search ${tab === 'bg' ? 'Backgrounds' : tab === 'flaw' ? 'Flaws' : 'Merits'}"></label>
+        ${groups.length ? toc(groups.map((g) => [pre + slug(g), g, list.filter((a) => groupOf(a) === g).length])) : ''}
+        <div>${groups.map((g) => `<h3 class="cat" id="${pre}${slug(g)}">${esc(g)}</h3><ul class="advs">${list.filter((a) => groupOf(a) === g).sort((x, y) => (tab === 'bg' ? order[x.kind] - order[y.kind] : 0) || x.n.localeCompare(y.n)).map((a) => advRow(a, { kindTag: tab === 'bg' })).join('')}</ul>`).join('') || '<p class="empty">No matches.</p>'}</div>
+        </details></div>`;
+    });
+  }
+  function npcSheet(i, j, slot, n, sh, count) {
+    const ref = i + '.' + j;
+    const T = R.npcTmpl(C, slot, n), kind = R.npcKind(C, slot, n);
+    const top = T.attrs[0], skTop = Math.max(...Object.keys(T.skills).map(Number));
+    const tally = (need, have) => `<ul class="spread">${Object.keys(need).map(Number).sort((a, b) => b - a).map((v) => `<li class="${(have[v] || 0) === need[v] ? 'ok' : (have[v] || 0) > need[v] ? 'over' : ''}"><b>${dots(v, v)}</b><span>${have[v] || 0} of ${need[v]}</span></li>`).join('')}</ul>`;
+    const sHave = {}; R.SKILL_LIST.forEach((k) => { const v = sh.skills[k]; if (v) sHave[v] = (sHave[v] || 0) + 1; });
+    const specCount = (k) => sh.specs.filter((x) => x.skill === k).length;
+    const attrCol = (g) => `<section class="trait-col"><h2>${npcG[g]}</h2>${R.ATTRS[g].map((a) => `<div class="trait-row"><span class="tname" data-trait="attr:${a}" tabindex="0">${R.ATTR_NAMES[a]}</span>${dots(sh.attrs[a], 5, { act: 'npcAttr', k: ref + '|' + a, label: R.ATTR_NAMES[a], lock: top })}</div>`).join('')}</section>`;
+    const skillCol = (g) => `<section class="trait-col"><h2>${npcG[g]}</h2>${R.SKILLS[g].map((k) => `<div class="trait-row"><span class="tname" data-trait="skill:${k}" tabindex="0">${R.SKILL_NAMES[k]}${specCount(k) ? `<em class="spec-badge">${specCount(k)} spec.</em>` : ''}</span>${dots(sh.skills[k], 5, { act: 'npcSkill', k: ref + '|' + k, label: R.SKILL_NAMES[k], lock: skTop })}</div>`).join('')}</section>`;
+    const track = (label, v, how) => tracker(ref + ':' + label, label, v, how);
+    const rated = R.SKILL_LIST.filter((k) => sh.skills[k] > 0);
+    const gd = kind === 'ghoul' ? R.npcGhoulDiscs(C) : [];
+    const gpw = gd.flatMap((k) => ((R.disc(k) || {}).powers || []).map(R.power).filter((p) => p && p.lv === 1 && !R.powerBanned(p.id) && !(p.amr && app.preset.enforceAmalgams)));
+    const issues = R.npcSheetIssues(C, slot, n, sh, R.npcSheetName(slot, n, sh, j, count));
+    const nameRow = `<div class="grid2">
+        <label class="fld"><span>Name</span><input data-npc="${ref}|name" value="${esc(sh.name)}" placeholder="${R.npcSize(slot, n) === 'group' ? 'What the group is called' : 'Who they are'}"></label>
+        <label class="fld"><span>Concept</span><input data-npc="${ref}|concept" value="${esc(sh.concept)}" placeholder="${slot.type === 'ally' ? 'Night-shift ER nurse, union boss…' : 'Driver, bodyguard, day-time fixer…'}"></label></div>`;
+    return `${j ? `<header class="npc-head"><h2>${esc(sh.name || `Member ${j + 1}`)}</h2><p class="small muted">${esc(n.name || 'The group')}, member ${j + 1} of ${count} · ${esc(R.npcLabel(slot))}</p></header>${nameRow}` : ''}
+      <p class="npc-tmpl"><strong>${esc(T.label)} ${kind === 'ghoul' ? 'ghoul' : 'mortal'}</strong>: Attributes ${R.spreadText(R.countsOf(T.attrs))}. Skills ${R.spreadText(T.skills)}${T.specs ? `, ${['', 'one', 'two', 'three'][T.specs]} ${T.specs === 1 ? 'specialty' : 'specialties'}` : ''}. ${T.adv ? `Up to ${T.adv} Advantage points${T.flawMax ? `, ${T.flawMax} points of Flaws` : ''}.` : 'No Advantages.'}${kind === 'ghoul' ? ' One level 1 power from your Disciplines.' : ''}</p>
+      <h3 class="npc-h">Attributes</h3>${tally(R.countsOf(T.attrs), R.countsOf(R.ATTR_LIST.map((a) => sh.attrs[a])))}
+      <div class="cols3">${['physical', 'social', 'mental'].map(attrCol).join('')}</div>
+      <div class="trackers">${track('Health', sh.attrs.stamina + 3, `Stamina ${sh.attrs.stamina} + 3`)}${track('Willpower', sh.attrs.composure + sh.attrs.resolve, `Composure ${sh.attrs.composure} + Resolve ${sh.attrs.resolve}`)}</div>
+      <h3 class="npc-h">Skills</h3>${tally(T.skills, sHave)}
+      <div class="cols3">${['physical', 'social', 'mental'].map(skillCol).join('')}</div>
+      <p class="hint">Hover over an Attribute or Skill for what it means.</p>
+      ${T.specs || sh.specs.length ? `<section class="specs"><h3 class="npc-h">Specialties <span class="small muted">${sh.specs.length} of ${T.specs}${T.specOn4 ? ', on a Skill at 4' : ''}</span></h3>
+        <ul class="spec-list">${sh.specs.map((sp, x) => `<li><select data-act-change="npcSpecSkill" data-k="${ref}|${x}">${rated.concat(rated.includes(sp.skill) ? [] : [sp.skill]).filter(Boolean).map((k) => `<option value="${k}" ${sp.skill === k ? 'selected' : ''}>${R.SKILL_NAMES[k]}</option>`).join('')}</select><input data-npc-spec="${ref}|${x}" value="${esc(sp.name || '')}" placeholder="Specialty"><button class="icon-btn" data-act="npcDelSpec" data-k="${ref}|${x}" aria-label="Remove">✕</button></li>`).join('')}</ul>
+        ${sh.specs.length < T.specs ? (rated.length ? `<button class="btn sm" data-act="npcAddSpec" data-k="${ref}">Add a specialty</button>` : '<p class="hint">Rate a Skill first.</p>') : ''}</section>` : ''}
+      ${T.adv || T.flawMax || sh.adv.length ? npcAdvSection(ref, slot, n, sh) : ''}
+      ${kind === 'ghoul' ? `<h3 class="npc-h">Discipline power</h3>${gpw.length ? `<select data-act-change="npcPower" data-k="${ref}"><option value="">Choose a level 1 power…</option>${gd.map((k) => `<optgroup label="${esc(R.discName(k))}">${gpw.filter((p) => p.d === k).map((p) => `<option value="${p.id}" ${sh.powers[0] === p.id ? 'selected' : ''}>${esc(p.n)}</option>`).join('')}</optgroup>`).join('')}</select>
+        ${sh.powers[0] && R.power(sh.powers[0]) ? `<p class="small">${esc(PT(R.power(sh.powers[0])))} <button class="link" data-act="readPower" data-k="${sh.powers[0]}">Full text</button></p>` : ''}` : '<p class="hint">Take a Discipline first: your ghoul learns from your Blood.</p>'}` : ''}
+      <label class="fld wide"><span>Notes</span><textarea data-npc="${ref}|notes" rows="2" placeholder="How you met, what they do for you, what they want">${esc(sh.notes)}</textarea></label>
+      ${issues.length ? `<ul class="issues npc-issues">${issues.map((m) => `<li class="warn">${esc(m)}</li>`).join('')}</ul>` : '<p class="small ok-line">Done. This sheet is exported with the rest from Review &amp; Export.</p>'}`;
+  }
+  function npcCard(slot, i) {
+    const n = R.npcFor(C, slot);
+    const T = R.npcTmpl(C, slot, n);
+    const head = `<header class="npc-head"><h2>${esc(n.name || (slot.type === 'ally' ? 'Ally' : 'Retainer'))}</h2>
+      <p class="small muted">${esc(R.npcLabel(slot))}${slot.note ? ' · ' + esc(slot.note) : ''}${slot.pred ? ' · from your predator type' : ''}</p></header>`;
+    if (!n.mode) {
+      return `<section class="npc" id="npc-${i}">${head}<div class="cards2 npc-choice">
+        <button class="choice" data-act="npcMode" data-k="${i}" data-v="self"><strong>Build them myself</strong><span class="small">A quick build on this page from the Corebook templates${R.npcCanGroup(slot) ? ': one person, or a group of up to three' : slot.type === 'retainer' && R.npcCanGhoul(C, slot) ? ': a mortal or your ghoul' : ''}.</span></button>
+        <button class="choice" data-act="npcMode" data-k="${i}" data-v="st"><strong>Leave them to the Storyteller</strong><span class="small">Say who they are in a line or two; the Storyteller decides the rest.</span></button></div></section>`;
+    }
+    if (n.mode === 'st') {
+      return `<section class="npc" id="npc-${i}">${head}<div class="grid2"><label class="fld"><span>Name</span><input data-npc="${i}.0|name" value="${esc(n.name)}" placeholder="Optional"></label></div>
+        <label class="fld wide"><span>For the Storyteller</span><textarea data-npc="${i}.0|stNote" rows="3" placeholder="Who they are, how you know them, what you’d like them to be good at">${esc(n.stNote)}</textarea></label>
+        <p class="npc-foot"><button class="link" data-act="npcMode" data-k="${i}" data-v="self">Build them myself instead</button></p></section>`;
+    }
+    const kind = R.npcKind(C, slot, n), size = R.npcSize(slot, n);
+    const lower = R.TEMPLATES[['weak', 'average', 'gifted', 'deadly'][Math.max(0, slot.eff - 2)]] || {};
+    const full = R.TEMPLATES[['weak', 'average', 'gifted', 'deadly'][Math.max(0, Math.min(3, (slot.eff || 1) - 1))]] || {};
+    const sizeQ = R.npcCanGroup(slot) ? `<fieldset class="npc-size"><legend>How many people are they?</legend>
+        <div class="size-opts">${[[1, 'One person', `${full.label} template`], ['group', 'A group, one sheet', `${lower.label} template`], [2, 'Two people', `${lower.label} each, two sheets`], [3, 'Three people', `${lower.label} each, three sheets`]].map(([v, l, t]) => `<button class="choice ${size === v ? 'sel' : ''}" data-act="npcSize" data-k="${i}" data-v="${v}"><strong>${l}</strong><span class="small">${t}</span></button>`).join('')}</div>
+        <p class="hint">A group focused on one thing, like a raid squad or a lab of chemists, is a single character sheet. If they are different people, each gets a sheet of their own below this one (three at most).</p></fieldset>` : '';
+    const sheets = size == null ? [] : R.npcSheets(slot, n);
+    const main = `<section class="npc" id="npc-${i}">${head}
+      <div class="grid2">
+        <label class="fld"><span>Name</span><input data-npc="${i}.0|name" value="${esc(n.name)}" placeholder="${size === 'group' || typeof size === 'number' && size > 1 ? 'Who they are, or what the group is called' : 'Who they are'}"></label>
+        <label class="fld"><span>Concept</span><input data-npc="${i}.0|concept" value="${esc(n.concept)}" placeholder="${slot.type === 'ally' ? 'Night-shift ER nurse, union boss…' : 'Driver, bodyguard, day-time fixer…'}"></label></div>
+      ${R.npcCanGhoul(C, slot) ? `<div class="npc-opts"><div class="castes"><span class="castes-label">They are</span><div role="radiogroup">${['mortal', 'ghoul'].map((k) => `<button class="chip ${kind === k ? 'sel' : ''}" data-act="npcKind" data-k="${i}" data-v="${k}" role="radio" aria-checked="${kind === k}">${k === 'mortal' ? 'Mortal' : 'Your ghoul'}</button>`).join('')}</div></div></div>` : ''}
+      ${sizeQ}
+      ${size == null ? '' : npcSheet(i, 0, slot, n, n, sheets.length)}
+      <p class="npc-foot"><button class="link" data-act="npcMode" data-k="${i}" data-v="st">Leave them to the Storyteller instead</button></p></section>`;
+    const others = sheets.slice(1).map((sh, x) => `<section class="npc member" id="npc-${i}-${x + 1}">${npcSheet(i, x + 1, slot, n, sh, sheets.length)}</section>`).join('');
+    return main + others;
+  }
+  S.companions = () => {
+    const slots = R.companionSlots(C);
+    return `<header class="page-head"><h1>Allies and retainers</h1>
+      <p class="lede">Each Allies and Retainers entry is a character of its own. Build them here with the Corebook’s quick templates, or leave them to the Storyteller. Their dots decide the template: Allies by Effectiveness, Retainers by rating (V5 Corebook pp. 184 and 193).</p></header>
+      ${slots.map(npcCard).join('') || '<p class="empty">No Allies or Retainers yet.</p>'}`;
+  };
+  // every sheet built on this step, as a character the exporters and the builder understand
+  function npcChar(slot, n, sh, j, count) {
+    const kind = R.npcKind(C, slot, n);
+    const size = R.npcSize(slot, n);
+    return Object.assign(R.newChar(), {
+      kind, tmpl: R.npcTmplKey(C, slot, n), name: R.npcSheetName(slot, n, sh, j, count), concept: sh.concept, chronicle: C.chronicle, player: C.player,
+      sire: kind === 'ghoul' ? C.name : '', clan: kind === 'ghoul' ? C.clan : null, sabbat: kind === 'ghoul' ? C.sabbat : false,
+      attrs: Object.assign({}, sh.attrs), skills: Object.assign({}, sh.skills), specs: sh.specs.filter((x) => x.skill).map((x) => ({ skill: x.skill, name: x.name, src: 'free' })),
+      adv: sh.adv.map((x) => Object.assign({}, x, { src: 'free' })), powers: kind === 'ghoul' ? (sh.powers || []).slice(0, 1) : [],
+      notes: [`${R.npcLabel(slot)} of ${C.name || 'their patron'}${slot.note ? ' (' + slot.note + ')' : ''}.`,
+        size === 'group' ? 'A group that works as one, on a single sheet.' : count > 1 ? `One of ${count}: ${R.npcSheets(slot, n).map((x, y) => R.npcSheetName(slot, n, x, y, count)).join(', ')}.` : '', sh.notes].filter(Boolean).join('\n'),
+      convictions: [],
+    });
+  }
+  function builtCompanions() {
+    const out = [];
+    R.companionSlots(C).forEach((slot) => {
+      const n = R.npcFor(C, slot);
+      if (n.mode !== 'self' || R.npcSize(slot, n) == null) return;
+      const sheets = R.npcSheets(slot, n);
+      sheets.forEach((sh, j) => out.push(npcChar(slot, n, sh, j, sheets.length)));
+    });
+    return out;
+  }
+  app.builtCompanions = builtCompanions;
+  function npcReview() {
+    const slots = R.companionSlots(C); if (!slots.length) return '';
+    return `<h3>Allies and retainers</h3><ul class="plain npc-review">${slots.map((slot) => { const n = R.npcFor(C, slot);
+      const who = `<strong>${esc(n.name || (slot.type === 'ally' ? 'Ally' : 'Retainer'))}</strong> <span class="small muted">${esc(R.npcLabel(slot))}${slot.note ? ' · ' + esc(slot.note) : ''}</span>`;
+      if (n.mode === 'st') return `<li>${who}<br><span class="small">Left to the Storyteller${n.stNote ? ': ' + esc(n.stNote) : '.'}</span></li>`;
+      if (n.mode !== 'self' || R.npcSize(slot, n) == null) return `<li>${who}<br><span class="small bad">Not decided yet. <button class="link" data-act="go" data-k="companions">Decide</button></span></li>`;
+      const T = R.npcTmpl(C, slot, n); const sheets = R.npcSheets(slot, n); const ok = !R.npcIssues(C, slot, n).length;
+      return `<li>${who}<br>${sheets.map((sh, j) => { const sk = R.SKILL_LIST.filter((k) => sh.skills[k] > 0).sort((a, b) => sh.skills[b] - sh.skills[a]).slice(0, 6).map((k) => R.SKILL_NAMES[k] + ' ' + sh.skills[k]).join(', ');
+        return `<span class="small">${sheets.length > 1 ? `<b>${esc(R.npcSheetName(slot, n, sh, j, sheets.length))}</b>: ` : ''}${esc(T.label)} ${R.npcKind(C, slot, n) === 'ghoul' ? 'ghoul' : 'mortal'}${R.npcSize(slot, n) === 'group' ? ' group' : ''}${sh.concept ? ', ' + esc(sh.concept) : ''}. ${esc(sk)}${sh.powers && sh.powers[0] && R.power(sh.powers[0]) ? '. ' + esc(R.power(sh.powers[0]).n) : ''}</span>`; }).join('<br>')}
+        ${ok ? '' : ` <span class="small bad">Still being built. <button class="link" data-act="go" data-k="companions">Finish</button></span>`}</li>`; }).join('')}</ul>`;
+  }
+
   S.review = () => {
     const issues = R.validate(C);
-    const cl = R.clan(C.clan);
+    const extra = builtCompanions().length;
+    const mk = R.isMortalKind(C), TP = R.tmpl(C);
+    const cl = C.kind === 'mortal' ? null : R.clan(C.clan);
     const errs = issues.filter((x) => x.level === 'err');
     const attrCol = (g) => R.ATTRS[g].map((a) => `<div class="trait-row"><span class="tname">${R.ATTR_NAMES[a]}</span>${dots(R.attr(C, a), 5, { base: C.attrs[a] })}</div>`).join('');
     const specs = R.allSpecs(C);
@@ -770,39 +1039,42 @@
     const pw = R.allPowerIds(C).map(R.power).filter(Boolean);
     const sk = R.schoolKey(C);
     const sorc = C.sorc.concat(C.xp.sorc || []).map(R.power).filter(Boolean);
-    const bane = cl && cl.banes.find((b) => b.id === C.bane);
+    const bane = !mk && cl && cl.banes.find((b) => b.id === C.bane);
     const adv = C.adv.map((x) => ({ x, A: R.adv(x.id) })).filter((o) => o.A);
     const preds = R.predGrants(C);
     return `<header class="page-head"><h1>Review and export</h1>
       <p class="lede">${errs.length ? `${plural(errs.length, 'problem')} to fix before this character is legal. You can still export a draft.` : 'The character follows the chronicle rules.'}</p></header>
       <div class="export-box">
-        <button class="btn primary" data-act="exportFoundry">Download Foundry actor (.json)</button>
-        <button class="btn" data-act="saveFile">Save builder file</button>
-        <button class="btn" data-act="exportPdf">Download character sheet (.pdf)</button>
+        <button class="btn primary" data-act="exportFoundry">${extra ? `Download Foundry actors (${extra + 1})` : 'Download Foundry actor (.json)'}</button>
+        <button class="btn" data-act="saveFile">${extra ? `Save builder files (${extra + 1})` : 'Save builder file'}</button>
+        <button class="btn" data-act="exportPdf">${extra ? `Download character sheets (${extra + 1})` : 'Download character sheet (.pdf)'}</button>
         <button class="btn" data-act="print">Print summary</button>
         <details class="howto"><summary>How to import into Foundry</summary><ol>
           <li>Make sure the <em>Dark Gifts: Disciplines Restored</em> module is active in your world, so its Disciplines show on the sheet.</li>
-          <li>In the Actors sidebar, create a new actor of type <em>Vampire</em> (any name).</li>
-          <li>Right-click it, choose <em>Import Data</em>, and select the downloaded file.</li>
-          <li>Powers, clan, predator type and Advantages arrive as items linked back to their compendium entries.</li></ol></details>
+          <li>In the Actors sidebar, create a new actor of type <em>${mk ? kindWord() : 'Vampire'}</em> (any name)${extra ? ', and one more for each ally or retainer: the file name says which type, <em>….mortal.foundry.json</em> into a <em>Mortal</em>, <em>….ghoul.foundry.json</em> into a <em>Ghoul</em>' : ''}.</li>
+          <li>Right-click it, choose <em>Import Data</em>, and select the downloaded file. The actor’s type has to match the file.</li>
+          <li>${mk ? (R.isGhoul(C) ? 'Powers and Advantages' : 'Advantages') : 'Powers, clan, predator type and Advantages'} arrive as items linked back to their compendium entries.</li></ol></details>
       </div>
       ${issues.length ? `<ul class="issues big">${issues.map((x) => `<li class="${x.level}"><button data-act="go" data-k="${x.step}"${x.tab ? ` data-tab="${x.tab}"` : ''}${x.anchor ? ` data-anchor="${x.anchor}"` : ''}>${esc(x.msg)}</button></li>`).join('')}</ul>` : ''}
       <article class="sheet" id="sheet">
-        <header class="sheet-head">${cl ? `<img src="${clanArt(cl)}" alt="" class="${cl.art ? 'art' : 'logo'}">` : ''}<div>
+        <header class="sheet-head">${cl && !mk ? `<img src="${clanArt(cl)}" alt="" class="${cl.art ? 'art' : 'logo'}">` : ''}<div>
           <h2 class="sheet-name">${esc(C.name || 'Unnamed')}</h2>
-          <p>${esc([C.concept, cl && cl.dn + (cl.castes ? ' (' + casteName(R.casteOf(C)) + ')' : ''), C.sabbat && 'Sabbat', C.kind && C.kind !== 'vampire' && R.KINDS[C.kind], C.predator && R.predName(C)].filter(Boolean).join(' · '))}</p>
-          <p class="small">${esc([C.sire && 'Sire: ' + C.sire, C.gen && 'Generation ' + C.gen, 'Blood Potency ' + R.bp(C), 'Humanity ' + R.humanity(C), 'Health ' + R.health(C), 'Willpower ' + R.willpower(C)].filter(Boolean).join(' · '))}</p>
+          <p>${esc((mk ? [C.concept, R.KINDS[C.kind] + (TP.attrs ? ` (${TP.label})` : ''), R.isGhoul(C) && cl && 'domitor’s clan: ' + cl.dn]
+            : [C.concept, cl && cl.dn + (cl.castes ? ' (' + casteName(R.casteOf(C)) + ')' : ''), C.sabbat && 'Sabbat', C.kind && C.kind !== 'vampire' && R.KINDS[C.kind], C.predator && R.predName(C)]).filter(Boolean).join(' · '))}</p>
+          <p class="small">${esc((mk ? [R.isGhoul(C) && C.sire && 'Domitor: ' + C.sire, 'Humanity ' + R.humanity(C), 'Health ' + R.health(C), 'Willpower ' + R.willpower(C)]
+            : [C.sire && 'Sire: ' + C.sire, C.gen && 'Generation ' + C.gen, 'Blood Potency ' + R.bp(C), 'Humanity ' + R.humanity(C), 'Health ' + R.health(C), 'Willpower ' + R.willpower(C)]).filter(Boolean).join(' · '))}</p>
           ${C.ambition || C.desire ? `<p class="small">${C.ambition ? 'Ambition: ' + esc(C.ambition) : ''}${C.ambition && C.desire ? ' · ' : ''}${C.desire ? 'Desire: ' + esc(C.desire) : ''}</p>` : ''}
         </div></header>
         <h3>Attributes</h3><div class="cols3">${['physical', 'social', 'mental'].map((g) => `<div>${attrCol(g)}</div>`).join('')}</div>
         <h3>Skills</h3><div class="cols3">${['physical', 'social', 'mental'].map((g) => `<div>${skillCol(g)}</div>`).join('')}</div>
-        <h3>Disciplines</h3>
-        ${R.activeDiscs(C).map((k) => `<div class="sheet-disc"><div class="trait-row"><span class="tname">${esc(R.discName(k))}</span>${dots(R.discTotal(C, k), 5, { base: R.discBase(C, k) })}</div>
+        ${C.kind === 'mortal' ? '' : '<h3>Disciplines</h3>'}
+        ${C.kind === 'mortal' ? '' : R.activeDiscs(C).map((k) => `<div class="sheet-disc"><div class="trait-row"><span class="tname">${esc(R.discName(k))}</span>${dots(R.discTotal(C, k), 5, { base: R.discBase(C, k) })}</div>
           <p class="small">${R.isSchool(k) ? 'Paths: ' + Object.keys(Object.assign({}, C.paths, C.xp.paths)).filter((p) => R.pathDots(C, p)).map((p) => esc(R.path(p).n) + ' ' + pips(R.pathDots(C, p))).join(', ') + (sorc.length ? '<br>' + sorc.map((p) => esc(p.n) + ' ' + pips(p.lv)).join(', ') : '')
             : pw.filter((p) => p.d === k).sort((a, b) => a.lv - b.lv).map((p) => esc(p.n) + ' ' + pips(p.lv)).join(', ')}</p></div>`).join('') || '<p class="small">None</p>'}
         <h3>Advantages and Flaws</h3>
         <ul class="plain cols2">${adv.map(({ x, A }) => A.id === 'v5-allies' && x.eff != null ? `<li>Allies (Effectiveness)${x.note ? ' (' + esc(x.note) + ')' : ''} ${pips(x.eff)}</li><li>Allies (Reliability)${x.note ? ' (' + esc(x.note) + ')' : ''} ${pips(x.rel)}</li>` : `<li>${A.kind === 'flaw' ? 'Flaw: ' : ''}${esc(A.n)}${x.note ? ' (' + esc(R.disc(x.note) ? R.disc(x.note).n : x.note) + ')' : ''} ${pips(x.dots)}${A.ed !== 'v5' ? ` <span class="muted">[${A.ed === 'v20' ? 'V20' : 'DG'}]</span>` : ''}</li>`).join('')}
           ${preds.map((g) => `<li>${esc(g.n)}${g.note ? ' (' + esc(g.note) + ')' : ''} ${pips(g.dots)} <span class="muted">[predator]</span></li>`).join('')}</ul>
+        ${npcReview()}
         ${bane ? `<h3>Bane</h3><p><strong>${esc(bane.title)}</strong> <span class="small muted">${esc(bane.srcLine)}</span></p><div class="prose small-prose">${bane.html}</div>` : ''}
         ${C.convictions.some((x) => x.c) ? `<h3>Convictions</h3><ul class="plain">${C.convictions.filter((x) => x.c).map((x) => `<li>${esc(x.c)}${x.t ? ' — ' + esc(x.t) : ''}</li>`).join('')}</ul>` : ''}
       </article>`;
@@ -853,13 +1125,42 @@
       }).join('') + '<p class="hint">Unticked clans are greyed out for players. Tick or untick a heading to allow or ban the whole group.</p>';
     } else if (ui.stTab === 'powers') {
       const q = (ui.q.st || '').toLowerCase();
-      const groups = core.disciplines.map((d) => [d.n, d.powers]).concat(Object.values(core.paths).map((p) => [p.n + ' (Path)', p.fx.concat(p.rit)]));
-      body = `<label class="search"><input type="search" data-filter="st" value="${esc(ui.q.st || '')}" placeholder="Filter powers"></label><p class="hint">Tick a power to ban it. ${P.bannedPowers.length} banned.</p>
-        <div id="st-list">${groups.map(([n, ids]) => { const ps = ids.map(R.power).filter((p) => p && (!q || p.n.toLowerCase().includes(q) || n.toLowerCase().includes(q))); return ps.length ? `<details data-dk="p:${esc(n)}" ${q ? 'open' : stOpen('p:' + n)}><summary>${esc(n)} <span class="small muted">${ps.filter((p) => P.bannedPowers.includes(p.id)).length} banned</span></summary><div class="checks cols">${ps.map((p) => `<label class="check" data-tipk="pow:${p.id}"><input type="checkbox" data-st-list="bannedPowers" value="${p.id}" ${P.bannedPowers.includes(p.id) ? 'checked' : ''}> ${esc(p.n)} ${pips(p.lv)}</label>`).join('')}</div></details>` : ''; }).join('')}</div>`;
+      const bd = P.bannedDiscs || [];
+      const whole = R.allDiscKeys().concat(['alchemy']);
+      // groups: [label, power ids, key that bans the whole group]
+      const groups = core.disciplines.map((d) => [d.n, d.powers, d.key]).concat(Object.values(core.paths).map((p) => [p.n + ' (Path)', p.fx.concat(p.rit), 'path:' + p.key]));
+      body = `<h3>Whole Disciplines</h3><p class="hint">Tick a Discipline or Blood Sorcery school to ban it outright: no dots, no powers, and it disappears from the Discipline choices. ${bd.filter((k) => !k.startsWith('path:')).length} banned.</p>
+        <div class="checks cols">${whole.map((k) => `<label class="check"><input type="checkbox" data-st-list="bannedDiscs" value="${k}" ${bd.includes(k) ? 'checked' : ''}> ${esc(R.discName(k))}</label>`).join('')}</div>
+        <h3>Single powers and Paths</h3>
+        <label class="search"><input type="search" data-filter="st" value="${esc(ui.q.st || '')}" placeholder="Filter powers"></label><p class="hint">Tick a power to ban it, or the box by a Path's name to ban the whole Path. ${P.bannedPowers.length} powers banned.</p>
+        <div id="st-list">${groups.map(([n, ids, gk]) => {
+          const ps = ids.map(R.power).filter((p) => p && (!q || p.n.toLowerCase().includes(q) || n.toLowerCase().includes(q)));
+          if (!ps.length) return '';
+          const off = bd.includes(gk);
+          const head = gk.startsWith('path:')
+            ? `<label class="check inline" onclick="event.stopPropagation()"><input type="checkbox" data-st-list="bannedDiscs" value="${gk}" ${off ? 'checked' : ''} aria-label="Ban the whole ${esc(n)}"></label> ${esc(n)}`
+            : esc(n);
+          return `<details data-dk="p:${esc(n)}" ${q ? 'open' : stOpen('p:' + n)}><summary>${head} <span class="small muted">${off ? 'all banned' : ps.filter((p) => P.bannedPowers.includes(p.id)).length + ' banned'}</span></summary>
+            <div class="checks cols${off ? ' off' : ''}">${ps.map((p) => `<label class="check" data-tipk="pow:${p.id}"><input type="checkbox" data-st-list="bannedPowers" value="${p.id}" ${P.bannedPowers.includes(p.id) || off ? 'checked' : ''} ${off ? 'disabled' : ''}> ${esc(p.n)} ${pips(p.lv)}</label>`).join('')}</div></details>`;
+        }).join('')}</div>`;
     } else if (ui.stTab === 'adv') {
       const q = (ui.q.sta || '').toLowerCase();
-      body = `<label class="search"><input type="search" data-filter="sta" value="${esc(ui.q.sta || '')}" placeholder="Filter Advantages"></label><p class="hint">Tick an Advantage to ban it. ${P.bannedAdv.length} banned.</p>
-        <div id="sta-list">${[['Backgrounds', (a) => R.isBgEntry(a)], ['Merits', (a) => !R.isBgEntry(a) && a.kind === 'merit'], ['Flaws', (a) => !R.isBgEntry(a) && a.kind === 'flaw']].map((t) => { const as = D.allAdv.filter(t[1]).filter((a) => !q || a.n.toLowerCase().includes(q)); return as.length ? `<details data-dk="a:${t[0]}" ${q ? 'open' : stOpen('a:' + t[0])}><summary>${t[0]}</summary><div class="checks cols">${as.map((a) => `<label class="check" data-tipk="adv:${a.id}"><input type="checkbox" data-st-list="bannedAdv" value="${a.id}" ${P.bannedAdv.includes(a.id) ? 'checked' : ''}> ${esc(a.n)}${a.ed !== 'v5' ? ` <span class="small muted">${a.ed === 'v20' ? 'V20' : 'DG'}</span>` : ''}</label>`).join('')}</div></details>` : ''; }).join('')}</div>`;
+      const bc = P.bannedAdvCats || [];
+      const sections = [['Backgrounds', (a) => R.isBgEntry(a), (a) => R.bgGroup(a)], ['Merits', (a) => !R.isBgEntry(a) && a.kind === 'merit', (a) => R.mfCat(a)], ['Flaws', (a) => !R.isBgEntry(a) && a.kind === 'flaw', (a) => R.mfCat(a)]];
+      body = `<label class="search"><input type="search" data-filter="sta" value="${esc(ui.q.sta || '')}" placeholder="Filter Advantages"></label>
+        <p class="hint">Tick an Advantage to ban it, or tick a category's name to ban everything in it. ${P.bannedAdv.length} single entries and ${bc.length} categor${bc.length === 1 ? 'y' : 'ies'} banned.</p>
+        <div id="sta-list">${sections.map(([title, test, catOf]) => {
+          const all = D.allAdv.filter(test);
+          const cats = [...new Set(all.map(catOf))].sort((x, y) => x.localeCompare(y));
+          const blocks = cats.map((cat) => {
+            const as = all.filter((a) => catOf(a) === cat && (!q || a.n.toLowerCase().includes(q) || cat.toLowerCase().includes(q)));
+            if (!as.length) return '';
+            const key = R.advCatKey(as[0]); const off = bc.includes(key);
+            return `<div class="st-cat"><h4 class="st-group"><label class="check"><input type="checkbox" data-st-list="bannedAdvCats" value="${esc(key)}" ${off ? 'checked' : ''}> ${esc(cat)}</label> <span class="small muted">${off ? 'whole category banned' : as.filter((a) => P.bannedAdv.includes(a.id)).length + ' of ' + as.length + ' banned'}</span></h4>
+              <div class="checks cols${off ? ' off' : ''}">${as.map((a) => `<label class="check" data-tipk="adv:${a.id}"><input type="checkbox" data-st-list="bannedAdv" value="${a.id}" ${P.bannedAdv.includes(a.id) || off ? 'checked' : ''} ${off ? 'disabled' : ''}> ${esc(a.n)}${a.ed !== 'v5' ? ` <span class="small muted">${a.ed === 'v20' ? 'V20' : 'DG'}</span>` : ''}</label>`).join('')}</div></div>`;
+          }).join('');
+          return blocks ? `<details data-dk="a:${title}" ${q ? 'open' : stOpen('a:' + title)}><summary>${title}</summary>${blocks}</details>` : '';
+        }).join('')}</div>`;
     } else if (ui.stTab === 'share') {
       body = `<p>Send players a code or a file. They open the builder, choose <em>Load chronicle rules</em> and paste the code or pick the file.</p>
         <div class="export-box"><button class="btn primary" data-act="stCode">Make a code</button><button class="btn" data-act="stFile">Download rules file</button><button class="btn" data-act="stReset">Reset to defaults</button></div>
@@ -878,12 +1179,14 @@
 
   // ------------------------------------------------------------------ render
   function render(opts) {
+    if (holdRender) { pendingRender = true; return; }
     opts = opts || {};
     C.customAdv = C.customAdv || []; R.syncCustom(C);
     // Blood Potency can drop (age, predator type, XP); powers bought through it go with it
     if ((C.xp.bpow || []).length) C.xp.bpow.slice().reverse().forEach((id) => { const p = R.power(id); if (!p || R.bpUsed(C, p.d) > R.bpBudget(C, p.d)) C.xp.bpow = C.xp.bpow.filter((x) => x !== id); });
     renderShell();
     if (ui.mode === 'st') { renderST(); $('#steps').innerHTML = ''; renderSummary(); return; }
+    if (!steps().some(([k]) => k === ui.step)) ui.step = 'concept';
     renderNav();
     if (!opts.keepPage) {
       const y = opts.top ? 0 : window.scrollY;
@@ -945,18 +1248,38 @@
   ACT.setAttr = (el) => {
     const a = el.dataset.k; const v = +el.dataset.v;
     const nv = clampDots(v, C.attrs[a]);
-    C.attrs[a] = Math.max(1, Math.min(C.free ? 5 : 4, nv));
+    C.attrs[a] = Math.max(1, Math.min(C.free ? 5 : R.attrSpread(C)[0], nv));
     C.xp.attrs[a] = 0;
     render();
   };
-  ACT.setKind = (el) => { C.kind = el.dataset.k; render(); };
+  // Disciplines don't carry over between a vampire and a mortal or ghoul: their rules have nothing in common
+  function clearDisciplines() {
+    const had = Object.keys(C.disc).length || C.powers.length || Object.keys(C.xp.disc).length || (C.xp.gpow || []).length || C.xp.powers.length || (C.xp.ipow || []).length || (C.xp.bpow || []).length;
+    C.disc = {}; C.powers = []; C.paths = {}; C.sorc = []; C.pickDisc = [];
+    Object.assign(C.xp, { disc: {}, paths: {}, sorc: [], powers: [], ipow: [], bpow: [], gpow: [], bp: 0 });
+    C.adv = C.adv.filter((x) => x.src !== 'ingrained');
+    return had;
+  }
+  ACT.setKind = (el) => {
+    const was = C.kind || 'vampire', to = el.dataset.k;
+    if (was === to) return;
+    const grp = (k) => (k === 'mortal' || k === 'ghoul' ? k : 'vampire');
+    C.kind = to;
+    if (grp(was) !== grp(to)) {
+      if (clearDisciplines()) toast('Disciplines and powers were cleared: they work differently for ' + (to === 'vampire' || to === 'revenant' ? 'vampires.' : to + 's.'));
+      if (to === 'mortal') selectClan(null);
+      if (to === 'ghoul' && R.isThin(C)) selectClan(null);
+    }
+    render();
+  };
+  ACT.setTmpl = (el) => { C.tmpl = el.dataset.k; render(); };
   ACT.setDist = (el) => { C.skillDist = el.dataset.k; render(); };
   ACT.setSkill = (el) => {
     const s = el.dataset.k; const v = +el.dataset.v;
-    const max = C.free ? 5 : Math.max(...Object.keys(R.SKILL_DISTS[C.skillDist].need).map(Number));
+    const max = C.free ? 5 : Math.max(...Object.keys(R.skillNeed(C)).map(Number));
     C.skills[s] = Math.max(0, Math.min(max, clampDots(v, C.skills[s])));
     C.xp.skills[s] = 0;
-    if (R.FREE_SPEC_SKILLS.includes(s) && C.skills[s] > 0 && !C.specs.some((x) => x.skill === s)) C.specs.push({ skill: s, name: '', src: 'free' });
+    if (R.FREE_SPEC_SKILLS.includes(s) && !R.tmpl(C).attrs && C.skills[s] > 0 && !C.specs.some((x) => x.skill === s)) C.specs.push({ skill: s, name: '', src: 'free' });
     if (C.skills[s] === 0) C.specs = C.specs.filter((x) => x.skill !== s || x.name.trim());
     render();
   };
@@ -1182,17 +1505,27 @@
   ACT.xpBP = (el) => { C.xp.bp = Math.max(0, Math.min(10, (C.xp.bp || 0) + +el.dataset.v)); if (R.bp(C) > 10) C.xp.bp--; render(); };
   ACT.addXpSpec = () => { const rated = R.SKILL_LIST.filter((s) => R.skill(C, s) > 0); C.xp.specs.push({ skill: rated[0] || 'academics', name: '' }); render(); };
   ACT.delXpSpec = (el) => { C.xp.specs.splice(+el.dataset.k, 1); render(); };
-  ACT.exportFoundry = () => { const a = X.actor(C); X.download(X.filename(C, '.foundry.json'), a); toast('Foundry actor downloaded.'); };
-  ACT.saveFile = () => { X.download(X.filename(C, '.vtmb.json'), { kind: 'vtm-builder-character', v: 1, character: C, preset: app.preset }); toast('Builder file saved.'); };
+  // every character from this build: yours, then each ally or retainer sheet built on the Allies & Retainers step
+  const allChars = () => [C].concat(builtCompanions());
+  const kindSuffix = (c) => (c.kind === 'mortal' || c.kind === 'ghoul' ? '.' + c.kind : '');
+  const pause = (ms) => new Promise((ok) => setTimeout(ok, ms));
+  // browsers drop downloads fired in the same instant, so they go one by one
+  async function downloadEach(list, make, word) {
+    for (let x = 0; x < list.length; x++) { if (x) await pause(450); await make(list[x]); }
+    toast(list.length > 1 ? `${list.length} ${word} downloaded. If the browser asks, allow multiple downloads.` : `${word[0].toUpperCase() + word.slice(1, -1)} downloaded.`);
+  }
+  ACT.exportFoundry = () => downloadEach(allChars(), (c) => X.download(X.filename(c, kindSuffix(c) + '.foundry.json'), X.actor(c)), 'Foundry actors');
+  ACT.saveFile = () => downloadEach(allChars(), (c) => X.download(X.filename(c, kindSuffix(c) + '.vtmb.json'), { kind: 'vtm-builder-character', v: 1, character: c, preset: app.preset }), 'builder files');
   ACT.print = () => window.print();
   ACT.exportPdf = async (el) => {
     el.disabled = true; const t = el.textContent; el.textContent = 'Preparing the sheet…';
     try {
       if (!X.pdfSheet) await new Promise((ok, bad) => { const s = document.createElement('script'); s.src = 'js/pdfsheet.js'; s.onload = ok; s.onerror = bad; document.head.appendChild(s); });
-      const bytes = await X.pdfSheet(C);
-      const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([bytes], { type: 'application/pdf' })); a.download = X.filename(C, '.pdf');
-      document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 2000);
-      toast('Character sheet downloaded.');
+      await downloadEach(allChars(), async (c) => {
+        const bytes = await X.pdfSheet(c);
+        const a = document.createElement('a'); a.href = URL.createObjectURL(new Blob([bytes], { type: 'application/pdf' })); a.download = X.filename(c, kindSuffix(c) + '.pdf');
+        document.body.appendChild(a); a.click(); setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 4000);
+      }, 'character sheets');
     } catch (e) { console.error(e); toast('The PDF could not be made: ' + e.message); }
     el.disabled = false; el.textContent = t;
   };
@@ -1255,6 +1588,41 @@
   CHG.pickDisc = (el) => { C.pickDisc[+el.dataset.k] = el.value || null; render(); };
   CHG.specSkill = (el) => { C.specs[+el.dataset.k].skill = el.value; render(); };
   CHG.xpSpecSkill = (el) => { C.xp.specs[+el.dataset.k].skill = el.value; render(); };
+  // allies and retainers: refs are "slot.sheet"
+  const npcAt = (ref) => {
+    const [i, j] = String(ref).split('.'); const slot = R.companionSlots(C)[+i]; if (!slot) return [null, null, null];
+    const n = R.npcFor(C, slot); const sh = R.npcSheets(slot, n)[+(j || 0)];
+    return [slot, n, sh || (+(j || 0) === 0 ? n : null)];
+  };
+  const npcSplit = (el) => el.dataset.k.split('|');
+  ACT.npcMode = (el) => { const [, n] = npcAt(el.dataset.k); if (!n) return; n.mode = el.dataset.v || null; render(); };
+  ACT.npcKind = (el) => { const [, n] = npcAt(el.dataset.k); if (!n) return; n.kind = el.dataset.v; if (n.kind !== 'ghoul') n.powers = []; render(); };
+  ACT.npcSize = (el) => { const [, n] = npcAt(el.dataset.k); if (!n) return; const v = el.dataset.v; n.size = v === 'group' ? 'group' : +v; delete n.group; render(); };
+  ACT.npcTab = (el) => { ui.npcTab = ui.npcTab || {}; ui.npcTab[el.dataset.k] = el.dataset.v; render(); };
+  ACT.npcAttr = (el) => { const [ref, a] = npcSplit(el); const [slot, n, sh] = npcAt(ref); if (!sh) return; const top = R.npcTmpl(C, slot, n).attrs[0]; sh.attrs[a] = Math.max(1, Math.min(top, clampDots(+el.dataset.v, sh.attrs[a]))); render(); };
+  ACT.npcSkill = (el) => { const [ref, k] = npcSplit(el); const [slot, n, sh] = npcAt(ref); if (!sh) return; const top = Math.max(...Object.keys(R.npcTmpl(C, slot, n).skills).map(Number)); sh.skills[k] = Math.max(0, Math.min(top, clampDots(+el.dataset.v, sh.skills[k]))); if (!sh.skills[k]) sh.specs = sh.specs.filter((x) => x.skill !== k || (x.name || '').trim()); render(); };
+  ACT.npcAddSpec = (el) => { const [, , sh] = npcAt(el.dataset.k); if (!sh) return; const rated = R.SKILL_LIST.filter((k) => sh.skills[k] > 0).sort((a, b) => sh.skills[b] - sh.skills[a]); sh.specs.push({ skill: rated[0], name: '' }); render(); };
+  ACT.npcDelSpec = (el) => { const [ref, x] = npcSplit(el); const [, , sh] = npcAt(ref); if (!sh) return; sh.specs.splice(+x, 1); render(); };
+  CHG.npcSpecSkill = (el) => { const [ref, x] = npcSplit(el); const [, , sh] = npcAt(ref); if (!sh) return; sh.specs[+x].skill = el.value; render(); };
+  CHG.npcPower = (el) => { const [, , sh] = npcAt(el.dataset.k); if (!sh) return; sh.powers = el.value ? [el.value] : []; render(); };
+  // Merits & Flaws actions inside a companion's sheet act on that sheet
+  const NPC_SCOPED = new Set(['addAdv', 'delAdv', 'setAlly', 'advDots', 'advNoteSel']);
+  function inNpcScope(el, fn) {
+    const sc = el.closest && el.closest('[data-npc-scope]');
+    const name = el.dataset.act || el.dataset.actChange;
+    if (!sc || !NPC_SCOPED.has(name)) return false;
+    withNpc(sc.dataset.npcScope, fn); render(); return true;
+  }
+  CHG.ghoulPower = (el) => {
+    const id = el.dataset.k;
+    C.xp.gpow = C.xp.gpow || [];
+    if (el.checked) { if (!C.powers.length) C.powers.push(id); else C.xp.gpow.push(id); }
+    else {
+      C.powers = C.powers.filter((x) => x !== id); C.xp.gpow = C.xp.gpow.filter((x) => x !== id);
+      if (!C.powers.length && C.xp.gpow.length) C.powers.push(C.xp.gpow.shift()); // the free pick moves to the next power
+    }
+    render();
+  };
   CHG.togglePower = (el) => {
     const id = el.dataset.k; const p = R.power(id);
     if (el.checked) {
@@ -1285,6 +1653,14 @@
   };
 
   function prunePowers() {
+    if (C.npc) return;
+    if (R.isMortalKind(C)) {
+      const ok = new Set(R.isGhoul(C) ? R.ghoulDiscs(C) : []);
+      const keep = (id) => { const p = R.power(id); return p && p.lv === 1 && ok.has(p.d); };
+      C.powers = C.powers.filter(keep); C.xp.gpow = (C.xp.gpow || []).filter(keep);
+      if (!C.powers.length && C.xp.gpow.length) C.powers.push(C.xp.gpow.shift());
+      return;
+    }
     // remove powers above rating or for disciplines no longer present; keep choices stable otherwise
     const active = new Set(R.activeDiscs(C));
     C.powers = C.powers.filter((id) => { const p = R.power(id); return p && active.has(p.d) && p.lv <= R.effRating(C, p.d); });
@@ -1361,11 +1737,11 @@
     const el = ev.target.closest('[data-act]');
     if (!el || el.disabled) return;
     const fn = ACT[el.dataset.act];
-    if (fn) { ev.preventDefault(); fn(el, ev); }
+    if (fn) { ev.preventDefault(); if (!inNpcScope(el, () => fn(el, ev))) fn(el, ev); }
   });
   document.addEventListener('change', (ev) => {
     const el = ev.target;
-    if (el.dataset.actChange && CHG[el.dataset.actChange]) return CHG[el.dataset.actChange](el, ev);
+    if (el.dataset.actChange && CHG[el.dataset.actChange]) { if (inNpcScope(el, () => CHG[el.dataset.actChange](el, ev))) return; return CHG[el.dataset.actChange](el, ev); }
     if (el.dataset.st != null) {
       const P = app.preset; const k = el.dataset.st;
       P[k] = el.type === 'checkbox' ? el.checked : el.type === 'number' ? (el.value === '' ? 0 : +el.value) : el.value;
@@ -1400,9 +1776,11 @@
     if (el.dataset.bind && el.dataset.bind !== 'gen') { C[el.dataset.bind] = el.value; renderSummary(); renderNav(); save(); return; }
     if (el.dataset.bindSpec != null) { C.specs[+el.dataset.bindSpec].name = el.value; renderSummary(); renderNav(); save(); return; }
     if (el.dataset.bindXpspec != null) { C.xp.specs[+el.dataset.bindXpspec].name = el.value; renderSummary(); save(); return; }
-    if (el.dataset.bindAdv != null) { C.adv[+el.dataset.bindAdv].note = el.value; save(); return; }
+    if (el.dataset.bindAdv != null) { const sc = el.closest('[data-npc-scope]'); if (sc) { withNpc(sc.dataset.npcScope, () => { C.adv[+el.dataset.bindAdv].note = el.value; }); save(); return; } C.adv[+el.dataset.bindAdv].note = el.value; save(); return; }
     if (el.dataset.bindPred) { C.pred[el.dataset.bindPred] = el.value; renderSummary(); save(); return; }
     if (el.dataset.bindPrednote) { C.pred.notes = C.pred.notes || {}; C.pred.notes[el.dataset.bindPrednote] = el.value; save(); return; }
+    if (el.dataset.npc) { const [ref, f] = el.dataset.npc.split('|'); const [, n, sh] = npcAt(ref); const t = f === 'stNote' ? n : sh; if (t) { t[f] = el.value; if (f === 'name') { const h = el.closest('.npc') && el.closest('.npc').querySelector('.npc-head h2'); if (h && el.value) h.textContent = el.value; } } renderNav(); save(); return; }
+    if (el.dataset.npcSpec) { const [ref, x] = el.dataset.npcSpec.split('|'); const [, , sh] = npcAt(ref); if (sh && sh.specs[+x]) sh.specs[+x].name = el.value; save(); return; }
     if (el.dataset.bindConv) { const [i, f] = el.dataset.bindConv.split('|'); C.convictions[+i][f] = el.value; renderSummary(); renderNav(); save(); return; }
     if (el.dataset.filter) {
       ui.q[el.dataset.filter] = el.value;
