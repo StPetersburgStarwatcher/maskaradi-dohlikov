@@ -76,10 +76,25 @@
     const d = A.dots && A.dots[0] ? A.dots.map(pips).join(' / ') : 'no dot value';
     openReader(A.n, `${ed} ${kind}${A.cat ? ', ' + esc(A.cat) : ''} · ${d}${A.req ? '<br>' + esc(A.req) : ''}`, A.html, A.src);
   }
+  // Dot ladders in the book texts: one line per level, the dots beside the text (a bold label, where there is one,
+  // stays inline). Drops the empty rungs left where a list of Merits used to be.
+  const SMALL = new Set(['and', 'or', 'of', 'the', 'a', 'an', 'in', 'on', 'to', 'for']);
+  const titleCase = (t) => t.toLowerCase().split(/\s+/).map((w, i) => (i && SMALL.has(w) ? w : w.charAt(0).toUpperCase() + w.slice(1))).join(' ');
+  function tidyDots(html) {
+    return (html || '')
+      // a paragraph opening with a bold all-caps heading ("HAVEN MERITS AND FLAWS You can…") becomes a heading and its text
+      .replace(/<p><strong>([A-Z][A-Z0-9 ,&’'\-]{3,}?)\s*<\/strong>\s*/g, (m, h) => `<h4>${titleCase(h.trim())}</h4><p>`)
+      .replace(/<p>\s*<\/p>/g, '')
+      .replace(/<p class="dots"><span class="d">[^<]*<\/span>\s*<\/p>\s*/g, '')
+      .replace(/<p class="dots">(<span class="d">[^<]*<\/span>)\s*([\s\S]*?)<\/p>/g, (m, d, body) => {
+        if (/<\/strong>/.test(body) && !/<strong>/.test(body)) body = '<strong>' + body; // a label missing its opening tag
+        return `<p class="dots">${d}<span class="dt">${body.trim()}</span></p>`;
+      });
+  }
   function openReader(title, meta, html, src) {
     const el = $('#reader');
     el.innerHTML = `<div class="reader-head"><h2>${esc(title)}</h2><button class="icon-btn" data-act="closeReader" aria-label="Close">✕</button></div>
-      <p class="reader-meta">${meta || ''}</p><div class="reader-body prose">${html || ''}</div>
+      <p class="reader-meta">${meta || ''}</p><div class="reader-body prose">${tidyDots(html)}</div>
       ${src && src.book ? `<p class="reader-src">${srcLine(src)}</p>` : ''}`;
     document.body.classList.add('reading');
     el.scrollTop = 0;
@@ -1048,7 +1063,6 @@
         <button class="btn primary" data-act="exportFoundry">${extra ? `Download Foundry actors (${extra + 1})` : 'Download Foundry actor (.json)'}</button>
         <button class="btn" data-act="saveFile">${extra ? `Save builder files (${extra + 1})` : 'Save builder file'}</button>
         <button class="btn" data-act="exportPdf">${extra ? `Download character sheets (${extra + 1})` : 'Download character sheet (.pdf)'}</button>
-        <button class="btn" data-act="print">Print summary</button>
         <details class="howto"><summary>How to import into Foundry</summary><ol>
           <li>Make sure the <em>Dark Gifts: Disciplines Restored</em> module is active in your world, so its Disciplines show on the sheet.</li>
           <li>In the Actors sidebar, create a new actor of type <em>${mk ? kindWord() : 'Vampire'}</em> (any name)${extra ? ', and one more for each ally or retainer: the file name says which type, <em>….mortal.foundry.json</em> into a <em>Mortal</em>, <em>….ghoul.foundry.json</em> into a <em>Ghoul</em>' : ''}.</li>
@@ -1057,7 +1071,7 @@
       </div>
       ${issues.length ? `<ul class="issues big">${issues.map((x) => `<li class="${x.level}"><button data-act="go" data-k="${x.step}"${x.tab ? ` data-tab="${x.tab}"` : ''}${x.anchor ? ` data-anchor="${x.anchor}"` : ''}>${esc(x.msg)}</button></li>`).join('')}</ul>` : ''}
       <article class="sheet" id="sheet">
-        <header class="sheet-head">${cl && !mk ? `<img src="${clanArt(cl)}" alt="" class="${cl.art ? 'art' : 'logo'}">` : ''}<div>
+        <header class="sheet-head">${C.portrait ? `<img src="${C.portrait}" alt="" class="portrait">` : cl && !mk ? `<img src="${clanArt(cl)}" alt="" class="${cl.art ? 'art' : 'logo'}">` : ''}<div>
           <h2 class="sheet-name">${esc(C.name || 'Unnamed')}</h2>
           <p>${esc((mk ? [C.concept, R.KINDS[C.kind] + (TP.attrs ? ` (${TP.label})` : ''), R.isGhoul(C) && cl && 'domitor’s clan: ' + cl.dn]
             : [C.concept, cl && cl.dn + (cl.castes ? ' (' + casteName(R.casteOf(C)) + ')' : ''), C.sabbat && 'Sabbat', C.kind && C.kind !== 'vampire' && R.KINDS[C.kind], C.predator && R.predName(C)]).filter(Boolean).join(' · '))}</p>
@@ -1356,7 +1370,12 @@
   ACT.galZoom = (el) => { const d = $('#lightbox'); d.dataset.k = el.dataset.k; lbRender(); d.showModal(); };
   ACT.lbClose = () => $('#lightbox').close();
   $('#lightbox').addEventListener('click', (ev) => { if (ev.target.id === 'lightbox') ev.target.close(); });
-  $('#lightbox').addEventListener('keydown', (ev) => { const d = $('#lightbox'); if (ev.key === 'ArrowLeft' || ev.key === 'ArrowRight') { const b = d.querySelector(ev.key === 'ArrowLeft' ? '.prev' : '.next'); if (b) b.click(); } });
+  // arrow keys page the enlarged gallery; listened for on the whole page, because a click re-draws the picture and focus
+  // can fall out of the dialog
+  document.addEventListener('keydown', (ev) => {
+    const d = $('#lightbox'); if (!d.open || (ev.key !== 'ArrowLeft' && ev.key !== 'ArrowRight')) return;
+    const b = d.querySelector(ev.key === 'ArrowLeft' ? '.prev' : '.next'); if (b) { ev.preventDefault(); b.click(); }
+  });
   // Attribute and Skill tooltips (V5 Corebook text), positioned next to the name
   const tipEl = document.createElement('div'); tipEl.className = 'trait-tip'; tipEl.setAttribute('role', 'tooltip'); tipEl.hidden = true; document.body.appendChild(tipEl);
   function tipHtml(key) {
