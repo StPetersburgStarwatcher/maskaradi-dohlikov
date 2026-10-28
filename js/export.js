@@ -151,12 +151,15 @@
     const spentRows = R.xpSpent(c);
     const spent = spentRows.reduce((a, r) => a + r[1], 0);
     const total = R.xpTotal(c);
+    // the XP ledger, in wod5e's own format: gains are positive, spending is negative, oldest first.
+    // Legacy exp stays at 0/0 so the sheet only shows the calculated totals.
+    const t0 = Date.now() - spentRows.length - 1;
     const experiences = [];
-    if (total) experiences.push({ id: rid(), name: 'Starting experience', value: total });
+    if (total) experiences.push({ id: rid(), name: 'Starting experience', value: total, timestamp: t0 });
+    spentRows.forEach((r, i) => experiences.push({ id: rid(), name: r[0], value: -Math.abs(r[1]), timestamp: t0 + i + 1 }));
     const bio = [c.history ? `<p>${esc(c.history).replace(/\n/g, '</p><p>')}</p>` : ''].join('');
     const notes = [
       c.notes ? `<p>${esc(c.notes).replace(/\n/g, '</p><p>')}</p>` : '',
-      spentRows.length ? '<h3>Experience spent at creation</h3><ul>' + spentRows.map((r) => `<li>${esc(r[0])}: ${r[1]} XP</li>`).join('') + '</ul>' : '',
       !mk && clan && clan.castes ? `<p>Caste: ${esc(clan.castes[c.caste || 0].n)}</p>` : '',
       mk && R.tmpl(c).attrs ? `<p>Built with the ${esc(R.tmpl(c).label)} template (V5 Corebook p. 184).</p>` : '',
       R.isGhoul(c) && clan ? `<p>Domitor’s clan: ${esc(clan.dn)}</p>` : '',
@@ -170,7 +173,7 @@
         concept: c.concept, chronicle: c.chronicle || R.preset().name || '', ambition: c.ambition, desire: c.desire,
         touchstones: touch, tenets: '', sire: mk ? '' : c.sire, generation: gen, domitor: R.isGhoul(c) ? c.sire : '', creedfields: '', cellname: '',
       },
-      experiences, exp: { value: total - spent, max: total }, derivedXP: { totalXP: total, remainingXP: total - spent },
+      experiences, exp: { value: 0, max: 0 }, derivedXP: { totalXP: total, remainingXP: total - spent },
       health: { aggravated: 0, superficial: 0, max: R.health(c), value: R.health(c) },
       willpower: { aggravated: 0, superficial: 0, max: R.willpower(c), value: R.willpower(c) },
       attributes, skills,
