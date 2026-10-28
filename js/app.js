@@ -15,6 +15,7 @@
   C.xp = Object.assign(R.newChar().xp, C.xp || {});
   C.pred = Object.assign(R.newChar().pred, C.pred || {});
   C.npcs = C.npcs || {};
+  R.migrateAdv(C);
   // companions opened in an earlier version but never filled in start again from the first choice
   Object.values(C.npcs).forEach((n) => { if (n && n.mode === 'self' && !('extra' in n) && !n.name && !n.concept && !(n.adv || []).length && !Object.values(n.skills || {}).some(Boolean)) n.mode = null; });
   const ui = Object.assign({ step: 'concept', mfTab: 'merit', q: {}, open: {}, stTab: 'rules', xpAdv: false }, load(LS_UI) || {});
@@ -1737,14 +1738,14 @@
     try { obj = JSON.parse(text); } catch (e) { obj = null; }
     if (obj && obj.kind === 'vtm-builder-character') {
       C = Object.assign(R.newChar(), obj.character || {});
-      C.xp = Object.assign(R.newChar().xp, C.xp || {}); C.pred = Object.assign(R.newChar().pred, C.pred || {});
+      C.xp = Object.assign(R.newChar().xp, C.xp || {}); C.pred = Object.assign(R.newChar().pred, C.pred || {}); R.migrateAdv(C);
       if (obj.preset && !app.preset.locked) app.preset = PR.normalize(obj.preset);
       render({ top: true }); toast('Character loaded.'); return true;
     }
     if (obj && obj.kind === 'vtm-builder-rules') { await applyPreset(obj.preset, from); return true; }
-    if (obj && obj.type === 'vampire' && obj.flags && obj.flags['vtm-builder']) {
+    if (obj && ['vampire', 'mortal', 'ghoul'].includes(obj.type) && obj.flags && obj.flags['vtm-builder']) {
       C = Object.assign(R.newChar(), obj.flags['vtm-builder'].character || {});
-      C.xp = Object.assign(R.newChar().xp, C.xp || {}); C.pred = Object.assign(R.newChar().pred, C.pred || {});
+      C.xp = Object.assign(R.newChar().xp, C.xp || {}); C.pred = Object.assign(R.newChar().pred, C.pred || {}); R.migrateAdv(C);
       render({ top: true }); toast('Character loaded from its Foundry export.'); return true;
     }
     if (obj && obj.v && obj.maxDisc != null) { await applyPreset(obj, from); return true; }

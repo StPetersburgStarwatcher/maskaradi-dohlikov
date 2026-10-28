@@ -178,8 +178,8 @@
     'v20|Medium', 'v20|Inoffensive to Animals', 'v20|Magic Resistance', 'v20|Oracular Ability', 'v20|Short', 'v20|Permanent Wound',
     'v20|Permanent Fangs', 'v20|Deaf', 'v20|Blind', 'v20|Mute', 'v20|Lame', 'v20|Phobia', 'v20|Amnesia', 'v20|Vengeful', 'v20|Nightmares',
     'v20|Blush of Health', 'v20|Catlike Balance',
-    'v20|Beacon of the Unholy',
-    'v5|Nuit Mode', 'v5|Crone’s Curse', 'v5|Distressing Fangs', 'v5|Blood Empathy', 'v5|Stench',
+    'v20|Beacon of the Unholy', 'v20|Indelible', 'v20|Uninvited', 'v20|Clear-Sighted', 'v20|Time Sense', 'v20|Disfigured',
+    'v5|Nuit Mode', 'v5|Crone’s Curse', 'v5|Distressing Fangs', 'v5|Blood Empathy', 'v5|Stench', 'v5|Tempered Will', 'v5|Unseemly Aura',
   ]);
   const DGR_FIX = {
     'Coldy Logical': 'Coldly Logical', 'Ambidexterous': 'Ambidextrous', 'Monsterous Skin (Serpentis)': 'Monstrous Skin (Serpentis)',
@@ -217,6 +217,26 @@
   // Sect restrictions on V20 Corebook entries: these say "Sabbat vampires cannot take this"
   ['v20-broken-bond', 'v20-bound', 'v20-loathsome-regnant'].forEach((id) => { if (ADV[id]) ADV[id].noSabbat = true; });
   R.adv = (id) => ADV[id];
+  // Characters saved before an entry was hidden in favour of another version get that version instead (same name, or
+  // the counterpart below), so their exports still link to the module's compendium
+  const COUNTERPART = { 'v20|Indelible': 'Nuit Mode', 'v20|Enemy': 'Enemies', 'v20|Boon': 'Minor Boon', 'v20|Language': 'Linguistics', 'v20|Short': 'Small',
+    'v20|Oracular Ability': 'Oracle', 'v20|Magic Resistance': 'Resistant to Magic', 'v20|Beacon of the Unholy': 'Beacon of Profanity', 'v5|Stench': 'Smell of the Grave',
+    'v5|Tempered Will': 'Resistant to Mind-Bending', 'v5|Unseemly Aura': 'Pale Aura', 'v20|Uninvited': 'Folkloric Block', 'v20|Clear-Sighted': 'Supernatural Awareness',
+    'v20|Time Sense': 'Celestial Attunement', 'v20|Disfigured': 'Repulsive' };
+  R.migrateAdv = (c) => {
+    const fix = (x) => {
+      const A = ADV[x.id]; if (!A || !HIDE.has(A.ed + '|' + A.n)) return;
+      const want = (COUNTERPART[A.ed + '|' + A.n] || A.n).toLowerCase();
+      const B = D.allAdv.find((b) => b.n.toLowerCase() === want && b.kind === A.kind) || D.allAdv.find((b) => b.n.toLowerCase() === want);
+      if (!B) return;
+      x.id = B.id;
+      const ds = (B.dots || []).filter((d) => d > 0);
+      if (ds.length && !ds.includes(x.dots)) x.dots = ds[0];
+    };
+    (c.adv || []).forEach(fix);
+    Object.values(c.npcs || {}).forEach((n) => { (n.adv || []).forEach(fix); (n.extra || []).forEach((m) => (m.adv || []).forEach(fix)); });
+    return c;
+  };
   // The player's own Merits and Flaws live on the character; register them so they work like any other entry
   R.syncCustom = (c) => {
     (c.customAdv || []).forEach((d) => {
