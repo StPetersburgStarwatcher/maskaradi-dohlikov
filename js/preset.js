@@ -109,8 +109,10 @@
   P.normalize = function (p) {
     const d = D.rules.defaultPreset();
     const out = Object.assign(d, p || {});
-    ['disabledClans', 'bannedPowers', 'bannedAdv', 'bannedAdvCats', 'bannedDiscs', 'ages', 'baneKinds'].forEach((k) => { if (!Array.isArray(out[k])) out[k] = d[k]; });
+    ['disabledClans', 'bannedPowers', 'bannedAdv', 'bannedAdvCats', 'bannedDiscs', 'bannedKinds', 'ages', 'baneKinds'].forEach((k) => { if (!Array.isArray(out[k])) out[k] = d[k]; });
     if (!out.ages.length) out.ages = ['neonate'];
+    out.bannedKinds = out.bannedKinds.filter((k) => D.rules.KINDS[k]);
+    if (out.bannedKinds.length >= Object.keys(D.rules.KINDS).length) out.bannedKinds = []; // something must stay open
     if (!out.ages.includes(out.age)) out.age = out.ages[0];
     return out;
   };

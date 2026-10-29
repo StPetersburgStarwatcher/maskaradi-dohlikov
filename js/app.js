@@ -16,6 +16,7 @@
   C.pred = Object.assign(R.newChar().pred, C.pred || {});
   C.npcs = C.npcs || {};
   R.migrateAdv(C);
+  enforceKind();
   // companions opened in an earlier version but never filled in start again from the first choice
   Object.values(C.npcs).forEach((n) => { if (n && n.mode === 'self' && !('extra' in n) && !n.name && !n.concept && !(n.adv || []).length && !Object.values(n.skills || {}).some(Boolean)) n.mode = null; });
   const ui = Object.assign({ step: 'concept', mfTab: 'merit', q: {}, open: {}, stTab: 'rules', xpAdv: false }, load(LS_UI) || {});
@@ -185,7 +186,7 @@
       </div>
       </div>
       <h2>What are you?</h2>
-      <div class="cards3 kind-cards">${[['vampire', 'Vampire', 'One of the Kindred: clan, Disciplines, predator type and Blood Potency. Everything in this builder is made for you.'], ['mortal', 'Mortal', 'A living human: a hunter, a retainer, a Touchstone, a victim. No Disciplines.'], ['ghoul', 'Ghoul', 'A mortal fed on vampire Blood and bound to a domitor. One level 1 power from the domitor’s Disciplines.'], ['revenant', 'Revenant', 'Born into a family that carries vampire Blood in its veins.']].map(([k, l, t]) => `<button class="choice ${k === 'vampire' ? 'wide ' : ''}${(C.kind || 'vampire') === k ? 'sel' : ''}" data-act="setKind" data-k="${k}"><strong>${l}</strong><span class="small">${t}</span></button>`).join('')}</div>
+      <div class="cards3 kind-cards">${[['vampire', 'Vampire', 'One of the Kindred: clan, Disciplines, predator type and Blood Potency. Everything in this builder is made for you.'], ['mortal', 'Mortal', 'A living human: a hunter, a retainer, a Touchstone, a victim. No Disciplines.'], ['ghoul', 'Ghoul', 'A mortal fed on vampire Blood and bound to a domitor. One level 1 power from the domitor’s Disciplines.'], ['revenant', 'Revenant', 'Born into a family that carries vampire Blood in its veins.']].filter(([k]) => !R.kindBanned(k) || (C.kind || 'vampire') === k).map(([k, l, t]) => { const off = R.kindBanned(k); return `<button class="choice ${k === 'vampire' && R.allowedKinds().length > 1 ? 'wide ' : ''}${(C.kind || 'vampire') === k ? 'sel' : ''}" data-act="setKind" data-k="${k}" ${off ? 'disabled' : ''}><strong>${l}</strong><span class="small">${off ? 'The Storyteller doesn’t allow this in the chronicle.' : t}</span></button>`; }).join('')}</div>
       ${C.kind === 'revenant' ? '<p class="note">Revenant creation isn’t in the builder yet. For now this only opens up their Merits and Flaws; the rest of the steps still build a vampire.</p>' : ''}
       ${R.isMortalKind(C) ? tmplPicker() : ''}
       ${R.isMortalKind(C) ? '' : `<h2>Sea of time</h2>`}
@@ -1124,6 +1125,8 @@
         <h3>Points and experience</h3><div class="grid4">${num('xpBonus', 'Bonus XP', 0, 500)}${num('meritPts', 'Advantage points', 0, 30)}${num('bgBonus', 'Free Background points', 0, 30)}${num('flawPts', 'Flaw points', 0, 10)}</div>
         <h3>Sources</h3><div class="checks">${chk('allowV20', 'Allow V20 Merits &amp; Flaws')}${num('v20Ratio', 'V20 point multiplier', 0.5, 3, 0.5)}${chk('allowDGR', 'Allow Dark Gifts Merits &amp; Flaws')}${chk('thinAllowed', 'Allow thin-bloods')}</div>
         <label class="fld narrow"><span>Sabbat characters</span><select data-st="sabbat">${[['allow', 'Allowed'], ['off', 'Not allowed'], ['only', 'Required (Sabbat chronicle)']].map(([k, l]) => `<option value="${k}" ${P.sabbat === k ? 'selected' : ''}>${l}</option>`).join('')}</select></label>
+        <h3>Characters players may create</h3><p class="hint">Untick a kind to ban it for player characters. Allies and Retainers aren’t affected: a player with those Backgrounds can still build mortal and ghoul companions.</p>
+        <div class="checks">${Object.keys(R.KINDS).sort((x, y) => ['vampire', 'mortal', 'ghoul', 'revenant'].indexOf(x) - ['vampire', 'mortal', 'ghoul', 'revenant'].indexOf(y)).map((k) => { const on = !P.bannedKinds.includes(k), last = on && R.allowedKinds().length === 1; return `<label class="check"><input type="checkbox" data-st-ban="bannedKinds" value="${k}" ${on ? 'checked' : ''} ${last ? 'disabled title="At least one kind must stay open"' : ''}> ${R.KINDS[k]}s</label>`; }).join('')}</div>
         <h3>Other settings</h3><div class="checks">${chk('settingDA', 'Dark Ages Merits &amp; Flaws', '(Dark Ages: Vampire, its Companion and Tome of Secrets)')}${chk('settingLaibon', 'Laibon Merits &amp; Flaws', '(Kindred of the Ebony Kingdom)')}${chk('sabbatAdvAnyone', 'Ignore sect restrictions on Merits &amp; Flaws', '(Sabbat-only entries for anyone, and Camarilla-only ones for the Sabbat)')}</div>
         <h3>Predator types</h3><div class="checks">${chk('noPredDefault', 'New characters start with no predator type', '(players can still pick one)')}</div>
         <h3>Banes players may choose</h3><div class="checks">${[['v5', 'V5 Corebook / Players Guide'], ['variant', 'Players Guide variants'], ['v20', 'V20 weaknesses']].map(([k, l]) => `<label class="check"><input type="checkbox" data-st-list="baneKinds" value="${k}" ${P.baneKinds.includes(k) ? 'checked' : ''}> ${l}</label>`).join('')}</div>
@@ -1720,6 +1723,12 @@
     d.querySelector('.err').textContent = '';
     d.showModal();
   }
+  // a fresh character whose kind the Storyteller has banned moves to the first allowed kind; one already being built keeps its work and gets a warning instead
+  function enforceKind() {
+    if (!R.kindBanned(C.kind || 'vampire')) return;
+    const blank = !C.name.trim() && !C.concept.trim() && !C.clan && !C.adv.length && Object.values(C.attrs).every((v) => v === 1) && Object.values(C.skills).every((v) => !v) && !Object.keys(C.disc).length;
+    if (blank) C.kind = R.firstKind();
+  }
   function enforceSect() {
     const m = app.preset.sabbat;
     if (m === 'only' && !C.sabbat) setSabbat(true, true);
@@ -1728,7 +1737,7 @@
   async function applyPreset(p, from) {
     app.preset = PR.normalize(p);
     store(LS_PRESET, app.preset);
-    enforceSect();
+    enforceSect(); enforceKind();
     if (C.age && !app.preset.ages.includes(C.age)) C.age = app.preset.age;
     render();
     toast(`Chronicle rules loaded${app.preset.name ? ': ' + app.preset.name : ''}${from ? ' from ' + from : ''}.`);
@@ -1782,7 +1791,7 @@
     if (el.dataset.stBan) {
       const P = app.preset; const k = el.dataset.stBan; const set = new Set(P[k]);
       el.checked ? set.delete(el.value) : set.add(el.value);
-      P[k] = [...set]; store(LS_PRESET, P); ui.mode === 'st' ? stRefresh() : render(); return;
+      P[k] = [...set]; if (k === 'bannedKinds') enforceKind(); store(LS_PRESET, P); ui.mode === 'st' ? stRefresh() : render(); return;
     }
     if (el.dataset.stCap) {
       const P = app.preset; const k = el.dataset.stCap;

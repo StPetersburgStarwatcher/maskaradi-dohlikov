@@ -255,6 +255,10 @@
   R.mfCat = (a) => (a.n === 'Vicissitude Alterations' ? 'Physical' : a.cat === 'Ghoul' || a.cat === 'Ghoul and Revenant' ? 'Ghoul & Revenant' : a.cat || 'Other');
   R.KINDS = { vampire: 'Vampire', ghoul: 'Ghoul', mortal: 'Mortal', revenant: 'Revenant' };
   // mortals and ghouls have their own creation rules; revenants still use the vampire steps
+  // the Storyteller can ban player characters of a kind; Allies and Retainers are never affected
+  R.kindBanned = (k) => (((D.app && D.app.preset) || {}).bannedKinds || []).includes(k);
+  R.allowedKinds = () => Object.keys(R.KINDS).filter((k) => !R.kindBanned(k));
+  R.firstKind = () => ['vampire', 'mortal', 'ghoul', 'revenant'].find((k) => !R.kindBanned(k)) || 'vampire';
   R.isMortalKind = (c) => c.kind === 'mortal' || c.kind === 'ghoul';
   R.isGhoul = (c) => c.kind === 'ghoul';
   R.tmplKey = (c) => (R.isMortalKind(c) && R.TEMPLATES[c.tmpl] ? c.tmpl : 'pc');
@@ -404,13 +408,13 @@
 
   // ------------------------------------------------------------------ defaults
   R.defaultPreset = () => ({
-    v: 1, name: '', note: '', disabledClans: [], bannedPowers: [], bannedAdv: [], bannedAdvCats: [], bannedDiscs: [],
+    v: 1, name: '', note: '', disabledClans: [], bannedPowers: [], bannedAdv: [], bannedAdvCats: [], bannedDiscs: [], bannedKinds: [],
     maxDisc: 5, discCaps: {}, ages: ['childe', 'neonate', 'ancilla'], age: 'neonate', xpBonus: 0,
     meritPts: 7, flawPts: 2, bgBonus: 5, allowV20: true, v20Ratio: 1, allowDGR: true,
     baneKinds: ['v5', 'variant', 'v20'], noPredDefault: false, sabbatAdvAnyone: false, settingDA: false, settingLaibon: false, enforceAmalgams: true, thinAllowed: true, locked: false, sabbat: 'allow',
   });
   R.newChar = () => ({
-    v: 1, kind: 'vampire', tmpl: 'pc', sabbat: false, name: '', player: '', concept: '', chronicle: '', ambition: '', desire: '', sire: '', notes: '',
+    v: 1, kind: D.app && D.app.preset ? R.firstKind() : 'vampire', tmpl: 'pc', sabbat: false, name: '', player: '', concept: '', chronicle: '', ambition: '', desire: '', sire: '', notes: '',
     appearance: '', history: '',
     clan: null, caste: 0, pickDisc: [],
     attrs: Object.fromEntries(R.ATTR_LIST.map((a) => [a, 1])),
@@ -755,6 +759,7 @@
     const issues = []; // {step, msg, level:'err'|'warn'}
     const E = (step, msg, level) => issues.push({ step, msg, level: level || 'err' });
     if (!c.name.trim()) E('concept', 'Give your character a name.', 'warn');
+    if (R.kindBanned(c.kind || 'vampire')) E('concept', `The Storyteller doesn’t allow ${R.KINDS[c.kind || 'vampire'].toLowerCase()} characters in this chronicle; choose another kind.`);
     const mk = R.isMortalKind(c), ghoul = R.isGhoul(c), TP = R.tmpl(c);
     if (c.kind === 'mortal') { /* no clan, Disciplines or predator type */ }
     else if (ghoul && !c.clan) E('clan', 'Choose your domitor’s clan.');
